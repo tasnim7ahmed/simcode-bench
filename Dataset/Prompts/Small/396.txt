@@ -1,0 +1,1 @@
+Create a simple LTE communication simulation between two nodes in NS-3, where one node acts as a UDP server (UE) and the other as a client (eNB). The server should accept UDP packets on port 12345, and the client sends 1000 packets at 20ms intervals.

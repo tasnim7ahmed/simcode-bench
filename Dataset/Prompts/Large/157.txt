@@ -1,0 +1,1 @@
+Create an ns-3 simulation that generates a dataset for a simple ring topology with 4 nodes, where each node communicates with its neighbor using UDP. The dataset should capture the source node, destination node, packet size, transmission time, and reception time for each packet. Save the information to a CSV file.

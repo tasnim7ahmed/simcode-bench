@@ -1,0 +1,1 @@
+Generate an NS-3 C++ program that creates multiple nodes and assigns them individual names using an Object Name Service (ONS). The program should then print the assigned names along with their unique node IDs. Keep the example simple and focus on node creation and naming.

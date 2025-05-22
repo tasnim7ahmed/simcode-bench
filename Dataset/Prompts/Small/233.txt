@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where a single node broadcasts UDP packets to multiple receiver nodes over a Wi-Fi network. The receivers should log when they receive a packet. Keep the setup simple, with basic Wi-Fi configuration and no mobility.

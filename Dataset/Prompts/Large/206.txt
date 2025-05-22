@@ -1,0 +1,1 @@
+Simulate a simple sensor network in ns-3, where five sensor nodes are deployed in a star topology around a central sink node. The nodes communicate using a low-power wireless communication protocol such as 802.15.4. The sensor nodes periodically send data to the sink node via UDP. Measure packet delivery, latency, and throughput. Visualize the network using NetAnim.

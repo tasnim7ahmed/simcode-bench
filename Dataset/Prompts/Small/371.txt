@@ -1,0 +1,1 @@
+Create a WiFi network in NS-3 with two nodes. The first node sends UDP packets to the second node. Use default WiFi attributes and a simple grid mobility model. Run the simulation for 10s.

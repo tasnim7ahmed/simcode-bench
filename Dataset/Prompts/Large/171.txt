@@ -1,0 +1,3 @@
+Simulate an ad-hoc wireless network using ns-3 with the AODV routing protocol. Create 10 mobile nodes that move randomly within a 500m x 500m area. Simulate UDP traffic between nodes, starting at random times, and run the simulation for 30 seconds. Use pcap tracing to capture the packet transmissions. Measure and display the packet delivery ratio (PDR) and average end-to-end delay at the end of the simulation.
+
+

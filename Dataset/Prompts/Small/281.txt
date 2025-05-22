@@ -1,0 +1,1 @@
+Generate an NS-3 C++ simulation script for an LTE network with one eNodeB (LTE base station) and three UEs. The eNodeB should have a UDP server running on port 9, and the UEs should act as UDP clients, sending 10 packets at 1-second intervals. The simulation should run for 10 seconds, and the UEs should move randomly in a 50x50 area using the random walk mobility model.

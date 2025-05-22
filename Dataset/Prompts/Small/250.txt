@@ -1,0 +1,1 @@
+Generate an NS-3 C++ program that creates multiple nodes and organizes them in a mesh topology. Each node should be connected to every other node using Point-to-Point links. The program should print confirmation of all established connections. Keep the example simple, focusing only on node creation and topology setup

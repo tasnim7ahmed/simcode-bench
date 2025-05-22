@@ -1,0 +1,1 @@
+Create an Ethernet-based TCP communication network in NS-3 with two nodes. One node sends TCP packets to the other using a point-to-point link with 100Mbps and 2ms delay. Run the simulation for 10s.

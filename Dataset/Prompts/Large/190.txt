@@ -1,0 +1,1 @@
+Simulate a Mobile Ad Hoc Network (MANET) in ns-3 with 3 mobile nodes moving in a random direction. The nodes should communicate using UDP traffic, and the simulation should track the movement of nodes and packet transmission. Include metrics like packet delivery ratio and latency, and use NetAnim to visualize the node mobility and communication.

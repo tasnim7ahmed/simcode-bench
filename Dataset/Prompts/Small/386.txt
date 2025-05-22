@@ -1,0 +1,1 @@
+Create a simple Wi-Fi network in NS-3 with two nodes. Node 0 (UDP client) sends packets to Node 1 (UDP server) starting at 2s and stopping at 10s. Use a data rate of 10Mbps, and a fixed delay of 2ms. The Wi-Fi network should operate on the SSID ns3-wifi, and IP addresses should start with 10.1.1.0/24. Set the mobility model to constant position with grid placement for the nodes.

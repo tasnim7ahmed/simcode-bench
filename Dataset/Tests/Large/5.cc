@@ -1,0 +1,82 @@
+/* -*- Mode:C++; c-file-style:"gnu"; indent-tabs-mode:nil; -*- */
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/test.h"
+
+using namespace ns3;
+
+class Ns3PacketCaptureTest : public TestCase {
+public:
+  Ns3PacketCaptureTest() : TestCase("NS-3 Packet Capture Test") {}
+  virtual void DoRun();
+};
+
+void TestNodeCreation() {
+  NodeContainer nodes;
+  nodes.Create(2);
+  NS_TEST_ASSERT_MSG_EQ(nodes.GetN(), 2, "Node count should be 2");
+}
+
+void TestNetworkSetup() {
+  NodeContainer nodes;
+  nodes.Create(2);
+  
+  PointToPointHelper pointToPoint;
+  pointToPoint.SetDeviceAttribute("DataRate", StringValue("5Mbps"));
+  pointToPoint.SetChannelAttribute("Delay", StringValue("2ms"));
+  
+  NetDeviceContainer devices = pointToPoint.Install(nodes);
+  NS_TEST_ASSERT_MSG_EQ(devices.GetN(), 2, "Device count should be 2");
+}
+
+void TestInternetStack() {
+  NodeContainer nodes;
+  nodes.Create(2);
+  
+  InternetStackHelper stack;
+  stack.Install(nodes);
+  
+  Ptr<Ipv4> ipv4 = nodes.Get(0)->GetObject<Ipv4>();
+  NS_TEST_ASSERT_MSG_NE(ipv4, nullptr, "Internet stack not installed correctly");
+}
+
+void TestIpAssignment() {
+  NodeContainer nodes;
+  nodes.Create(2);
+
+  PointToPointHelper pointToPoint;
+  NetDeviceContainer devices = pointToPoint.Install(nodes);
+
+  InternetStackHelper stack;
+  stack.Install(nodes);
+
+  Ipv4AddressHelper address;
+  address.SetBase("10.1.1.0", "255.255.255.0");
+  Ipv4InterfaceContainer interfaces = address.Assign(devices);
+
+  NS_TEST_ASSERT_MSG_NE(interfaces.GetAddress(0), Ipv4Address("0.0.0.0"), "IP address should be assigned");
+  NS_TEST_ASSERT_MSG_NE(interfaces.GetAddress(1), Ipv4Address("0.0.0.0"), "IP address should be assigned");
+}
+
+void TestPacketCapture() {
+  NodeContainer nodes;
+  nodes.Create(2);
+
+  PointToPointHelper pointToPoint;
+  NetDeviceContainer devices = pointToPoint.Install(nodes);
+
+  pointToPoint.EnablePcapAll("test-packet-capture");
+  NS_TEST_ASSERT_MSG_NE(devices.Get(0), nullptr, "Packet capture should be enabled");
+}
+
+void Ns3PacketCaptureTest::DoRun() {
+  TestNodeCreation();
+  TestNetworkSetup();
+  TestInternetStack();
+  TestIpAssignment();
+  TestPacketCapture();
+}
+
+static Ns3PacketCaptureTest ns3PacketCaptureTestInstance;

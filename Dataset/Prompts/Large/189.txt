@@ -1,0 +1,1 @@
+Simulate a CSMA (Carrier Sense Multiple Access) network in ns-3 with 4 nodes. The nodes will communicate over a shared medium with each node sending TCP traffic to a central server. Include packet loss, delay, and throughput metrics in the simulation, and visualize the communication using NetAnim.

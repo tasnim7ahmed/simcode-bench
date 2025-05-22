@@ -1,0 +1,1 @@
+Simulate a Wi-Fi network with two nodes: one as a TCP server and the other as a TCP client using the TCP Reno protocol. The client sends TCP packets (size 1024 bytes) at an interval of 100ms to the server. Configure the nodes with static mobility and assign them IP addresses. The server listens on port 9.

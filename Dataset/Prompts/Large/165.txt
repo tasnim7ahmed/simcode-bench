@@ -1,0 +1,1 @@
+Simulate a network using OSPF as the routing protocol in NS-3. The network consists of four nodes arranged in a square topology. OSPF should be used to dynamically generate routing tables at each node. Monitor the routing tables to verify that the correct routes are chosen based on the shortest path.

@@ -1,0 +1,10 @@
+[0/2] Re-checking globbed directories...
+[1/1] Linking CXX executable ../build/scratch/ns3.41-sample2-default
+Server received a packet!
+Server received a packet!
+Server received a packet!
+Server received a packet!
+Server received a packet!
+Server received a packet!
+Server received a packet!
+Server received a packet!

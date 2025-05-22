@@ -1,0 +1,1 @@
+Generate an NS-3 C++ script for a TCP client-server simulation over a point-to-point link. Create two nodes: one as a TCP server and the other as a TCP client. The client sends 100 TCP packets of size 512 bytes to the server every 0.1 seconds. The link between the nodes has a 5 Mbps data rate and a 2 ms delay. Use port 9 for communication, and run the simulation for 10 seconds.

@@ -1,0 +1,1 @@
+Create an ns-3 simulation of a wired network using a Point-to-Point (P2P) connection between two nodes. The simulation should involve the TCP NewReno congestion control algorithm and use a BulkSendApplication to generate large data transfers. Visualize the traffic using NetAnim and display packet exchanges between the nodes.

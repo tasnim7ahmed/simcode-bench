@@ -1,0 +1,1 @@
+Create an ns-3 simulation that establishes a non-persistent TCP connection in a simple topology using NetAnim. Set up a point-to-point link between a client and a server, and ensure that after completing a single data transfer, the TCP connection terminates. Visualize the packet flow using NetAnim, and configure the connection to have a bandwidth of 5Mbps and a delay of 1ms.

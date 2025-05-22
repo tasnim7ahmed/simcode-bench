@@ -1,0 +1,1 @@
+Create a simple TCP connection in NS-3 with two nodes over a point-to-point link. The first node sends TCP packets to the second node. Use a 10Mbps link speed and a 5ms delay. Capture the throughput using a flow monitor and run the simulation for 10s.

@@ -1,0 +1,1 @@
+Simulate a basic wireless network in ns-3 where two nodes communicate using TCP over Wi-Fi. One node acts as a TCP server, and the other node as a TCP client. Measure and output the throughput of the communication. Use the AODV routing protocol and visualize the network using NetAnim.

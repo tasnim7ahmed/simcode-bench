@@ -1,0 +1,1 @@
+Simulate a Wi-Fi network with two nodes: a sender (AP) and a receiver (STA). Use UDP communication with the sender sending 1000 packets at intervals of 20ms to the receiver. Configure the nodes with static mobility and assign them IP addresses. The receiver should run a UDP server on port 9.

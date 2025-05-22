@@ -1,0 +1,1 @@
+Generate an NS-3 C++ program that creates multiple nodes and connects them using a Point-to-Point (P2P) link. The program should establish a basic network topology, assign unique node IDs, and print confirmation of the links established. Keep the example simple, focusing only on node creation and connectivity.

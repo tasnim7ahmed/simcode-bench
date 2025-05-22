@@ -1,0 +1,3 @@
+Simulate a hybrid topology network using ns-3 with both TCP and UDP protocols. The network consists of two parts: (1) a star topology using TCP where multiple clients communicate with a central server and (2) a mesh topology using UDP where multiple nodes communicate with each other in an ad-hoc manner. Measure the performance of both protocols, including throughput, latency, and packet loss, and visualize the simulation using NetAnim.
+
+

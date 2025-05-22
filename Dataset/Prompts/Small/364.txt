@@ -1,0 +1,1 @@
+Create a two-node IPv6 network in NS-3 with a point-to-point link. The nodes are assigned IPv6 addresses in the 2001:1::/64 subnet. The client (node 0) sends ICMP Echo Requests (ping) to the server (node 1). Set the link data rate to 10Mbps and delay to 10ms. Run the simulation for 10s.

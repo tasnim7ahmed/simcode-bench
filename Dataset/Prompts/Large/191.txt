@@ -1,0 +1,1 @@
+Write a simulation in ns-3 that demonstrates a wireless sensor network (WSN) with energy constraints. The network should consist of sensor nodes arranged in a grid. Each sensor node generates data packets that are sent to a central sink node. Energy depletion should be simulated, and the network should stop once all nodes run out of energy.

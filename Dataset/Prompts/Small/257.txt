@@ -1,0 +1,1 @@
+Generate an NS-3 C++ simulation script for an LTE network with a single eNodeB and two UEs. The UEs should be assigned IPv4 addresses via an EPC core. The first UE should act as a UDP client sending two packets of 512 bytes each to the second UE, which should act as a UDP server on port 9. The nodes should be placed in a grid layout, and the simulation should run for 10 seconds.

@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where a node acts as a relay between a client and a server using a simple UDP forwarding mechanism. The client sends a UDP message to the relay, and the relay forwards it to the server. The server logs received messages. Keep the setup minimal with point-to-point links.

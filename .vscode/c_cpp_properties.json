@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "WSL-ns3",
+            "compilerPath": "/usr/bin/g++",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compileCommands": "/home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

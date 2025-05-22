@@ -1,0 +1,1 @@
+Create a TCP connection between two nodes in NS-3. Node 0 (client) sends TCP packets to Node 1 (server). The server listens on port 8080 and the client connects to the server on the same port. Use a grid mobility model with nodes positioned at 0,0 and 5,5. Ensure that the simulation runs from 1s to 10s.

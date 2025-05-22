@@ -1,0 +1,1 @@
+Create an ns-3 simulation that demonstrates network congestion control using TCP with Reno and Cubic variants in a bottleneck network. The simulation should include three nodes connected in a dumbbell topology, where two TCP flows share a bottleneck link, causing congestion. It should also generate a NetAnim visualization to show packet transmissions and congestion points.

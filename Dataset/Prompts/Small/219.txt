@@ -1,0 +1,1 @@
+Write a simple NS-3 simulation in C++ where a client communicates with a server using UDP. The server should listen for incoming packets and log them, while the client should send a packet every second. Use NS-3’s UdpEchoClient and UdpEchoServer applications, set up a point-to-point connection, and configure basic logging. The simulation should run for 10 seconds.

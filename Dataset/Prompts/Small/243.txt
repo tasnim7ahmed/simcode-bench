@@ -1,0 +1,1 @@
+Generate a simple NS-3 C++ program that demonstrates the creation of nodes. The program should create three nodes, assign them unique IDs, and print their count to verify successful creation. Keep it minimal and focused on node creation without additional networking components.

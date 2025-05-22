@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where a sensor node periodically transmits data using UDP to a sink node over a wireless LoRaWAN network. The sink node logs the received data. Keep the setup minimal, with a single sensor node and one sink.

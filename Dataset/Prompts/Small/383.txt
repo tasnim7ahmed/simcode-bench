@@ -1,0 +1,1 @@
+Create a Wi-Fi network in NS-3 with two nodes: a station (Node 1) and an access point (Node 0). The station should send UDP packets to the access point starting at 2s and stopping at 10s. Use Wi-Fi with an SSID of ns-3-ssid, and set the simulation duration to 10 seconds.

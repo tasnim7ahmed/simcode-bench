@@ -1,0 +1,1 @@
+Simulate an ad-hoc wireless network with five nodes using the AODV routing protocol in NS-3. The nodes are randomly placed in a 100x100 meter area and communicate wirelessly. One node acts as a server, while another node acts as a client, sending UDP packets to the server. Track the dynamic creation of routes using AODV and enable packet tracing to observe the packet flow.

@@ -1,0 +1,1 @@
+Create a simple Wi-Fi network in NS-3 with one Access Point (AP) and one Station (STA). The STA sends UDP packets to the AP. Use 802.11n Wi-Fi and run the simulation for 10s.

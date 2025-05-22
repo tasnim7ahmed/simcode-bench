@@ -1,0 +1,3 @@
+Create a simulation in ns-3 for a vehicular ad-hoc network (VANET) with five vehicles moving along a straight road. Each vehicle is equipped with Wi-Fi and uses the IEEE 802.11p standard for vehicle-to-vehicle (V2V) communication. The vehicles are configured to exchange information using a UDP client-server model, where one vehicle acts as a server and the others send data at regular intervals. The mobility model should ensure that the vehicles move in the same direction with varying speeds. Collect and display metrics such as packet delivery ratio and end-to-end delay, and visualize the vehicle movements and communication with NetAnim.
+
+
