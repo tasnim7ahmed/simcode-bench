@@ -4,64 +4,61 @@
 #include "ns3/point-to-point-module.h"
 #include "ns3/applications-module.h"
 
-// Don't use ns3 namespace (best practice for large projects)
-// using namespace ns3; 
-
 int
 main(int argc, char* argv[])
 {
-    // 1. Log setup (optional, but good for debugging)
-    // LogComponentEnable("UdpEchoClientApplication", LOG_LEVEL_INFO);
-    // LogComponentEnable("UdpEchoServerApplication", LOG_LEVEL_INFO);
-
-    // 2. Node creation
-    NodeContainer nodes;
+    // 1. Create two nodes
+    ns3::NodeContainer nodes;
     nodes.Create(2);
 
-    // 3. Point-to-Point Link Configuration
-    PointToPointHelper pointToPoint;
-    pointToPoint.SetDeviceAttribute("DataRate", StringValue("5Mbps"));
-    pointToPoint.SetChannelAttribute("Delay", StringValue("2ms"));
+    // 2. Configure Point-to-Point link characteristics
+    ns3::PointToPointHelper pointToPoint;
+    pointToPoint.SetDeviceAttribute("DataRate", ns3::StringValue("5Mbps"));
+    pointToPoint.SetChannelAttribute("Delay", ns3::StringValue("2ms"));
 
-    NetDeviceContainer devices;
+    // 3. Install Point-to-Point devices on nodes and link them
+    ns3::NetDeviceContainer devices;
     devices = pointToPoint.Install(nodes);
 
-    // 4. Install Internet Stack
-    InternetStackHelper stack;
-    stack.Install(nodes);
+    // 4. Install standard Internet protocols (TCP/IP stack) on nodes
+    ns3::InternetStackHelper internet;
+    internet.Install(nodes);
 
-    // 5. Assign IP Addresses
-    Ipv4AddressHelper address;
-    address.SetBase("10.1.1.0", "255.255.255.0");
-    Ipv4InterfaceContainer interfaces = address.Assign(devices);
+    // 5. Assign IP addresses to the devices
+    ns3::Ipv4AddressHelper ipv4;
+    ipv4.SetBase("10.1.1.0", "255.255.255.0");
+    ns3::Ipv4InterfaceContainer interfaces = ipv4.Assign(devices);
 
-    // 6. UDP Echo Server Application
-    uint16_t port = 9; // Standard Echo Protocol port
-    UdpEchoServerHelper echoServer(port);
+    // 6. Configure UDP Echo Server on Node 0
+    uint16_t port = 9; // UDP Echo port
+    ns3::UdpEchoServerHelper echoServer(port);
+    ns3::ApplicationContainer serverApps = echoServer.Install(nodes.Get(0));
+    serverApps.Start(ns3::Seconds(1.0));
+    serverApps.Stop(ns3::Seconds(10.0)); // Server stops at 10 seconds
 
-    ApplicationContainer serverApps = echoServer.Install(nodes.Get(0)); // Server on node 0
-    serverApps.Start(Seconds(1.0));
-    serverApps.Stop(Seconds(10.0));
+    // 7. Configure UDP Echo Client on Node 1
+    ns3::Ptr<ns3::Node> clientNode = nodes.Get(1);
+    ns3::Ipv4Address serverAddress = interfaces.GetAddress(0); // Server's IP address
 
-    // 7. UDP Echo Client Application
-    UdpEchoClientHelper echoClient(interfaces.GetAddress(0), port); // Client targets server's IP (node 0's IP)
-    echoClient.SetAttribute("MaxPackets", UintegerValue(1));        // Send a single packet
-    echoClient.SetAttribute("Interval", TimeValue(Seconds(1.0)));   // Interval between packets (not strictly needed for 1 packet)
-    echoClient.SetAttribute("PacketSize", UintegerValue(1024));     // 1024 bytes message
+    ns3::UdpEchoClientHelper echoClient(serverAddress, port);
+    echoClient.SetAttribute("MaxPackets", ns3::UintegerValue(1)); // Send a single packet
+    echoClient.SetAttribute("PacketSize", ns3::UintegerValue(1024)); // 1024-byte message
 
-    ApplicationContainer clientApps = echoClient.Install(nodes.Get(1)); // Client on node 1
-    clientApps.Start(Seconds(2.0));
-    clientApps.Stop(Seconds(10.0)); // Client stops well after sending its single packet
+    ns3::ApplicationContainer clientApps = echoClient.Install(clientNode);
+    clientApps.Start(ns3::Seconds(2.0)); // Client starts at 2 seconds
+    clientApps.Stop(ns3::Seconds(10.0)); // Client stops at 10 seconds (before simulation ends)
 
-    // 8. Enable PCAP Capture
-    pointToPoint.EnablePcapAll("udp-echo-pcap"); // Capture traffic on all point-to-point devices
+    // 8. Enable PCAP capture for the point-to-point devices
+    pointToPoint.EnablePcapAll("p2p-echo");
 
-    // 9. Set Simulation Stop Time
-    Simulator::Stop(Seconds(10.0));
+    // 9. Set simulation stop time
+    ns3::Simulator::Stop(ns3::Seconds(10.0));
 
-    // 10. Run Simulation
-    Simulator::Run();
-    Simulator::Destroy();
+    // 10. Run the simulation
+    ns3::Simulator::Run();
+
+    // 11. Clean up
+    ns3::Simulator::Destroy();
 
     return 0;
 }

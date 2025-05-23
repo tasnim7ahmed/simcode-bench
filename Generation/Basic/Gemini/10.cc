@@ -1,126 +1,156 @@
-#include "ns3/applications-module.h"
 #include "ns3/core-module.h"
-#include "ns3/csma-module.h"
+#include "ns3/network-module.h"
 #include "ns3/internet-module.h"
-#include "ns3/internet-apps-module.h"
-#include <cmath> // For ceil
+#include "ns3/csma-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/ipv4-global-routing-helper.h" // For IPv4 global routing table population
 
-using namespace ns3;
+// Define a log component for this script to enable detailed logging if needed.
+NS_LOG_COMPONENT_DEFINE("UdpEchoCsmaSimulation");
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-    // Default simulation parameters
+    // 1. Command-line arguments setup
+    // A boolean flag to determine whether to use IPv6 (default is IPv4).
     bool useIpv6 = false;
-    uint32_t packetSize = 1024;
-    double clientStartTime = 2.0;
-    double clientStopTime = 10.0;
-    double clientInterval = 1.0; // 1-second intervals as per description
-    uint16_t echoPort = 9;
 
-    // Enable logging for specific components for additional log outputs
+    // Create a CommandLine object and add the 'ipv6' argument.
+    CommandLine cmd(__FILE__);
+    cmd.AddValue("ipv6", "Use IPv6 instead of IPv4 for the simulation (default: false for IPv4)", useIpv6);
+    cmd.Parse(argc, argv); // Parse command-line arguments.
+
+    // 2. Logging setup
+    // The program description specifies "Allow for additional logging for specific sections."
+    // By default, ns-3 modules log only at LOG_LEVEL_ERROR. To see more detailed output,
+    // uncomment and enable specific log components here.
+    NS_LOG_INFO("Setting up logging components.");
     LogComponentEnable("UdpEchoClientApplication", LOG_LEVEL_INFO);
     LogComponentEnable("UdpEchoServerApplication", LOG_LEVEL_INFO);
-    LogComponentEnable("CsmaNetDevice", LOG_LEVEL_INFO);
+    // Uncomment the following lines for more verbose CSMA device and channel logging:
+    // LogComponentEnable("CsmaNetDevice", LOG_LEVEL_INFO);
+    // LogComponentEnable("CsmaChannel", LOG_LEVEL_INFO);
+    // LogComponentEnable("Packet", LOG_LEVEL_INFO); // Useful for packet headers/dumps
 
-    // Parse command line arguments
-    CommandLine cmd(__FILE__);
-    cmd.AddValue("ipv6", "Use IPv6 instead of IPv4", useIpv6);
-    cmd.AddValue("packetSize", "Size of UDP echo packet in bytes (default: 1024)", packetSize);
-    cmd.AddValue("clientStartTime", "Time for client to start sending packets (default: 2.0s)", clientStartTime);
-    cmd.AddValue("clientStopTime", "Time for client to stop sending packets (default: 10.0s)", clientStopTime);
-    cmd.Parse(argc, argv);
+    // Set the global time resolution for the simulation.
+    Time::SetResolution(NanoSeconds(1));
 
-    // Validate client start/stop times
-    if (clientStopTime < clientStartTime)
-    {
-        NS_FATAL_ERROR("Client stop time must be greater than or equal to client start time.");
-    }
-
-    // Create four nodes (n0, n1, n2, n3)
+    // 3. Create nodes
+    NS_LOG_INFO("Creating 4 nodes (n0, n1, n2, n3).");
     NodeContainer nodes;
-    nodes.Create(4);
+    nodes.Create(4); // Creates n0, n1, n2, n3.
 
-    // Configure and install CSMA devices
+    // 4. Configure CSMA channel and install devices
+    NS_LOG_INFO("Configuring CSMA channel attributes (DataRate, Delay, MTU).");
     CsmaHelper csma;
+    // Set CSMA channel data rate to 5 Mbps.
     csma.SetChannelAttribute("DataRate", StringValue("5Mbps"));
+    // Set CSMA channel propagation delay to 2 milliseconds.
     csma.SetChannelAttribute("Delay", TimeValue(MilliSeconds(2)));
+    // Set CSMA NetDevice MTU to 1400 bytes.
     csma.SetDeviceAttribute("Mtu", UintegerValue(1400));
-    NetDeviceContainer devices = csma.Install(nodes);
 
-    // Install Internet stack on all nodes
+    NS_LOG_INFO("Installing CSMA devices on all 4 nodes.");
+    NetDeviceContainer devices = csma.Install(nodes); // Install CSMA devices on all nodes and connect them to the channel.
+
+    // 5. Install IP stack (IPv4 or IPv6) on all nodes
+    NS_LOG_INFO("Installing Internet Stack (IPv4 or IPv6) on nodes.");
     InternetStackHelper stack;
     stack.Install(nodes);
 
-    // Assign IP addresses based on user choice (IPv4 or IPv6)
+    // 6. Assign IP addresses (IPv4 or IPv6 based on command-line argument)
+    NS_LOG_INFO("Assigning IP addresses to devices.");
     Ipv4InterfaceContainer ipv4Interfaces;
     Ipv6InterfaceContainer ipv6Interfaces;
 
     if (useIpv6)
     {
-        Ipv6AddressHelper ipv6;
-        ipv6.SetBase("2001:db8::", Ipv6Prefix(64));
-        ipv6Interfaces = ipv6.Assign(devices);
+        // If IPv6 is selected, assign IPv6 addresses.
+        Ipv6AddressHelper ipv6Addresses;
+        // Set the base IPv6 network address and prefix.
+        ipv6Addresses.SetBase("2001:db8::", Ipv6Prefix(64));
+        ipv6Interfaces = ipv6Addresses.Assign(devices); // Assign addresses to CSMA devices.
+        // For a single broadcast segment, no specific IPv6 routing protocol setup is needed.
     }
     else
     {
-        Ipv4AddressHelper ipv4;
-        ipv4.SetBase("10.1.1.0", "255.255.255.0");
-        ipv4Interfaces = ipv4.Assign(devices);
+        // If IPv4 is selected (default), assign IPv4 addresses.
+        Ipv4AddressHelper ipv4Addresses;
+        // Set the base IPv4 network address and netmask.
+        ipv4Addresses.SetBase("10.1.1.0", "255.255.255.0");
+        ipv4Interfaces = ipv4Addresses.Assign(devices); // Assign addresses to CSMA devices.
+
+        // Populate global routing tables for IPv4. This is good practice even for a single LAN segment,
+        // although direct communication works without it on the same segment.
+        NS_LOG_INFO("Populating IPv4 global routing tables.");
+        Ipv4GlobalRoutingHelper::PopulateRoutingTables();
     }
 
-    // Setup UDP Echo Server on node n1
-    UdpEchoServerHelper echoServer(echoPort);
-    ApplicationContainer serverApps = echoServer.Install(nodes.Get(1)); // n1
-    serverApps.Start(Seconds(1.0)); // Start server before client
-    serverApps.Stop(Seconds(clientStopTime + 1.0)); // Stop server after client activity finishes
+    // Get specific node pointers for clarity in application setup.
+    Ptr<Node> n0 = nodes.Get(0); // Node 0 is the client.
+    Ptr<Node> n1 = nodes.Get(1); // Node 1 is the server.
 
-    // Setup UDP Echo Client on node n0
-    Ptr<Node> clientNode = nodes.Get(0); // n0
+    // 7. Configure UDP Echo Server on node n1 (port 9)
+    NS_LOG_INFO("Setting up UDP Echo Server on node n1, port 9.");
+    uint16_t port = 9; // Standard UDP Echo port.
+    UdpEchoServerHelper echoServer(port);
+    ApplicationContainer serverApps = echoServer.Install(n1); // Install server on node n1.
+    serverApps.Start(Seconds(1.0));                           // Start server at 1 second.
+    serverApps.Stop(Seconds(11.0));                           // Stop server at 11 seconds (after client finishes).
 
-    // Calculate number of packets to send based on duration and interval
-    uint32_t numPacketsToSend = 0;
-    if (clientStopTime > clientStartTime)
-    {
-        numPacketsToSend = (uint32_t)ceil((clientStopTime - clientStartTime) / clientInterval);
-    }
-    // If clientStartTime == clientStopTime, numPacketsToSend remains 0, meaning no packets are sent.
+    // 8. Configure UDP Echo Client on node n0
+    NS_LOG_INFO("Setting up UDP Echo Client on node n0.");
+    UdpEchoClientHelper echoClient;
 
     if (useIpv6)
     {
-        Ipv6Address serverAddress = ipv6Interfaces.GetAddress(1); // Address of n1
-        UdpEchoClientHelper echoClient(serverAddress, echoPort);
-        echoClient.SetAttribute("MaxPackets", UintegerValue(numPacketsToSend));
-        echoClient.SetAttribute("Interval", TimeValue(Seconds(clientInterval)));
-        echoClient.SetAttribute("PacketSize", UintegerValue(packetSize));
-        ApplicationContainer clientApps = echoClient.Install(clientNode);
-        clientApps.Start(Seconds(clientStartTime));
-        clientApps.Stop(Seconds(clientStopTime));
+        // Get the IPv6 address of n1's CSMA device.
+        // GetObject<Ipv6>() retrieves the IPv6 protocol stack on n1.
+        // GetAddress(1, 1) gets the global IPv6 address (interface 1 is CSMA, 0 is link-local, 1 is global).
+        // GetLocal() extracts the Ipv6Address from Ipv6InterfaceAddress.
+        Ptr<Ipv6> ipv6n1 = n1->GetObject<Ipv6>();
+        Ipv6Address serverAddress = ipv6n1->GetAddress(1, 1).GetLocal();
+        echoClient.SetRemoteAddress(serverAddress);
     }
     else
     {
-        Ipv4Address serverAddress = ipv4Interfaces.GetAddress(1); // Address of n1
-        UdpEchoClientHelper echoClient(serverAddress, echoPort);
-        echoClient.SetAttribute("MaxPackets", UintegerValue(numPacketsToSend));
-        echoClient.SetAttribute("Interval", TimeValue(Seconds(clientInterval)));
-        echoClient.SetAttribute("PacketSize", UintegerValue(packetSize));
-        ApplicationContainer clientApps = echoClient.Install(clientNode);
-        clientApps.Start(Seconds(clientStartTime));
-        clientApps.Stop(Seconds(clientStopTime));
+        // Get the IPv4 address of n1's CSMA device.
+        // GetObject<Ipv4>() retrieves the IPv4 protocol stack on n1.
+        // GetAddress(1, 0) gets the IPv4 address (interface 1 is CSMA, 0 is the primary address).
+        // GetLocal() extracts the Ipv4Address from Ipv4InterfaceAddress.
+        Ptr<Ipv4> ipv4n1 = n1->GetObject<Ipv4>();
+        Ipv4Address serverAddress = ipv4n1->GetAddress(1, 0).GetLocal();
+        echoClient.SetRemoteAddress(serverAddress);
     }
 
-    // Enable tracing
-    // Ascii trace for queue events and packet receptions
-    AsciiTraceHelper ascii;
-    csma.EnableAsciiAll(ascii.CreateFileStream("udp-echo.tr"));
-    // Pcap tracing for all CSMA devices
-    csma.EnablePcapAll("udp-echo", true); // true for promiscuous mode
+    echoClient.SetRemotePort(port);
+    echoClient.SetAttribute("PacketSize", UintegerValue(1024)); // Client sends 1024-byte packets.
+    echoClient.SetAttribute("Interval", TimeValue(Seconds(1.0))); // Client sends packets at 1-second intervals.
+    // Client starts at 2s and stops at 10s. This means it sends packets at 2, 3, 4, 5, 6, 7, 8, 9 seconds.
+    // So, it sends 8 packets in total.
+    echoClient.SetAttribute("MaxPackets", UintegerValue(8));
 
-    // Run simulation
-    // Ensure simulation runs long enough for all client packets to be sent and echoed back.
-    double totalSimTime = clientStopTime + 2.0; 
-    Simulator::Stop(Seconds(totalSimTime));
-    Simulator::Run();
-    Simulator::Destroy();
+    ApplicationContainer clientApps = echoClient.Install(n0); // Install client on node n0.
+    clientApps.Start(Seconds(2.0));                           // Client starts sending at 2 seconds.
+    clientApps.Stop(Seconds(10.0));                           // Client stops sending at 10 seconds.
+
+    // 9. Enable tracing
+    NS_LOG_INFO("Enabling ASCII and PCAP tracing.");
+    // ASCII Trace: "udp-echo.tr" for queue events and packet receptions.
+    // This will trace all events (Tx, Rx, Queue) for all devices installed on the CSMA channel.
+    AsciiTraceHelper asciiTraceHelper;
+    Ptr<OutputStreamWrapper> stream = asciiTraceHelper.CreateFileStream("udp-echo.tr");
+    // Enable ASCII trace for all devices, including transmit, receive, and queue events.
+    csma.EnableAsciiTrace(stream, devices, true, true, true);
+
+    // PCAP Trace: "udp-echo-*.pcap" files for all devices.
+    // The 'true' argument ensures that devices are created to support Pcap (if not already).
+    csma.EnablePcapAll("udp-echo", true);
+
+    // 10. Run simulation
+    NS_LOG_INFO("Running simulation...");
+    Simulator::Run(); // Start the simulation.
+    NS_LOG_INFO("Simulation finished. Cleaning up.");
+    Simulator::Destroy(); // Clean up simulation resources.
 
     return 0;
 }

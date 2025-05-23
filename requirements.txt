@@ -1,5 +1,13 @@
-google-generativeai>=0.5.0        # latest Gemini SDK :contentReference[oaicite:5]{index=5}
-python-dotenv>=1.0.0              # .env support :contentReference[oaicite:6]{index=6}
-pyyaml>=6.0                       # YAML prompt parsing :contentReference[oaicite:7]{index=7}
-rich>=13.7.0                      # pretty logging :contentReference[oaicite:8]{index=8}
+google-generativeai>=0.5.0        # latest Gemini SDK :contentReferenc
+python-dotenv>=1.0.0              # .env support :contentReferenc
+pyyaml>=6.0                       # YAML prompt parsing :contentReferenc
+rich>=13.7.0                      # pretty logging :contentReference
 tqdm>=4.66.0                      # progress bar (optional)
+sacrebleu>=2.4.0                  # BLEU, ChrF
+rouge-score>=0.1.2                # ROUGE-L
+nltk>=3.8.1                       # METEOR
+python-Levenshtein>=0.23.0        # edit distance
+bert-score>=0.3.13                # CodeBERTScore
+sentence-transformers>=2.5.0      # embedding cosine
+tree-sitter-python
+codebleu[all]
