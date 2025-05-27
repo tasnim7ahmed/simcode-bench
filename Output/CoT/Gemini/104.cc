@@ -1,0 +1,96 @@
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/ipv4-global-routing-helper.h"
+#include "ns3/netanim-module.h"
+#include "ns3/flow-monitor-module.h"
+
+using namespace ns3;
+
+NS_LOG_COMPONENT_DEFINE ("ThreeRouterNetwork");
+
+int main (int argc, char *argv[])
+{
+  CommandLine cmd;
+  cmd.Parse (argc, argv);
+
+  Time::SetResolution (Time::NS);
+  LogComponent::SetDefaultLogLevel(LOG_LEVEL_INFO);
+  LogComponent::SetDefaultLogComponentEnable(true);
+
+  NodeContainer nodes;
+  nodes.Create (3);
+
+  PointToPointHelper pointToPoint;
+  pointToPoint.SetDeviceAttribute ("DataRate", StringValue ("5Mbps"));
+  pointToPoint.SetChannelAttribute ("Delay", StringValue ("2ms"));
+
+  NetDeviceContainer devicesAB = pointToPoint.Install (nodes.Get (0), nodes.Get (1));
+  NetDeviceContainer devicesBC = pointToPoint.Install (nodes.Get (1), nodes.Get (2));
+
+  InternetStackHelper stack;
+  stack.Install (nodes);
+
+  Ipv4AddressHelper address;
+  address.SetBase ("10.1.1.0", "255.255.255.0");
+  Ipv4InterfaceContainer interfacesAB = address.Assign (devicesAB);
+
+  address.SetBase ("10.1.2.0", "255.255.255.0");
+  Ipv4InterfaceContainer interfacesBC = address.Assign (devicesBC);
+
+  Ipv4GlobalRoutingHelper::PopulateRoutingTables ();
+
+  Ipv4StaticRoutingHelper staticRouting;
+  Ptr<Ipv4StaticRouting> routingA = staticRouting.GetStaticRouting (nodes.Get (0)->GetObject<Ipv4> ());
+  routingA->AddHostRouteTo (Ipv4Address ("10.1.2.2"), interfacesAB.GetAddress (1), 1);
+
+  Ptr<Ipv4StaticRouting> routingB = staticRouting.GetStaticRouting (nodes.Get (1)->GetObject<Ipv4> ());
+  routingB->AddHostRouteTo (Ipv4Address ("10.1.2.2"), interfacesBC.GetAddress (0), 1);
+  routingB->AddHostRouteTo (Ipv4Address ("10.1.1.1"), interfacesAB.GetAddress (0), 1);
+
+  OnOffHelper onoff ("ns3::UdpSocketFactory",
+                     Address (InetSocketAddress (interfacesBC.GetAddress (1), 9)));
+  onoff.SetAttribute ("OnTime",  StringValue ("ns3::ConstantRandomVariable[Constant=1]"));
+  onoff.SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0]"));
+  onoff.SetAttribute ("PacketSize", UintegerValue (1024));
+  onoff.SetAttribute ("DataRate", StringValue ("1Mbps"));
+
+  ApplicationContainer apps = onoff.Install (nodes.Get (0));
+  apps.Start (Seconds (1.0));
+  apps.Stop (Seconds (10.0));
+
+  PacketSinkHelper sink ("ns3::UdpSocketFactory",
+                         InetSocketAddress (interfacesBC.GetAddress (1), 9));
+  apps = sink.Install (nodes.Get (2));
+  apps.Start (Seconds (1.0));
+  apps.Stop (Seconds (10.0));
+
+  Simulator::Stop (Seconds(11.0));
+
+  pointToPoint.EnablePcapAll ("three-router");
+
+  FlowMonitorHelper flowmon;
+  Ptr<FlowMonitor> monitor = flowmon.InstallAll();
+
+  Simulator::Run ();
+
+  monitor->CheckForLostPackets ();
+  Ptr<Ipv4FlowClassifier> classifier = DynamicCast<Ipv4FlowClassifier> (flowmon.GetClassifier ());
+  FlowMonitor::FlowStatsContainer stats = monitor->GetFlowStats ();
+
+  for (std::map<FlowId, FlowMonitor::FlowStats>::const_iterator i = stats.begin (); i != stats.end (); ++i)
+    {
+      Ipv4FlowClassifier::FiveTuple t = classifier->FindFlow (i->first);
+      std::cout << "Flow " << i->first << " (" << t.sourceAddress << " -> " << t.destinationAddress << ")\n";
+      std::cout << "  Tx Packets: " << i->second.txPackets << "\n";
+      std::cout << "  Rx Packets: " << i->second.rxPackets << "\n";
+      std::cout << "  Throughput: " << i->second.rxBytes * 8.0 / (i->second.timeLastRxPacket.GetSeconds() - i->second.timeFirstTxPacket.GetSeconds()) / 1024  << " kbps\n";
+    }
+
+  monitor->SerializeToXmlFile("three-router.flowmon", true, true);
+
+  Simulator::Destroy ();
+  return 0;
+}

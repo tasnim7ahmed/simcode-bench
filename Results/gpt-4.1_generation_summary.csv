@@ -1,0 +1,7 @@
+Prompt,Generation_Success_Rate
+instruction_prompt,0.0
+cot_prompt,0.0
+few_shot_prompt,0.0
+react_prompt,0.0
+expert_prompt,0.0
+self_consistency_prompt,0.0
