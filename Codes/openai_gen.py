@@ -5,7 +5,7 @@ import logging
 import pandas as pd
 from pathlib import Path
 from dotenv import load_dotenv
-import google.generativeai as genai
+from openai import OpenAI
 from rich.logging import RichHandler
 from tqdm import tqdm
 import time
@@ -25,15 +25,15 @@ Path(RESULTS_PATH).mkdir(parents=True, exist_ok=True)
 SRC_DIRS = [Path(f'{SOURCE_PATH}/Prompts/Large'), Path(f'{SOURCE_PATH}/Prompts/Small')]
 
 OUT_DIRS = {
-    'instruction_prompt': Path(f'{OUTPUT_PATH}/Basic/Gemini'),
-    'cot_prompt': Path(f'{OUTPUT_PATH}/CoT/Gemini'),
-    'few_shot_prompt': Path(f'{OUTPUT_PATH}/FewShot/Gemini'),
-    'react_prompt': Path(f'{OUTPUT_PATH}/ReAct/Gemini'),
-    'expert_prompt': Path(f'{OUTPUT_PATH}/Expert/Gemini'),
-    'self_consistency_prompt': Path(f'{OUTPUT_PATH}/SelfConsistency/Gemini')
+    'instruction_prompt': Path(f'{OUTPUT_PATH}/Basic/Openai'),
+    'cot_prompt': Path(f'{OUTPUT_PATH}/CoT/Openai'),
+    'few_shot_prompt': Path(f'{OUTPUT_PATH}/FewShot/Openai'),
+    'react_prompt': Path(f'{OUTPUT_PATH}/ReAct/Openai'),
+    'expert_prompt': Path(f'{OUTPUT_PATH}/Expert/Openai'),
+    'self_consistency_prompt': Path(f'{OUTPUT_PATH}/SelfConsistency/Openai')
 }
 
-MODEL_NAME = 'gemini-2.0-flash'
+MODEL_NAME = 'gpt-4.1'
 
 CODE_BLOCK_RE = re.compile(r"```(?:cpp|c\+\+)?\s*([\s\S]+?)```", re.IGNORECASE)
 NUM_PROBLEMS = -1
@@ -53,10 +53,8 @@ def collect_description_files():
 
 def generate_and_save(prompts, txt_files):
     load_dotenv()
-    genai.configure(api_key=os.environ['GEMINI_API_KEY'])
-    print(os.environ['GEMINI_API_KEY'])
-
-    model = genai.GenerativeModel(MODEL_NAME)
+    client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
+    print(os.environ['OPENAI_API_KEY'])
     
     results = {key: [] for key in prompts.keys()}
     
@@ -70,8 +68,11 @@ def generate_and_save(prompts, txt_files):
             outfile = out_dir / f"{src.stem}.cc"
             
             try:
-                resp = model.generate_content(prompt)
-                code = extract_code(resp.text)
+                response = client.responses.create(
+                    model=MODEL_NAME,
+                    input = prompt
+                )
+                code = extract_code(response.output_text)
                 outfile.write_text(code, encoding='utf-8')
                 results[prompt_name].append({
                     'file': src.name,
