@@ -3,3 +3,138 @@ instruction_prompt: |
   Your task is to generate **only** the ns-3 C++ source code for the given program description.
   Output a single compilable .cc file – no commentary, no markdown fences, no explanations.
   Use ns-3 public APIs, assume ns-3 ≥ 3.41, and write error-free C++17.
+
+  Simulation Description: {program_description}
+
+cot_prompt: |
+  You are a computer networking expert specializing in NS-3 simulations. Your task is to generate **only** the NS-3 C++ source code for the given simulation description. Output a single compilable .cc file—no commentary, no markdown fences, no explanations. Use NS-3 public APIs, assume NS-3 ≥ 3.41, and write error-free C++17.
+
+  When generating the code, consider the following aspects:
+  - What are the nodes involved and how are they connected (e.g., point-to-point, wireless, ad hoc)?
+  - What network devices and channels are needed, and how should they be configured (e.g., data rate, delay, frequency)?
+  - Are there specific protocols (e.g., TCP, UDP, routing) or applications (e.g., UDP echo, CBR traffic) to be used?
+  - What are the simulation parameters, such as duration, start/stop times, and event scheduling?
+  - Are there additional features like mobility models, logging, or tracing required?
+
+  After thinking about these points, generate the code accordingly. Do not include your thoughts or explanations in the output.
+
+  Simulation Description: {program_description}
+
+few_shot_prompt: |
+  You are a computer networking expert specializing in NS-3 simulations. Your task is to generate **only** the NS-3 C++ source code for the given simulation description. Output a single compilable .cc file—no commentary, no markdown fences, no explanations. Use NS-3 public APIs, assume NS-3 ≥ 3.41, and write error-free C++17.
+
+  Below is an example to guide you in mapping simulation descriptions to NS-3 code:
+
+  **Example 1**:
+  Simulation Description: Write a simple NS-3 simulation in C++ where a client communicates with a server using UDP. The server should listen for incoming packets and log them, while the client should send a packet every second. Use NS-3’s UdpEchoClient and UdpEchoServer applications, set up a point-to-point connection, and configure basic logging. The simulation should run for 10 seconds.
+
+  Code:
+  ```
+  #include "ns3/core-module.h"
+  #include "ns3/network-module.h"
+  #include "ns3/internet-module.h"
+  #include "ns3/point-to-point-module.h"
+  #include "ns3/applications-module.h"
+
+  using namespace ns3;
+
+  int main(int argc, char *argv[]) {
+      // Enable logging for debugging
+      LogComponentEnable("UdpEchoClientApplication", LOG_LEVEL_INFO);
+      LogComponentEnable("UdpEchoServerApplication", LOG_LEVEL_INFO);
+
+      // Create two nodes (Client and Server)
+      NodeContainer nodes;
+      nodes.Create(2);
+
+      // Configure point-to-point link
+      PointToPointHelper pointToPoint;
+      pointToPoint.SetDeviceAttribute("DataRate", StringValue("5Mbps"));
+      pointToPoint.SetChannelAttribute("Delay", StringValue("2ms"));
+
+      NetDeviceContainer devices = pointToPoint.Install(nodes);
+
+      // Install the Internet stack
+      InternetStackHelper stack;
+      stack.Install(nodes);
+
+      // Assign IP addresses
+      Ipv4AddressHelper address;
+      address.SetBase("10.1.1.0", "255.255.255.0");
+      Ipv4InterfaceContainer interfaces = address.Assign(devices);
+
+      // Set up the UDP Echo Server on node 1
+      uint16_t port = 9;  // UDP port number
+      UdpEchoServerHelper echoServer(port);
+      ApplicationContainer serverApp = echoServer.Install(nodes.Get(1));
+      serverApp.Start(Seconds(1.0));
+      serverApp.Stop(Seconds(10.0));
+
+      // Set up the UDP Echo Client on node 0
+      UdpEchoClientHelper echoClient(interfaces.GetAddress(1), port);
+      echoClient.SetAttribute("MaxPackets", UintegerValue(5));
+      echoClient.SetAttribute("Interval", TimeValue(Seconds(1.0)));
+      echoClient.SetAttribute("PacketSize", UintegerValue(1024));
+
+      ApplicationContainer clientApp = echoClient.Install(nodes.Get(0));
+      clientApp.Start(Seconds(2.0));
+      clientApp.Stop(Seconds(10.0));
+
+      // Run the simulation
+      Simulator::Run();
+      Simulator::Destroy();
+
+      return 0;
+  }
+
+  ```
+
+  Now, generate the code for the following simulation description.
+
+  Simulation Description: {program_description}
+
+react_prompt: |
+  You are a computer networking expert specializing in NS-3 simulations. Your task is to generate **only** the NS-3 C++ source code for the given simulation description. Output a single compilable .cc file—no commentary, no markdown fences, no explanations. Use NS-3 public APIs, assume NS-3 ≥ 3.41, and write error-free C++17.
+
+  First, reason about the simulation requirements:
+  - What is the network structure (e.g., nodes, links, topology)?
+  - What devices and channels are needed, and how are they configured?
+  - Are protocols (e.g., IP, routing) or applications (e.g., UDP, TCP) specified?
+  - Are there special features like mobility or logging?
+  - What is the simulation duration and event schedule?
+
+  Then, act by generating the code based on your reasoning.
+
+  Simulation Description: {program_description}
+
+expert_prompt: |
+  You are a computer networking expert specializing in NS-3 simulations, renowned for producing clean, efficient, and accurate code. Your task is to generate **only** the NS-3 C++ source code for the given simulation description. Output a single compilable .cc file—no commentary, no markdown fences, no explanations. Use NS-3 public APIs, assume NS-3 ≥ 3.41, and write error-free C++17.
+
+  Apply best practices:
+  - Use helpers for efficient setup.
+  - Include all required headers and use the `ns3` namespace.
+  - Configure attributes precisely.
+  - Ensure proper simulation scheduling and cleanup.
+
+  Simulation Description: {program_description}
+
+self_consistency_prompt: |
+  You are a pair-programming assistant for ns-3. Your task is to generate a high-quality ns-3 C++17 source file based on the given problem description. To ensure the code is correct and polished, follow this process:
+
+  1. Draft: Internally, generate an initial version of the ns-3 C++17 source file that attempts to satisfy the problem description.
+
+  2. Self-review: Then, critically review your draft code. Identify any errors or weaknesses, such as:
+     - Missing headers
+     - Incorrect helper names
+     - Undeclared identifiers
+     - Deprecated APIs
+     - Forgotten Simulator::Run() or Simulator::Destroy()
+     - Style issues (e.g., inconsistent indentation, naming conventions)
+     - Logical errors in the simulation setup
+     - Any other issues relevant to ns-3 development
+
+  3. Corrected output: Based on your self-review, generate a corrected version of the source file. If no issues were found, use the original draft.
+
+  Finally, output only the final, corrected .cc file contents. Do not include the draft, self-review, or any explanations—just the code itself.
+
+  Simulation Description: {problem_description}
