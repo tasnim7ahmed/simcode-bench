@@ -18,6 +18,27 @@ import itertools
 nltk.download('wordnet', quiet=True)
 nltk.download('omw-1.4', quiet=True)
 
+SOURCE_PATH = "../Dataset"
+OUTPUT_PATH = "../Output"
+RESULTS_PATH = "../Results"
+
+Path(SOURCE_PATH).mkdir(parents=True, exist_ok=True)
+Path(OUTPUT_PATH).mkdir(parents=True, exist_ok=True)
+Path(RESULTS_PATH).mkdir(parents=True, exist_ok=True)
+
+SRC_DIRS = [Path(f'{SOURCE_PATH}/Codes/Large'), Path(f'{SOURCE_PATH}/Codes/Small')]
+
+GEN_DIRS = {
+    'instruction_prompt': Path(f'{OUTPUT_PATH}/Basic/Gemini'),
+    'cot_prompt': Path(f'{OUTPUT_PATH}/CoT/Gemini'),
+    'few_shot_prompt': Path(f'{OUTPUT_PATH}/FewShot/Gemini'),
+    'react_prompt': Path(f'{OUTPUT_PATH}/ReAct/Gemini'),
+    'expert_prompt': Path(f'{OUTPUT_PATH}/Expert/Gemini'),
+    'self_consistency_prompt': Path(f'{OUTPUT_PATH}/SelfConsistency/Gemini')
+}
+
+MODEL_NAME = 'gemini-2.0-flash'
+
 COMMON_PATTERNS = {
     'for(': None, 'while(': None, 'if(': None, 'std::': None,
     'ns3::': None, 'return': None, '{': None, '}': None, ';': None
@@ -48,16 +69,7 @@ def bertscore_code(refs, hyps):
                         num_layers=12, verbose=False, idf=False)
     return F.mean().item()
 
-SRC_DIRS = [Path('../Dataset/Codes/Large'), Path('../Dataset/Codes/Small')]
-GEN_DIRS = {
-    'instruction_prompt': Path('../Output/Basic/Gemini'),
-    'cot_prompt': Path('../Output/CoT/Gemini'),
-    'few_shot_prompt': Path('../Output/FewShot/Gemini'),
-    'react_prompt': Path('../Output/ReAct/Gemini'),
-    'expert_prompt': Path('../Output/Expert/Gemini'),
-    'self_consistency_prompt': Path('../Output/SelfConsistency/Gemini')
-}
-MODEL_NAME = 'Gemini'
+
 
 def evaluate_prompt(prompt_name, gen_dir):
     rows = []
@@ -104,13 +116,11 @@ def evaluate_prompt(prompt_name, gen_dir):
         rows.append(row)
     
     df = pd.DataFrame(rows)
-    Path('../Results').mkdir(parents=True, exist_ok=True)
-    df.to_csv(f'../Results/{MODEL_NAME}_{prompt_name}_metrics.csv', index=False)
+    df.to_csv(f'{RESULTS_PATH}/{MODEL_NAME}_{prompt_name}_metrics.csv', index=False)
     return df
 
 def main():
     average_rows = []
-    Path('../Results').mkdir(parents=True, exist_ok=True)
 
     for prompt_name, gen_dir in GEN_DIRS.items():
         gen_dir.mkdir(parents=True, exist_ok=True)
@@ -122,7 +132,7 @@ def main():
             average_rows.append(avg_row)
     
     avg_df = pd.DataFrame(average_rows)
-    avg_df.to_csv(f'../Results/{MODEL_NAME}_average_metrics.csv', index=False)
+    avg_df.to_csv(f'{RESULTS_PATH}/{MODEL_NAME}_average_metrics.csv', index=False)
     print('\nAverage Metrics:')
     print(avg_df)
 
