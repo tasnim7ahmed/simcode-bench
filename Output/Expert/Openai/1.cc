@@ -8,8 +8,7 @@ using namespace ns3;
 
 int main(int argc, char *argv[])
 {
-    CommandLine cmd;
-    cmd.Parse(argc, argv);
+    Time::SetResolution(Time::NS);
 
     NodeContainer nodes;
     nodes.Create(2);
@@ -26,6 +25,7 @@ int main(int argc, char *argv[])
 
     Ipv4AddressHelper address;
     address.SetBase("10.1.1.0", "255.255.255.0");
+
     Ipv4InterfaceContainer interfaces = address.Assign(devices);
 
     uint16_t port = 9;
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
     clientApps.Start(Seconds(2.0));
     clientApps.Stop(Seconds(10.0));
 
-    pointToPoint.EnablePcapAll("point-to-point-echo");
+    pointToPoint.EnablePcapAll("point-to-point");
 
     Simulator::Stop(Seconds(10.0));
     Simulator::Run();

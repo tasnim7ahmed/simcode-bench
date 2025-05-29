@@ -1,0 +1,63 @@
+#include "ns3/applications-module.h"
+#include "ns3/core-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/network-module.h"
+#include "ns3/wifi-module.h"
+
+using namespace ns3;
+
+int main(int argc, char* argv[]) {
+  CommandLine cmd(__FILE__);
+  cmd.Parse(argc, argv);
+
+  NodeContainer apNode;
+  apNode.Create(1);
+  NodeContainer staNode;
+  staNode.Create(1);
+
+  WifiHelper wifi;
+  wifi.SetStandard(WIFI_PHY_STANDARD_80211n);
+
+  YansWifiChannelHelper channel = YansWifiChannelHelper::Default();
+  YansWifiPhyHelper phy = YansWifiPhyHelper::Default();
+  phy.SetChannel(channel.Create());
+
+  WifiMacHelper mac;
+  Ssid ssid = Ssid("ns-3-ssid");
+
+  mac.SetType("ns3::ApWifiMac", "Ssid", SsidValue(ssid));
+  NetDeviceContainer apDevs = wifi.Install(phy, mac, apNode);
+
+  mac.SetType("ns3::StaWifiMac", "Ssid", SsidValue(ssid), "ActiveProbing", BooleanValue(false));
+  NetDeviceContainer staDevs = wifi.Install(phy, mac, staNode);
+
+  InternetStackHelper internet;
+  internet.Install(apNode);
+  internet.Install(staNode);
+
+  Ipv4AddressHelper address;
+  address.SetBase("192.168.1.0", "255.255.255.0");
+  Ipv4InterfaceContainer apInterface = address.Assign(apDevs);
+  Ipv4InterfaceContainer staInterface = address.Assign(staDevs);
+
+  Ipv4GlobalRoutingHelper::PopulateRoutingTables();
+
+  uint16_t port = 9;
+  UdpServerHelper echoServer(port);
+  ApplicationContainer serverApps = echoServer.Install(apNode.Get(0));
+  serverApps.Start(Seconds(1.0));
+  serverApps.Stop(Seconds(10.0));
+
+  UdpClientHelper echoClient(apInterface.GetAddress(0), port);
+  echoClient.SetAttribute("MaxPackets", UintegerValue(50));
+  echoClient.SetAttribute("Interval", TimeValue(MilliSeconds(200)));
+  echoClient.SetAttribute("PacketSize", UintegerValue(1024));
+  ApplicationContainer clientApps = echoClient.Install(staNode.Get(0));
+  clientApps.Start(Seconds(2.0));
+  clientApps.Stop(Seconds(10.0));
+
+  Simulator::Stop(Seconds(10.0));
+  Simulator::Run();
+  Simulator::Destroy();
+  return 0;
+}

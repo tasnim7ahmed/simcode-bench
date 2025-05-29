@@ -1,51 +1,35 @@
 {
-    "version": "2.0.0",
-    "inputs": [
-        {
-            "id": "codeDir",
-            "type": "promptString",
-            "description": "Absolute path (Linux style) of directory with .cc files",
-            "default": "/mnt/e/LLM/simcode-bench/Examples"
-        },
-        {
-            "id": "outDir",
-            "type": "promptString",
-            "description": "Directory where .txt logs will be written",
-            "default": "/mnt/e/LLM/simcode-bench/output"
-        }
-    ],
-    "tasks": [
-        {
-            "label": "Run-ns3-BATCH",
-            "type": "shell",
-            "command": "bash",
-            "args": [
-                "-lc",
-          "NS3ROOT=$HOME/ns-allinone-3.41/ns-3.41 && \
-  CODE_DIR=\"${input:codeDir}\" && \
-  OUT_DIR=\"${input:outDir}\" && \
-  mkdir -p \"$OUT_DIR\" && \
-  echo \"🔗  Linking .cc files from $CODE_DIR to $NS3ROOT/scratch\" && \
-  for SRC in \"$CODE_DIR\"/*.cc; do \
-    [ -e \"$SRC\" ] || { echo \"No .cc files in $CODE_DIR\"; exit 1; }; \
-    ln -sf \"$SRC\" \"$NS3ROOT/scratch/$(basename \"$SRC\")\"; \
-  done && \
-  cd \"$NS3ROOT\" && \
-  echo \"🛠️  Building once with ./ns3 build\" && \
-  ./ns3 build && \
-  echo \"🚀  Running simulations…\" && \
-  for SRC in \"$CODE_DIR\"/*.cc; do \
-    NAME=$(basename \"$SRC\" .cc); \
-    echo \"→  $NAME\"; \
-    ./ns3 run scratch/$NAME |& tee \"$OUT_DIR/$NAME.txt\"; \
-  done && \
-  echo \"✅  Finished. Logs saved in $OUT_DIR\""
-            ],
-            "presentation": {
-                "reveal": "always",
-                "panel": "dedicated"
-            },
-            "problemMatcher": []
-        }
-    ]
+  "version": "2.0.0",
+  // ──────── tasks ──────────────────────────────────────────────────────────────
+  "tasks": [
+    {
+      "label": "Run-ns3-ALL-BENCHES", // ⬅ what you'll see in Run Task…
+      "type": "shell",
+      "command": "${workspaceFolder}/.vscode/run_ns3_batch.sh",
+      "args": [
+        "${input:genRoot}",
+        "${input:outDir}"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ],
+  // ──────── inputs (prompts) ───────────────────────────────────────────────────
+  "inputs": [
+    {
+      "id": "genRoot",
+      "type": "promptString",
+      "description": "Absolute path to your OUTPUT_PATH (Basic/Openai … live inside it)",
+      "default": "/mnt/e/LLM/simcode-bench/Output"
+    },
+    {
+      "id": "outDir",
+      "type": "promptString",
+      "description": "Folder where result logs will be written",
+      "default": "/mnt/e/LLM/simcode-bench/Results/NS3"
+    }
+  ]
 }

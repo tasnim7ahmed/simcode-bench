@@ -29,15 +29,15 @@ Path(RESULTS_PATH).mkdir(parents=True, exist_ok=True)
 SRC_DIRS = [Path(f'{SOURCE_PATH}/Codes/Large'), Path(f'{SOURCE_PATH}/Codes/Small')]
 
 GEN_DIRS = {
-    'instruction_prompt': Path(f'{OUTPUT_PATH}/Basic/Gemini'),
-    'cot_prompt': Path(f'{OUTPUT_PATH}/CoT/Gemini'),
-    'few_shot_prompt': Path(f'{OUTPUT_PATH}/FewShot/Gemini'),
-    'react_prompt': Path(f'{OUTPUT_PATH}/ReAct/Gemini'),
-    'expert_prompt': Path(f'{OUTPUT_PATH}/Expert/Gemini'),
-    'self_consistency_prompt': Path(f'{OUTPUT_PATH}/SelfConsistency/Gemini')
+    'instruction_prompt': Path(f'{OUTPUT_PATH}/Basic/Openai'),
+    'cot_prompt': Path(f'{OUTPUT_PATH}/CoT/Openai'),
+    'few_shot_prompt': Path(f'{OUTPUT_PATH}/FewShot/Openai'),
+    'react_prompt': Path(f'{OUTPUT_PATH}/ReAct/Openai'),
+    'expert_prompt': Path(f'{OUTPUT_PATH}/Expert/Openai'),
+    'self_consistency_prompt': Path(f'{OUTPUT_PATH}/SelfConsistency/Openai')
 }
 
-MODEL_NAME = 'gemini-2.0-flash'
+MODEL_NAME = 'gpt-4.1'
 
 COMMON_PATTERNS = {
     'for(': None, 'while(': None, 'if(': None, 'std::': None,
@@ -79,7 +79,7 @@ def evaluate_prompt(prompt_name, gen_dir):
         logging.warning(f'No generated files found in {gen_dir}')
         return pd.DataFrame()
 
-    print(gen_files)
+    # print(gen_files)
     
     for gen_path in tqdm(gen_files, desc=f'Scoring {prompt_name}'):
         hyp_code = gen_path.read_text(encoding='utf-8', errors='ignore')

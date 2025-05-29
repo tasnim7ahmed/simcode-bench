@@ -28,15 +28,15 @@ int main(int argc, char *argv[])
 
     Ipv4InterfaceContainer interfaces = address.Assign(devices);
 
-    uint16_t port = 9;
+    uint16_t echoPort = 9;
 
-    UdpEchoServerHelper echoServer(port);
+    UdpEchoServerHelper echoServer(echoPort);
 
     ApplicationContainer serverApps = echoServer.Install(nodes.Get(1));
     serverApps.Start(Seconds(1.0));
     serverApps.Stop(Seconds(10.0));
 
-    UdpEchoClientHelper echoClient(interfaces.GetAddress(1), port);
+    UdpEchoClientHelper echoClient(interfaces.GetAddress(1), echoPort);
     echoClient.SetAttribute("MaxPackets", UintegerValue(1));
     echoClient.SetAttribute("Interval", TimeValue(Seconds(1.0)));
     echoClient.SetAttribute("PacketSize", UintegerValue(1024));
@@ -45,10 +45,11 @@ int main(int argc, char *argv[])
     clientApps.Start(Seconds(2.0));
     clientApps.Stop(Seconds(10.0));
 
-    pointToPoint.EnablePcapAll("point-to-point");
+    pointToPoint.EnablePcapAll("point-to-point-echo");
 
     Simulator::Stop(Seconds(10.0));
     Simulator::Run();
     Simulator::Destroy();
+
     return 0;
 }

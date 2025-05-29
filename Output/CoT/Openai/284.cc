@@ -1,0 +1,59 @@
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/applications-module.h"
+
+using namespace ns3;
+
+int main(int argc, char *argv[])
+{
+    // Set time resolution and logging
+    Time::SetResolution(Time::NS);
+
+    // Create nodes
+    NodeContainer nodes;
+    nodes.Create(2);
+
+    // Configure point-to-point link
+    PointToPointHelper p2p;
+    p2p.SetDeviceAttribute("DataRate", StringValue("5Mbps"));
+    p2p.SetChannelAttribute("Delay", StringValue("2ms"));
+
+    // Install network devices
+    NetDeviceContainer devices = p2p.Install(nodes);
+
+    // Install Internet stack
+    InternetStackHelper stack;
+    stack.Install(nodes);
+
+    // Assign IP addresses
+    Ipv4AddressHelper address;
+    address.SetBase("10.1.1.0", "255.255.255.0");
+    Ipv4InterfaceContainer interfaces = address.Assign(devices);
+
+    // Install TCP sink on node 1
+    uint16_t sinkPort = 9;
+    Address sinkAddress(InetSocketAddress(interfaces.GetAddress(1), sinkPort));
+    PacketSinkHelper sinkHelper("ns3::TcpSocketFactory", InetSocketAddress(Ipv4Address::GetAny(), sinkPort));
+    ApplicationContainer sinkApp = sinkHelper.Install(nodes.Get(1));
+    sinkApp.Start(Seconds(0.0));
+    sinkApp.Stop(Seconds(10.0));
+
+    // Install TCP bulk sender on node 0
+    BulkSendHelper source("ns3::TcpSocketFactory", sinkAddress);
+    source.SetAttribute("MaxBytes", UintegerValue(0));
+    ApplicationContainer sourceApp = source.Install(nodes.Get(0));
+    sourceApp.Start(Seconds(1.0));
+    sourceApp.Stop(Seconds(10.0));
+
+    // Enable PCAP tracing
+    p2p.EnablePcapAll("p2p-tcp-bulk");
+
+    // Run simulation
+    Simulator::Stop(Seconds(10.0));
+    Simulator::Run();
+    Simulator::Destroy();
+
+    return 0;
+}

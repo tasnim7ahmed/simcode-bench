@@ -7,28 +7,38 @@
 using namespace ns3;
 
 int main(int argc, char *argv[]) {
+    // Enable logging for UDP applications
+    LogComponentEnable("UdpEchoClientApplication", LOG_LEVEL_INFO);
+    LogComponentEnable("UdpEchoServerApplication", LOG_LEVEL_INFO);
+
+    // Create two nodes
     NodeContainer nodes;
     nodes.Create(2);
 
+    // Configure point-to-point link attributes
     PointToPointHelper pointToPoint;
     pointToPoint.SetDeviceAttribute("DataRate", StringValue("5Mbps"));
     pointToPoint.SetChannelAttribute("Delay", StringValue("2ms"));
 
     NetDeviceContainer devices = pointToPoint.Install(nodes);
 
+    // Install Internet stack
     InternetStackHelper stack;
     stack.Install(nodes);
 
+    // Assign IP addresses
     Ipv4AddressHelper address;
     address.SetBase("10.1.1.0", "255.255.255.0");
     Ipv4InterfaceContainer interfaces = address.Assign(devices);
 
+    // Install UDP Echo Server on node 1
     uint16_t port = 9;
     UdpEchoServerHelper echoServer(port);
     ApplicationContainer serverApp = echoServer.Install(nodes.Get(1));
     serverApp.Start(Seconds(1.0));
     serverApp.Stop(Seconds(10.0));
 
+    // Install UDP Echo Client on node 0
     UdpEchoClientHelper echoClient(interfaces.GetAddress(1), port);
     echoClient.SetAttribute("MaxPackets", UintegerValue(1));
     echoClient.SetAttribute("Interval", TimeValue(Seconds(1.0)));
@@ -38,7 +48,8 @@ int main(int argc, char *argv[]) {
     clientApp.Start(Seconds(2.0));
     clientApp.Stop(Seconds(10.0));
 
-    pointToPoint.EnablePcapAll("point-to-point-echo");
+    // Enable PCAP tracing
+    pointToPoint.EnablePcapAll("point-to-point-udp-echo");
 
     Simulator::Run();
     Simulator::Destroy();
