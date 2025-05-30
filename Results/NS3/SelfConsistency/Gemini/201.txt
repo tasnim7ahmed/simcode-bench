@@ -1,0 +1,1558 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_SelfConsistency_Gemini_201.dir/auto_SelfConsistency_Gemini_201.cc.o
+[2/2] Linking CXX executable ../build/scratch/ns3.41-auto_SelfConsistency_Gemini_201-default
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_SelfConsistency_Gemini_201
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+At time +2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.00184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.00184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.00184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.00184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.00184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.00184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.00184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.00184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.00369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.00369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.00369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.00369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.10184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.10184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.10184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.10184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.10184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.10184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.10184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.10184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.10369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.10369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.10369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.10369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.20184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.20184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.20184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.20184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.20184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.20184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.20184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.20184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.20369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.20369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.20369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.20369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.30184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.30184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.30184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.30184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.30184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.30184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.30184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.30184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.30369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.30369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.30369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.30369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.40184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.40184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.40184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.40184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.40184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.40184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.40184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.40184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.40369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.40369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.40369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.40369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.50184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.50184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.50184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.50184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.50184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.50184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.50184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.50184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.50369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.50369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.50369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.50369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.60184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.60184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.60184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.60184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.60184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.60184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.60184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.60184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.60369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.60369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.60369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.60369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.70184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.70184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.70184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.70184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.70184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.70184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.70184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.70184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.70369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.70369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.70369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.70369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.80184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.80184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.80184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.80184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.80184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.80184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.80184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.80184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.80369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.80369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.80369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.80369s client received 1024 bytes from 10.1.4.1 port 9
+At time +2.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +2.90184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +2.90184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +2.90184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +2.90184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +2.90184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +2.90184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +2.90184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +2.90184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +2.90369s client received 1024 bytes from 10.1.1.1 port 9
+At time +2.90369s client received 1024 bytes from 10.1.2.1 port 9
+At time +2.90369s client received 1024 bytes from 10.1.3.1 port 9
+At time +2.90369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.00184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.00184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.00184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.00184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.00184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.00184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.00184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.00184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.00369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.00369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.00369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.00369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.10184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.10184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.10184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.10184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.10184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.10184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.10184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.10184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.10369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.10369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.10369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.10369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.20184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.20184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.20184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.20184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.20184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.20184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.20184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.20184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.20369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.20369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.20369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.20369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.30184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.30184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.30184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.30184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.30184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.30184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.30184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.30184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.30369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.30369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.30369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.30369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.40184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.40184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.40184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.40184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.40184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.40184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.40184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.40184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.40369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.40369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.40369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.40369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.50184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.50184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.50184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.50184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.50184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.50184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.50184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.50184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.50369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.50369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.50369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.50369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.60184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.60184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.60184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.60184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.60184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.60184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.60184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.60184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.60369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.60369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.60369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.60369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.70184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.70184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.70184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.70184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.70184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.70184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.70184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.70184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.70369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.70369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.70369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.70369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.80184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.80184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.80184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.80184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.80184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.80184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.80184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.80184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.80369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.80369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.80369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.80369s client received 1024 bytes from 10.1.4.1 port 9
+At time +3.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +3.90184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +3.90184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +3.90184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +3.90184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +3.90184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +3.90184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +3.90184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +3.90184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +3.90369s client received 1024 bytes from 10.1.1.1 port 9
+At time +3.90369s client received 1024 bytes from 10.1.2.1 port 9
+At time +3.90369s client received 1024 bytes from 10.1.3.1 port 9
+At time +3.90369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.00184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.00184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.00184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.00184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.00184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.00184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.00184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.00184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.00369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.00369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.00369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.00369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.10184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.10184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.10184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.10184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.10184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.10184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.10184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.10184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.10369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.10369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.10369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.10369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.20184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.20184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.20184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.20184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.20184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.20184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.20184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.20184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.20369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.20369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.20369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.20369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.30184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.30184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.30184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.30184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.30184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.30184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.30184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.30184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.30369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.30369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.30369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.30369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.40184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.40184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.40184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.40184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.40184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.40184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.40184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.40184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.40369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.40369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.40369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.40369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.50184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.50184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.50184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.50184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.50184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.50184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.50184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.50184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.50369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.50369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.50369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.50369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.60184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.60184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.60184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.60184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.60184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.60184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.60184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.60184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.60369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.60369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.60369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.60369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.70184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.70184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.70184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.70184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.70184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.70184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.70184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.70184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.70369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.70369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.70369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.70369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.80184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.80184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.80184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.80184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.80184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.80184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.80184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.80184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.80369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.80369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.80369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.80369s client received 1024 bytes from 10.1.4.1 port 9
+At time +4.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +4.90184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +4.90184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +4.90184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +4.90184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +4.90184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +4.90184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +4.90184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +4.90184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +4.90369s client received 1024 bytes from 10.1.1.1 port 9
+At time +4.90369s client received 1024 bytes from 10.1.2.1 port 9
+At time +4.90369s client received 1024 bytes from 10.1.3.1 port 9
+At time +4.90369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.00184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.00184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.00184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.00184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.00184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.00184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.00184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.00184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.00369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.00369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.00369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.00369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.10184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.10184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.10184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.10184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.10184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.10184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.10184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.10184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.10369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.10369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.10369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.10369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.20184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.20184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.20184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.20184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.20184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.20184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.20184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.20184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.20369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.20369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.20369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.20369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.30184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.30184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.30184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.30184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.30184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.30184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.30184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.30184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.30369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.30369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.30369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.30369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.40184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.40184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.40184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.40184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.40184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.40184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.40184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.40184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.40369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.40369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.40369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.40369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.50184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.50184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.50184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.50184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.50184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.50184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.50184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.50184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.50369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.50369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.50369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.50369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.60184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.60184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.60184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.60184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.60184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.60184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.60184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.60184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.60369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.60369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.60369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.60369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.70184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.70184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.70184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.70184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.70184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.70184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.70184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.70184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.70369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.70369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.70369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.70369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.80184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.80184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.80184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.80184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.80184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.80184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.80184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.80184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.80369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.80369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.80369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.80369s client received 1024 bytes from 10.1.4.1 port 9
+At time +5.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +5.90184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +5.90184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +5.90184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +5.90184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +5.90184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +5.90184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +5.90184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +5.90184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +5.90369s client received 1024 bytes from 10.1.1.1 port 9
+At time +5.90369s client received 1024 bytes from 10.1.2.1 port 9
+At time +5.90369s client received 1024 bytes from 10.1.3.1 port 9
+At time +5.90369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.00184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.00184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.00184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.00184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.00184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.00184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.00184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.00184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.00369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.00369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.00369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.00369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.10184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.10184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.10184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.10184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.10184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.10184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.10184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.10184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.10369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.10369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.10369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.10369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.20184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.20184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.20184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.20184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.20184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.20184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.20184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.20184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.20369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.20369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.20369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.20369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.30184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.30184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.30184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.30184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.30184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.30184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.30184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.30184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.30369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.30369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.30369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.30369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.40184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.40184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.40184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.40184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.40184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.40184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.40184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.40184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.40369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.40369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.40369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.40369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.50184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.50184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.50184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.50184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.50184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.50184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.50184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.50184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.50369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.50369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.50369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.50369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.60184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.60184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.60184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.60184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.60184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.60184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.60184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.60184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.60369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.60369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.60369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.60369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.70184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.70184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.70184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.70184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.70184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.70184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.70184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.70184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.70369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.70369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.70369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.70369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.80184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.80184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.80184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.80184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.80184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.80184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.80184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.80184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.80369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.80369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.80369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.80369s client received 1024 bytes from 10.1.4.1 port 9
+At time +6.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +6.90184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +6.90184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +6.90184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +6.90184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +6.90184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +6.90184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +6.90184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +6.90184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +6.90369s client received 1024 bytes from 10.1.1.1 port 9
+At time +6.90369s client received 1024 bytes from 10.1.2.1 port 9
+At time +6.90369s client received 1024 bytes from 10.1.3.1 port 9
+At time +6.90369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.00184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.00184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.00184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.00184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.00184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.00184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.00184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.00184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.00369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.00369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.00369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.00369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.10184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.10184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.10184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.10184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.10184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.10184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.10184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.10184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.10369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.10369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.10369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.10369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.20184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.20184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.20184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.20184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.20184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.20184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.20184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.20184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.20369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.20369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.20369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.20369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.30184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.30184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.30184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.30184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.30184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.30184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.30184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.30184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.30369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.30369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.30369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.30369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.40184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.40184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.40184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.40184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.40184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.40184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.40184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.40184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.40369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.40369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.40369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.40369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.50184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.50184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.50184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.50184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.50184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.50184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.50184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.50184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.50369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.50369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.50369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.50369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.60184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.60184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.60184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.60184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.60184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.60184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.60184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.60184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.60369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.60369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.60369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.60369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.70184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.70184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.70184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.70184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.70184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.70184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.70184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.70184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.70369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.70369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.70369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.70369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.80184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.80184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.80184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.80184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.80184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.80184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.80184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.80184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.80369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.80369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.80369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.80369s client received 1024 bytes from 10.1.4.1 port 9
+At time +7.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +7.90184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +7.90184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +7.90184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +7.90184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +7.90184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +7.90184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +7.90184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +7.90184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +7.90369s client received 1024 bytes from 10.1.1.1 port 9
+At time +7.90369s client received 1024 bytes from 10.1.2.1 port 9
+At time +7.90369s client received 1024 bytes from 10.1.3.1 port 9
+At time +7.90369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.00184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.00184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.00184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.00184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.00184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.00184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.00184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.00184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.00369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.00369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.00369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.00369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.10184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.10184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.10184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.10184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.10184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.10184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.10184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.10184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.10369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.10369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.10369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.10369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.20184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.20184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.20184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.20184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.20184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.20184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.20184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.20184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.20369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.20369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.20369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.20369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.30184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.30184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.30184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.30184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.30184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.30184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.30184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.30184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.30369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.30369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.30369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.30369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.40184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.40184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.40184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.40184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.40184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.40184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.40184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.40184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.40369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.40369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.40369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.40369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.50184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.50184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.50184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.50184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.50184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.50184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.50184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.50184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.50369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.50369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.50369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.50369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.60184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.60184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.60184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.60184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.60184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.60184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.60184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.60184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.60369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.60369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.60369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.60369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.70184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.70184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.70184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.70184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.70184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.70184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.70184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.70184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.70369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.70369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.70369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.70369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.80184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.80184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.80184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.80184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.80184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.80184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.80184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.80184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.80369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.80369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.80369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.80369s client received 1024 bytes from 10.1.4.1 port 9
+At time +8.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +8.90184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +8.90184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +8.90184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +8.90184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +8.90184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +8.90184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +8.90184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +8.90184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +8.90369s client received 1024 bytes from 10.1.1.1 port 9
+At time +8.90369s client received 1024 bytes from 10.1.2.1 port 9
+At time +8.90369s client received 1024 bytes from 10.1.3.1 port 9
+At time +8.90369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.00184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.00184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.00184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.00184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.00184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.00184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.00184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.00184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.00369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.00369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.00369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.00369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.1s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.10184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.10184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.10184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.10184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.10184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.10184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.10184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.10184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.10369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.10369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.10369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.10369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.2s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.20184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.20184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.20184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.20184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.20184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.20184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.20184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.20184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.20369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.20369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.20369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.20369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.3s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.30184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.30184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.30184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.30184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.30184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.30184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.30184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.30184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.30369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.30369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.30369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.30369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.4s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.40184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.40184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.40184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.40184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.40184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.40184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.40184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.40184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.40369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.40369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.40369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.40369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.5s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.50184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.50184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.50184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.50184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.50184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.50184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.50184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.50184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.50369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.50369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.50369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.50369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.6s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.60184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.60184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.60184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.60184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.60184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.60184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.60184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.60184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.60369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.60369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.60369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.60369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.7s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.70184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.70184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.70184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.70184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.70184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.70184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.70184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.70184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.70369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.70369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.70369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.70369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.8s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.80184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.80184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.80184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.80184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.80184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.80184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.80184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.80184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.80369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.80369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.80369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.80369s client received 1024 bytes from 10.1.4.1 port 9
+At time +9.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.9s client sent 1024 bytes to 10.1.1.1 port 9
+At time +9.90184s server received 1024 bytes from 10.1.1.2 port 49153
+At time +9.90184s server sent 1024 bytes to 10.1.1.2 port 49153
+At time +9.90184s server received 1024 bytes from 10.1.2.2 port 49153
+At time +9.90184s server sent 1024 bytes to 10.1.2.2 port 49153
+At time +9.90184s server received 1024 bytes from 10.1.3.2 port 49153
+At time +9.90184s server sent 1024 bytes to 10.1.3.2 port 49153
+At time +9.90184s server received 1024 bytes from 10.1.4.2 port 49153
+At time +9.90184s server sent 1024 bytes to 10.1.4.2 port 49153
+At time +9.90369s client received 1024 bytes from 10.1.1.1 port 9
+At time +9.90369s client received 1024 bytes from 10.1.2.1 port 9
+At time +9.90369s client received 1024 bytes from 10.1.3.1 port 9
+At time +9.90369s client received 1024 bytes from 10.1.4.1 port 9
+Flow 1 (10.1.1.2 -> 10.1.1.1)
+  Tx Packets: 80
+  Rx Packets: 80
+  Lost Packets: 0
+  Packet Delivery Ratio: 1
+  Delay Sum: +1.47456e+08ns
+  Throughput: 0.0812582 Mbps
+Flow 2 (10.1.2.2 -> 10.1.1.1)
+  Tx Packets: 80
+  Rx Packets: 80
+  Lost Packets: 0
+  Packet Delivery Ratio: 1
+  Delay Sum: +1.47456e+08ns
+  Throughput: 0.0812582 Mbps
+Flow 3 (10.1.3.2 -> 10.1.1.1)
+  Tx Packets: 80
+  Rx Packets: 80
+  Lost Packets: 0
+  Packet Delivery Ratio: 1
+  Delay Sum: +1.47456e+08ns
+  Throughput: 0.0812582 Mbps
+Flow 4 (10.1.4.2 -> 10.1.1.1)
+  Tx Packets: 80
+  Rx Packets: 80
+  Lost Packets: 0
+  Packet Delivery Ratio: 1
+  Delay Sum: +1.47456e+08ns
+  Throughput: 0.0812582 Mbps
+Flow 5 (10.1.1.1 -> 10.1.1.2)
+  Tx Packets: 80
+  Rx Packets: 80
+  Lost Packets: 0
+  Packet Delivery Ratio: 1
+  Delay Sum: +1.47456e+08ns
+  Throughput: 0.0812582 Mbps
+Flow 6 (10.1.2.1 -> 10.1.2.2)
+  Tx Packets: 80
+  Rx Packets: 80
+  Lost Packets: 0
+  Packet Delivery Ratio: 1
+  Delay Sum: +1.47456e+08ns
+  Throughput: 0.0812582 Mbps
+Flow 7 (10.1.3.1 -> 10.1.3.2)
+  Tx Packets: 80
+  Rx Packets: 80
+  Lost Packets: 0
+  Packet Delivery Ratio: 1
+  Delay Sum: +1.47456e+08ns
+  Throughput: 0.0812582 Mbps
+Flow 8 (10.1.4.1 -> 10.1.4.2)
+  Tx Packets: 80
+  Rx Packets: 80
+  Lost Packets: 0
+  Packet Delivery Ratio: 1
+  Delay Sum: +1.47456e+08ns
+  Throughput: 0.0812582 Mbps

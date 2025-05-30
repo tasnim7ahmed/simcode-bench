@@ -1,0 +1,351 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_Basic_Gemini_85.dir/auto_Basic_Gemini_85.cc.o
+FAILED: scratch/CMakeFiles/scratch_auto_Basic_Gemini_85.dir/auto_Basic_Gemini_85.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_auto_Basic_Gemini_85.dir/auto_Basic_Gemini_85.cc.o -MF scratch/CMakeFiles/scratch_auto_Basic_Gemini_85.dir/auto_Basic_Gemini_85.cc.o.d -o scratch/CMakeFiles/scratch_auto_Basic_Gemini_85.dir/auto_Basic_Gemini_85.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:61:7: error: ‘LteUeSpectrumPhy’ was not declared in this scope
+   61 |   Ptr<LteUeSpectrumPhy> lteUePhy;
+      |       ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:61:23: error: template argument 1 is invalid
+   61 |   Ptr<LteUeSpectrumPhy> lteUePhy;
+      |                       ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:62:7: error: ‘LteEnbSpectrumPhy’ was not declared in this scope
+   62 |   Ptr<LteEnbSpectrumPhy> lteEnbPhy;
+      |       ^~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:62:24: error: template argument 1 is invalid
+   62 |   Ptr<LteEnbSpectrumPhy> lteEnbPhy;
+      |                        ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:66:41: error: cannot convert ‘const char [42]’ to ‘const ns3::TypeId&’
+   66 |   spectrumPropagationLossModelType.Set ("ns3::ThreeGppSpectrumPropagationLossModel");
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         const char [42]
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/nstime.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/attribute-helper.h:209:30: note:   initializing argument 1 of ‘void ns3::TypeIdValue::Set(const ns3::TypeId&)’
+  209 |         void Set(const type& value);                                                               \
+      |                  ~~~~~~~~~~~~^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/attribute-helper.h:237:38: note: in expansion of macro ‘ATTRIBUTE_VALUE_DEFINE_WITH_NAME’
+  237 | #define ATTRIBUTE_VALUE_DEFINE(name) ATTRIBUTE_VALUE_DEFINE_WITH_NAME(name, name)
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/attribute-helper.h:408:5: note: in expansion of macro ‘ATTRIBUTE_VALUE_DEFINE’
+  408 |     ATTRIBUTE_VALUE_DEFINE(type);                                                                  \
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/type-id.h:598:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+  598 | ATTRIBUTE_HELPER_HEADER(TypeId);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:72:100: error: ‘Scenario’ is not a member of ‘ns3::ThreeGppSpectrumPropagationLossModel’
+   72 |   propagationLossModel->SetAttribute ("Scenario", EnumValue (ThreeGppSpectrumPropagationLossModel::Scenario::UMa));
+      |                                                                                                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:75:20: error: ‘class ns3::SpectrumChannel’ has no member named ‘SetPropagationLossModel’; did you mean ‘GetPropagationLossModel’?
+   75 |   spectrumChannel->SetPropagationLossModel (propagationLossModel);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~
+      |                    GetPropagationLossModel
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:101:37: error: no matching function for call to ‘ns3::LteHelper::ActivateDataRadioBearer(ns3::NodeContainer&, ns3::EpsBearer::Qci)’
+  101 |   lteHelper.ActivateDataRadioBearer (vehicles, EpsBearer::Qci::GBR_CONV_VOICE);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/lte-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/lte-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:7:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/helper/lte-helper.h:540:10: note: candidate: ‘void ns3::LteHelper::ActivateDataRadioBearer(ns3::NetDeviceContainer, ns3::EpsBearer)’
+  540 |     void ActivateDataRadioBearer(NetDeviceContainer ueDevices, EpsBearer bearer);
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/helper/lte-helper.h:540:53: note:   no known conversion for argument 1 from ‘ns3::NodeContainer’ to ‘ns3::NetDeviceContainer’
+  540 |     void ActivateDataRadioBearer(NetDeviceContainer ueDevices, EpsBearer bearer);
+      |                                  ~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/helper/lte-helper.h:550:10: note: candidate: ‘void ns3::LteHelper::ActivateDataRadioBearer(ns3::Ptr<ns3::NetDevice>, ns3::EpsBearer)’
+  550 |     void ActivateDataRadioBearer(Ptr<NetDevice> ueDevice, EpsBearer bearer);
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/helper/lte-helper.h:550:49: note:   no known conversion for argument 1 from ‘ns3::NodeContainer’ to ‘ns3::Ptr<ns3::NetDevice>’
+  550 |     void ActivateDataRadioBearer(Ptr<NetDevice> ueDevice, EpsBearer bearer);
+      |                                  ~~~~~~~~~~~~~~~^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:109:53: error: ‘class ns3::Node’ has no member named ‘GetAddress’
+  109 |   UdpEchoClientHelper echoClient (vehicles.Get (0)->GetAddress (0), 9);
+      |                                                     ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:61:25: warning: unused variable ‘lteUePhy’ [-Wunused-variable]
+   61 |   Ptr<LteUeSpectrumPhy> lteUePhy;
+      |                         ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:62:26: warning: unused variable ‘lteEnbPhy’ [-Wunused-variable]
+   62 |   Ptr<LteEnbSpectrumPhy> lteEnbPhy;
+      |                          ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h: In instantiation of ‘ns3::Ptr<T> ns3::CreateObject(Args&& ...) [with T = ns3::SpectrumChannel; Args = {}]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:74:72:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:581:30: error: invalid new-expression of abstract class type ‘ns3::SpectrumChannel’
+  581 |     return CompleteConstruct(new T(std::forward<Args>(args)...));
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/spectrum-channel.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/model/lte-spectrum-phy.h:39,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/model/lte-phy.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/model/lte-enb-phy.h:28,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/model/component-carrier-enb.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/component-carrier-enb.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/helper/lte-helper.h:32,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/lte-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/lte-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:7:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/spectrum/model/spectrum-channel.h:49:7: note:   because the following virtual functions are pure within ‘ns3::SpectrumChannel’:
+   49 | class SpectrumChannel : public Channel
+      |       ^~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/channel.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/simple-channel.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simple-channel.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/simple-net-device-helper.h:28,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simple-net-device-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:11,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/channel.h:69:25: note:     ‘virtual std::size_t ns3::Channel::GetNDevices() const’
+   69 |     virtual std::size_t GetNDevices() const = 0;
+      |                         ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/channel.h:76:28: note:     ‘virtual ns3::Ptr<ns3::NetDevice> ns3::Channel::GetDevice(std::size_t) const’
+   76 |     virtual Ptr<NetDevice> GetDevice(std::size_t i) const = 0;
+      |                            ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/spectrum-channel.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/model/lte-spectrum-phy.h:39,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/model/lte-phy.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/model/lte-enb-phy.h:28,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/model/component-carrier-enb.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/component-carrier-enb.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/lte/helper/lte-helper.h:32,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/lte-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/lte-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Basic_Gemini_85.cc:7:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/spectrum/model/spectrum-channel.h:150:18: note:     ‘virtual void ns3::SpectrumChannel::StartTx(ns3::Ptr<ns3::SpectrumSignalParameters>)’
+  150 |     virtual void StartTx(Ptr<SpectrumSignalParameters> params) = 0;
+      |                  ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/spectrum/model/spectrum-channel.h:179:18: note:     ‘virtual void ns3::SpectrumChannel::RemoveRx(ns3::Ptr<ns3::SpectrumPhy>)’
+  179 |     virtual void RemoveRx(Ptr<SpectrumPhy> phy) = 0;
+      |                  ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/spectrum/model/spectrum-channel.h:196:18: note:     ‘virtual void ns3::SpectrumChannel::AddRx(ns3::Ptr<ns3::SpectrumPhy>)’
+  196 |     virtual void AddRx(Ptr<SpectrumPhy> phy) = 0;
+      |                  ^~~~~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_Basic_Gemini_85
+✗  build failed (Basic/Gemini/85)

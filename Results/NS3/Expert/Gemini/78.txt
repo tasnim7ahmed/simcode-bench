@@ -1,0 +1,493 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_Expert_Gemini_78.dir/auto_Expert_Gemini_78.cc.o
+FAILED: scratch/CMakeFiles/scratch_auto_Expert_Gemini_78.dir/auto_Expert_Gemini_78.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_auto_Expert_Gemini_78.dir/auto_Expert_Gemini_78.cc.o -MF scratch/CMakeFiles/scratch_auto_Expert_Gemini_78.dir/auto_Expert_Gemini_78.cc.o.d -o scratch/CMakeFiles/scratch_auto_Expert_Gemini_78.dir/auto_Expert_Gemini_78.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:73:9: error: ‘class ns3::Rip’ has no member named ‘SetSplitHorizon’
+   73 |     rip.SetSplitHorizon(true);
+      |         ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:74:9: error: ‘class ns3::Rip’ has no member named ‘SetSplitHorizonPoisonReverse’
+   74 |     rip.SetSplitHorizonPoisonReverse(true);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:77:17: error: ‘class ns3::RipNgHelper’ has no member named ‘SetSplitHorizon’
+   77 |     ripNgHelper.SetSplitHorizon(true);
+      |                 ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:78:17: error: ‘class ns3::RipNgHelper’ has no member named ‘SetSplitHorizonPoisonReverse’
+   78 |     ripNgHelper.SetSplitHorizonPoisonReverse(true);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:80:17: error: ‘class ns3::RipNgHelper’ has no member named ‘Install’
+   80 |     ripNgHelper.Install(routerA);
+      |                 ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:81:17: error: ‘class ns3::RipNgHelper’ has no member named ‘Install’
+   81 |     ripNgHelper.Install(routerB);
+      |                 ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:82:17: error: ‘class ns3::RipNgHelper’ has no member named ‘Install’
+   82 |     ripNgHelper.Install(routerC);
+      |                 ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:83:17: error: ‘class ns3::RipNgHelper’ has no member named ‘Install’
+   83 |     ripNgHelper.Install(routerD);
+      |                 ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:85:38: error: cannot allocate an object of abstract type ‘ns3::Ipv4’
+   85 |     Ipv4 lAddressA = iAB.GetAddress(0);
+      |                                      ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/ipv4.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-trace-helper.h:21,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-stack-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-stack-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:79:7: note:   because the following virtual functions are pure within ‘ns3::Ipv4’:
+   79 | class Ipv4 : public Object
+      |       ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:99:18: note:     ‘virtual void ns3::Ipv4::SetRoutingProtocol(ns3::Ptr<ns3::Ipv4RoutingProtocol>)’
+   99 |     virtual void SetRoutingProtocol(Ptr<Ipv4RoutingProtocol> routingProtocol) = 0;
+      |                  ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:106:38: note:     ‘virtual ns3::Ptr<ns3::Ipv4RoutingProtocol> ns3::Ipv4::GetRoutingProtocol() const’
+  106 |     virtual Ptr<Ipv4RoutingProtocol> GetRoutingProtocol() const = 0;
+      |                                      ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:117:22: note:     ‘virtual uint32_t ns3::Ipv4::AddInterface(ns3::Ptr<ns3::NetDevice>)’
+  117 |     virtual uint32_t AddInterface(Ptr<NetDevice> device) = 0;
+      |                      ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:122:22: note:     ‘virtual uint32_t ns3::Ipv4::GetNInterfaces() const’
+  122 |     virtual uint32_t GetNInterfaces() const = 0;
+      |                      ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:139:21: note:     ‘virtual int32_t ns3::Ipv4::GetInterfaceForAddress(ns3::Ipv4Address) const’
+  139 |     virtual int32_t GetInterfaceForAddress(Ipv4Address address) const = 0;
+      |                     ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:151:18: note:     ‘virtual void ns3::Ipv4::Send(ns3::Ptr<ns3::Packet>, ns3::Ipv4Address, ns3::Ipv4Address, uint8_t, ns3::Ptr<ns3::Ipv4Route>)’
+  151 |     virtual void Send(Ptr<Packet> packet,
+      |                  ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:165:18: note:     ‘virtual void ns3::Ipv4::SendWithHeader(ns3::Ptr<ns3::Packet>, ns3::Ipv4Header, ns3::Ptr<ns3::Ipv4Route>)’
+  165 |     virtual void SendWithHeader(Ptr<Packet> packet, Ipv4Header ipHeader, Ptr<Ipv4Route> route) = 0;
+      |                  ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:176:18: note:     ‘virtual void ns3::Ipv4::Insert(ns3::Ptr<ns3::IpL4Protocol>)’
+  176 |     virtual void Insert(Ptr<IpL4Protocol> protocol) = 0;
+      |                  ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:191:18: note:     ‘virtual void ns3::Ipv4::Insert(ns3::Ptr<ns3::IpL4Protocol>, uint32_t)’
+  191 |     virtual void Insert(Ptr<IpL4Protocol> protocol, uint32_t interfaceIndex) = 0;
+      |                  ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:199:18: note:     ‘virtual void ns3::Ipv4::Remove(ns3::Ptr<ns3::IpL4Protocol>)’
+  199 |     virtual void Remove(Ptr<IpL4Protocol> protocol) = 0;
+      |                  ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:206:18: note:     ‘virtual void ns3::Ipv4::Remove(ns3::Ptr<ns3::IpL4Protocol>, uint32_t)’
+  206 |     virtual void Remove(Ptr<IpL4Protocol> protocol, uint32_t interfaceIndex) = 0;
+      |                  ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:228:18: note:     ‘virtual bool ns3::Ipv4::IsDestinationAddress(ns3::Ipv4Address, uint32_t) const’
+  228 |     virtual bool IsDestinationAddress(Ipv4Address address, uint32_t iif) const = 0;
+      |                  ^~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:246:21: note:     ‘virtual int32_t ns3::Ipv4::GetInterfaceForPrefix(ns3::Ipv4Address, ns3::Ipv4Mask) const’
+  246 |     virtual int32_t GetInterfaceForPrefix(Ipv4Address address, Ipv4Mask mask) const = 0;
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:252:28: note:     ‘virtual ns3::Ptr<ns3::NetDevice> ns3::Ipv4::GetNetDevice(uint32_t)’
+  252 |     virtual Ptr<NetDevice> GetNetDevice(uint32_t interface) = 0;
+      |                            ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:258:21: note:     ‘virtual int32_t ns3::Ipv4::GetInterfaceForDevice(ns3::Ptr<const ns3::NetDevice>) const’
+  258 |     virtual int32_t GetInterfaceForDevice(Ptr<const NetDevice> device) const = 0;
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:265:18: note:     ‘virtual bool ns3::Ipv4::AddAddress(uint32_t, ns3::Ipv4InterfaceAddress)’
+  265 |     virtual bool AddAddress(uint32_t interface, Ipv4InterfaceAddress address) = 0;
+      |                  ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:271:22: note:     ‘virtual uint32_t ns3::Ipv4::GetNAddresses(uint32_t) const’
+  271 |     virtual uint32_t GetNAddresses(uint32_t interface) const = 0;
+      |                      ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:281:34: note:     ‘virtual ns3::Ipv4InterfaceAddress ns3::Ipv4::GetAddress(uint32_t, uint32_t) const’
+  281 |     virtual Ipv4InterfaceAddress GetAddress(uint32_t interface, uint32_t addressIndex) const = 0;
+      |                                  ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:293:18: note:     ‘virtual bool ns3::Ipv4::RemoveAddress(uint32_t, uint32_t)’
+  293 |     virtual bool RemoveAddress(uint32_t interface, uint32_t addressIndex) = 0;
+      |                  ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:302:18: note:     ‘virtual bool ns3::Ipv4::RemoveAddress(uint32_t, ns3::Ipv4Address)’
+  302 |     virtual bool RemoveAddress(uint32_t interface, Ipv4Address address) = 0;
+      |                  ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:339:25: note:     ‘virtual ns3::Ipv4Address ns3::Ipv4::SelectSourceAddress(ns3::Ptr<const ns3::NetDevice>, ns3::Ipv4Address, ns3::Ipv4InterfaceAddress::InterfaceAddressScope_e)’
+  339 |     virtual Ipv4Address SelectSourceAddress(
+      |                         ^~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:349:18: note:     ‘virtual void ns3::Ipv4::SetMetric(uint32_t, uint16_t)’
+  349 |     virtual void SetMetric(uint32_t interface, uint16_t metric) = 0;
+      |                  ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:356:22: note:     ‘virtual uint16_t ns3::Ipv4::GetMetric(uint32_t) const’
+  356 |     virtual uint16_t GetMetric(uint32_t interface) const = 0;
+      |                      ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:363:22: note:     ‘virtual uint16_t ns3::Ipv4::GetMtu(uint32_t) const’
+  363 |     virtual uint16_t GetMtu(uint32_t interface) const = 0;
+      |                      ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:370:18: note:     ‘virtual bool ns3::Ipv4::IsUp(uint32_t) const’
+  370 |     virtual bool IsUp(uint32_t interface) const = 0;
+      |                  ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:378:18: note:     ‘virtual void ns3::Ipv4::SetUp(uint32_t)’
+  378 |     virtual void SetUp(uint32_t interface) = 0;
+      |                  ^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:386:18: note:     ‘virtual void ns3::Ipv4::SetDown(uint32_t)’
+  386 |     virtual void SetDown(uint32_t interface) = 0;
+      |                  ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:392:18: note:     ‘virtual bool ns3::Ipv4::IsForwarding(uint32_t) const’
+  392 |     virtual bool IsForwarding(uint32_t interface) const = 0;
+      |                  ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:400:18: note:     ‘virtual void ns3::Ipv4::SetForwarding(uint32_t, bool)’
+  400 |     virtual void SetForwarding(uint32_t interface, bool val) = 0;
+      |                  ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:408:25: note:     ‘virtual ns3::Ipv4Address ns3::Ipv4::SourceAddressSelection(uint32_t, ns3::Ipv4Address)’
+  408 |     virtual Ipv4Address SourceAddressSelection(uint32_t interface, Ipv4Address dest) = 0;
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:418:31: note:     ‘virtual ns3::Ptr<ns3::IpL4Protocol> ns3::Ipv4::GetProtocol(int) const’
+  418 |     virtual Ptr<IpL4Protocol> GetProtocol(int protocolNumber) const = 0;
+      |                               ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:426:31: note:     ‘virtual ns3::Ptr<ns3::IpL4Protocol> ns3::Ipv4::GetProtocol(int, int32_t) const’
+  426 |     virtual Ptr<IpL4Protocol> GetProtocol(int protocolNumber, int32_t interfaceIndex) const = 0;
+      |                               ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:433:25: note:     ‘virtual ns3::Ptr<ns3::Socket> ns3::Ipv4::CreateRawSocket()’
+  433 |     virtual Ptr<Socket> CreateRawSocket() = 0;
+      |                         ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:440:18: note:     ‘virtual void ns3::Ipv4::DeleteRawSocket(ns3::Ptr<ns3::Socket>)’
+  440 |     virtual void DeleteRawSocket(Ptr<Socket> socket) = 0;
+      |                  ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:451:18: note:     ‘virtual void ns3::Ipv4::SetIpForward(bool)’
+  451 |     virtual void SetIpForward(bool forward) = 0;
+      |                  ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:456:18: note:     ‘virtual bool ns3::Ipv4::GetIpForward() const’
+  456 |     virtual bool GetIpForward() const = 0;
+      |                  ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:466:18: note:     ‘virtual bool ns3::Ipv4::GetWeakEsModel() const’
+  466 |     virtual bool GetWeakEsModel() const = 0;
+      |                  ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:476:18: note:     ‘virtual void ns3::Ipv4::SetWeakEsModel(bool)’
+  476 |     virtual void SetWeakEsModel(bool model) = 0;
+      |                  ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:484:18: note:     ‘virtual void ns3::Ipv4::SetStrongEndSystemModel(bool)’
+  484 |     virtual void SetStrongEndSystemModel(bool model) = 0;
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4.h:491:18: note:     ‘virtual bool ns3::Ipv4::GetStrongEndSystemModel() const’
+  491 |     virtual bool GetStrongEndSystemModel() const = 0;
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:85:10: error: cannot declare variable ‘lAddressA’ to be of abstract type ‘ns3::Ipv4’
+   85 |     Ipv4 lAddressA = iAB.GetAddress(0);
+      |          ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:86:38: error: cannot allocate an object of abstract type ‘ns3::Ipv4’
+   86 |     Ipv4 lAddressB = iAB.GetAddress(1);
+      |                                      ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:86:10: error: cannot declare variable ‘lAddressB’ to be of abstract type ‘ns3::Ipv4’
+   86 |     Ipv4 lAddressB = iAB.GetAddress(1);
+      |          ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:87:38: error: cannot allocate an object of abstract type ‘ns3::Ipv4’
+   87 |     Ipv4 lAddressC = iCD.GetAddress(0);
+      |                                      ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:87:10: error: cannot declare variable ‘lAddressC’ to be of abstract type ‘ns3::Ipv4’
+   87 |     Ipv4 lAddressC = iCD.GetAddress(0);
+      |          ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:88:38: error: cannot allocate an object of abstract type ‘ns3::Ipv4’
+   88 |     Ipv4 lAddressD = iCD.GetAddress(1);
+      |                                      ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:88:10: error: cannot declare variable ‘lAddressD’ to be of abstract type ‘ns3::Ipv4’
+   88 |     Ipv4 lAddressD = iCD.GetAddress(1);
+      |          ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:90:10: error: ‘AddRouteToMetric’ is not a member of ‘ns3::Rip’
+   90 |     Rip::AddRouteToMetric(lAddressA, 1);
+      |          ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:91:10: error: ‘AddRouteToMetric’ is not a member of ‘ns3::Rip’
+   91 |     Rip::AddRouteToMetric(lAddressB, 1);
+      |          ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:92:10: error: ‘AddRouteToMetric’ is not a member of ‘ns3::Rip’
+   92 |     Rip::AddRouteToMetric(lAddressC, 10);
+      |          ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:93:10: error: ‘AddRouteToMetric’ is not a member of ‘ns3::Rip’
+   93 |     Rip::AddRouteToMetric(lAddressD, 10);
+      |          ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:101:47: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  101 |         Simulator::Schedule(Seconds(1), &Rip::PrintRoutingTables, routerA.Get(0));
+      |                                               ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:102:47: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  102 |         Simulator::Schedule(Seconds(1), &Rip::PrintRoutingTables, routerB.Get(0));
+      |                                               ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:103:47: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  103 |         Simulator::Schedule(Seconds(1), &Rip::PrintRoutingTables, routerC.Get(0));
+      |                                               ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:104:47: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  104 |         Simulator::Schedule(Seconds(1), &Rip::PrintRoutingTables, routerD.Get(0));
+      |                                               ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:105:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  105 |         Simulator::Schedule(Seconds(10), &Rip::PrintRoutingTables, routerA.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:106:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  106 |         Simulator::Schedule(Seconds(10), &Rip::PrintRoutingTables, routerB.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:107:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  107 |         Simulator::Schedule(Seconds(10), &Rip::PrintRoutingTables, routerC.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:108:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  108 |         Simulator::Schedule(Seconds(10), &Rip::PrintRoutingTables, routerD.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:109:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  109 |         Simulator::Schedule(Seconds(30), &Rip::PrintRoutingTables, routerA.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:110:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  110 |         Simulator::Schedule(Seconds(30), &Rip::PrintRoutingTables, routerB.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:111:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  111 |         Simulator::Schedule(Seconds(30), &Rip::PrintRoutingTables, routerC.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:112:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  112 |         Simulator::Schedule(Seconds(30), &Rip::PrintRoutingTables, routerD.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:113:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  113 |         Simulator::Schedule(Seconds(42), &Rip::PrintRoutingTables, routerA.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:114:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  114 |         Simulator::Schedule(Seconds(42), &Rip::PrintRoutingTables, routerB.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:115:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  115 |         Simulator::Schedule(Seconds(42), &Rip::PrintRoutingTables, routerC.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:116:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  116 |         Simulator::Schedule(Seconds(42), &Rip::PrintRoutingTables, routerD.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:117:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  117 |         Simulator::Schedule(Seconds(46), &Rip::PrintRoutingTables, routerA.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:118:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  118 |         Simulator::Schedule(Seconds(46), &Rip::PrintRoutingTables, routerB.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:119:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  119 |         Simulator::Schedule(Seconds(46), &Rip::PrintRoutingTables, routerC.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:120:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  120 |         Simulator::Schedule(Seconds(46), &Rip::PrintRoutingTables, routerD.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:121:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  121 |         Simulator::Schedule(Seconds(60), &Rip::PrintRoutingTables, routerA.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:122:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  122 |         Simulator::Schedule(Seconds(60), &Rip::PrintRoutingTables, routerB.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:123:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  123 |         Simulator::Schedule(Seconds(60), &Rip::PrintRoutingTables, routerC.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:124:48: error: ‘PrintRoutingTables’ is not a member of ‘ns3::Rip’
+  124 |         Simulator::Schedule(Seconds(60), &Rip::PrintRoutingTables, routerD.Get(0));
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:128:5: error: ‘V4PingHelper’ was not declared in this scope; did you mean ‘ripNgHelper’?
+  128 |     V4PingHelper ping(iDDst.GetAddress(1));
+      |     ^~~~~~~~~~~~
+      |     ripNgHelper
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Gemini_78.cc:129:5: error: ‘ping’ was not declared in this scope
+  129 |     ping.SetAttribute("Verbose", BooleanValue(pingVisibility));
+      |     ^~~~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_Expert_Gemini_78
+✗  build failed (Expert/Gemini/78)

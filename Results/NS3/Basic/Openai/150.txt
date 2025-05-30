@@ -1,0 +1,756 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_Basic_Openai_150.dir/auto_Basic_Openai_150.cc.o
+[2/2] Linking CXX executable ../build/scratch/ns3.41-auto_Basic_Openai_150-default
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_Basic_Openai_150
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 0 Time: +2s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 0 Uid: 0 TXtime: +2e+09ns RXtime: +2.00853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 1 Time: +2.03s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 1 Uid: 1 TXtime: +2.03e+09ns RXtime: +2.03853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 2 Time: +2.06s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 2 Uid: 2 TXtime: +2.06e+09ns RXtime: +2.06853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 3 Time: +2.09s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 3 Uid: 3 TXtime: +2.09e+09ns RXtime: +2.09853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 4 Time: +2.12s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 4 Uid: 4 TXtime: +2.12e+09ns RXtime: +2.12853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 5 Time: +2.15s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 5 Uid: 5 TXtime: +2.15e+09ns RXtime: +2.15853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 6 Time: +2.18s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 6 Uid: 6 TXtime: +2.18e+09ns RXtime: +2.18853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 7 Time: +2.21s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 7 Uid: 7 TXtime: +2.21e+09ns RXtime: +2.21853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 8 Time: +2.24s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 8 Uid: 8 TXtime: +2.24e+09ns RXtime: +2.24853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 9 Time: +2.27s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 9 Uid: 9 TXtime: +2.27e+09ns RXtime: +2.27853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 10 Time: +2.3s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 10 Uid: 10 TXtime: +2.3e+09ns RXtime: +2.30853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 11 Time: +2.33s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 11 Uid: 11 TXtime: +2.33e+09ns RXtime: +2.33853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 12 Time: +2.36s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 12 Uid: 12 TXtime: +2.36e+09ns RXtime: +2.36853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 13 Time: +2.39s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 13 Uid: 13 TXtime: +2.39e+09ns RXtime: +2.39853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 14 Time: +2.42s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 14 Uid: 14 TXtime: +2.42e+09ns RXtime: +2.42853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 15 Time: +2.45s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 15 Uid: 15 TXtime: +2.45e+09ns RXtime: +2.45853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 16 Time: +2.48s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 16 Uid: 16 TXtime: +2.48e+09ns RXtime: +2.48853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 17 Time: +2.51s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 17 Uid: 17 TXtime: +2.51e+09ns RXtime: +2.51853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 18 Time: +2.54s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 18 Uid: 18 TXtime: +2.54e+09ns RXtime: +2.54853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 19 Time: +2.57s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 19 Uid: 19 TXtime: +2.57e+09ns RXtime: +2.57853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 20 Time: +2.6s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 20 Uid: 20 TXtime: +2.6e+09ns RXtime: +2.60853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 21 Time: +2.63s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 21 Uid: 21 TXtime: +2.63e+09ns RXtime: +2.63853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 22 Time: +2.66s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 22 Uid: 22 TXtime: +2.66e+09ns RXtime: +2.66853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 23 Time: +2.69s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 23 Uid: 23 TXtime: +2.69e+09ns RXtime: +2.69853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 24 Time: +2.72s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 24 Uid: 24 TXtime: +2.72e+09ns RXtime: +2.72853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 25 Time: +2.75s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 25 Uid: 25 TXtime: +2.75e+09ns RXtime: +2.75853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 26 Time: +2.78s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 26 Uid: 26 TXtime: +2.78e+09ns RXtime: +2.78853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 27 Time: +2.81s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 27 Uid: 27 TXtime: +2.81e+09ns RXtime: +2.81853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 28 Time: +2.84s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 28 Uid: 28 TXtime: +2.84e+09ns RXtime: +2.84853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 29 Time: +2.87s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 29 Uid: 29 TXtime: +2.87e+09ns RXtime: +2.87853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 30 Time: +2.9s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 30 Uid: 30 TXtime: +2.9e+09ns RXtime: +2.90853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 31 Time: +2.93s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 31 Uid: 31 TXtime: +2.93e+09ns RXtime: +2.93853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 32 Time: +2.96s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 32 Uid: 32 TXtime: +2.96e+09ns RXtime: +2.96853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 33 Time: +2.99s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 33 Uid: 33 TXtime: +2.99e+09ns RXtime: +2.99853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 34 Time: +3.02s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 34 Uid: 34 TXtime: +3.02e+09ns RXtime: +3.02853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 35 Time: +3.05s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 35 Uid: 35 TXtime: +3.05e+09ns RXtime: +3.05853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 36 Time: +3.08s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 36 Uid: 36 TXtime: +3.08e+09ns RXtime: +3.08853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 37 Time: +3.11s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 37 Uid: 37 TXtime: +3.11e+09ns RXtime: +3.11853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 38 Time: +3.14s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 38 Uid: 38 TXtime: +3.14e+09ns RXtime: +3.14853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 39 Time: +3.17s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 39 Uid: 39 TXtime: +3.17e+09ns RXtime: +3.17853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 40 Time: +3.2s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 40 Uid: 40 TXtime: +3.2e+09ns RXtime: +3.20853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 41 Time: +3.23s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 41 Uid: 41 TXtime: +3.23e+09ns RXtime: +3.23853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 42 Time: +3.26s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 42 Uid: 42 TXtime: +3.26e+09ns RXtime: +3.26853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 43 Time: +3.29s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 43 Uid: 43 TXtime: +3.29e+09ns RXtime: +3.29853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 44 Time: +3.32s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 44 Uid: 44 TXtime: +3.32e+09ns RXtime: +3.32853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 45 Time: +3.35s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 45 Uid: 45 TXtime: +3.35e+09ns RXtime: +3.35853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 46 Time: +3.38s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 46 Uid: 46 TXtime: +3.38e+09ns RXtime: +3.38853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 47 Time: +3.41s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 47 Uid: 47 TXtime: +3.41e+09ns RXtime: +3.41853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 48 Time: +3.44s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 48 Uid: 48 TXtime: +3.44e+09ns RXtime: +3.44853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 49 Time: +3.47s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 49 Uid: 49 TXtime: +3.47e+09ns RXtime: +3.47853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 50 Time: +3.5s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 50 Uid: 50 TXtime: +3.5e+09ns RXtime: +3.50853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 51 Time: +3.53s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 51 Uid: 51 TXtime: +3.53e+09ns RXtime: +3.53853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 52 Time: +3.56s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 52 Uid: 52 TXtime: +3.56e+09ns RXtime: +3.56853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 53 Time: +3.59s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 53 Uid: 53 TXtime: +3.59e+09ns RXtime: +3.59853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 54 Time: +3.62s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 54 Uid: 54 TXtime: +3.62e+09ns RXtime: +3.62853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 55 Time: +3.65s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 55 Uid: 55 TXtime: +3.65e+09ns RXtime: +3.65853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 56 Time: +3.68s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 56 Uid: 56 TXtime: +3.68e+09ns RXtime: +3.68853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 57 Time: +3.71s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 57 Uid: 57 TXtime: +3.71e+09ns RXtime: +3.71853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 58 Time: +3.74s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 58 Uid: 58 TXtime: +3.74e+09ns RXtime: +3.74853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 59 Time: +3.77s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 59 Uid: 59 TXtime: +3.77e+09ns RXtime: +3.77853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 60 Time: +3.8s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 60 Uid: 60 TXtime: +3.8e+09ns RXtime: +3.80853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 61 Time: +3.83s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 61 Uid: 61 TXtime: +3.83e+09ns RXtime: +3.83853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 62 Time: +3.86s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 62 Uid: 62 TXtime: +3.86e+09ns RXtime: +3.86853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 63 Time: +3.89s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 63 Uid: 63 TXtime: +3.89e+09ns RXtime: +3.89853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 64 Time: +3.92s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 64 Uid: 64 TXtime: +3.92e+09ns RXtime: +3.92853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 65 Time: +3.95s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 65 Uid: 65 TXtime: +3.95e+09ns RXtime: +3.95853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 66 Time: +3.98s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 66 Uid: 66 TXtime: +3.98e+09ns RXtime: +3.98853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 67 Time: +4.01s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 67 Uid: 67 TXtime: +4.01e+09ns RXtime: +4.01853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 68 Time: +4.04s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 68 Uid: 68 TXtime: +4.04e+09ns RXtime: +4.04853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 69 Time: +4.07s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 69 Uid: 69 TXtime: +4.07e+09ns RXtime: +4.07853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 70 Time: +4.1s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 70 Uid: 70 TXtime: +4.1e+09ns RXtime: +4.10853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 71 Time: +4.13s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 71 Uid: 71 TXtime: +4.13e+09ns RXtime: +4.13853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 72 Time: +4.16s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 72 Uid: 72 TXtime: +4.16e+09ns RXtime: +4.16853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 73 Time: +4.19s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 73 Uid: 73 TXtime: +4.19e+09ns RXtime: +4.19853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 74 Time: +4.22s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 74 Uid: 74 TXtime: +4.22e+09ns RXtime: +4.22853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 75 Time: +4.25s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 75 Uid: 75 TXtime: +4.25e+09ns RXtime: +4.25853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 76 Time: +4.28s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 76 Uid: 76 TXtime: +4.28e+09ns RXtime: +4.28853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 77 Time: +4.31s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 77 Uid: 77 TXtime: +4.31e+09ns RXtime: +4.31853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 78 Time: +4.34s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 78 Uid: 78 TXtime: +4.34e+09ns RXtime: +4.34853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 79 Time: +4.37s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 79 Uid: 79 TXtime: +4.37e+09ns RXtime: +4.37853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 80 Time: +4.4s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 80 Uid: 80 TXtime: +4.4e+09ns RXtime: +4.40853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 81 Time: +4.43s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 81 Uid: 81 TXtime: +4.43e+09ns RXtime: +4.43853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 82 Time: +4.46s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 82 Uid: 82 TXtime: +4.46e+09ns RXtime: +4.46853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 83 Time: +4.49s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 83 Uid: 83 TXtime: +4.49e+09ns RXtime: +4.49853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 84 Time: +4.52s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 84 Uid: 84 TXtime: +4.52e+09ns RXtime: +4.52853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 85 Time: +4.55s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 85 Uid: 85 TXtime: +4.55e+09ns RXtime: +4.55853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 86 Time: +4.58s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 86 Uid: 86 TXtime: +4.58e+09ns RXtime: +4.58853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 87 Time: +4.61s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 87 Uid: 87 TXtime: +4.61e+09ns RXtime: +4.61853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 88 Time: +4.64s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 88 Uid: 88 TXtime: +4.64e+09ns RXtime: +4.64853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 89 Time: +4.67s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 89 Uid: 89 TXtime: +4.67e+09ns RXtime: +4.67853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 90 Time: +4.7s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 90 Uid: 90 TXtime: +4.7e+09ns RXtime: +4.70853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 91 Time: +4.73s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 91 Uid: 91 TXtime: +4.73e+09ns RXtime: +4.73853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 92 Time: +4.76s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 92 Uid: 92 TXtime: +4.76e+09ns RXtime: +4.76853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 93 Time: +4.79s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 93 Uid: 93 TXtime: +4.79e+09ns RXtime: +4.79853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 94 Time: +4.82s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 94 Uid: 94 TXtime: +4.82e+09ns RXtime: +4.82853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 95 Time: +4.85s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 95 Uid: 95 TXtime: +4.85e+09ns RXtime: +4.85853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 96 Time: +4.88s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 96 Uid: 96 TXtime: +4.88e+09ns RXtime: +4.88853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 97 Time: +4.91s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 97 Uid: 97 TXtime: +4.91e+09ns RXtime: +4.91853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 98 Time: +4.94s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 98 Uid: 98 TXtime: +4.94e+09ns RXtime: +4.94853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 99 Time: +4.97s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 99 Uid: 99 TXtime: +4.97e+09ns RXtime: +4.97853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 100 Time: +5s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 100 Uid: 100 TXtime: +5e+09ns RXtime: +5.00853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 101 Time: +5.03s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 101 Uid: 101 TXtime: +5.03e+09ns RXtime: +5.03853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 102 Time: +5.06s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 102 Uid: 102 TXtime: +5.06e+09ns RXtime: +5.06853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 103 Time: +5.09s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 103 Uid: 103 TXtime: +5.09e+09ns RXtime: +5.09853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 104 Time: +5.12s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 104 Uid: 104 TXtime: +5.12e+09ns RXtime: +5.12853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 105 Time: +5.15s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 105 Uid: 105 TXtime: +5.15e+09ns RXtime: +5.15853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 106 Time: +5.18s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 106 Uid: 106 TXtime: +5.18e+09ns RXtime: +5.18853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 107 Time: +5.21s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 107 Uid: 107 TXtime: +5.21e+09ns RXtime: +5.21853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 108 Time: +5.24s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 108 Uid: 108 TXtime: +5.24e+09ns RXtime: +5.24853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 109 Time: +5.27s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 109 Uid: 109 TXtime: +5.27e+09ns RXtime: +5.27853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 110 Time: +5.3s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 110 Uid: 110 TXtime: +5.3e+09ns RXtime: +5.30853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 111 Time: +5.33s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 111 Uid: 111 TXtime: +5.33e+09ns RXtime: +5.33853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 112 Time: +5.36s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 112 Uid: 112 TXtime: +5.36e+09ns RXtime: +5.36853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 113 Time: +5.39s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 113 Uid: 113 TXtime: +5.39e+09ns RXtime: +5.39853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 114 Time: +5.42s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 114 Uid: 114 TXtime: +5.42e+09ns RXtime: +5.42853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 115 Time: +5.45s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 115 Uid: 115 TXtime: +5.45e+09ns RXtime: +5.45853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 116 Time: +5.48s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 116 Uid: 116 TXtime: +5.48e+09ns RXtime: +5.48853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 117 Time: +5.51s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 117 Uid: 117 TXtime: +5.51e+09ns RXtime: +5.51853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 118 Time: +5.54s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 118 Uid: 118 TXtime: +5.54e+09ns RXtime: +5.54853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 119 Time: +5.57s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 119 Uid: 119 TXtime: +5.57e+09ns RXtime: +5.57853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 120 Time: +5.6s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 120 Uid: 120 TXtime: +5.6e+09ns RXtime: +5.60853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 121 Time: +5.63s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 121 Uid: 121 TXtime: +5.63e+09ns RXtime: +5.63853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 122 Time: +5.66s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 122 Uid: 122 TXtime: +5.66e+09ns RXtime: +5.66853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 123 Time: +5.69s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 123 Uid: 123 TXtime: +5.69e+09ns RXtime: +5.69853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 124 Time: +5.72s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 124 Uid: 124 TXtime: +5.72e+09ns RXtime: +5.72853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 125 Time: +5.75s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 125 Uid: 125 TXtime: +5.75e+09ns RXtime: +5.75853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 126 Time: +5.78s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 126 Uid: 126 TXtime: +5.78e+09ns RXtime: +5.78853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 127 Time: +5.81s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 127 Uid: 127 TXtime: +5.81e+09ns RXtime: +5.81853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 128 Time: +5.84s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 128 Uid: 128 TXtime: +5.84e+09ns RXtime: +5.84853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 129 Time: +5.87s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 129 Uid: 129 TXtime: +5.87e+09ns RXtime: +5.87853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 130 Time: +5.9s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 130 Uid: 130 TXtime: +5.9e+09ns RXtime: +5.90853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 131 Time: +5.93s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 131 Uid: 131 TXtime: +5.93e+09ns RXtime: +5.93853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 132 Time: +5.96s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 132 Uid: 132 TXtime: +5.96e+09ns RXtime: +5.96853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 133 Time: +5.99s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 133 Uid: 133 TXtime: +5.99e+09ns RXtime: +5.99853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 134 Time: +6.02s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 134 Uid: 134 TXtime: +6.02e+09ns RXtime: +6.02853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 135 Time: +6.05s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 135 Uid: 135 TXtime: +6.05e+09ns RXtime: +6.05853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 136 Time: +6.08s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 136 Uid: 136 TXtime: +6.08e+09ns RXtime: +6.08853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 137 Time: +6.11s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 137 Uid: 137 TXtime: +6.11e+09ns RXtime: +6.11853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 138 Time: +6.14s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 138 Uid: 138 TXtime: +6.14e+09ns RXtime: +6.14853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 139 Time: +6.17s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 139 Uid: 139 TXtime: +6.17e+09ns RXtime: +6.17853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 140 Time: +6.2s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 140 Uid: 140 TXtime: +6.2e+09ns RXtime: +6.20853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 141 Time: +6.23s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 141 Uid: 141 TXtime: +6.23e+09ns RXtime: +6.23853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 142 Time: +6.26s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 142 Uid: 142 TXtime: +6.26e+09ns RXtime: +6.26853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 143 Time: +6.29s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 143 Uid: 143 TXtime: +6.29e+09ns RXtime: +6.29853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 144 Time: +6.32s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 144 Uid: 144 TXtime: +6.32e+09ns RXtime: +6.32853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 145 Time: +6.35s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 145 Uid: 145 TXtime: +6.35e+09ns RXtime: +6.35853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 146 Time: +6.38s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 146 Uid: 146 TXtime: +6.38e+09ns RXtime: +6.38853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 147 Time: +6.41s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 147 Uid: 147 TXtime: +6.41e+09ns RXtime: +6.41853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 148 Time: +6.44s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 148 Uid: 148 TXtime: +6.44e+09ns RXtime: +6.44853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 149 Time: +6.47s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 149 Uid: 149 TXtime: +6.47e+09ns RXtime: +6.47853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 150 Time: +6.5s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 150 Uid: 150 TXtime: +6.5e+09ns RXtime: +6.50853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 151 Time: +6.53s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 151 Uid: 151 TXtime: +6.53e+09ns RXtime: +6.53853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 152 Time: +6.56s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 152 Uid: 152 TXtime: +6.56e+09ns RXtime: +6.56853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 153 Time: +6.59s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 153 Uid: 153 TXtime: +6.59e+09ns RXtime: +6.59853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 154 Time: +6.62s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 154 Uid: 154 TXtime: +6.62e+09ns RXtime: +6.62853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 155 Time: +6.65s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 155 Uid: 155 TXtime: +6.65e+09ns RXtime: +6.65853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 156 Time: +6.68s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 156 Uid: 156 TXtime: +6.68e+09ns RXtime: +6.68853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 157 Time: +6.71s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 157 Uid: 157 TXtime: +6.71e+09ns RXtime: +6.71853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 158 Time: +6.74s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 158 Uid: 158 TXtime: +6.74e+09ns RXtime: +6.74853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 159 Time: +6.77s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 159 Uid: 159 TXtime: +6.77e+09ns RXtime: +6.77853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 160 Time: +6.8s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 160 Uid: 160 TXtime: +6.8e+09ns RXtime: +6.80853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 161 Time: +6.83s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 161 Uid: 161 TXtime: +6.83e+09ns RXtime: +6.83853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 162 Time: +6.86s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 162 Uid: 162 TXtime: +6.86e+09ns RXtime: +6.86853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 163 Time: +6.89s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 163 Uid: 163 TXtime: +6.89e+09ns RXtime: +6.89853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 164 Time: +6.92s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 164 Uid: 164 TXtime: +6.92e+09ns RXtime: +6.92853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 165 Time: +6.95s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 165 Uid: 165 TXtime: +6.95e+09ns RXtime: +6.95853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 166 Time: +6.98s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 166 Uid: 166 TXtime: +6.98e+09ns RXtime: +6.98853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 167 Time: +7.01s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 167 Uid: 167 TXtime: +7.01e+09ns RXtime: +7.01853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 168 Time: +7.04s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 168 Uid: 168 TXtime: +7.04e+09ns RXtime: +7.04853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 169 Time: +7.07s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 169 Uid: 169 TXtime: +7.07e+09ns RXtime: +7.07853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 170 Time: +7.1s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 170 Uid: 170 TXtime: +7.1e+09ns RXtime: +7.10853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 171 Time: +7.13s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 171 Uid: 171 TXtime: +7.13e+09ns RXtime: +7.13853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 172 Time: +7.16s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 172 Uid: 172 TXtime: +7.16e+09ns RXtime: +7.16853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 173 Time: +7.19s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 173 Uid: 173 TXtime: +7.19e+09ns RXtime: +7.19853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 174 Time: +7.22s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 174 Uid: 174 TXtime: +7.22e+09ns RXtime: +7.22853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 175 Time: +7.25s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 175 Uid: 175 TXtime: +7.25e+09ns RXtime: +7.25853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 176 Time: +7.28s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 176 Uid: 176 TXtime: +7.28e+09ns RXtime: +7.28853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 177 Time: +7.31s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 177 Uid: 177 TXtime: +7.31e+09ns RXtime: +7.31853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 178 Time: +7.34s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 178 Uid: 178 TXtime: +7.34e+09ns RXtime: +7.34853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 179 Time: +7.37s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 179 Uid: 179 TXtime: +7.37e+09ns RXtime: +7.37853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 180 Time: +7.4s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 180 Uid: 180 TXtime: +7.4e+09ns RXtime: +7.40853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 181 Time: +7.43s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 181 Uid: 181 TXtime: +7.43e+09ns RXtime: +7.43853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 182 Time: +7.46s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 182 Uid: 182 TXtime: +7.46e+09ns RXtime: +7.46853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 183 Time: +7.49s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 183 Uid: 183 TXtime: +7.49e+09ns RXtime: +7.49853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 184 Time: +7.52s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 184 Uid: 184 TXtime: +7.52e+09ns RXtime: +7.52853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 185 Time: +7.55s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 185 Uid: 185 TXtime: +7.55e+09ns RXtime: +7.55853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 186 Time: +7.58s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 186 Uid: 186 TXtime: +7.58e+09ns RXtime: +7.58853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 187 Time: +7.61s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 187 Uid: 187 TXtime: +7.61e+09ns RXtime: +7.61853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 188 Time: +7.64s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 188 Uid: 188 TXtime: +7.64e+09ns RXtime: +7.64853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 189 Time: +7.67s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 189 Uid: 189 TXtime: +7.67e+09ns RXtime: +7.67853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 190 Time: +7.7s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 190 Uid: 190 TXtime: +7.7e+09ns RXtime: +7.70853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 191 Time: +7.73s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 191 Uid: 191 TXtime: +7.73e+09ns RXtime: +7.73853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 192 Time: +7.76s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 192 Uid: 192 TXtime: +7.76e+09ns RXtime: +7.76853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 193 Time: +7.79s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 193 Uid: 193 TXtime: +7.79e+09ns RXtime: +7.79853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 194 Time: +7.82s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 194 Uid: 194 TXtime: +7.82e+09ns RXtime: +7.82853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 195 Time: +7.85s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 195 Uid: 195 TXtime: +7.85e+09ns RXtime: +7.85853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 196 Time: +7.88s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 196 Uid: 196 TXtime: +7.88e+09ns RXtime: +7.88853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 197 Time: +7.91s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 197 Uid: 197 TXtime: +7.91e+09ns RXtime: +7.91853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 198 Time: +7.94s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 198 Uid: 198 TXtime: +7.94e+09ns RXtime: +7.94853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 199 Time: +7.97s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 199 Uid: 199 TXtime: +7.97e+09ns RXtime: +7.97853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 200 Time: +8s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 200 Uid: 200 TXtime: +8e+09ns RXtime: +8.00853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 201 Time: +8.03s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 201 Uid: 201 TXtime: +8.03e+09ns RXtime: +8.03853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 202 Time: +8.06s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 202 Uid: 202 TXtime: +8.06e+09ns RXtime: +8.06853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 203 Time: +8.09s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 203 Uid: 203 TXtime: +8.09e+09ns RXtime: +8.09853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 204 Time: +8.12s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 204 Uid: 204 TXtime: +8.12e+09ns RXtime: +8.12853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 205 Time: +8.15s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 205 Uid: 205 TXtime: +8.15e+09ns RXtime: +8.15853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 206 Time: +8.18s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 206 Uid: 206 TXtime: +8.18e+09ns RXtime: +8.18853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 207 Time: +8.21s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 207 Uid: 207 TXtime: +8.21e+09ns RXtime: +8.21853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 208 Time: +8.24s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 208 Uid: 208 TXtime: +8.24e+09ns RXtime: +8.24853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 209 Time: +8.27s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 209 Uid: 209 TXtime: +8.27e+09ns RXtime: +8.27853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 210 Time: +8.3s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 210 Uid: 210 TXtime: +8.3e+09ns RXtime: +8.30853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 211 Time: +8.33s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 211 Uid: 211 TXtime: +8.33e+09ns RXtime: +8.33853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 212 Time: +8.36s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 212 Uid: 212 TXtime: +8.36e+09ns RXtime: +8.36853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 213 Time: +8.39s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 213 Uid: 213 TXtime: +8.39e+09ns RXtime: +8.39853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 214 Time: +8.42s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 214 Uid: 214 TXtime: +8.42e+09ns RXtime: +8.42853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 215 Time: +8.45s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 215 Uid: 215 TXtime: +8.45e+09ns RXtime: +8.45853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 216 Time: +8.48s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 216 Uid: 216 TXtime: +8.48e+09ns RXtime: +8.48853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 217 Time: +8.51s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 217 Uid: 217 TXtime: +8.51e+09ns RXtime: +8.51853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 218 Time: +8.54s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 218 Uid: 218 TXtime: +8.54e+09ns RXtime: +8.54853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 219 Time: +8.57s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 219 Uid: 219 TXtime: +8.57e+09ns RXtime: +8.57853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 220 Time: +8.6s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 220 Uid: 220 TXtime: +8.6e+09ns RXtime: +8.60853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 221 Time: +8.63s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 221 Uid: 221 TXtime: +8.63e+09ns RXtime: +8.63853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 222 Time: +8.66s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 222 Uid: 222 TXtime: +8.66e+09ns RXtime: +8.66853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 223 Time: +8.69s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 223 Uid: 223 TXtime: +8.69e+09ns RXtime: +8.69853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 224 Time: +8.72s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 224 Uid: 224 TXtime: +8.72e+09ns RXtime: +8.72853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 225 Time: +8.75s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 225 Uid: 225 TXtime: +8.75e+09ns RXtime: +8.75853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 226 Time: +8.78s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 226 Uid: 226 TXtime: +8.78e+09ns RXtime: +8.78853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 227 Time: +8.81s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 227 Uid: 227 TXtime: +8.81e+09ns RXtime: +8.81853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 228 Time: +8.84s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 228 Uid: 228 TXtime: +8.84e+09ns RXtime: +8.84853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 229 Time: +8.87s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 229 Uid: 229 TXtime: +8.87e+09ns RXtime: +8.87853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 230 Time: +8.9s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 230 Uid: 230 TXtime: +8.9e+09ns RXtime: +8.90853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 231 Time: +8.93s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 231 Uid: 231 TXtime: +8.93e+09ns RXtime: +8.93853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 232 Time: +8.96s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 232 Uid: 232 TXtime: +8.96e+09ns RXtime: +8.96853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 233 Time: +8.99s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 233 Uid: 233 TXtime: +8.99e+09ns RXtime: +8.99853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 234 Time: +9.02s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 234 Uid: 234 TXtime: +9.02e+09ns RXtime: +9.02853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 235 Time: +9.05s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 235 Uid: 235 TXtime: +9.05e+09ns RXtime: +9.05853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 236 Time: +9.08s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 236 Uid: 236 TXtime: +9.08e+09ns RXtime: +9.08853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 237 Time: +9.11s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 237 Uid: 237 TXtime: +9.11e+09ns RXtime: +9.11853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 238 Time: +9.14s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 238 Uid: 238 TXtime: +9.14e+09ns RXtime: +9.14853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 239 Time: +9.17s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 239 Uid: 239 TXtime: +9.17e+09ns RXtime: +9.17853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 240 Time: +9.2s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 240 Uid: 240 TXtime: +9.2e+09ns RXtime: +9.20853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 241 Time: +9.23s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 241 Uid: 241 TXtime: +9.23e+09ns RXtime: +9.23853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 242 Time: +9.26s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 242 Uid: 242 TXtime: +9.26e+09ns RXtime: +9.26853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 243 Time: +9.29s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 243 Uid: 243 TXtime: +9.29e+09ns RXtime: +9.29853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 244 Time: +9.32s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 244 Uid: 244 TXtime: +9.32e+09ns RXtime: +9.32853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 245 Time: +9.35s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 245 Uid: 245 TXtime: +9.35e+09ns RXtime: +9.35853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 246 Time: +9.38s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 246 Uid: 246 TXtime: +9.38e+09ns RXtime: +9.38853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 247 Time: +9.41s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 247 Uid: 247 TXtime: +9.41e+09ns RXtime: +9.41853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 248 Time: +9.44s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 248 Uid: 248 TXtime: +9.44e+09ns RXtime: +9.44853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 249 Time: +9.47s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 249 Uid: 249 TXtime: +9.47e+09ns RXtime: +9.47853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 250 Time: +9.5s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 250 Uid: 250 TXtime: +9.5e+09ns RXtime: +9.50853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 251 Time: +9.53s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 251 Uid: 251 TXtime: +9.53e+09ns RXtime: +9.53853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 252 Time: +9.56s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 252 Uid: 252 TXtime: +9.56e+09ns RXtime: +9.56853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 253 Time: +9.59s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 253 Uid: 253 TXtime: +9.59e+09ns RXtime: +9.59853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 254 Time: +9.62s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 254 Uid: 254 TXtime: +9.62e+09ns RXtime: +9.62853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 255 Time: +9.65s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 255 Uid: 255 TXtime: +9.65e+09ns RXtime: +9.65853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 256 Time: +9.68s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 256 Uid: 256 TXtime: +9.68e+09ns RXtime: +9.68853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 257 Time: +9.71s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 257 Uid: 257 TXtime: +9.71e+09ns RXtime: +9.71853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 258 Time: +9.74s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 258 Uid: 258 TXtime: +9.74e+09ns RXtime: +9.74853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 259 Time: +9.77s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 259 Uid: 259 TXtime: +9.77e+09ns RXtime: +9.77853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 260 Time: +9.8s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 260 Uid: 260 TXtime: +9.8e+09ns RXtime: +9.80853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 261 Time: +9.83s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 261 Uid: 261 TXtime: +9.83e+09ns RXtime: +9.83853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 262 Time: +9.86s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 262 Uid: 262 TXtime: +9.86e+09ns RXtime: +9.86853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 263 Time: +9.89s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 263 Uid: 263 TXtime: +9.89e+09ns RXtime: +9.89853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 264 Time: +9.92s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 264 Uid: 264 TXtime: +9.92e+09ns RXtime: +9.92853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 265 Time: +9.95s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 265 Uid: 265 TXtime: +9.95e+09ns RXtime: +9.95853e+09ns Delay: +8.5296e+06ns
+TraceDelay TX 1024 bytes to 10.1.3.2 Uid: 266 Time: +9.98s
+TraceDelay: RX 1024 bytes from 10.1.1.1 Sequence Number: 266 Uid: 266 TXtime: +9.98e+09ns RXtime: +9.98853e+09ns Delay: +8.5296e+06ns

@@ -1,0 +1,1966 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_FewShot_Openai_101.dir/auto_FewShot_Openai_101.cc.o
+[2/2] Linking CXX executable ../build/scratch/ns3.41-auto_FewShot_Openai_101-default
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_FewShot_Openai_101
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+At time +0.50375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 210 bytes
+At time +0.50375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 210 bytes
+At time +0.5075s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 420 bytes
+At time +0.5075s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 420 bytes
+At time +0.51125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 630 bytes
+At time +0.51125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 630 bytes
+At time +0.515s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 840 bytes
+At time +0.515s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 840 bytes
+At time +0.517414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 210 bytes
+At time +0.517414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 210 bytes
+At time +0.51875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 1050 bytes
+At time +0.51875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 1050 bytes
+At time +0.521164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 420 bytes
+At time +0.521164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 420 bytes
+At time +0.5225s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 1260 bytes
+At time +0.5225s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 1260 bytes
+At time +0.524914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 630 bytes
+At time +0.524914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 630 bytes
+At time +0.52625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 1470 bytes
+At time +0.52625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 1470 bytes
+At time +0.528664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 840 bytes
+At time +0.528664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 840 bytes
+At time +0.53s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 1680 bytes
+At time +0.53s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 1680 bytes
+At time +0.532414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1050 bytes
+At time +0.532414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 1050 bytes
+At time +0.53375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 1890 bytes
+At time +0.53375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 1890 bytes
+At time +0.536164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1260 bytes
+At time +0.536164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 1260 bytes
+At time +0.5375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 2100 bytes
+At time +0.5375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 2100 bytes
+At time +0.539914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1470 bytes
+At time +0.539914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 1470 bytes
+At time +0.54125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 2310 bytes
+At time +0.54125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 2310 bytes
+At time +0.543664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1680 bytes
+At time +0.543664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 1680 bytes
+At time +0.545s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 2520 bytes
+At time +0.545s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 2520 bytes
+At time +0.547414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1890 bytes
+At time +0.547414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 1890 bytes
+At time +0.54875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 2730 bytes
+At time +0.54875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 2730 bytes
+At time +0.551164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2100 bytes
+At time +0.551164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 2100 bytes
+At time +0.5525s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 2940 bytes
+At time +0.5525s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 2940 bytes
+At time +0.554914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2310 bytes
+At time +0.554914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 2310 bytes
+At time +0.55625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 3150 bytes
+At time +0.55625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 3150 bytes
+At time +0.558664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2520 bytes
+At time +0.558664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 2520 bytes
+At time +0.56s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 3360 bytes
+At time +0.56s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 3360 bytes
+At time +0.562414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2730 bytes
+At time +0.562414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 2730 bytes
+At time +0.56375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 3570 bytes
+At time +0.56375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 3570 bytes
+At time +0.566164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2940 bytes
+At time +0.566164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 2940 bytes
+At time +0.5675s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 3780 bytes
+At time +0.5675s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 3780 bytes
+At time +0.569914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3150 bytes
+At time +0.569914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 3150 bytes
+At time +0.57125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 3990 bytes
+At time +0.57125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 3990 bytes
+At time +0.573664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3360 bytes
+At time +0.573664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 3360 bytes
+At time +0.575s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 4200 bytes
+At time +0.575s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 4200 bytes
+At time +0.577414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3570 bytes
+At time +0.577414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 3570 bytes
+At time +0.57875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 4410 bytes
+At time +0.57875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 4410 bytes
+At time +0.581164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3780 bytes
+At time +0.581164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 3780 bytes
+At time +0.5825s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 4620 bytes
+At time +0.5825s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 4620 bytes
+At time +0.584914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3990 bytes
+At time +0.584914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 3990 bytes
+At time +0.58625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 4830 bytes
+At time +0.58625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 4830 bytes
+At time +0.588664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 4200 bytes
+At time +0.588664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 4200 bytes
+At time +0.59s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 5040 bytes
+At time +0.59s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 5040 bytes
+At time +0.592414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 4410 bytes
+At time +0.592414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 4410 bytes
+At time +0.59375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 5250 bytes
+At time +0.59375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 5250 bytes
+At time +0.596164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 4620 bytes
+At time +0.596164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 4620 bytes
+At time +0.5975s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 5460 bytes
+At time +0.5975s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 5460 bytes
+At time +0.599914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 4830 bytes
+At time +0.599914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 4830 bytes
+At time +0.60125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 5670 bytes
+At time +0.60125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 5670 bytes
+At time +0.603664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5040 bytes
+At time +0.603664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 5040 bytes
+At time +0.605s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 5880 bytes
+At time +0.605s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 5880 bytes
+At time +0.607414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5250 bytes
+At time +0.607414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 5250 bytes
+At time +0.60875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 6090 bytes
+At time +0.60875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 6090 bytes
+At time +0.611164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5460 bytes
+At time +0.611164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 5460 bytes
+At time +0.6125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 6300 bytes
+At time +0.6125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 6300 bytes
+At time +0.614914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5670 bytes
+At time +0.614914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 5670 bytes
+At time +0.61625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 6510 bytes
+At time +0.61625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 6510 bytes
+At time +0.618664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5880 bytes
+At time +0.618664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 5880 bytes
+At time +0.62s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 6720 bytes
+At time +0.62s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 6720 bytes
+At time +0.622414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6090 bytes
+At time +0.622414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 6090 bytes
+At time +0.62375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 6930 bytes
+At time +0.62375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 6930 bytes
+At time +0.626164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6300 bytes
+At time +0.626164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 6300 bytes
+At time +0.6275s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 7140 bytes
+At time +0.6275s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 7140 bytes
+At time +0.629914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6510 bytes
+At time +0.629914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 6510 bytes
+At time +0.63125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 7350 bytes
+At time +0.63125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 7350 bytes
+At time +0.633664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6720 bytes
+At time +0.633664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 6720 bytes
+At time +0.635s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 7560 bytes
+At time +0.635s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 7560 bytes
+At time +0.637414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6930 bytes
+At time +0.637414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 6930 bytes
+At time +0.63875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 7770 bytes
+At time +0.63875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 7770 bytes
+At time +0.641164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7140 bytes
+At time +0.641164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 7140 bytes
+At time +0.6425s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 7980 bytes
+At time +0.6425s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 7980 bytes
+At time +0.644914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7350 bytes
+At time +0.644914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 7350 bytes
+At time +0.64625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 8190 bytes
+At time +0.64625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 8190 bytes
+At time +0.648664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7560 bytes
+At time +0.648664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 7560 bytes
+At time +0.65s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 8400 bytes
+At time +0.65s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 8400 bytes
+At time +0.652414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7770 bytes
+At time +0.652414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 7770 bytes
+At time +0.65375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 8610 bytes
+At time +0.65375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 8610 bytes
+At time +0.656164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7980 bytes
+At time +0.656164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 7980 bytes
+At time +0.6575s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 8820 bytes
+At time +0.6575s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 8820 bytes
+At time +0.659914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 8190 bytes
+At time +0.659914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 8190 bytes
+At time +0.66125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 9030 bytes
+At time +0.66125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 9030 bytes
+At time +0.663664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 8400 bytes
+At time +0.663664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 8400 bytes
+At time +0.665s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 9240 bytes
+At time +0.665s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 9240 bytes
+At time +0.667414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 8610 bytes
+At time +0.667414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 8610 bytes
+At time +0.66875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 9450 bytes
+At time +0.66875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 9450 bytes
+At time +0.671164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 8820 bytes
+At time +0.671164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 8820 bytes
+At time +0.6725s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 9660 bytes
+At time +0.6725s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 9660 bytes
+At time +0.674914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9030 bytes
+At time +0.674914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 9030 bytes
+At time +0.67625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 9870 bytes
+At time +0.67625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 9870 bytes
+At time +0.678664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9240 bytes
+At time +0.678664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 9240 bytes
+At time +0.68s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 10080 bytes
+At time +0.68s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 10080 bytes
+At time +0.682414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9450 bytes
+At time +0.682414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 9450 bytes
+At time +0.68375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 10290 bytes
+At time +0.68375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 10290 bytes
+At time +0.686164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9660 bytes
+At time +0.686164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 9660 bytes
+At time +0.6875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 10500 bytes
+At time +0.6875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 10500 bytes
+At time +0.689914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9870 bytes
+At time +0.689914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 9870 bytes
+At time +0.69125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 10710 bytes
+At time +0.69125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 10710 bytes
+At time +0.693664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10080 bytes
+At time +0.693664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 10080 bytes
+At time +0.695s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 10920 bytes
+At time +0.695s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 10920 bytes
+At time +0.697414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10290 bytes
+At time +0.697414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 10290 bytes
+At time +0.69875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 11130 bytes
+At time +0.69875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 11130 bytes
+At time +0.701164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10500 bytes
+At time +0.701164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 10500 bytes
+At time +0.7025s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 11340 bytes
+At time +0.7025s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 11340 bytes
+At time +0.704914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10710 bytes
+At time +0.704914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 10710 bytes
+At time +0.70625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 11550 bytes
+At time +0.70625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 11550 bytes
+At time +0.708664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10920 bytes
+At time +0.708664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 10920 bytes
+At time +0.71s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 11760 bytes
+At time +0.71s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 11760 bytes
+At time +0.712414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11130 bytes
+At time +0.712414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 11130 bytes
+At time +0.71375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 11970 bytes
+At time +0.71375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 11970 bytes
+At time +0.716164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11340 bytes
+At time +0.716164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 11340 bytes
+At time +0.7175s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 12180 bytes
+At time +0.7175s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 12180 bytes
+At time +0.719914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11550 bytes
+At time +0.719914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 11550 bytes
+At time +0.72125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 12390 bytes
+At time +0.72125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 12390 bytes
+At time +0.723664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11760 bytes
+At time +0.723664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 11760 bytes
+At time +0.725s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 12600 bytes
+At time +0.725s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 12600 bytes
+At time +0.727414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11970 bytes
+At time +0.727414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 11970 bytes
+At time +0.72875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 12810 bytes
+At time +0.72875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 12810 bytes
+At time +0.731164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 12180 bytes
+At time +0.731164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 12180 bytes
+At time +0.7325s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 13020 bytes
+At time +0.7325s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 13020 bytes
+At time +0.734914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 12390 bytes
+At time +0.734914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 12390 bytes
+At time +0.73625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 13230 bytes
+At time +0.73625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 13230 bytes
+At time +0.738664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 12600 bytes
+At time +0.738664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 12600 bytes
+At time +0.74s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 13440 bytes
+At time +0.74s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 13440 bytes
+At time +0.742414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 12810 bytes
+At time +0.742414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 12810 bytes
+At time +0.74375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 13650 bytes
+At time +0.74375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 13650 bytes
+At time +0.746164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13020 bytes
+At time +0.746164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 13020 bytes
+At time +0.7475s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 13860 bytes
+At time +0.7475s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 13860 bytes
+At time +0.749914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13230 bytes
+At time +0.749914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 13230 bytes
+At time +0.75125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 14070 bytes
+At time +0.75125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 14070 bytes
+At time +0.753664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13440 bytes
+At time +0.753664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 13440 bytes
+At time +0.755s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 14280 bytes
+At time +0.755s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 14280 bytes
+At time +0.757414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13650 bytes
+At time +0.757414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 13650 bytes
+At time +0.75875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 14490 bytes
+At time +0.75875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 14490 bytes
+At time +0.761164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13860 bytes
+At time +0.761164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 13860 bytes
+At time +0.7625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 14700 bytes
+At time +0.7625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 14700 bytes
+At time +0.764914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14070 bytes
+At time +0.764914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 14070 bytes
+At time +0.76625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 14910 bytes
+At time +0.76625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 14910 bytes
+At time +0.768664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14280 bytes
+At time +0.768664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 14280 bytes
+At time +0.77s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 15120 bytes
+At time +0.77s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 15120 bytes
+At time +0.772414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14490 bytes
+At time +0.772414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 14490 bytes
+At time +0.77375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 15330 bytes
+At time +0.77375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 15330 bytes
+At time +0.776164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14700 bytes
+At time +0.776164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 14700 bytes
+At time +0.7775s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 15540 bytes
+At time +0.7775s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 15540 bytes
+At time +0.779914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14910 bytes
+At time +0.779914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 14910 bytes
+At time +0.78125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 15750 bytes
+At time +0.78125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 15750 bytes
+At time +0.783664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 15120 bytes
+At time +0.783664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 15120 bytes
+At time +0.785s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 15960 bytes
+At time +0.785s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 15960 bytes
+At time +0.787414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 15330 bytes
+At time +0.787414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 15330 bytes
+At time +0.78875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 16170 bytes
+At time +0.78875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 16170 bytes
+At time +0.791164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 15540 bytes
+At time +0.791164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 15540 bytes
+At time +0.7925s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 16380 bytes
+At time +0.7925s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 16380 bytes
+At time +0.794914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 15750 bytes
+At time +0.794914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 15750 bytes
+At time +0.79625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 16590 bytes
+At time +0.79625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 16590 bytes
+At time +0.798664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 15960 bytes
+At time +0.798664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 15960 bytes
+At time +0.8s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 16800 bytes
+At time +0.8s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 16800 bytes
+At time +0.802414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 16170 bytes
+At time +0.802414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 16170 bytes
+At time +0.80375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 17010 bytes
+At time +0.80375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 17010 bytes
+At time +0.806164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 16380 bytes
+At time +0.806164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 16380 bytes
+At time +0.8075s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 17220 bytes
+At time +0.8075s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 17220 bytes
+At time +0.809914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 16590 bytes
+At time +0.809914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 16590 bytes
+At time +0.81125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 17430 bytes
+At time +0.81125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 17430 bytes
+At time +0.813664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 16800 bytes
+At time +0.813664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 16800 bytes
+At time +0.815s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 17640 bytes
+At time +0.815s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 17640 bytes
+At time +0.817414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 17010 bytes
+At time +0.817414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 17010 bytes
+At time +0.81875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 17850 bytes
+At time +0.81875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 17850 bytes
+At time +0.821164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 17220 bytes
+At time +0.821164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 17220 bytes
+At time +0.8225s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 18060 bytes
+At time +0.8225s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 18060 bytes
+At time +0.824914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 17430 bytes
+At time +0.824914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 17430 bytes
+At time +0.82625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 18270 bytes
+At time +0.82625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 18270 bytes
+At time +0.828664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 17640 bytes
+At time +0.828664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 17640 bytes
+At time +0.83s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 18480 bytes
+At time +0.83s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 18480 bytes
+At time +0.832414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 17850 bytes
+At time +0.832414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 17850 bytes
+At time +0.83375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 18690 bytes
+At time +0.83375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 18690 bytes
+At time +0.836164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 18060 bytes
+At time +0.836164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 18060 bytes
+At time +0.8375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 18900 bytes
+At time +0.8375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 18900 bytes
+At time +0.839914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 18270 bytes
+At time +0.839914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 18270 bytes
+At time +0.84125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 19110 bytes
+At time +0.84125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 19110 bytes
+At time +0.843664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 18480 bytes
+At time +0.843664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 18480 bytes
+At time +0.845s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 19320 bytes
+At time +0.845s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 19320 bytes
+At time +0.847414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 18690 bytes
+At time +0.847414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 18690 bytes
+At time +0.84875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 19530 bytes
+At time +0.84875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 19530 bytes
+At time +0.851164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 18900 bytes
+At time +0.851164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 18900 bytes
+At time +0.8525s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 19740 bytes
+At time +0.8525s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 19740 bytes
+At time +0.854914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 19110 bytes
+At time +0.854914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 19110 bytes
+At time +0.85625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 19950 bytes
+At time +0.85625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 19950 bytes
+At time +0.858664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 19320 bytes
+At time +0.858664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 19320 bytes
+At time +0.86s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 20160 bytes
+At time +0.86s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 20160 bytes
+At time +0.862414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 19530 bytes
+At time +0.862414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 19530 bytes
+At time +0.86375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 20370 bytes
+At time +0.86375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 20370 bytes
+At time +0.866164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 19740 bytes
+At time +0.866164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 19740 bytes
+At time +0.8675s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 20580 bytes
+At time +0.8675s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 20580 bytes
+At time +0.869914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 19950 bytes
+At time +0.869914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 19950 bytes
+At time +0.87125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 20790 bytes
+At time +0.87125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 20790 bytes
+At time +0.873664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 20160 bytes
+At time +0.873664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 20160 bytes
+At time +0.875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 21000 bytes
+At time +0.875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 21000 bytes
+At time +0.877414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 20370 bytes
+At time +0.877414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 20370 bytes
+At time +0.87875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 21210 bytes
+At time +0.87875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 21210 bytes
+At time +0.881164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 20580 bytes
+At time +0.881164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 20580 bytes
+At time +0.8825s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 21420 bytes
+At time +0.8825s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 21420 bytes
+At time +0.884914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 20790 bytes
+At time +0.884914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 20790 bytes
+At time +0.88625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 21630 bytes
+At time +0.88625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 21630 bytes
+At time +0.888664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 21000 bytes
+At time +0.888664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 21000 bytes
+At time +0.89s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 21840 bytes
+At time +0.89s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 21840 bytes
+At time +0.892414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 21210 bytes
+At time +0.892414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 21210 bytes
+At time +0.89375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 22050 bytes
+At time +0.89375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 22050 bytes
+At time +0.896164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 21420 bytes
+At time +0.896164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 21420 bytes
+At time +0.8975s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 22260 bytes
+At time +0.8975s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 22260 bytes
+At time +0.899914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 21630 bytes
+At time +0.899914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 21630 bytes
+At time +0.90125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 22470 bytes
+At time +0.90125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 22470 bytes
+At time +0.903664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 21840 bytes
+At time +0.903664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 21840 bytes
+At time +0.905s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 22680 bytes
+At time +0.905s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 22680 bytes
+At time +0.907414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 22050 bytes
+At time +0.907414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 22050 bytes
+At time +0.90875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 22890 bytes
+At time +0.90875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 22890 bytes
+At time +0.911164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 22260 bytes
+At time +0.911164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 22260 bytes
+At time +0.9125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 23100 bytes
+At time +0.9125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 23100 bytes
+At time +0.914914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 22470 bytes
+At time +0.914914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 22470 bytes
+At time +0.91625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 23310 bytes
+At time +0.91625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 23310 bytes
+At time +0.918664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 22680 bytes
+At time +0.918664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 22680 bytes
+At time +0.92s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 23520 bytes
+At time +0.92s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 23520 bytes
+At time +0.922414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 22890 bytes
+At time +0.922414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 22890 bytes
+At time +0.92375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 23730 bytes
+At time +0.92375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 23730 bytes
+At time +0.926164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 23100 bytes
+At time +0.926164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 23100 bytes
+At time +0.9275s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 23940 bytes
+At time +0.9275s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 23940 bytes
+At time +0.929914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 23310 bytes
+At time +0.929914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 23310 bytes
+At time +0.93125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 24150 bytes
+At time +0.93125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 24150 bytes
+At time +0.933664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 23520 bytes
+At time +0.933664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 23520 bytes
+At time +0.935s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 24360 bytes
+At time +0.935s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 24360 bytes
+At time +0.937414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 23730 bytes
+At time +0.937414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 23730 bytes
+At time +0.93875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 24570 bytes
+At time +0.93875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 24570 bytes
+At time +0.941164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 23940 bytes
+At time +0.941164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 23940 bytes
+At time +0.9425s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 24780 bytes
+At time +0.9425s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 24780 bytes
+At time +0.944914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 24150 bytes
+At time +0.944914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 24150 bytes
+At time +0.94625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 24990 bytes
+At time +0.94625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 24990 bytes
+At time +0.948664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 24360 bytes
+At time +0.948664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 24360 bytes
+At time +0.95s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 25200 bytes
+At time +0.95s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 25200 bytes
+At time +0.952414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 24570 bytes
+At time +0.952414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 24570 bytes
+At time +0.95375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 25410 bytes
+At time +0.95375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 25410 bytes
+At time +0.956164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 24780 bytes
+At time +0.956164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 24780 bytes
+At time +0.9575s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 25620 bytes
+At time +0.9575s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 25620 bytes
+At time +0.959914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 24990 bytes
+At time +0.959914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 24990 bytes
+At time +0.96125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 25830 bytes
+At time +0.96125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 25830 bytes
+At time +0.963664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 25200 bytes
+At time +0.963664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 25200 bytes
+At time +0.965s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 26040 bytes
+At time +0.965s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 26040 bytes
+At time +0.967414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 25410 bytes
+At time +0.967414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 25410 bytes
+At time +0.96875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 26250 bytes
+At time +0.96875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 26250 bytes
+At time +0.971164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 25620 bytes
+At time +0.971164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 25620 bytes
+At time +0.9725s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 26460 bytes
+At time +0.9725s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 26460 bytes
+At time +0.974914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 25830 bytes
+At time +0.974914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 25830 bytes
+At time +0.97625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 26670 bytes
+At time +0.97625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 26670 bytes
+At time +0.978664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 26040 bytes
+At time +0.978664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 26040 bytes
+At time +0.98s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 26880 bytes
+At time +0.98s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 26880 bytes
+At time +0.982414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 26250 bytes
+At time +0.982414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 26250 bytes
+At time +0.98375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 27090 bytes
+At time +0.98375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 27090 bytes
+At time +0.986164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 26460 bytes
+At time +0.986164s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 26460 bytes
+At time +0.9875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 27300 bytes
+At time +0.9875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 27300 bytes
+At time +0.989914s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 26670 bytes
+At time +0.989914s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 26670 bytes
+At time +0.99125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 27510 bytes
+At time +0.99125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 27510 bytes
+At time +0.993664s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 26880 bytes
+At time +0.993664s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 26880 bytes
+At time +0.995s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 27720 bytes
+At time +0.995s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 27720 bytes
+At time +0.997414s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 27090 bytes
+At time +0.997414s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 27090 bytes
+At time +0.99875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 27930 bytes
+At time +0.99875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 27930 bytes
+At time +1.00116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 27300 bytes
+At time +1.00116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 27300 bytes
+At time +1.0025s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 28140 bytes
+At time +1.0025s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 28140 bytes
+At time +1.00491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 27510 bytes
+At time +1.00491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 27510 bytes
+At time +1.00625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 28350 bytes
+At time +1.00625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 28350 bytes
+At time +1.00866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 27720 bytes
+At time +1.00866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 27720 bytes
+At time +1.01s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 28560 bytes
+At time +1.01s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 28560 bytes
+At time +1.01241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 27930 bytes
+At time +1.01241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 27930 bytes
+At time +1.01375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 28770 bytes
+At time +1.01375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 28770 bytes
+At time +1.01616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 28140 bytes
+At time +1.01616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 28140 bytes
+At time +1.0175s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 28980 bytes
+At time +1.0175s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 28980 bytes
+At time +1.01991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 28350 bytes
+At time +1.01991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 28350 bytes
+At time +1.02125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 29190 bytes
+At time +1.02125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 29190 bytes
+At time +1.02366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 28560 bytes
+At time +1.02366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 28560 bytes
+At time +1.025s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 29400 bytes
+At time +1.025s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 29400 bytes
+At time +1.02741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 28770 bytes
+At time +1.02741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 28770 bytes
+At time +1.02875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 29610 bytes
+At time +1.02875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 29610 bytes
+At time +1.03116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 28980 bytes
+At time +1.03116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 28980 bytes
+At time +1.0325s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 29820 bytes
+At time +1.0325s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 29820 bytes
+At time +1.03491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 29190 bytes
+At time +1.03491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 29190 bytes
+At time +1.03625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 30030 bytes
+At time +1.03625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 30030 bytes
+At time +1.03866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 29400 bytes
+At time +1.03866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 29400 bytes
+At time +1.04s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 30240 bytes
+At time +1.04s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 30240 bytes
+At time +1.04241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 29610 bytes
+At time +1.04241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 29610 bytes
+At time +1.04375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 30450 bytes
+At time +1.04375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 30450 bytes
+At time +1.04616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 29820 bytes
+At time +1.04616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 29820 bytes
+At time +1.0475s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 30660 bytes
+At time +1.0475s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 30660 bytes
+At time +1.04991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 30030 bytes
+At time +1.04991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 30030 bytes
+At time +1.05125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 30870 bytes
+At time +1.05125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 30870 bytes
+At time +1.05366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 30240 bytes
+At time +1.05366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 30240 bytes
+At time +1.055s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 31080 bytes
+At time +1.055s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 31080 bytes
+At time +1.05741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 30450 bytes
+At time +1.05741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 30450 bytes
+At time +1.05875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 31290 bytes
+At time +1.05875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 31290 bytes
+At time +1.06116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 30660 bytes
+At time +1.06116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 30660 bytes
+At time +1.0625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 31500 bytes
+At time +1.0625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 31500 bytes
+At time +1.06491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 30870 bytes
+At time +1.06491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 30870 bytes
+At time +1.06625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 31710 bytes
+At time +1.06625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 31710 bytes
+At time +1.06866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 31080 bytes
+At time +1.06866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 31080 bytes
+At time +1.07s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 31920 bytes
+At time +1.07s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 31920 bytes
+At time +1.07241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 31290 bytes
+At time +1.07241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 31290 bytes
+At time +1.07375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 32130 bytes
+At time +1.07375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 32130 bytes
+At time +1.07616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 31500 bytes
+At time +1.07616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 31500 bytes
+At time +1.0775s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 32340 bytes
+At time +1.0775s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 32340 bytes
+At time +1.07991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 31710 bytes
+At time +1.07991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 31710 bytes
+At time +1.08125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 32550 bytes
+At time +1.08125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 32550 bytes
+At time +1.08366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 31920 bytes
+At time +1.08366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 31920 bytes
+At time +1.085s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 32760 bytes
+At time +1.085s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 32760 bytes
+At time +1.08741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 32130 bytes
+At time +1.08741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 32130 bytes
+At time +1.08875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 32970 bytes
+At time +1.08875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 32970 bytes
+At time +1.09116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 32340 bytes
+At time +1.09116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 32340 bytes
+At time +1.0925s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 33180 bytes
+At time +1.0925s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 33180 bytes
+At time +1.09491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 32550 bytes
+At time +1.09491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 32550 bytes
+At time +1.09625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 33390 bytes
+At time +1.09625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 33390 bytes
+At time +1.09866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 32760 bytes
+At time +1.09866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 32760 bytes
+At time +1.1s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 33600 bytes
+At time +1.1s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 33600 bytes
+At time +1.10241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 32970 bytes
+At time +1.10241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 32970 bytes
+At time +1.10375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 33810 bytes
+At time +1.10375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 33810 bytes
+At time +1.10616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 33180 bytes
+At time +1.10616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 33180 bytes
+At time +1.1075s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 34020 bytes
+At time +1.1075s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 34020 bytes
+At time +1.10991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 33390 bytes
+At time +1.10991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 33390 bytes
+At time +1.11125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 34230 bytes
+At time +1.11125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 34230 bytes
+At time +1.11366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 33600 bytes
+At time +1.11366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 33600 bytes
+At time +1.115s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 34440 bytes
+At time +1.115s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 34440 bytes
+At time +1.11741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 33810 bytes
+At time +1.11741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 33810 bytes
+At time +1.11875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 34650 bytes
+At time +1.11875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 34650 bytes
+At time +1.12116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 34020 bytes
+At time +1.12116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 34020 bytes
+At time +1.1225s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 34860 bytes
+At time +1.1225s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 34860 bytes
+At time +1.12491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 34230 bytes
+At time +1.12491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 34230 bytes
+At time +1.12625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 35070 bytes
+At time +1.12625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 35070 bytes
+At time +1.12866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 34440 bytes
+At time +1.12866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 34440 bytes
+At time +1.13s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 35280 bytes
+At time +1.13s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 35280 bytes
+At time +1.13241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 34650 bytes
+At time +1.13241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 34650 bytes
+At time +1.13375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 35490 bytes
+At time +1.13375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 35490 bytes
+At time +1.13616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 34860 bytes
+At time +1.13616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 34860 bytes
+At time +1.1375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 35700 bytes
+At time +1.1375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 35700 bytes
+At time +1.13991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 35070 bytes
+At time +1.13991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 35070 bytes
+At time +1.14125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 35910 bytes
+At time +1.14125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 35910 bytes
+At time +1.14366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 35280 bytes
+At time +1.14366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 35280 bytes
+At time +1.145s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 36120 bytes
+At time +1.145s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 36120 bytes
+At time +1.14741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 35490 bytes
+At time +1.14741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 35490 bytes
+At time +1.14875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 36330 bytes
+At time +1.14875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 36330 bytes
+At time +1.15116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 35700 bytes
+At time +1.15116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 35700 bytes
+At time +1.1525s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 36540 bytes
+At time +1.1525s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 36540 bytes
+At time +1.15491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 35910 bytes
+At time +1.15491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 35910 bytes
+At time +1.15625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 36750 bytes
+At time +1.15625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 36750 bytes
+At time +1.15866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 36120 bytes
+At time +1.15866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 36120 bytes
+At time +1.16s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 36960 bytes
+At time +1.16s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 36960 bytes
+At time +1.16241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 36330 bytes
+At time +1.16241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 36330 bytes
+At time +1.16375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 37170 bytes
+At time +1.16375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 37170 bytes
+At time +1.16616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 36540 bytes
+At time +1.16616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 36540 bytes
+At time +1.1675s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 37380 bytes
+At time +1.1675s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 37380 bytes
+At time +1.16991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 36750 bytes
+At time +1.16991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 36750 bytes
+At time +1.17125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 37590 bytes
+At time +1.17125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 37590 bytes
+At time +1.17366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 36960 bytes
+At time +1.17366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 36960 bytes
+At time +1.175s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 37800 bytes
+At time +1.175s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 37800 bytes
+At time +1.17741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 37170 bytes
+At time +1.17741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 37170 bytes
+At time +1.17875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 38010 bytes
+At time +1.17875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 38010 bytes
+At time +1.18116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 37380 bytes
+At time +1.18116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 37380 bytes
+At time +1.1825s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 38220 bytes
+At time +1.1825s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 38220 bytes
+At time +1.18491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 37590 bytes
+At time +1.18491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 37590 bytes
+At time +1.18625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 38430 bytes
+At time +1.18625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 38430 bytes
+At time +1.18866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 37800 bytes
+At time +1.18866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 37800 bytes
+At time +1.19s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 38640 bytes
+At time +1.19s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 38640 bytes
+At time +1.19241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 38010 bytes
+At time +1.19241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 38010 bytes
+At time +1.19375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 38850 bytes
+At time +1.19375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 38850 bytes
+At time +1.19616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 38220 bytes
+At time +1.19616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 38220 bytes
+At time +1.1975s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 39060 bytes
+At time +1.1975s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 39060 bytes
+At time +1.19991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 38430 bytes
+At time +1.19991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 38430 bytes
+At time +1.20125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 39270 bytes
+At time +1.20125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 39270 bytes
+At time +1.20366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 38640 bytes
+At time +1.20366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 38640 bytes
+At time +1.205s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 39480 bytes
+At time +1.205s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 39480 bytes
+At time +1.20741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 38850 bytes
+At time +1.20741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 38850 bytes
+At time +1.20875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 39690 bytes
+At time +1.20875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 39690 bytes
+At time +1.21116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 39060 bytes
+At time +1.21116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 39060 bytes
+At time +1.2125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 39900 bytes
+At time +1.2125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 39900 bytes
+At time +1.21491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 39270 bytes
+At time +1.21491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 39270 bytes
+At time +1.21625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 40110 bytes
+At time +1.21625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 40110 bytes
+At time +1.21866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 39480 bytes
+At time +1.21866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 39480 bytes
+At time +1.22s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 40320 bytes
+At time +1.22s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 40320 bytes
+At time +1.22241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 39690 bytes
+At time +1.22241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 39690 bytes
+At time +1.22375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 40530 bytes
+At time +1.22375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 40530 bytes
+At time +1.22616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 39900 bytes
+At time +1.22638s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 39900 bytes
+At time +1.22648s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 210 bytes
+At time +1.2275s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 40740 bytes
+At time +1.2275s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 40740 bytes
+At time +1.22816s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 420 bytes
+At time +1.22984s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 630 bytes
+At time +1.22991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 40110 bytes
+At time +1.22991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 40110 bytes
+At time +1.23125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 40950 bytes
+At time +1.23125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 40950 bytes
+At time +1.23152s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 840 bytes
+At time +1.2332s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 1050 bytes
+At time +1.23366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 40320 bytes
+At time +1.23366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 40320 bytes
+At time +1.23488s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 1260 bytes
+At time +1.235s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 41160 bytes
+At time +1.235s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 41160 bytes
+At time +1.23656s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 1470 bytes
+At time +1.23741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 40530 bytes
+At time +1.23741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 40530 bytes
+At time +1.23824s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 1680 bytes
+At time +1.23875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 41370 bytes
+At time +1.23875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 41370 bytes
+At time +1.23992s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 1890 bytes
+At time +1.24031s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 210 bytes
+At time +1.24116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 40740 bytes
+At time +1.24159s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 40740 bytes
+At time +1.2416s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 2100 bytes
+At time +1.2425s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 41580 bytes
+At time +1.2425s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 41580 bytes
+At time +1.243s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 420 bytes
+At time +1.24328s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 2310 bytes
+At time +1.24441s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 630 bytes
+At time +1.24491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 40950 bytes
+At time +1.24496s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 2520 bytes
+At time +1.24569s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 40950 bytes
+At time +1.24625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 41790 bytes
+At time +1.24625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 41790 bytes
+At time +1.24664s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 2730 bytes
+At time +1.2471s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 840 bytes
+At time +1.24832s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 2940 bytes
+At time +1.24851s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1050 bytes
+At time +1.24866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 41160 bytes
+At time +1.24991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1260 bytes
+At time +1.25s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 42000 bytes
+At time +1.25s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 42000 bytes
+At time +1.25s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 3150 bytes
+At time +1.25119s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 41160 bytes
+At time +1.25168s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 3360 bytes
+At time +1.25241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 41370 bytes
+At time +1.2526s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1470 bytes
+At time +1.25336s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 3570 bytes
+At time +1.25375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 42210 bytes
+At time +1.25375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 42210 bytes
+At time +1.25401s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1680 bytes
+At time +1.25504s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 3780 bytes
+At time +1.25529s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 41370 bytes
+At time +1.25616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 41580 bytes
+At time +1.2567s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 1890 bytes
+At time +1.25672s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 3990 bytes
+At time +1.2575s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 42420 bytes
+At time +1.2575s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 42420 bytes
+At time +1.25811s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2100 bytes
+At time +1.2584s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 4200 bytes
+At time +1.25939s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 41580 bytes
+At time +1.25991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 41790 bytes
+At time +1.26008s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 4410 bytes
+At time +1.26079s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2310 bytes
+At time +1.26125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 42630 bytes
+At time +1.26125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 42630 bytes
+At time +1.26176s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 4620 bytes
+At time +1.2622s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2520 bytes
+At time +1.26344s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 4830 bytes
+At time +1.26348s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 41790 bytes
+At time +1.26366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 42000 bytes
+At time +1.26489s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2730 bytes
+At time +1.265s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 42840 bytes
+At time +1.265s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 42840 bytes
+At time +1.26512s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 5040 bytes
+At time +1.2663s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 2940 bytes
+At time +1.2668s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 5250 bytes
+At time +1.26741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 42210 bytes
+At time +1.26758s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 42000 bytes
+At time +1.26848s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 5460 bytes
+At time +1.26875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 43050 bytes
+At time +1.26875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 43050 bytes
+At time +1.26899s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3150 bytes
+At time +1.27016s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 5670 bytes
+At time +1.27039s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3360 bytes
+At time +1.27116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 42420 bytes
+At time +1.2718s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3570 bytes
+At time +1.27184s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 5880 bytes
+At time +1.2725s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 43260 bytes
+At time +1.2725s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 43260 bytes
+At time +1.27308s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 42210 bytes
+At time +1.27352s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 6090 bytes
+At time +1.27449s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3780 bytes
+At time +1.27491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 42630 bytes
+At time +1.2752s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 6300 bytes
+At time +1.2759s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 3990 bytes
+At time +1.27625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 43470 bytes
+At time +1.27625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 43470 bytes
+At time +1.27688s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 6510 bytes
+At time +1.27718s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 42420 bytes
+At time +1.27856s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 6720 bytes
+At time +1.27859s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 4200 bytes
+At time +1.27884s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 42840 bytes
+At time +1.27999s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 4410 bytes
+At time +1.28s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 43680 bytes
+At time +1.28s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 43680 bytes
+At time +1.28024s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 6930 bytes
+At time +1.28127s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 42630 bytes
+At time +1.28192s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 7140 bytes
+At time +1.28241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 43050 bytes
+At time +1.28268s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 4620 bytes
+At time +1.2836s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 7350 bytes
+At time +1.28375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 43890 bytes
+At time +1.28375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 43890 bytes
+At time +1.28409s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 4830 bytes
+At time +1.28528s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 7560 bytes
+At time +1.28537s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 42840 bytes
+At time +1.28616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 43260 bytes
+At time +1.28678s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5040 bytes
+At time +1.28696s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 7770 bytes
+At time +1.2875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 44100 bytes
+At time +1.2875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 44100 bytes
+At time +1.28819s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5250 bytes
+At time +1.28864s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 7980 bytes
+At time +1.28959s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5460 bytes
+At time +1.28991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 43470 bytes
+At time +1.29032s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 8190 bytes
+At time +1.29087s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 43050 bytes
+At time +1.29125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 44310 bytes
+At time +1.29125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 44310 bytes
+At time +1.292s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 8400 bytes
+At time +1.29228s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5670 bytes
+At time +1.29368s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 8610 bytes
+At time +1.29369s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 5880 bytes
+At time +1.29395s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 43680 bytes
+At time +1.29497s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 43260 bytes
+At time +1.295s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 44520 bytes
+At time +1.295s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 44520 bytes
+At time +1.29536s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 8820 bytes
+At time +1.29638s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6090 bytes
+At time +1.29704s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 9030 bytes
+At time +1.29741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 43890 bytes
+At time +1.29779s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6300 bytes
+At time +1.29872s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 9240 bytes
+At time +1.29875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 44730 bytes
+At time +1.29875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 44730 bytes
+At time +1.29907s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 43470 bytes
+At time +1.3004s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 9450 bytes
+At time +1.30047s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6510 bytes
+At time +1.30116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 44100 bytes
+At time +1.30188s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6720 bytes
+At time +1.30208s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 9660 bytes
+At time +1.3025s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 44940 bytes
+At time +1.3025s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 44940 bytes
+At time +1.30316s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 43680 bytes
+At time +1.30376s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 9870 bytes
+At time +1.30457s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 6930 bytes
+At time +1.30491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 44310 bytes
+At time +1.30544s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 10080 bytes
+At time +1.30598s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7140 bytes
+At time +1.30625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 45150 bytes
+At time +1.30625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 45150 bytes
+At time +1.30712s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 10290 bytes
+At time +1.30739s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7350 bytes
+At time +1.30866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 44520 bytes
+At time +1.30867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 43890 bytes
+At time +1.3088s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 10500 bytes
+At time +1.31s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 45360 bytes
+At time +1.31s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 45360 bytes
+At time +1.31007s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7560 bytes
+At time +1.31048s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 10710 bytes
+At time +1.31148s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7770 bytes
+At time +1.31216s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 10920 bytes
+At time +1.31241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 44730 bytes
+At time +1.31276s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 44100 bytes
+At time +1.31375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 45570 bytes
+At time +1.31375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 45570 bytes
+At time +1.31384s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 11130 bytes
+At time +1.31417s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 7980 bytes
+At time +1.31552s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 11340 bytes
+At time +1.31558s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 8190 bytes
+At time +1.31616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 44940 bytes
+At time +1.31686s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 44310 bytes
+At time +1.3172s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 11550 bytes
+At time +1.3175s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 45780 bytes
+At time +1.3175s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 45780 bytes
+At time +1.31827s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 8400 bytes
+At time +1.31888s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 11760 bytes
+At time +1.31967s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 8610 bytes
+At time +1.31991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 45150 bytes
+At time +1.32056s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 11970 bytes
+At time +1.32095s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 44520 bytes
+At time +1.32125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 45990 bytes
+At time +1.32125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 45990 bytes
+At time +1.32224s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 12180 bytes
+At time +1.32236s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 8820 bytes
+At time +1.32366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 45360 bytes
+At time +1.32377s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9030 bytes
+At time +1.32392s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 12390 bytes
+At time +1.325s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 46200 bytes
+At time +1.325s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 46200 bytes
+At time +1.32518s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9240 bytes
+At time +1.3256s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 12600 bytes
+At time +1.32646s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 44730 bytes
+At time +1.32728s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 12810 bytes
+At time +1.32741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 45570 bytes
+At time +1.32787s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9450 bytes
+At time +1.32875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 46410 bytes
+At time +1.32875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 46410 bytes
+At time +1.32896s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 13020 bytes
+At time +1.32927s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9660 bytes
+At time +1.33055s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 44940 bytes
+At time +1.33064s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 13230 bytes
+At time +1.33116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 45780 bytes
+At time +1.33196s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 9870 bytes
+At time +1.33232s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 13440 bytes
+At time +1.3325s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 46620 bytes
+At time +1.3325s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 46620 bytes
+At time +1.33337s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10080 bytes
+At time +1.334s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 13650 bytes
+At time +1.33465s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 45150 bytes
+At time +1.33491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 45990 bytes
+At time +1.33568s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 13860 bytes
+At time +1.33606s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10290 bytes
+At time +1.33625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 46830 bytes
+At time +1.33625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 46830 bytes
+At time +1.33736s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 14070 bytes
+At time +1.33747s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10500 bytes
+At time +1.33866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 46200 bytes
+At time +1.33875s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 45360 bytes
+At time +1.33904s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 14280 bytes
+At time +1.34s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 47040 bytes
+At time +1.34s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 47040 bytes
+At time +1.34015s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10710 bytes
+At time +1.34072s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 14490 bytes
+At time +1.34156s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 10920 bytes
+At time +1.3424s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 14700 bytes
+At time +1.34241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 46410 bytes
+At time +1.34284s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 45570 bytes
+At time +1.34375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 47250 bytes
+At time +1.34375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 47250 bytes
+At time +1.34408s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 14910 bytes
+At time +1.34425s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11130 bytes
+At time +1.34566s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11340 bytes
+At time +1.34576s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 15120 bytes
+At time +1.34616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 46620 bytes
+At time +1.34707s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11550 bytes
+At time +1.34744s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 15330 bytes
+At time +1.3475s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 47460 bytes
+At time +1.3475s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 47460 bytes
+At time +1.34835s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 45780 bytes
+At time +1.34912s on-off application sent 210 bytes to 10.1.3.2 port 21 total Tx 15540 bytes
+At time +1.34975s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11760 bytes
+At time +1.35001s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 46830 bytes
+At time +1.35116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 11970 bytes
+At time +1.35125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 47670 bytes
+At time +1.35125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 47670 bytes
+At time +1.35244s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 45990 bytes
+At time +1.35366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 47040 bytes
+At time +1.35385s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 12180 bytes
+At time +1.355s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 47880 bytes
+At time +1.355s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 47880 bytes
+At time +1.35526s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 12390 bytes
+At time +1.35654s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 46200 bytes
+At time +1.35741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 47250 bytes
+At time +1.35795s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 12600 bytes
+At time +1.35875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 48090 bytes
+At time +1.35875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 48090 bytes
+At time +1.35935s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 12810 bytes
+At time +1.36063s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 46410 bytes
+At time +1.36116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 47460 bytes
+At time +1.36204s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13020 bytes
+At time +1.3625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 48300 bytes
+At time +1.3625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 48300 bytes
+At time +1.36345s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13230 bytes
+At time +1.36486s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13440 bytes
+At time +1.36511s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 47670 bytes
+At time +1.36614s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 46620 bytes
+At time +1.36625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 48510 bytes
+At time +1.36625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 48510 bytes
+At time +1.36755s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13650 bytes
+At time +1.36866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 47880 bytes
+At time +1.36895s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 13860 bytes
+At time +1.37s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 48720 bytes
+At time +1.37s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 48720 bytes
+At time +1.37023s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 46830 bytes
+At time +1.37164s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14070 bytes
+At time +1.37241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 48090 bytes
+At time +1.37305s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14280 bytes
+At time +1.37375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 48930 bytes
+At time +1.37375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 48930 bytes
+At time +1.37433s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 47040 bytes
+At time +1.37574s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14490 bytes
+At time +1.37616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 48300 bytes
+At time +1.37715s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14700 bytes
+At time +1.3775s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 49140 bytes
+At time +1.3775s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 49140 bytes
+At time +1.37843s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 47250 bytes
+At time +1.37983s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 14910 bytes
+At time +1.37991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 48510 bytes
+At time +1.38124s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 15120 bytes
+At time +1.38125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 49350 bytes
+At time +1.38125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 49350 bytes
+At time +1.38265s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 15330 bytes
+At time +1.38366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 48720 bytes
+At time +1.38393s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 47460 bytes
+At time +1.385s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 49560 bytes
+At time +1.385s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 49560 bytes
+At time +1.38534s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 15540 bytes
+At time +1.38691s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 47670 bytes
+At time +1.38741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 48930 bytes
+At time +1.38819s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 47880 bytes
+At time +1.38875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 49770 bytes
+At time +1.38875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 49770 bytes
+At time +1.38947s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 48090 bytes
+At time +1.39075s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 48300 bytes
+At time +1.39116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 49140 bytes
+At time +1.39203s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 48510 bytes
+At time +1.3925s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 49980 bytes
+At time +1.3925s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 49980 bytes
+At time +1.39331s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 48720 bytes
+At time +1.39459s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 48930 bytes
+At time +1.39491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 49350 bytes
+At time +1.39587s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 49140 bytes
+At time +1.39625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 50190 bytes
+At time +1.39625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 50190 bytes
+At time +1.39715s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 49350 bytes
+At time +1.39866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 49560 bytes
+At time +1.39866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 49560 bytes
+At time +1.4s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 50400 bytes
+At time +1.4s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 50400 bytes
+At time +1.40241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 49770 bytes
+At time +1.40241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 49770 bytes
+At time +1.40375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 50610 bytes
+At time +1.40375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 50610 bytes
+At time +1.40616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 49980 bytes
+At time +1.40616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 49980 bytes
+At time +1.4075s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 50820 bytes
+At time +1.4075s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 50820 bytes
+At time +1.40991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 50190 bytes
+At time +1.40991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 50190 bytes
+At time +1.41125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 51030 bytes
+At time +1.41125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 51030 bytes
+At time +1.41366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 50400 bytes
+At time +1.41366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 50400 bytes
+At time +1.415s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 51240 bytes
+At time +1.415s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 51240 bytes
+At time +1.41741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 50610 bytes
+At time +1.41741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 50610 bytes
+At time +1.41875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 51450 bytes
+At time +1.41875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 51450 bytes
+At time +1.42116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 50820 bytes
+At time +1.42116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 50820 bytes
+At time +1.4225s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 51660 bytes
+At time +1.4225s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 51660 bytes
+At time +1.42491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 51030 bytes
+At time +1.42491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 51030 bytes
+At time +1.42625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 51870 bytes
+At time +1.42625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 51870 bytes
+At time +1.42866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 51240 bytes
+At time +1.42866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 51240 bytes
+At time +1.43s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 52080 bytes
+At time +1.43s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 52080 bytes
+At time +1.43241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 51450 bytes
+At time +1.43241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 51450 bytes
+At time +1.43375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 52290 bytes
+At time +1.43375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 52290 bytes
+At time +1.43616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 51660 bytes
+At time +1.43616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 51660 bytes
+At time +1.4375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 52500 bytes
+At time +1.4375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 52500 bytes
+At time +1.43991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 51870 bytes
+At time +1.43991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 51870 bytes
+At time +1.44125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 52710 bytes
+At time +1.44125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 52710 bytes
+At time +1.44366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 52080 bytes
+At time +1.44366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 52080 bytes
+At time +1.445s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 52920 bytes
+At time +1.445s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 52920 bytes
+At time +1.44741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 52290 bytes
+At time +1.44741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 52290 bytes
+At time +1.44875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 53130 bytes
+At time +1.44875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 53130 bytes
+At time +1.45116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 52500 bytes
+At time +1.45116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 52500 bytes
+At time +1.4525s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 53340 bytes
+At time +1.4525s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 53340 bytes
+At time +1.45491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 52710 bytes
+At time +1.45491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 52710 bytes
+At time +1.45625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 53550 bytes
+At time +1.45625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 53550 bytes
+At time +1.45866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 52920 bytes
+At time +1.45866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 52920 bytes
+At time +1.46s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 53760 bytes
+At time +1.46s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 53760 bytes
+At time +1.46241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 53130 bytes
+At time +1.46241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 53130 bytes
+At time +1.46375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 53970 bytes
+At time +1.46375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 53970 bytes
+At time +1.46616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 53340 bytes
+At time +1.46616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 53340 bytes
+At time +1.4675s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 54180 bytes
+At time +1.4675s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 54180 bytes
+At time +1.46991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 53550 bytes
+At time +1.46991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 53550 bytes
+At time +1.47125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 54390 bytes
+At time +1.47125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 54390 bytes
+At time +1.47366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 53760 bytes
+At time +1.47366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 53760 bytes
+At time +1.475s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 54600 bytes
+At time +1.475s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 54600 bytes
+At time +1.47741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 53970 bytes
+At time +1.47741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 53970 bytes
+At time +1.47875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 54810 bytes
+At time +1.47875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 54810 bytes
+At time +1.48116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 54180 bytes
+At time +1.48116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 54180 bytes
+At time +1.4825s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 55020 bytes
+At time +1.4825s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 55020 bytes
+At time +1.48491s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 54390 bytes
+At time +1.48491s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 54390 bytes
+At time +1.48625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 55230 bytes
+At time +1.48625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 55230 bytes
+At time +1.48866s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 54600 bytes
+At time +1.48866s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 54600 bytes
+At time +1.49s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 55440 bytes
+At time +1.49s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 55440 bytes
+At time +1.49241s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 54810 bytes
+At time +1.49241s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 54810 bytes
+At time +1.49375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 55650 bytes
+At time +1.49375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 55650 bytes
+At time +1.49616s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 55020 bytes
+At time +1.49616s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 55020 bytes
+At time +1.4975s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 55860 bytes
+At time +1.4975s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 55860 bytes
+At time +1.49991s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 55230 bytes
+At time +1.49991s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 55230 bytes
+At time +1.50125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 56070 bytes
+At time +1.50125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 56070 bytes
+At time +1.50366s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 55440 bytes
+At time +1.50366s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 55440 bytes
+At time +1.505s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 56280 bytes
+At time +1.505s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 56280 bytes
+At time +1.50741s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 55650 bytes
+At time +1.50741s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 55650 bytes
+At time +1.50875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 56490 bytes
+At time +1.50875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 56490 bytes
+At time +1.51116s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 55860 bytes
+At time +1.51116s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 55860 bytes
+At time +1.5125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 56700 bytes
+At time +1.5125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 56700 bytes
+At time +1.51492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 56070 bytes
+At time +1.51492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 56070 bytes
+At time +1.51625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 56910 bytes
+At time +1.51625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 56910 bytes
+At time +1.51867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 56280 bytes
+At time +1.51867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 56280 bytes
+At time +1.52s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 57120 bytes
+At time +1.52s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 57120 bytes
+At time +1.52242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 56490 bytes
+At time +1.52242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 56490 bytes
+At time +1.52375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 57330 bytes
+At time +1.52375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 57330 bytes
+At time +1.52617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 56700 bytes
+At time +1.52617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 56700 bytes
+At time +1.5275s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 57540 bytes
+At time +1.5275s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 57540 bytes
+At time +1.52992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 56910 bytes
+At time +1.52992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 56910 bytes
+At time +1.53125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 57750 bytes
+At time +1.53125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 57750 bytes
+At time +1.53367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 57120 bytes
+At time +1.53367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 57120 bytes
+At time +1.535s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 57960 bytes
+At time +1.535s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 57960 bytes
+At time +1.53742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 57330 bytes
+At time +1.53742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 57330 bytes
+At time +1.53875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 58170 bytes
+At time +1.53875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 58170 bytes
+At time +1.54117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 57540 bytes
+At time +1.54117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 57540 bytes
+At time +1.5425s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 58380 bytes
+At time +1.5425s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 58380 bytes
+At time +1.54492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 57750 bytes
+At time +1.54492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 57750 bytes
+At time +1.54625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 58590 bytes
+At time +1.54625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 58590 bytes
+At time +1.54867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 57960 bytes
+At time +1.54867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 57960 bytes
+At time +1.55s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 58800 bytes
+At time +1.55s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 58800 bytes
+At time +1.55242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 58170 bytes
+At time +1.55242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 58170 bytes
+At time +1.55375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 59010 bytes
+At time +1.55375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 59010 bytes
+At time +1.55617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 58380 bytes
+At time +1.55617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 58380 bytes
+At time +1.5575s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 59220 bytes
+At time +1.5575s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 59220 bytes
+At time +1.55992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 58590 bytes
+At time +1.55992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 58590 bytes
+At time +1.56125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 59430 bytes
+At time +1.56125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 59430 bytes
+At time +1.56367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 58800 bytes
+At time +1.56367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 58800 bytes
+At time +1.565s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 59640 bytes
+At time +1.565s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 59640 bytes
+At time +1.56742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 59010 bytes
+At time +1.56742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 59010 bytes
+At time +1.56875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 59850 bytes
+At time +1.56875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 59850 bytes
+At time +1.57117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 59220 bytes
+At time +1.57117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 59220 bytes
+At time +1.5725s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 60060 bytes
+At time +1.5725s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 60060 bytes
+At time +1.57492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 59430 bytes
+At time +1.57492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 59430 bytes
+At time +1.57625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 60270 bytes
+At time +1.57625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 60270 bytes
+At time +1.57867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 59640 bytes
+At time +1.57867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 59640 bytes
+At time +1.58s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 60480 bytes
+At time +1.58s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 60480 bytes
+At time +1.58242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 59850 bytes
+At time +1.58242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 59850 bytes
+At time +1.58375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 60690 bytes
+At time +1.58375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 60690 bytes
+At time +1.58617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 60060 bytes
+At time +1.58617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 60060 bytes
+At time +1.5875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 60900 bytes
+At time +1.5875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 60900 bytes
+At time +1.58992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 60270 bytes
+At time +1.58992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 60270 bytes
+At time +1.59125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 61110 bytes
+At time +1.59125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 61110 bytes
+At time +1.59367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 60480 bytes
+At time +1.59367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 60480 bytes
+At time +1.595s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 61320 bytes
+At time +1.595s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 61320 bytes
+At time +1.59742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 60690 bytes
+At time +1.59742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 60690 bytes
+At time +1.59875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 61530 bytes
+At time +1.59875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 61530 bytes
+At time +1.60117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 60900 bytes
+At time +1.60117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 60900 bytes
+At time +1.6025s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 61740 bytes
+At time +1.6025s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 61740 bytes
+At time +1.60492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 61110 bytes
+At time +1.60492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 61110 bytes
+At time +1.60625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 61950 bytes
+At time +1.60625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 61950 bytes
+At time +1.60867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 61320 bytes
+At time +1.60867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 61320 bytes
+At time +1.61s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 62160 bytes
+At time +1.61s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 62160 bytes
+At time +1.61242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 61530 bytes
+At time +1.61242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 61530 bytes
+At time +1.61375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 62370 bytes
+At time +1.61375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 62370 bytes
+At time +1.61617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 61740 bytes
+At time +1.61617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 61740 bytes
+At time +1.6175s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 62580 bytes
+At time +1.6175s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 62580 bytes
+At time +1.61992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 61950 bytes
+At time +1.61992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 61950 bytes
+At time +1.62125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 62790 bytes
+At time +1.62125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 62790 bytes
+At time +1.62367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 62160 bytes
+At time +1.62367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 62160 bytes
+At time +1.625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 63000 bytes
+At time +1.625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 63000 bytes
+At time +1.62742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 62370 bytes
+At time +1.62742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 62370 bytes
+At time +1.62875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 63210 bytes
+At time +1.62875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 63210 bytes
+At time +1.63117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 62580 bytes
+At time +1.63117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 62580 bytes
+At time +1.6325s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 63420 bytes
+At time +1.6325s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 63420 bytes
+At time +1.63492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 62790 bytes
+At time +1.63492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 62790 bytes
+At time +1.63625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 63630 bytes
+At time +1.63625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 63630 bytes
+At time +1.63867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 63000 bytes
+At time +1.63867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 63000 bytes
+At time +1.64s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 63840 bytes
+At time +1.64s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 63840 bytes
+At time +1.64242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 63210 bytes
+At time +1.64242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 63210 bytes
+At time +1.64375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 64050 bytes
+At time +1.64375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 64050 bytes
+At time +1.64617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 63420 bytes
+At time +1.64617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 63420 bytes
+At time +1.6475s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 64260 bytes
+At time +1.6475s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 64260 bytes
+At time +1.64992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 63630 bytes
+At time +1.64992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 63630 bytes
+At time +1.65125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 64470 bytes
+At time +1.65125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 64470 bytes
+At time +1.65367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 63840 bytes
+At time +1.65367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 63840 bytes
+At time +1.655s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 64680 bytes
+At time +1.655s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 64680 bytes
+At time +1.65742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 64050 bytes
+At time +1.65742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 64050 bytes
+At time +1.65875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 64890 bytes
+At time +1.65875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 64890 bytes
+At time +1.66117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 64260 bytes
+At time +1.66117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 64260 bytes
+At time +1.6625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 65100 bytes
+At time +1.6625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 65100 bytes
+At time +1.66492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 64470 bytes
+At time +1.66492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 64470 bytes
+At time +1.66625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 65310 bytes
+At time +1.66625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 65310 bytes
+At time +1.66867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 64680 bytes
+At time +1.66867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 64680 bytes
+At time +1.67s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 65520 bytes
+At time +1.67s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 65520 bytes
+At time +1.67242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 64890 bytes
+At time +1.67242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 64890 bytes
+At time +1.67375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 65730 bytes
+At time +1.67375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 65730 bytes
+At time +1.67617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 65100 bytes
+At time +1.67617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 65100 bytes
+At time +1.6775s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 65940 bytes
+At time +1.6775s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 65940 bytes
+At time +1.67992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 65310 bytes
+At time +1.67992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 65310 bytes
+At time +1.68125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 66150 bytes
+At time +1.68125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 66150 bytes
+At time +1.68367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 65520 bytes
+At time +1.68367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 65520 bytes
+At time +1.685s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 66360 bytes
+At time +1.685s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 66360 bytes
+At time +1.68742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 65730 bytes
+At time +1.68742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 65730 bytes
+At time +1.68875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 66570 bytes
+At time +1.68875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 66570 bytes
+At time +1.69117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 65940 bytes
+At time +1.69117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 65940 bytes
+At time +1.6925s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 66780 bytes
+At time +1.6925s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 66780 bytes
+At time +1.69492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 66150 bytes
+At time +1.69492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 66150 bytes
+At time +1.69625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 66990 bytes
+At time +1.69625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 66990 bytes
+At time +1.69867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 66360 bytes
+At time +1.69867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 66360 bytes
+At time +1.7s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 67200 bytes
+At time +1.7s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 67200 bytes
+At time +1.70242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 66570 bytes
+At time +1.70242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 66570 bytes
+At time +1.70375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 67410 bytes
+At time +1.70375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 67410 bytes
+At time +1.70617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 66780 bytes
+At time +1.70617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 66780 bytes
+At time +1.7075s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 67620 bytes
+At time +1.7075s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 67620 bytes
+At time +1.70992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 66990 bytes
+At time +1.70992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 66990 bytes
+At time +1.71125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 67830 bytes
+At time +1.71125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 67830 bytes
+At time +1.71367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 67200 bytes
+At time +1.71367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 67200 bytes
+At time +1.715s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 68040 bytes
+At time +1.715s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 68040 bytes
+At time +1.71742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 67410 bytes
+At time +1.71742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 67410 bytes
+At time +1.71875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 68250 bytes
+At time +1.71875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 68250 bytes
+At time +1.72117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 67620 bytes
+At time +1.72117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 67620 bytes
+At time +1.7225s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 68460 bytes
+At time +1.7225s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 68460 bytes
+At time +1.72492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 67830 bytes
+At time +1.72492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 67830 bytes
+At time +1.72625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 68670 bytes
+At time +1.72625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 68670 bytes
+At time +1.72867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 68040 bytes
+At time +1.72867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 68040 bytes
+At time +1.73s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 68880 bytes
+At time +1.73s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 68880 bytes
+At time +1.73242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 68250 bytes
+At time +1.73242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 68250 bytes
+At time +1.73375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 69090 bytes
+At time +1.73375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 69090 bytes
+At time +1.73617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 68460 bytes
+At time +1.73617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 68460 bytes
+At time +1.7375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 69300 bytes
+At time +1.7375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 69300 bytes
+At time +1.73992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 68670 bytes
+At time +1.73992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 68670 bytes
+At time +1.74125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 69510 bytes
+At time +1.74125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 69510 bytes
+At time +1.74367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 68880 bytes
+At time +1.74367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 68880 bytes
+At time +1.745s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 69720 bytes
+At time +1.745s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 69720 bytes
+At time +1.74742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 69090 bytes
+At time +1.74742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 69090 bytes
+At time +1.74875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 69930 bytes
+At time +1.74875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 69930 bytes
+At time +1.75117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 69300 bytes
+At time +1.75117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 69300 bytes
+At time +1.7525s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 70140 bytes
+At time +1.7525s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 70140 bytes
+At time +1.75492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 69510 bytes
+At time +1.75492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 69510 bytes
+At time +1.75625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 70350 bytes
+At time +1.75625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 70350 bytes
+At time +1.75867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 69720 bytes
+At time +1.75867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 69720 bytes
+At time +1.76s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 70560 bytes
+At time +1.76s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 70560 bytes
+At time +1.76242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 69930 bytes
+At time +1.76242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 69930 bytes
+At time +1.76375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 70770 bytes
+At time +1.76375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 70770 bytes
+At time +1.76617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 70140 bytes
+At time +1.76617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 70140 bytes
+At time +1.7675s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 70980 bytes
+At time +1.7675s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 70980 bytes
+At time +1.76992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 70350 bytes
+At time +1.76992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 70350 bytes
+At time +1.77125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 71190 bytes
+At time +1.77125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 71190 bytes
+At time +1.77367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 70560 bytes
+At time +1.77367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 70560 bytes
+At time +1.775s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 71400 bytes
+At time +1.775s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 71400 bytes
+At time +1.77742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 70770 bytes
+At time +1.77742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 70770 bytes
+At time +1.77875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 71610 bytes
+At time +1.77875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 71610 bytes
+At time +1.78117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 70980 bytes
+At time +1.78117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 70980 bytes
+At time +1.7825s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 71820 bytes
+At time +1.7825s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 71820 bytes
+At time +1.78492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 71190 bytes
+At time +1.78492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 71190 bytes
+At time +1.78625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 72030 bytes
+At time +1.78625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 72030 bytes
+At time +1.78867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 71400 bytes
+At time +1.78867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 71400 bytes
+At time +1.79s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 72240 bytes
+At time +1.79s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 72240 bytes
+At time +1.79242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 71610 bytes
+At time +1.79242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 71610 bytes
+At time +1.79375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 72450 bytes
+At time +1.79375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 72450 bytes
+At time +1.79617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 71820 bytes
+At time +1.79617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 71820 bytes
+At time +1.7975s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 72660 bytes
+At time +1.7975s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 72660 bytes
+At time +1.79992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 72030 bytes
+At time +1.79992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 72030 bytes
+At time +1.80125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 72870 bytes
+At time +1.80125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 72870 bytes
+At time +1.80367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 72240 bytes
+At time +1.80367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 72240 bytes
+At time +1.805s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 73080 bytes
+At time +1.805s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 73080 bytes
+At time +1.80742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 72450 bytes
+At time +1.80742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 72450 bytes
+At time +1.80875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 73290 bytes
+At time +1.80875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 73290 bytes
+At time +1.81117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 72660 bytes
+At time +1.81117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 72660 bytes
+At time +1.8125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 73500 bytes
+At time +1.8125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 73500 bytes
+At time +1.81492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 72870 bytes
+At time +1.81492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 72870 bytes
+At time +1.81625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 73710 bytes
+At time +1.81625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 73710 bytes
+At time +1.81867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 73080 bytes
+At time +1.81867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 73080 bytes
+At time +1.82s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 73920 bytes
+At time +1.82s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 73920 bytes
+At time +1.82242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 73290 bytes
+At time +1.82242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 73290 bytes
+At time +1.82375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 74130 bytes
+At time +1.82375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 74130 bytes
+At time +1.82617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 73500 bytes
+At time +1.82617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 73500 bytes
+At time +1.8275s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 74340 bytes
+At time +1.8275s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 74340 bytes
+At time +1.82992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 73710 bytes
+At time +1.82992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 73710 bytes
+At time +1.83125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 74550 bytes
+At time +1.83125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 74550 bytes
+At time +1.83367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 73920 bytes
+At time +1.83367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 73920 bytes
+At time +1.835s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 74760 bytes
+At time +1.835s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 74760 bytes
+At time +1.83742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 74130 bytes
+At time +1.83742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 74130 bytes
+At time +1.83875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 74970 bytes
+At time +1.83875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 74970 bytes
+At time +1.84117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 74340 bytes
+At time +1.84117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 74340 bytes
+At time +1.8425s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 75180 bytes
+At time +1.8425s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 75180 bytes
+At time +1.84492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 74550 bytes
+At time +1.84492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 74550 bytes
+At time +1.84625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 75390 bytes
+At time +1.84625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 75390 bytes
+At time +1.84867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 74760 bytes
+At time +1.84867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 74760 bytes
+At time +1.85s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 75600 bytes
+At time +1.85s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 75600 bytes
+At time +1.85242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 74970 bytes
+At time +1.85242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 74970 bytes
+At time +1.85375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 75810 bytes
+At time +1.85375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 75810 bytes
+At time +1.85617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 75180 bytes
+At time +1.85617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 75180 bytes
+At time +1.8575s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 76020 bytes
+At time +1.8575s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 76020 bytes
+At time +1.85992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 75390 bytes
+At time +1.85992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 75390 bytes
+At time +1.86125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 76230 bytes
+At time +1.86125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 76230 bytes
+At time +1.86367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 75600 bytes
+At time +1.86367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 75600 bytes
+At time +1.865s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 76440 bytes
+At time +1.865s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 76440 bytes
+At time +1.86742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 75810 bytes
+At time +1.86742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 75810 bytes
+At time +1.86875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 76650 bytes
+At time +1.86875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 76650 bytes
+At time +1.87117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 76020 bytes
+At time +1.87117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 76020 bytes
+At time +1.8725s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 76860 bytes
+At time +1.8725s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 76860 bytes
+At time +1.87492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 76230 bytes
+At time +1.87492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 76230 bytes
+At time +1.87625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 77070 bytes
+At time +1.87625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 77070 bytes
+At time +1.87867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 76440 bytes
+At time +1.87867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 76440 bytes
+At time +1.88s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 77280 bytes
+At time +1.88s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 77280 bytes
+At time +1.88242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 76650 bytes
+At time +1.88242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 76650 bytes
+At time +1.88375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 77490 bytes
+At time +1.88375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 77490 bytes
+At time +1.88617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 76860 bytes
+At time +1.88617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 76860 bytes
+At time +1.8875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 77700 bytes
+At time +1.8875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 77700 bytes
+At time +1.88992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 77070 bytes
+At time +1.88992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 77070 bytes
+At time +1.89125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 77910 bytes
+At time +1.89125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 77910 bytes
+At time +1.89367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 77280 bytes
+At time +1.89367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 77280 bytes
+At time +1.895s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 78120 bytes
+At time +1.895s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 78120 bytes
+At time +1.89742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 77490 bytes
+At time +1.89742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 77490 bytes
+At time +1.89875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 78330 bytes
+At time +1.89875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 78330 bytes
+At time +1.90117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 77700 bytes
+At time +1.90117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 77700 bytes
+At time +1.9025s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 78540 bytes
+At time +1.9025s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 78540 bytes
+At time +1.90492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 77910 bytes
+At time +1.90492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 77910 bytes
+At time +1.90625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 78750 bytes
+At time +1.90625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 78750 bytes
+At time +1.90867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 78120 bytes
+At time +1.90867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 78120 bytes
+At time +1.91s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 78960 bytes
+At time +1.91s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 78960 bytes
+At time +1.91242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 78330 bytes
+At time +1.91242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 78330 bytes
+At time +1.91375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 79170 bytes
+At time +1.91375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 79170 bytes
+At time +1.91617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 78540 bytes
+At time +1.91617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 78540 bytes
+At time +1.9175s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 79380 bytes
+At time +1.9175s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 79380 bytes
+At time +1.91992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 78750 bytes
+At time +1.91992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 78750 bytes
+At time +1.92125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 79590 bytes
+At time +1.92125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 79590 bytes
+At time +1.92367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 78960 bytes
+At time +1.92367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 78960 bytes
+At time +1.925s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 79800 bytes
+At time +1.925s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 79800 bytes
+At time +1.92742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 79170 bytes
+At time +1.92742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 79170 bytes
+At time +1.92875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 80010 bytes
+At time +1.92875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 80010 bytes
+At time +1.93117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 79380 bytes
+At time +1.93117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 79380 bytes
+At time +1.9325s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 80220 bytes
+At time +1.9325s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 80220 bytes
+At time +1.93492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 79590 bytes
+At time +1.93492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 79590 bytes
+At time +1.93625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 80430 bytes
+At time +1.93625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 80430 bytes
+At time +1.93867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 79800 bytes
+At time +1.93867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 79800 bytes
+At time +1.94s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 80640 bytes
+At time +1.94s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 80640 bytes
+At time +1.94242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 80010 bytes
+At time +1.94242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 80010 bytes
+At time +1.94375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 80850 bytes
+At time +1.94375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 80850 bytes
+At time +1.94617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 80220 bytes
+At time +1.94617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 80220 bytes
+At time +1.9475s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 81060 bytes
+At time +1.9475s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 81060 bytes
+At time +1.94992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 80430 bytes
+At time +1.94992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 80430 bytes
+At time +1.95125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 81270 bytes
+At time +1.95125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 81270 bytes
+At time +1.95367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 80640 bytes
+At time +1.95367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 80640 bytes
+At time +1.955s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 81480 bytes
+At time +1.955s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 81480 bytes
+At time +1.95742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 80850 bytes
+At time +1.95742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 80850 bytes
+At time +1.95875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 81690 bytes
+At time +1.95875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 81690 bytes
+At time +1.96117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 81060 bytes
+At time +1.96117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 81060 bytes
+At time +1.9625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 81900 bytes
+At time +1.9625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 81900 bytes
+At time +1.96492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 81270 bytes
+At time +1.96492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 81270 bytes
+At time +1.96625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 82110 bytes
+At time +1.96625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 82110 bytes
+At time +1.96867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 81480 bytes
+At time +1.96867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 81480 bytes
+At time +1.97s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 82320 bytes
+At time +1.97s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 82320 bytes
+At time +1.97242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 81690 bytes
+At time +1.97242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 81690 bytes
+At time +1.97375s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 82530 bytes
+At time +1.97375s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 82530 bytes
+At time +1.97617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 81900 bytes
+At time +1.97617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 81900 bytes
+At time +1.9775s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 82740 bytes
+At time +1.9775s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 82740 bytes
+At time +1.97992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 82110 bytes
+At time +1.97992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 82110 bytes
+At time +1.98125s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 82950 bytes
+At time +1.98125s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 82950 bytes
+At time +1.98367s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 82320 bytes
+At time +1.98367s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 82320 bytes
+At time +1.985s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 83160 bytes
+At time +1.985s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 83160 bytes
+At time +1.98742s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 82530 bytes
+At time +1.98742s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 82530 bytes
+At time +1.98875s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 83370 bytes
+At time +1.98875s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 83370 bytes
+At time +1.99117s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 82740 bytes
+At time +1.99117s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 82740 bytes
+At time +1.9925s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 83580 bytes
+At time +1.9925s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 83580 bytes
+At time +1.99492s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 82950 bytes
+At time +1.99492s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 82950 bytes
+At time +1.99625s on-off application sent 210 bytes to 10.1.3.2 port 5000 total Tx 83790 bytes
+At time +1.99625s on-off application sent 210 bytes to 10.1.2.1 port 5001 total Tx 83790 bytes
+At time +1.99867s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 83160 bytes
+At time +1.99867s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 83160 bytes
+At time +2.00242s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 83370 bytes
+At time +2.00242s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 83370 bytes
+At time +2.00617s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 83580 bytes
+At time +2.00617s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 83580 bytes
+At time +2.00992s packet sink received 210 bytes from 10.1.1.1 port 49153 total Rx 83790 bytes
+At time +2.00992s packet sink received 210 bytes from 10.1.3.2 port 49153 total Rx 83790 bytes

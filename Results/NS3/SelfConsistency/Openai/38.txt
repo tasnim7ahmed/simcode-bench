@@ -1,0 +1,786 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_SelfConsistency_Openai_38.dir/auto_SelfConsistency_Openai_38.cc.o
+FAILED: scratch/CMakeFiles/scratch_auto_SelfConsistency_Openai_38.dir/auto_SelfConsistency_Openai_38.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_auto_SelfConsistency_Openai_38.dir/auto_SelfConsistency_Openai_38.cc.o -MF scratch/CMakeFiles/scratch_auto_SelfConsistency_Openai_38.dir/auto_SelfConsistency_Openai_38.cc.o.d -o scratch/CMakeFiles/scratch_auto_SelfConsistency_Openai_38.dir/auto_SelfConsistency_Openai_38.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:21:6: error: multiple definition of ‘enum WifiPhyState’
+   21 | enum WifiPhyState
+      |      ^~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-phy-state.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/athstats-helper.h:28,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/athstats-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:6:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/wifi-phy-state.h:30:6: note: previous definition here
+   30 | enum WifiPhyState
+      |      ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:30:35: error: ‘WIFI_STATES’ was not declared in this scope
+   30 | static const char *wifiStateNames[WIFI_STATES] = {
+      |                                   ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:96:24: error: ‘WIFI_STATES’ was not declared in this scope
+   96 |   Time     m_stateTime[WIFI_STATES];
+      |                        ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In constructor ‘NodeStatistics::NodeStatistics()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:42:30: error: ‘WIFI_STATES’ was not declared in this scope
+   42 |     for (uint32_t i = 0; i < WIFI_STATES; ++i)
+      |                              ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:44:9: error: ‘m_stateTime’ was not declared in this scope; did you mean ‘GetStateTime’?
+   44 |         m_stateTime[i] = Seconds (0.0);
+      |         ^~~~~~~~~~~
+      |         GetStateTime
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:46:19: error: ‘WIFI_IDLE’ was not declared in this scope
+   46 |     m_lastState = WIFI_IDLE;
+      |                   ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In member function ‘void NodeStatistics::NotifyPhyStateChange(WifiPhyState)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:60:5: error: ‘m_stateTime’ was not declared in this scope; did you mean ‘GetStateTime’?
+   60 |     m_stateTime[m_lastState] += now - m_lastStateChange;
+      |     ^~~~~~~~~~~
+      |     GetStateTime
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In member function ‘void NodeStatistics::End()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:75:5: error: ‘m_stateTime’ was not declared in this scope; did you mean ‘GetStateTime’?
+   75 |     m_stateTime[m_lastState] += now - m_lastStateChange;
+      |     ^~~~~~~~~~~
+      |     GetStateTime
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In member function ‘double NodeStatistics::GetStateTime(WifiPhyState) const’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:85:12: error: ‘m_stateTime’ was not declared in this scope; did you mean ‘GetStateTime’?
+   85 |     return m_stateTime[state].GetSeconds ();
+      |            ^~~~~~~~~~~
+      |            GetStateTime
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:196:51: error: ‘WIFI_STATES’ was not declared in this scope
+  196 |   std::vector< std::vector<double> > m_stateTimes[WIFI_STATES];
+      |                                                   ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In constructor ‘SimulationStats::SimulationStats(uint32_t)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:119:34: error: ‘WIFI_STATES’ was not declared in this scope
+  119 |         for (uint32_t j = 0; j < WIFI_STATES; ++j)
+      |                                  ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:120:11: error: ‘m_stateTimes’ was not declared in this scope; did you mean ‘m_startTime’?
+  120 |           m_stateTimes[i][j] = std::vector<double> ();
+      |           ^~~~~~~~~~~~
+      |           m_startTime
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In member function ‘void SimulationStats::Record(double)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:136:36: error: ‘WIFI_STATES’ was not declared in this scope
+  136 |         for (uint32_t st = 0; st < WIFI_STATES; ++st)
+      |                                    ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:138:13: error: ‘m_stateTimes’ was not declared in this scope; did you mean ‘m_startTime’?
+  138 |             m_stateTimes[i][st].push_back (m_nodeStats[i]->GetStateTime ((WifiPhyState)st));
+      |             ^~~~~~~~~~~~
+      |             m_startTime
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:144:40: error: ‘WIFI_STATES’ was not declared in this scope
+  144 |             for (uint32_t st = 0; st < WIFI_STATES; ++st)
+      |                                        ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:145:41: error: ‘wifiStateNames’ was not declared in this scope
+  145 |               std::cout << "\tTime_" << wifiStateNames[st];
+      |                                         ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:154:36: error: ‘WIFI_STATES’ was not declared in this scope
+  154 |         for (uint32_t st = 0; st < WIFI_STATES; ++st)
+      |                                    ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In member function ‘const std::vector<double>& SimulationStats::GetStateTimes(uint32_t, uint32_t) const’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:189:87: error: ‘m_stateTimes’ was not declared in this scope; did you mean ‘m_startTime’?
+  189 |   const std::vector<double>& GetStateTimes (uint32_t idx, uint32_t st) const { return m_stateTimes[idx][st]; }
+      |                                                                                       ^~~~~~~~~~~~
+      |                                                                                       m_startTime
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In function ‘void AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:207:18: error: no matching function for call to ‘MakeCallback(AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Time, ns3::Time, WifiPhyState)>)’
+  207 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  208 |       [stats](Time start, Time duration, WifiPhyState state){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  209 |         // Only care about entering new state
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  210 |         stats->NotifyPhyStateChange (state);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  211 |       }
+      |       ~           
+  212 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:704:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (T::*)(Args ...), OBJ)’
+  704 | MakeCallback(R (T::*memPtr)(Args...), OBJ objPtr)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:704:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:207:18: note:   mismatched types ‘R (T::*)(Args ...)’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Time, ns3::Time, WifiPhyState)>’
+  207 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  208 |       [stats](Time start, Time duration, WifiPhyState state){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  209 |         // Only care about entering new state
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  210 |         stats->NotifyPhyStateChange (state);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  211 |       }
+      |       ~           
+  212 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:711:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (T::*)(Args ...) const, OBJ)’
+  711 | MakeCallback(R (T::*memPtr)(Args...) const, OBJ objPtr)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:711:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:207:18: note:   mismatched types ‘R (T::*)(Args ...) const’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Time, ns3::Time, WifiPhyState)>’
+  207 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  208 |       [stats](Time start, Time duration, WifiPhyState state){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  209 |         // Only care about entering new state
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  210 |         stats->NotifyPhyStateChange (state);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  211 |       }
+      |       ~           
+  212 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:730:1: note: candidate: ‘template<class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (*)(Args ...))’
+  730 | MakeCallback(R (*fnPtr)(Args...))
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:730:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:207:18: note:   mismatched types ‘R (*)(Args ...)’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Time, ns3::Time, WifiPhyState)>’
+  207 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  208 |       [stats](Time start, Time duration, WifiPhyState state){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  209 |         // Only care about entering new state
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  210 |         stats->NotifyPhyStateChange (state);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  211 |       }
+      |       ~           
+  212 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:786:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args, class ... BArgs> auto ns3::MakeCallback(R (T::*)(Args ...), OBJ, BArgs ...)’
+  786 | MakeCallback(R (T::*memPtr)(Args...), OBJ objPtr, BArgs... bargs)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:786:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:207:18: note:   mismatched types ‘R (T::*)(Args ...)’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Time, ns3::Time, WifiPhyState)>’
+  207 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  208 |       [stats](Time start, Time duration, WifiPhyState state){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  209 |         // Only care about entering new state
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  210 |         stats->NotifyPhyStateChange (state);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  211 |       }
+      |       ~           
+  212 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:793:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args, class ... BArgs> auto ns3::MakeCallback(R (T::*)(Args ...) const, OBJ, BArgs ...)’
+  793 | MakeCallback(R (T::*memPtr)(Args...) const, OBJ objPtr, BArgs... bargs)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:793:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:207:18: note:   mismatched types ‘R (T::*)(Args ...) const’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Time, ns3::Time, WifiPhyState)>’
+  207 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  208 |       [stats](Time start, Time duration, WifiPhyState state){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  209 |         // Only care about entering new state
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  210 |         stats->NotifyPhyStateChange (state);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  211 |       }
+      |       ~           
+  212 |     )
+      |     ~             
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:216:18: error: no matching function for call to ‘MakeCallback(AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(double)>)’
+  216 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  217 |       [stats](double txPowerDbm){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  218 |         stats->NotifyTxPower (txPowerDbm);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  219 |       }
+      |       ~           
+  220 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:704:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (T::*)(Args ...), OBJ)’
+  704 | MakeCallback(R (T::*memPtr)(Args...), OBJ objPtr)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:704:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:216:18: note:   mismatched types ‘R (T::*)(Args ...)’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(double)>’
+  216 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  217 |       [stats](double txPowerDbm){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  218 |         stats->NotifyTxPower (txPowerDbm);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  219 |       }
+      |       ~           
+  220 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:711:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (T::*)(Args ...) const, OBJ)’
+  711 | MakeCallback(R (T::*memPtr)(Args...) const, OBJ objPtr)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:711:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:216:18: note:   mismatched types ‘R (T::*)(Args ...) const’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(double)>’
+  216 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  217 |       [stats](double txPowerDbm){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  218 |         stats->NotifyTxPower (txPowerDbm);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  219 |       }
+      |       ~           
+  220 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:730:1: note: candidate: ‘template<class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (*)(Args ...))’
+  730 | MakeCallback(R (*fnPtr)(Args...))
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:730:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:216:18: note:   mismatched types ‘R (*)(Args ...)’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(double)>’
+  216 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  217 |       [stats](double txPowerDbm){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  218 |         stats->NotifyTxPower (txPowerDbm);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  219 |       }
+      |       ~           
+  220 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:786:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args, class ... BArgs> auto ns3::MakeCallback(R (T::*)(Args ...), OBJ, BArgs ...)’
+  786 | MakeCallback(R (T::*memPtr)(Args...), OBJ objPtr, BArgs... bargs)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:786:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:216:18: note:   mismatched types ‘R (T::*)(Args ...)’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(double)>’
+  216 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  217 |       [stats](double txPowerDbm){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  218 |         stats->NotifyTxPower (txPowerDbm);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  219 |       }
+      |       ~           
+  220 |     )
+      |     ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:793:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args, class ... BArgs> auto ns3::MakeCallback(R (T::*)(Args ...) const, OBJ, BArgs ...)’
+  793 | MakeCallback(R (T::*memPtr)(Args...) const, OBJ objPtr, BArgs... bargs)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:793:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:216:18: note:   mismatched types ‘R (T::*)(Args ...) const’ and ‘AttachPhyStateTrace(ns3::Ptr<ns3::WifiPhy>, ns3::Ptr<NodeStatistics>)::<lambda(double)>’
+  216 |     MakeCallback (
+      |     ~~~~~~~~~~~~~^
+  217 |       [stats](double txPowerDbm){
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  218 |         stats->NotifyTxPower (txPowerDbm);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  219 |       }
+      |       ~           
+  220 |     )
+      |     ~             
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In function ‘void AttachRxTrace(ns3::Ptr<ns3::Application>, ns3::Ptr<NodeStatistics>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:231:22: error: no matching function for call to ‘MakeCallback(AttachRxTrace(ns3::Ptr<ns3::Application>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Ptr<const ns3::Packet>, const ns3::Address&)>)’
+  231 |         MakeCallback (
+      |         ~~~~~~~~~~~~~^
+  232 |           [stats](Ptr<const Packet> packet, const Address &src){
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  233 |             stats->NotifyRx (packet, src);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  234 |           }
+      |           ~           
+  235 |         )
+      |         ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:704:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (T::*)(Args ...), OBJ)’
+  704 | MakeCallback(R (T::*memPtr)(Args...), OBJ objPtr)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:704:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:231:22: note:   mismatched types ‘R (T::*)(Args ...)’ and ‘AttachRxTrace(ns3::Ptr<ns3::Application>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Ptr<const ns3::Packet>, const ns3::Address&)>’
+  231 |         MakeCallback (
+      |         ~~~~~~~~~~~~~^
+  232 |           [stats](Ptr<const Packet> packet, const Address &src){
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  233 |             stats->NotifyRx (packet, src);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  234 |           }
+      |           ~           
+  235 |         )
+      |         ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:711:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (T::*)(Args ...) const, OBJ)’
+  711 | MakeCallback(R (T::*memPtr)(Args...) const, OBJ objPtr)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:711:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:231:22: note:   mismatched types ‘R (T::*)(Args ...) const’ and ‘AttachRxTrace(ns3::Ptr<ns3::Application>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Ptr<const ns3::Packet>, const ns3::Address&)>’
+  231 |         MakeCallback (
+      |         ~~~~~~~~~~~~~^
+  232 |           [stats](Ptr<const Packet> packet, const Address &src){
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  233 |             stats->NotifyRx (packet, src);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  234 |           }
+      |           ~           
+  235 |         )
+      |         ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:730:1: note: candidate: ‘template<class R, class ... Args> ns3::Callback<R, Args ...> ns3::MakeCallback(R (*)(Args ...))’
+  730 | MakeCallback(R (*fnPtr)(Args...))
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:730:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:231:22: note:   mismatched types ‘R (*)(Args ...)’ and ‘AttachRxTrace(ns3::Ptr<ns3::Application>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Ptr<const ns3::Packet>, const ns3::Address&)>’
+  231 |         MakeCallback (
+      |         ~~~~~~~~~~~~~^
+  232 |           [stats](Ptr<const Packet> packet, const Address &src){
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  233 |             stats->NotifyRx (packet, src);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  234 |           }
+      |           ~           
+  235 |         )
+      |         ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:786:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args, class ... BArgs> auto ns3::MakeCallback(R (T::*)(Args ...), OBJ, BArgs ...)’
+  786 | MakeCallback(R (T::*memPtr)(Args...), OBJ objPtr, BArgs... bargs)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:786:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:231:22: note:   mismatched types ‘R (T::*)(Args ...)’ and ‘AttachRxTrace(ns3::Ptr<ns3::Application>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Ptr<const ns3::Packet>, const ns3::Address&)>’
+  231 |         MakeCallback (
+      |         ~~~~~~~~~~~~~^
+  232 |           [stats](Ptr<const Packet> packet, const Address &src){
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  233 |             stats->NotifyRx (packet, src);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  234 |           }
+      |           ~           
+  235 |         )
+      |         ~             
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:793:1: note: candidate: ‘template<class T, class OBJ, class R, class ... Args, class ... BArgs> auto ns3::MakeCallback(R (T::*)(Args ...) const, OBJ, BArgs ...)’
+  793 | MakeCallback(R (T::*memPtr)(Args...) const, OBJ objPtr, BArgs... bargs)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:793:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:231:22: note:   mismatched types ‘R (T::*)(Args ...) const’ and ‘AttachRxTrace(ns3::Ptr<ns3::Application>, ns3::Ptr<NodeStatistics>)::<lambda(ns3::Ptr<const ns3::Packet>, const ns3::Address&)>’
+  231 |         MakeCallback (
+      |         ~~~~~~~~~~~~~^
+  232 |           [stats](Ptr<const Packet> packet, const Address &src){
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  233 |             stats->NotifyRx (packet, src);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  234 |           }
+      |           ~           
+  235 |         )
+      |         ~             
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:330:46: error: ‘Default’ is not a member of ‘ns3::YansWifiPhyHelper’
+  330 |   YansWifiPhyHelper phy = YansWifiPhyHelper::Default ();
+      |                                              ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:377:64: error: no matching function for call to ‘ns3::Ipv4InterfaceContainer::Ipv4InterfaceContainer(std::pair<ns3::Ptr<ns3::Ipv4>, unsigned int>)’
+  377 |       apIfaces.push_back (Ipv4InterfaceContainer (iface.Get (0)));
+      |                                                                ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-trace-helper.h:21,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-stack-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-stack-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:4:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:66:5: note: candidate: ‘ns3::Ipv4InterfaceContainer::Ipv4InterfaceContainer()’
+   66 |     Ipv4InterfaceContainer();
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:66:5: note:   candidate expects 0 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:55:7: note: candidate: ‘ns3::Ipv4InterfaceContainer::Ipv4InterfaceContainer(const ns3::Ipv4InterfaceContainer&)’
+   55 | class Ipv4InterfaceContainer
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:55:7: note:   no known conversion for argument 1 from ‘std::pair<ns3::Ptr<ns3::Ipv4>, unsigned int>’ to ‘const ns3::Ipv4InterfaceContainer&’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:55:7: note: candidate: ‘ns3::Ipv4InterfaceContainer::Ipv4InterfaceContainer(ns3::Ipv4InterfaceContainer&&)’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:55:7: note:   no known conversion for argument 1 from ‘std::pair<ns3::Ptr<ns3::Ipv4>, unsigned int>’ to ‘ns3::Ipv4InterfaceContainer&&’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:378:65: error: no matching function for call to ‘ns3::Ipv4InterfaceContainer::Ipv4InterfaceContainer(std::pair<ns3::Ptr<ns3::Ipv4>, unsigned int>)’
+  378 |       staIfaces.push_back (Ipv4InterfaceContainer (iface.Get (1)));
+      |                                                                 ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-trace-helper.h:21,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-stack-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-stack-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:4:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:66:5: note: candidate: ‘ns3::Ipv4InterfaceContainer::Ipv4InterfaceContainer()’
+   66 |     Ipv4InterfaceContainer();
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:66:5: note:   candidate expects 0 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:55:7: note: candidate: ‘ns3::Ipv4InterfaceContainer::Ipv4InterfaceContainer(const ns3::Ipv4InterfaceContainer&)’
+   55 | class Ipv4InterfaceContainer
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:55:7: note:   no known conversion for argument 1 from ‘std::pair<ns3::Ptr<ns3::Ipv4>, unsigned int>’ to ‘const ns3::Ipv4InterfaceContainer&’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:55:7: note: candidate: ‘ns3::Ipv4InterfaceContainer::Ipv4InterfaceContainer(ns3::Ipv4InterfaceContainer&&)’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv4-interface-container.h:55:7: note:   no known conversion for argument 1 from ‘std::pair<ns3::Ptr<ns3::Ipv4>, unsigned int>’ to ‘ns3::Ipv4InterfaceContainer&&’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:446:43: error: ‘class ns3::FlowClassifier’ has no member named ‘FindFlow’
+  446 |           flowmonHelper.GetClassifier ()->FindFlow (flowId);
+      |                                           ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:478:30: error: ‘WIFI_STATES’ was not declared in this scope
+  478 |   for (uint32_t st = 0; st < WIFI_STATES; ++st)
+      |                              ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:483:52: error: ‘wifiStateNames’ was not declared in this scope
+  483 |       std::string fname = std::string ("state_") + wifiStateNames[st] + ".png";
+      |                                                    ^~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h: In instantiation of ‘ns3::Ptr<T>::~Ptr() [with T = SimulationStats]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:404:65:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:688:16: error: ‘class SimulationStats’ has no member named ‘Unref’
+  688 |         m_ptr->Unref();
+      |         ~~~~~~~^~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h: In instantiation of ‘ns3::Ptr<T> ns3::CompleteConstruct(T*) [with T = SimulationStats]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:581:29:   required from ‘ns3::Ptr<T> ns3::CreateObject(Args&& ...) [with T = SimulationStats; Args = {unsigned int&}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Openai_38.cc:404:65:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:561:13: error: ‘class SimulationStats’ has no member named ‘SetTypeId’
+  561 |     object->SetTypeId(T::GetTypeId());
+      |     ~~~~~~~~^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:561:35: error: ‘GetTypeId’ is not a member of ‘SimulationStats’
+  561 |     object->SetTypeId(T::GetTypeId());
+      |                       ~~~~~~~~~~~~^~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:562:21: error: ‘ns3::Object’ is not a base of ‘SimulationStats’
+  562 |     object->Object::Construct(AttributeConstructionList());
+      |     ~~~~~~~~~~~~~~~~^~~~~~~~~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_SelfConsistency_Openai_38
+✗  build failed (SelfConsistency/Openai/38)

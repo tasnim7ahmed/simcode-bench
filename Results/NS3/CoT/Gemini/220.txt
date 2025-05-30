@@ -1,0 +1,589 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_CoT_Gemini_220.dir/auto_CoT_Gemini_220.cc.o
+FAILED: scratch/CMakeFiles/scratch_auto_CoT_Gemini_220.dir/auto_CoT_Gemini_220.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_auto_CoT_Gemini_220.dir/auto_CoT_Gemini_220.cc.o -MF scratch/CMakeFiles/scratch_auto_CoT_Gemini_220.dir/auto_CoT_Gemini_220.cc.o.d -o scratch/CMakeFiles/scratch_auto_CoT_Gemini_220.dir/auto_CoT_Gemini_220.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:37:1: error: reference to ‘UdpClient’ is ambiguous
+   37 | UdpClient::UdpClient()
+      | ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-client.h:44:7: note: candidates are: ‘class ns3::UdpClient’
+   44 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:13:7: note:                 ‘class UdpClient’
+   13 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:48:1: error: reference to ‘UdpClient’ is ambiguous
+   48 | UdpClient::~UdpClient()
+      | ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-client.h:44:7: note: candidates are: ‘class ns3::UdpClient’
+   44 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:13:7: note:                 ‘class UdpClient’
+   13 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:56:6: error: reference to ‘UdpClient’ is ambiguous
+   56 | void UdpClient::Setup(Address address, uint32_t packetSize, uint32_t numPackets, DataRate dataRate)
+      |      ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-client.h:44:7: note: candidates are: ‘class ns3::UdpClient’
+   44 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:13:7: note:                 ‘class UdpClient’
+   13 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘void Setup(ns3::Address, uint32_t, uint32_t, ns3::DataRate)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:58:3: error: ‘m_peerAddress’ was not declared in this scope
+   58 |   m_peerAddress = address;
+      |   ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:59:3: error: ‘m_packetSize’ was not declared in this scope; did you mean ‘packetSize’?
+   59 |   m_packetSize = packetSize;
+      |   ^~~~~~~~~~~~
+      |   packetSize
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:60:3: error: ‘m_numPackets’ was not declared in this scope; did you mean ‘numPackets’?
+   60 |   m_numPackets = numPackets;
+      |   ^~~~~~~~~~~~
+      |   numPackets
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:61:3: error: ‘m_dataRate’ was not declared in this scope; did you mean ‘dataRate’?
+   61 |   m_dataRate = dataRate;
+      |   ^~~~~~~~~~
+      |   dataRate
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:64:6: error: reference to ‘UdpClient’ is ambiguous
+   64 | void UdpClient::StartApplication(void)
+      |      ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-client.h:44:7: note: candidates are: ‘class ns3::UdpClient’
+   44 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:13:7: note:                 ‘class UdpClient’
+   13 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘void StartApplication()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:66:3: error: ‘m_running’ was not declared in this scope
+   66 |   m_running = true;
+      |   ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:67:3: error: ‘m_packetsSent’ was not declared in this scope
+   67 |   m_packetsSent = 0;
+      |   ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:69:3: error: ‘m_socket’ was not declared in this scope; did you mean ‘SYS_socket’?
+   69 |   m_socket = Socket::CreateSocket(GetNode(), TypeId::LookupByName("ns3::UdpSocketFactory"));
+      |   ^~~~~~~~
+      |   SYS_socket
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:69:35: error: ‘GetNode’ was not declared in this scope
+   69 |   m_socket = Socket::CreateSocket(GetNode(), TypeId::LookupByName("ns3::UdpSocketFactory"));
+      |                                   ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:70:21: error: ‘m_peerAddress’ was not declared in this scope
+   70 |   m_socket->Connect(m_peerAddress);
+      |                     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:73:3: error: ‘SendPacket’ was not declared in this scope
+   73 |   SendPacket();
+      |   ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:76:6: error: reference to ‘UdpClient’ is ambiguous
+   76 | void UdpClient::StopApplication(void)
+      |      ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-client.h:44:7: note: candidates are: ‘class ns3::UdpClient’
+   44 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:13:7: note:                 ‘class UdpClient’
+   13 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘void StopApplication()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:78:3: error: ‘m_running’ was not declared in this scope
+   78 |   m_running = false;
+      |   ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:79:7: error: ‘m_sendEvent’ was not declared in this scope
+   79 |   if (m_sendEvent.IsRunning())
+      |       ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:84:7: error: ‘m_socket’ was not declared in this scope; did you mean ‘SYS_socket’?
+   84 |   if (m_socket != nullptr)
+      |       ^~~~~~~~
+      |       SYS_socket
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:90:6: error: reference to ‘UdpClient’ is ambiguous
+   90 | void UdpClient::SendPacket(void)
+      |      ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-client.h:44:7: note: candidates are: ‘class ns3::UdpClient’
+   44 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:13:7: note:                 ‘class UdpClient’
+   13 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘void SendPacket()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:92:39: error: ‘m_packetSize’ was not declared in this scope
+   92 |   Ptr<Packet> packet = Create<Packet>(m_packetSize);
+      |                                       ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:93:3: error: ‘m_socket’ was not declared in this scope; did you mean ‘SYS_socket’?
+   93 |   m_socket->Send(packet);
+      |   ^~~~~~~~
+      |   SYS_socket
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:95:25: error: ‘m_numPackets’ was not declared in this scope
+   95 |   if (++m_packetsSent < m_numPackets)
+      |                         ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:95:9: error: ‘m_packetsSent’ was not declared in this scope
+   95 |   if (++m_packetsSent < m_numPackets)
+      |         ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:97:45: error: ‘m_dataRate’ was not declared in this scope
+   97 |     Time tNext(Seconds(m_packetSize * 8.0 / m_dataRate.GetBitRate()));
+      |                                             ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:98:5: error: ‘m_sendEvent’ was not declared in this scope
+   98 |     m_sendEvent = Simulator::Schedule(tNext, &UdpClient::SendPacket, this);
+      |     ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:98:47: error: reference to ‘UdpClient’ is ambiguous
+   98 |     m_sendEvent = Simulator::Schedule(tNext, &UdpClient::SendPacket, this);
+      |                                               ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-client.h:44:7: note: candidates are: ‘class ns3::UdpClient’
+   44 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:13:7: note:                 ‘class UdpClient’
+   13 | class UdpClient : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:98:70: error: invalid use of ‘this’ in non-member function
+   98 |     m_sendEvent = Simulator::Schedule(tNext, &UdpClient::SendPacket, this);
+      |                                                                      ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:122:1: error: reference to ‘UdpServer’ is ambiguous
+  122 | UdpServer::UdpServer()
+      | ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-server.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-server.h:49:7: note: candidates are: ‘class ns3::UdpServer’
+   49 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:102:7: note:                 ‘class UdpServer’
+  102 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:129:1: error: reference to ‘UdpServer’ is ambiguous
+  129 | UdpServer::~UdpServer()
+      | ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-server.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-server.h:49:7: note: candidates are: ‘class ns3::UdpServer’
+   49 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:102:7: note:                 ‘class UdpServer’
+  102 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:137:6: error: reference to ‘UdpServer’ is ambiguous
+  137 | void UdpServer::Setup(uint16_t port)
+      |      ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-server.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-server.h:49:7: note: candidates are: ‘class ns3::UdpServer’
+   49 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:102:7: note:                 ‘class UdpServer’
+  102 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘void Setup(uint16_t)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:139:3: error: ‘m_port’ was not declared in this scope; did you mean ‘port’?
+  139 |   m_port = port;
+      |   ^~~~~~
+      |   port
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:142:6: error: reference to ‘UdpServer’ is ambiguous
+  142 | void UdpServer::StartApplication(void)
+      |      ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-server.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-server.h:49:7: note: candidates are: ‘class ns3::UdpServer’
+   49 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:102:7: note:                 ‘class UdpServer’
+  102 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:142:6: error: redefinition of ‘void StartApplication()’
+  142 | void UdpServer::StartApplication(void)
+      |      ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:64:6: note: ‘void StartApplication()’ previously defined here
+   64 | void UdpClient::StartApplication(void)
+      |      ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘void StartApplication()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:144:3: error: ‘m_running’ was not declared in this scope
+  144 |   m_running = true;
+      |   ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:146:3: error: ‘m_socket’ was not declared in this scope; did you mean ‘SYS_socket’?
+  146 |   m_socket = Socket::CreateSocket(GetNode(), TypeId::LookupByName("ns3::UdpSocketFactory"));
+      |   ^~~~~~~~
+      |   SYS_socket
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:146:35: error: ‘GetNode’ was not declared in this scope
+  146 |   m_socket = Socket::CreateSocket(GetNode(), TypeId::LookupByName("ns3::UdpSocketFactory"));
+      |                                   ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:147:70: error: ‘m_port’ was not declared in this scope
+  147 |   InetSocketAddress local = InetSocketAddress(Ipv4Address::GetAny(), m_port);
+      |                                                                      ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:149:43: error: reference to ‘UdpServer’ is ambiguous
+  149 |   m_socket->SetRecvCallback(MakeCallback(&UdpServer::ReceivePacket, this));
+      |                                           ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-server.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-server.h:49:7: note: candidates are: ‘class ns3::UdpServer’
+   49 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:102:7: note:                 ‘class UdpServer’
+  102 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:149:69: error: invalid use of ‘this’ in non-member function
+  149 |   m_socket->SetRecvCallback(MakeCallback(&UdpServer::ReceivePacket, this));
+      |                                                                     ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:152:6: error: reference to ‘UdpServer’ is ambiguous
+  152 | void UdpServer::StopApplication(void)
+      |      ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-server.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-server.h:49:7: note: candidates are: ‘class ns3::UdpServer’
+   49 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:102:7: note:                 ‘class UdpServer’
+  102 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:152:6: error: redefinition of ‘void StopApplication()’
+  152 | void UdpServer::StopApplication(void)
+      |      ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:76:6: note: ‘void StopApplication()’ previously defined here
+   76 | void UdpClient::StopApplication(void)
+      |      ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘void StopApplication()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:154:3: error: ‘m_running’ was not declared in this scope
+  154 |   m_running = false;
+      |   ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:155:7: error: ‘m_socket’ was not declared in this scope; did you mean ‘SYS_socket’?
+  155 |   if (m_socket != nullptr)
+      |       ^~~~~~~~
+      |       SYS_socket
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:161:6: error: reference to ‘UdpServer’ is ambiguous
+  161 | void UdpServer::ReceivePacket(Ptr<Socket> socket)
+      |      ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-server.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/udp-client-server-helper.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/udp-client-server-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/model/udp-server.h:49:7: note: candidates are: ‘class ns3::UdpServer’
+   49 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:102:7: note:                 ‘class UdpServer’
+  102 | class UdpServer : public Application
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘void ReceivePacket(ns3::Ptr<ns3::Socket>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:167:37: error: cannot convert ‘<unresolved overloaded function type>’ to ‘ns3::Time::Unit’
+  167 |     std::cout << Simulator::Now().As(Seconds) << " Server received " << packet->GetSize() << " bytes from " << InetSocketAddress::ConvertFrom(from).GetIpv4() << " port " << InetSocketAddress::ConvertFrom(from).GetPort() << std::endl;
+      |                  ~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/nstime.h:622:32: note:   initializing argument 1 of ‘ns3::TimeWithUnit ns3::Time::As(ns3::Time::Unit) const’
+  622 |     TimeWithUnit As(const Unit unit = Time::AUTO) const;
+      |                     ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:201:16: error: template argument 1 is invalid
+  201 |   Ptr<UdpServer> customServer = DynamicCast<UdpServer>(serverApp.Get(0));
+      |                ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:201:33: error: parse error in template argument list
+  201 |   Ptr<UdpServer> customServer = DynamicCast<UdpServer>(serverApp.Get(0));
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:201:55: error: no matching function for call to ‘DynamicCast<<expression error> >(ns3::Ptr<ns3::Application>)’
+  201 |   Ptr<UdpServer> customServer = DynamicCast<UdpServer>(serverApp.Get(0));
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:586:1: note: candidate: ‘template<class T1, class T2> ns3::Ptr<T> ns3::DynamicCast(const ns3::Ptr<T2>&)’
+  586 | DynamicCast(const Ptr<T2>& p)
+      | ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:586:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:201:55: error: template argument 1 is invalid
+  201 |   Ptr<UdpServer> customServer = DynamicCast<UdpServer>(serverApp.Get(0));
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:202:15: error: base operand of ‘->’ is not a pointer
+  202 |   customServer->Setup(port);
+      |               ^~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:209:16: error: template argument 1 is invalid
+  209 |   Ptr<UdpClient> customClient = DynamicCast<UdpClient>(client.GetClient());
+      |                ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:209:33: error: parse error in template argument list
+  209 |   Ptr<UdpClient> customClient = DynamicCast<UdpClient>(client.GetClient());
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:209:63: error: ‘class ns3::UdpClientHelper’ has no member named ‘GetClient’
+  209 |   Ptr<UdpClient> customClient = DynamicCast<UdpClient>(client.GetClient());
+      |                                                               ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_CoT_Gemini_220.cc:210:15: error: base operand of ‘->’ is not a pointer
+  210 |   customClient->Setup(InetSocketAddress(interfaces.GetAddress(1), port), 1024, 100, DataRate("1Mbps"));
+      |               ^~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_CoT_Gemini_220
+✗  build failed (CoT/Gemini/220)

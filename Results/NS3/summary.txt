@@ -1,0 +1,15 @@
+
+┌ Prompt / Model         ┬Passed/Total┬  Accuracy┐
+│ CoT/Gemini             │   62 / 400 │    0.00% │
+│ SelfConsistency/Openai │  114 / 400 │    0.00% │
+│ Basic/Gemini           │   53 / 400 │    0.00% │
+│ Expert/Openai          │  103 / 400 │    0.00% │
+│ ReAct/Gemini           │   57 / 399 │    0.00% │
+│ Expert/Gemini          │   82 / 400 │    0.00% │
+│ SelfConsistency/Gemini │   26 / 400 │    0.00% │
+│ FewShot/Gemini         │   76 / 400 │    0.00% │
+│ ReAct/Openai           │  113 / 400 │    0.00% │
+│ Basic/Openai           │  106 / 400 │    0.00% │
+│ FewShot/Openai         │  112 / 400 │    0.00% │
+│ CoT/Openai             │  117 / 400 │    0.00% │
+└──────────────────────────────┴────────────┴──────────┘

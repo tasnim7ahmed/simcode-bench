@@ -1,0 +1,307 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_Expert_Openai_66.dir/auto_Expert_Openai_66.cc.o
+FAILED: scratch/CMakeFiles/scratch_auto_Expert_Openai_66.dir/auto_Expert_Openai_66.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_auto_Expert_Openai_66.dir/auto_Expert_Openai_66.cc.o -MF scratch/CMakeFiles/scratch_auto_Expert_Openai_66.dir/auto_Expert_Openai_66.cc.o.d -o scratch/CMakeFiles/scratch_auto_Expert_Openai_66.dir/auto_Expert_Openai_66.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc: In function ‘void TraceTcp(uint32_t, ns3::Ptr<ns3::Socket>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:58:10: warning: unused variable ‘tid’ [-Wunused-variable]
+   58 |     auto tid = socket->GetNode()->GetId() * 100 + socket->GetSocketType();
+      |          ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc: In function ‘void SetupTracing(ns3::Ptr<ns3::Node>, uint32_t)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:84:28: error: ‘class ns3::TcpL4Protocol’ has no member named ‘SocketListBegin’
+   84 |         for (auto i = tcp->SocketListBegin(); i != tcp->SocketListEnd(); ++i)
+      |                            ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:84:57: error: ‘class ns3::TcpL4Protocol’ has no member named ‘SocketListEnd’
+   84 |         for (auto i = tcp->SocketListBegin(); i != tcp->SocketListEnd(); ++i)
+      |                                                         ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:87:60: error: ‘NS3_SOCK_STREAM’ is not a member of ‘ns3::TcpSocketFactory’
+   87 |             if (sock->GetSocketType() == TcpSocketFactory::NS3_SOCK_STREAM)
+      |                                                            ^~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h: In instantiation of ‘ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)> mutable [with auto:21 = {ns3::Time, unsigned int}]’:
+/usr/include/c++/11/type_traits:2530:26:   required by substitution of ‘template<class _Fn, class ... _Args> static std::__result_of_success<decltype (declval<_Fn>()((declval<_Args>)()...)), std::__invoke_other> std::__result_of_other_impl::_S_test(int) [with _Fn = ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>&; _Args = {ns3::Time, unsigned int}]’
+/usr/include/c++/11/type_traits:2541:55:   required from ‘struct std::__result_of_impl<false, false, ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>&, ns3::Time, unsigned int>’
+/usr/include/c++/11/bits/std_function.h:348:9:   recursively required by substitution of ‘template<class _Result, class _Ret> struct std::__is_invocable_impl<_Result, _Ret, true, std::__void_t<typename _CTp::type> > [with _Result = std::__invoke_result<ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>&, ns3::Time, unsigned int>; _Ret = void]’
+/usr/include/c++/11/bits/std_function.h:348:9:   required from ‘struct std::function<void(ns3::Time, unsigned int)>::_Callable<ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>, ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>, std::__invoke_result<ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>&, ns3::Time, unsigned int> >’
+/usr/include/c++/11/bits/std_function.h:353:8:   required by substitution of ‘template<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(ns3::Time, unsigned int)>::_Callable<ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>, ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>, std::__invoke_result<ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>&, ns3::Time, unsigned int> >; _Tp = void; _Res = void; _ArgTypes = {ns3::Time, unsigned int}]’
+/usr/include/c++/11/bits/std_function.h:434:9:   required by substitution of ‘template<class _Functor, class _Constraints> std::function<void(ns3::Time, unsigned int)>::function(_Functor&&) [with _Functor = ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>; _Constraints = <missing>]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:444:19:   required from ‘ns3::Ptr<T> ns3::Create(Ts&& ...) [with T = ns3::CallbackImpl<void, ns3::Time, unsigned int>; Ts = {ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>, std::vector<std::shared_ptr<ns3::CallbackComponentBase>, std::allocator<std::shared_ptr<ns3::CallbackComponentBase> > >&}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:539:77:   required from ‘auto ns3::Callback<R, UArgs>::BindImpl(std::index_sequence<INDEX ...>, BoundArgs&& ...) [with long unsigned int ...INDEX = {0, 1}; BoundArgs = {unsigned int&}; R = void; UArgs = {ns3::Time, ns3::Time, unsigned int}; std::index_sequence<INDEX ...> = std::integer_sequence<long unsigned int, 0, 1>]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:560:24:   required from ‘auto ns3::Callback<R, UArgs>::Bind(BoundArgs&& ...) [with BoundArgs = {unsigned int&}; R = void; UArgs = {ns3::Time, ns3::Time, unsigned int}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:767:44:   required from ‘auto ns3::MakeBoundCallback(R (*)(Args ...), BArgs&& ...) [with R = void; Args = {ns3::Time, ns3::Time, unsigned int}; BArgs = {unsigned int&}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:74:54:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:541:25: error: no match for call to ‘(const std::function<void(ns3::Time, ns3::Time, unsigned int)>) (unsigned int&, ns3::Time, unsigned int)’
+  541 |                 return f(bargs..., std::forward<decltype(uargs)>(uargs)...);
+      |                        ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/functional:59,
+                 from /usr/include/c++/11/pstl/glue_algorithm_defs.h:13,
+                 from /usr/include/c++/11/algorithm:74,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx:5,
+                 from <command-line>:
+/usr/include/c++/11/bits/std_function.h:586:7: note: candidate: ‘_Res std::function<_Res(_ArgTypes ...)>::operator()(_ArgTypes ...) const [with _Res = void; _ArgTypes = {ns3::Time, ns3::Time, unsigned int}]’
+  586 |       operator()(_ArgTypes... __args) const
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:586:27: note:   no known conversion for argument 1 from ‘unsigned int’ to ‘ns3::Time’
+  586 |       operator()(_ArgTypes... __args) const
+      |                  ~~~~~~~~~^~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h: In instantiation of ‘ns3::Ptr<T> ns3::Create(Ts&& ...) [with T = ns3::CallbackImpl<void, ns3::Time, unsigned int>; Ts = {ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>, std::vector<std::shared_ptr<ns3::CallbackComponentBase>, std::allocator<std::shared_ptr<ns3::CallbackComponentBase> > >&}]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:539:77:   required from ‘auto ns3::Callback<R, UArgs>::BindImpl(std::index_sequence<INDEX ...>, BoundArgs&& ...) [with long unsigned int ...INDEX = {0, 1}; BoundArgs = {unsigned int&}; R = void; UArgs = {ns3::Time, ns3::Time, unsigned int}; std::index_sequence<INDEX ...> = std::integer_sequence<long unsigned int, 0, 1>]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:560:24:   required from ‘auto ns3::Callback<R, UArgs>::Bind(BoundArgs&& ...) [with BoundArgs = {unsigned int&}; R = void; UArgs = {ns3::Time, ns3::Time, unsigned int}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:767:44:   required from ‘auto ns3::MakeBoundCallback(R (*)(Args ...), BArgs&& ...) [with R = void; Args = {ns3::Time, ns3::Time, unsigned int}; BArgs = {unsigned int&}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:74:54:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:444:19: error: no matching function for call to ‘ns3::CallbackImpl<void, ns3::Time, unsigned int>::CallbackImpl(ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>, std::vector<std::shared_ptr<ns3::CallbackComponentBase> >&)’
+  444 |     return Ptr<T>(new T(std::forward<Ts>(args)...), false);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_66.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:250:5: note: candidate: ‘ns3::CallbackImpl<R, UArgs>::CallbackImpl(std::function<_Res(_ArgTypes ...)>, const CallbackComponentVector&) [with R = void; UArgs = {ns3::Time, unsigned int}; ns3::CallbackComponentVector = std::vector<std::shared_ptr<ns3::CallbackComponentBase> >]’
+  250 |     CallbackImpl(std::function<R(UArgs...)> func, const CallbackComponentVector& components)
+      |     ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:250:45: note:   no known conversion for argument 1 from ‘ns3::Callback<void, ns3::Time, ns3::Time, unsigned int>::BindImpl<0, 1, unsigned int&>(std::index_sequence<0, 1>, unsigned int&)::<lambda(auto:21&& ...)>’ to ‘std::function<void(ns3::Time, unsigned int)>’
+  250 |     CallbackImpl(std::function<R(UArgs...)> func, const CallbackComponentVector& components)
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:241:7: note: candidate: ‘ns3::CallbackImpl<void, ns3::Time, unsigned int>::CallbackImpl(const ns3::CallbackImpl<void, ns3::Time, unsigned int>&)’
+  241 | class CallbackImpl : public CallbackImplBase
+      |       ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:241:7: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:241:7: note: candidate: ‘ns3::CallbackImpl<void, ns3::Time, unsigned int>::CallbackImpl(ns3::CallbackImpl<void, ns3::Time, unsigned int>&&)’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:241:7: note:   candidate expects 1 argument, 2 provided
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_Expert_Openai_66
+✗  build failed (Expert/Openai/66)

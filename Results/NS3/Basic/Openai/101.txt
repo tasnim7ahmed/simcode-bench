@@ -1,0 +1,420 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_Basic_Openai_101.dir/auto_Basic_Openai_101.cc.o
+[2/2] Linking CXX executable ../build/scratch/ns3.41-auto_Basic_Openai_101-default
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_Basic_Openai_101
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+At time +1.24111s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 536 bytes
+At time +1.24426s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 1072 bytes
+At time +1.2474s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 1608 bytes
+At time +1.25055s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 2144 bytes
+At time +1.2537s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 2680 bytes
+At time +1.25684s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 3216 bytes
+At time +1.25999s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 3752 bytes
+At time +1.26314s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 4288 bytes
+At time +1.26628s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 4824 bytes
+At time +1.26943s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 5360 bytes
+At time +1.28282s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 5896 bytes
+At time +1.28596s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 6432 bytes
+At time +1.29039s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 6968 bytes
+At time +1.29354s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 7504 bytes
+At time +1.29668s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 8040 bytes
+At time +1.29983s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 8576 bytes
+At time +1.30554s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 9112 bytes
+At time +1.30868s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 9648 bytes
+At time +1.31183s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 10184 bytes
+At time +1.31498s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 10720 bytes
+At time +1.32068s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 11256 bytes
+At time +1.32383s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 11792 bytes
+At time +1.32698s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 12328 bytes
+At time +1.33012s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 12864 bytes
+At time +1.33455s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 13400 bytes
+At time +1.3377s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 13936 bytes
+At time +1.34084s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 14472 bytes
+At time +1.34399s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 15008 bytes
+At time +1.35354s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 15544 bytes
+At time +1.35668s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 16080 bytes
+At time +1.35983s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 16616 bytes
+At time +1.36298s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 17152 bytes
+At time +1.36868s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 17688 bytes
+At time +1.37183s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 18224 bytes
+At time +1.37498s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 18760 bytes
+At time +1.37812s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 19296 bytes
+At time +1.38383s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 19832 bytes
+At time +1.38698s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 20368 bytes
+At time +1.39012s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 20904 bytes
+At time +1.39327s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 21440 bytes
+At time +1.39898s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 21976 bytes
+At time +1.40212s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 22512 bytes
+At time +1.40527s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 23048 bytes
+At time +1.40842s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 23584 bytes
+At time +1.41412s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 24120 bytes
+At time +1.41727s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 24656 bytes
+At time +1.42042s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 25192 bytes
+At time +1.42356s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 25728 bytes
+At time +1.42927s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 26264 bytes
+At time +1.43242s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 26800 bytes
+At time +1.43556s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 27336 bytes
+At time +1.43871s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 27872 bytes
+At time +1.44442s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 28408 bytes
+At time +1.44756s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 28944 bytes
+At time +1.45071s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 29480 bytes
+At time +1.45386s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 30016 bytes
+At time +1.45956s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 30552 bytes
+At time +1.46271s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 31088 bytes
+At time +1.46586s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 31624 bytes
+At time +1.469s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 32160 bytes
+At time +1.47343s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 32696 bytes
+At time +1.47658s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 33232 bytes
+At time +1.47972s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 33768 bytes
+At time +1.48287s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 34304 bytes
+At time +1.49114s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 34840 bytes
+At time +1.49428s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 35376 bytes
+At time +1.49743s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 35912 bytes
+At time +1.50058s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 36448 bytes
+At time +1.505s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 36984 bytes
+At time +1.50815s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 37520 bytes
+At time +1.5113s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 38056 bytes
+At time +1.51444s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 38592 bytes
+At time +1.52143s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 39128 bytes
+At time +1.52458s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 39664 bytes
+At time +1.52772s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 40200 bytes
+At time +1.53087s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 40736 bytes
+At time +1.5353s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 41272 bytes
+At time +1.53844s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 41808 bytes
+At time +1.54159s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 42344 bytes
+At time +1.54474s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 42880 bytes
+At time +1.55172s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 43416 bytes
+At time +1.55487s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 43952 bytes
+At time +1.55802s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 44488 bytes
+At time +1.56116s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 45024 bytes
+At time +1.56559s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 45560 bytes
+At time +1.56874s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 46096 bytes
+At time +1.57188s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 46632 bytes
+At time +1.57503s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 47168 bytes
+At time +1.58202s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 47704 bytes
+At time +1.58516s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 48240 bytes
+At time +1.58831s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 48776 bytes
+At time +1.59146s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 49312 bytes
+At time +1.59716s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 49848 bytes
+At time +1.60031s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 50384 bytes
+At time +1.60346s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 50920 bytes
+At time +1.6066s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 51456 bytes
+At time +1.61231s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 51992 bytes
+At time +1.61546s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 52528 bytes
+At time +1.6186s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 53064 bytes
+At time +1.62175s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 53600 bytes
+At time +1.62746s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 54136 bytes
+At time +1.6306s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 54672 bytes
+At time +1.63631s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 55208 bytes
+At time +1.63946s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 55744 bytes
+At time +1.64516s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 56280 bytes
+At time +1.64831s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 56816 bytes
+At time +1.65402s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 57352 bytes
+At time +1.65716s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 57888 bytes
+At time +1.66287s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 58424 bytes
+At time +1.66602s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 58960 bytes
+At time +1.67172s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 59496 bytes
+At time +1.67487s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 60032 bytes
+At time +1.68058s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 60568 bytes
+At time +1.68372s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 61104 bytes
+At time +1.68943s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 61640 bytes
+At time +1.69258s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 62176 bytes
+At time +1.697s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 62712 bytes
+At time +1.70015s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 63248 bytes
+At time +1.70714s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 63784 bytes
+At time +1.71028s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 64320 bytes
+At time +1.71343s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 64856 bytes
+At time +1.71914s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 65392 bytes
+At time +1.72228s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 65928 bytes
+At time +1.72799s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 66464 bytes
+At time +1.73114s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 67000 bytes
+At time +1.73684s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 67536 bytes
+At time +1.73999s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 68072 bytes
+At time +1.74698s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 68608 bytes
+At time +1.75012s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 69144 bytes
+At time +1.75455s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 69680 bytes
+At time +1.7577s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 70216 bytes
+At time +1.7634s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 70752 bytes
+At time +1.76655s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 71288 bytes
+At time +1.77226s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 71824 bytes
+At time +1.7754s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 72360 bytes
+At time +1.78239s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 72896 bytes
+At time +1.78554s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 73432 bytes
+At time +1.78996s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 73968 bytes
+At time +1.79311s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 74504 bytes
+At time +1.79882s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 75040 bytes
+At time +1.80196s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 75576 bytes
+At time +1.80511s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 76112 bytes
+At time +1.81082s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 76648 bytes
+At time +1.81396s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 77184 bytes
+At time +1.82095s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 77720 bytes
+At time +1.8241s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 78256 bytes
+At time +1.82852s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 78792 bytes
+At time +1.83167s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 79328 bytes
+At time +1.83866s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 79864 bytes
+At time +1.8418s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 80400 bytes
+At time +1.84623s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 80936 bytes
+At time +1.84938s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 81472 bytes
+At time +1.85636s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 82008 bytes
+At time +1.85951s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 82544 bytes
+At time +1.86394s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 83080 bytes
+At time +1.86708s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 83616 bytes
+At time +1.87407s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 84152 bytes
+At time +1.87722s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 84688 bytes
+At time +1.88292s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 85224 bytes
+At time +1.88607s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 85760 bytes
+At time +1.89306s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 86296 bytes
+At time +1.8962s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 86832 bytes
+At time +1.89935s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 87368 bytes
+At time +1.90506s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 87904 bytes
+At time +1.91076s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 88440 bytes
+At time +1.91391s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 88976 bytes
+At time +1.92218s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 89512 bytes
+At time +1.92532s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 90048 bytes
+At time +1.92975s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 90584 bytes
+At time +1.93546s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 91120 bytes
+At time +1.9386s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 91656 bytes
+At time +1.94431s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 92192 bytes
+At time +1.9513s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 92728 bytes
+At time +1.95444s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 93264 bytes
+At time +1.96143s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 93800 bytes
+At time +1.96458s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 94336 bytes
+At time +1.97028s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 94872 bytes
+At time +1.97471s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 95408 bytes
+At time +1.98042s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 95944 bytes
+At time +1.98612s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 96480 bytes
+At time +1.99055s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 97016 bytes
+At time +1.9937s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 97552 bytes
+At time +2.00068s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 98088 bytes
+At time +2.00639s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 98624 bytes
+At time +2.01082s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 99160 bytes
+At time +2.01524s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 99696 bytes
+At time +2.01839s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 100232 bytes
+At time +2.02666s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 100768 bytes
+At time +2.03108s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 101304 bytes
+At time +2.03423s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 101840 bytes
+At time +2.03994s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 102376 bytes
+At time +2.04564s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 102912 bytes
+At time +2.05135s packet sink received 536 bytes from 10.1.1.1 port 49153 total Rx 103448 bytes
+At time +2.33487s packet sink received 11792 bytes from 10.1.1.1 port 49153 total Rx 115240 bytes
+At time +2.40145s packet sink received 6432 bytes from 10.1.1.1 port 49153 total Rx 121672 bytes
+At time +2.43569s packet sink received 7504 bytes from 10.1.1.1 port 49153 total Rx 129176 bytes
+At time +2.47878s packet sink received 6432 bytes from 10.1.1.1 port 49153 total Rx 135608 bytes
+At time +2.52817s packet sink received 8776 bytes from 10.1.1.1 port 49153 total Rx 144384 bytes

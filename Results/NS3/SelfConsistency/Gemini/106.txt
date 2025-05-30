@@ -1,0 +1,442 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_SelfConsistency_Gemini_106.dir/auto_SelfConsistency_Gemini_106.cc.o
+FAILED: scratch/CMakeFiles/scratch_auto_SelfConsistency_Gemini_106.dir/auto_SelfConsistency_Gemini_106.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_auto_SelfConsistency_Gemini_106.dir/auto_SelfConsistency_Gemini_106.cc.o -MF scratch/CMakeFiles/scratch_auto_SelfConsistency_Gemini_106.dir/auto_SelfConsistency_Gemini_106.cc.o.d -o scratch/CMakeFiles/scratch_auto_SelfConsistency_Gemini_106.dir/auto_SelfConsistency_Gemini_106.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:34:25: error: cannot convert ‘ns3::Ptr<ns3::Node>’ to ‘ns3::Node*’ in initialization
+   34 |   Node *src = nodes.Get (0);
+      |               ~~~~~~~~~~^~~
+      |                         |
+      |                         ns3::Ptr<ns3::Node>
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:35:24: error: cannot convert ‘ns3::Ptr<ns3::Node>’ to ‘ns3::Node*’ in initialization
+   35 |   Node *n0 = nodes.Get (1);
+      |              ~~~~~~~~~~^~~
+      |                        |
+      |                        ns3::Ptr<ns3::Node>
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:36:24: error: cannot convert ‘ns3::Ptr<ns3::Node>’ to ‘ns3::Node*’ in initialization
+   36 |   Node *r1 = nodes.Get (2);
+      |              ~~~~~~~~~~^~~
+      |                        |
+      |                        ns3::Ptr<ns3::Node>
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:37:24: error: cannot convert ‘ns3::Ptr<ns3::Node>’ to ‘ns3::Node*’ in initialization
+   37 |   Node *n1 = nodes.Get (3);
+      |              ~~~~~~~~~~^~~
+      |                        |
+      |                        ns3::Ptr<ns3::Node>
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:38:24: error: cannot convert ‘ns3::Ptr<ns3::Node>’ to ‘ns3::Node*’ in initialization
+   38 |   Node *r2 = nodes.Get (4);
+      |              ~~~~~~~~~~^~~
+      |                        |
+      |                        ns3::Ptr<ns3::Node>
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:39:24: error: cannot convert ‘ns3::Ptr<ns3::Node>’ to ‘ns3::Node*’ in initialization
+   39 |   Node *n2 = nodes.Get (5);
+      |              ~~~~~~~~~~^~~
+      |                        |
+      |                        ns3::Ptr<ns3::Node>
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:50:65: error: no matching function for call to ‘ns3::NodeContainer::NodeContainer(ns3::Node*&, ns3::Node*&)’
+   50 |   NetDeviceContainer n0_r1 = csma.Install (NodeContainer (n0, r1));
+      |                                                                 ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/node-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:9,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:114:5: note: candidate: ‘template<class ... Ts> ns3::NodeContainer::NodeContainer(const ns3::NodeContainer&, Ts&& ...)’
+  114 |     NodeContainer(const NodeContainer& nc, Ts&&... args);
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:114:5: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:50:59: note:   cannot convert ‘n0’ (type ‘ns3::Node*’) to type ‘const ns3::NodeContainer&’
+   50 |   NetDeviceContainer n0_r1 = csma.Install (NodeContainer (n0, r1));
+      |                                                           ^~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/node-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:9,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:95:14: note: candidate: ‘ns3::NodeContainer::NodeContainer(uint32_t, uint32_t)’ (near match)
+   95 |     explicit NodeContainer(uint32_t n, uint32_t systemId = 0);
+      |              ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:95:14: note:   conversion of argument 2 would be ill-formed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:50:63: error: invalid conversion from ‘ns3::Node*’ to ‘uint32_t’ {aka ‘unsigned int’} [-fpermissive]
+   50 |   NetDeviceContainer n0_r1 = csma.Install (NodeContainer (n0, r1));
+      |                                                               ^~
+      |                                                               |
+      |                                                               ns3::Node*
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/node-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:9,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:79:5: note: candidate: ‘ns3::NodeContainer::NodeContainer(std::string)’
+   79 |     NodeContainer(std::string nodeName);
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:79:5: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:70:5: note: candidate: ‘ns3::NodeContainer::NodeContainer(ns3::Ptr<ns3::Node>)’
+   70 |     NodeContainer(Ptr<Node> node);
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:70:5: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:62:5: note: candidate: ‘ns3::NodeContainer::NodeContainer()’
+   62 |     NodeContainer();
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:62:5: note:   candidate expects 0 arguments, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:39:7: note: candidate: ‘ns3::NodeContainer::NodeContainer(const ns3::NodeContainer&)’
+   39 | class NodeContainer
+      |       ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:39:7: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:39:7: note: candidate: ‘ns3::NodeContainer::NodeContainer(ns3::NodeContainer&&)’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:39:7: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:60:66: error: no matching function for call to ‘ns3::NodeContainer::NodeContainer(ns3::Node*&, ns3::Node*&)’
+   60 |   NetDeviceContainer n1_r2 = csma2.Install (NodeContainer (n1, r2));
+      |                                                                  ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/node-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:9,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:114:5: note: candidate: ‘template<class ... Ts> ns3::NodeContainer::NodeContainer(const ns3::NodeContainer&, Ts&& ...)’
+  114 |     NodeContainer(const NodeContainer& nc, Ts&&... args);
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:114:5: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:60:60: note:   cannot convert ‘n1’ (type ‘ns3::Node*’) to type ‘const ns3::NodeContainer&’
+   60 |   NetDeviceContainer n1_r2 = csma2.Install (NodeContainer (n1, r2));
+      |                                                            ^~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/node-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:9,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:95:14: note: candidate: ‘ns3::NodeContainer::NodeContainer(uint32_t, uint32_t)’ (near match)
+   95 |     explicit NodeContainer(uint32_t n, uint32_t systemId = 0);
+      |              ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:95:14: note:   conversion of argument 2 would be ill-formed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:60:64: error: invalid conversion from ‘ns3::Node*’ to ‘uint32_t’ {aka ‘unsigned int’} [-fpermissive]
+   60 |   NetDeviceContainer n1_r2 = csma2.Install (NodeContainer (n1, r2));
+      |                                                                ^~
+      |                                                                |
+      |                                                                ns3::Node*
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/node-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:9,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:79:5: note: candidate: ‘ns3::NodeContainer::NodeContainer(std::string)’
+   79 |     NodeContainer(std::string nodeName);
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:79:5: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:70:5: note: candidate: ‘ns3::NodeContainer::NodeContainer(ns3::Ptr<ns3::Node>)’
+   70 |     NodeContainer(Ptr<Node> node);
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:70:5: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:62:5: note: candidate: ‘ns3::NodeContainer::NodeContainer()’
+   62 |     NodeContainer();
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:62:5: note:   candidate expects 0 arguments, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:39:7: note: candidate: ‘ns3::NodeContainer::NodeContainer(const ns3::NodeContainer&)’
+   39 | class NodeContainer
+      |       ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:39:7: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:39:7: note: candidate: ‘ns3::NodeContainer::NodeContainer(ns3::NodeContainer&&)’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/node-container.h:39:7: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:97:21: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+   97 |   staticRoutingSrc->AddRoute (Ipv6Address ("2001:db8:0:2::/64"), 1, i0i1.GetInterfaceIndex (0));
+      |                     ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:98:21: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+   98 |   staticRoutingSrc->AddRoute (Ipv6Address ("2001:db8:0:3::/64"), 1, i0i1.GetInterfaceIndex (0));
+      |                     ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:99:21: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+   99 |   staticRoutingSrc->AddRoute (Ipv6Address ("2001:db8:0:4::/64"), 1, i0i1.GetInterfaceIndex (0));
+      |                     ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:100:21: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  100 |   staticRoutingSrc->AddRoute (Ipv6Address ("2001:db8:0:5::/64"), 1, i0i1.GetInterfaceIndex (0));
+      |                     ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:101:54: error: no matching function for call to ‘ns3::Ipv6InterfaceContainer::GetAddress(int)’
+  101 |   staticRoutingSrc->SetDefaultRoute (i0i1.GetAddress (1), 1);
+      |                                      ~~~~~~~~~~~~~~~~^~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-trace-helper.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-stack-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-stack-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv6-interface-container.h:86:17: note: candidate: ‘ns3::Ipv6Address ns3::Ipv6InterfaceContainer::GetAddress(uint32_t, uint32_t) const’
+   86 |     Ipv6Address GetAddress(uint32_t i, uint32_t j) const;
+      |                 ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv6-interface-container.h:86:17: note:   candidate expects 2 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:104:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  104 |   staticRoutingN0->AddRoute (Ipv6Address ("2001:db8:0:1::/64"), 0, i1i2.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:105:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  105 |   staticRoutingN0->AddRoute (Ipv6Address ("2001:db8:0:3::/64"), 1, i1i2.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:106:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  106 |   staticRoutingN0->AddRoute (Ipv6Address ("2001:db8:0:4::/64"), 1, i1i2.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:107:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  107 |   staticRoutingN0->AddRoute (Ipv6Address ("2001:db8:0:5::/64"), 1, i1i2.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:110:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  110 |   staticRoutingR1->AddRoute (Ipv6Address ("2001:db8:0:1::/64"), 0, i2i3.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:111:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  111 |   staticRoutingR1->AddRoute (Ipv6Address ("2001:db8:0:2::/64"), 0, i2i3.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:112:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  112 |   staticRoutingR1->AddRoute (Ipv6Address ("2001:db8:0:4::/64"), 1, i2i3.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:113:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  113 |   staticRoutingR1->AddRoute (Ipv6Address ("2001:db8:0:5::/64"), 1, i2i3.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:116:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  116 |   staticRoutingN1->AddRoute (Ipv6Address ("2001:db8:0:1::/64"), 0, i3i4.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:117:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  117 |   staticRoutingN1->AddRoute (Ipv6Address ("2001:db8:0:2::/64"), 0, i3i4.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:118:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  118 |   staticRoutingN1->AddRoute (Ipv6Address ("2001:db8:0:3::/64"), 0, i3i4.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:119:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  119 |   staticRoutingN1->AddRoute (Ipv6Address ("2001:db8:0:5::/64"), 1, i3i4.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:122:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  122 |   staticRoutingR2->AddRoute (Ipv6Address ("2001:db8:0:1::/64"), 0, i4i5.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:123:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  123 |   staticRoutingR2->AddRoute (Ipv6Address ("2001:db8:0:2::/64"), 0, i4i5.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:124:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  124 |   staticRoutingR2->AddRoute (Ipv6Address ("2001:db8:0:3::/64"), 0, i4i5.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:125:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  125 |   staticRoutingR2->AddRoute (Ipv6Address ("2001:db8:0:4::/64"), 0, i4i5.GetInterfaceIndex (0));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:128:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  128 |   staticRoutingN2->AddRoute (Ipv6Address ("2001:db8:0:1::/64"), 0, i4i5.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:129:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  129 |   staticRoutingN2->AddRoute (Ipv6Address ("2001:db8:0:2::/64"), 0, i4i5.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:130:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  130 |   staticRoutingN2->AddRoute (Ipv6Address ("2001:db8:0:3::/64"), 0, i4i5.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:131:20: error: ‘class ns3::Ipv6StaticRouting’ has no member named ‘AddRoute’
+  131 |   staticRoutingN2->AddRoute (Ipv6Address ("2001:db8:0:4::/64"), 0, i4i5.GetInterfaceIndex (1));
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:140:51: error: no matching function for call to ‘ns3::Ipv6InterfaceContainer::GetAddress(int)’
+  140 |   UdpEchoClientHelper echoClient (i4i5.GetAddress (1), 9);
+      |                                   ~~~~~~~~~~~~~~~~^~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-trace-helper.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/internet-stack-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-stack-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_SelfConsistency_Gemini_106.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv6-interface-container.h:86:17: note: candidate: ‘ns3::Ipv6Address ns3::Ipv6InterfaceContainer::GetAddress(uint32_t, uint32_t) const’
+   86 |     Ipv6Address GetAddress(uint32_t i, uint32_t j) const;
+      |                 ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/helper/ipv6-interface-container.h:86:17: note:   candidate expects 2 arguments, 1 provided
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_SelfConsistency_Gemini_106
+✗  build failed (SelfConsistency/Gemini/106)

@@ -1,0 +1,386 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_Expert_Openai_49.dir/auto_Expert_Openai_49.cc.o
+FAILED: scratch/CMakeFiles/scratch_auto_Expert_Openai_49.dir/auto_Expert_Openai_49.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_auto_Expert_Openai_49.dir/auto_Expert_Openai_49.cc.o -MF scratch/CMakeFiles/scratch_auto_Expert_Openai_49.dir/auto_Expert_Openai_49.cc.o.d -o scratch/CMakeFiles/scratch_auto_Expert_Openai_49.dir/auto_Expert_Openai_49.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc: In function ‘void PhyStats(ns3::Ptr<ns3::WifiPhy>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:24:22: error: ‘class ns3::WifiPhy’ has no member named ‘GetLastRxSignalStrength’
+   24 |   double rssi = phy->GetLastRxSignalStrength ();
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:25:23: error: ‘class ns3::WifiPhy’ has no member named ‘GetNoiseFigure’; did you mean ‘SetRxNoiseFigure’?
+   25 |   double noise = phy->GetNoiseFigure ();
+      |                       ^~~~~~~~~~~~~~
+      |                       SetRxNoiseFigure
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:26:35: error: cannot convert ‘double’ to ‘const ns3::WifiTxVector&’
+   26 |   double snr = phy->CalculateSnr (rssi, noise);
+      |                                   ^~~~
+      |                                   |
+      |                                   double
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-phy.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/wifi-helper.h:29,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/yans-wifi-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/yans-wifi-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:6:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/wifi-phy.h:389:45: note:   initializing argument 1 of ‘double ns3::WifiPhy::CalculateSnr(const ns3::WifiTxVector&, double) const’
+  389 |     double CalculateSnr(const WifiTxVector& txVector, double ber) const;
+      |                         ~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:121:58: error: ‘Default’ is not a member of ‘ns3::SpectrumWifiPhyHelper’
+  121 |       SpectrumWifiPhyHelper phy = SpectrumWifiPhyHelper::Default ();
+      |                                                          ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:125:7: error: ‘SpectrumWifiHelper’ was not declared in this scope
+  125 |       SpectrumWifiHelper wifi;
+      |       ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:126:7: error: ‘wifi’ was not declared in this scope
+  126 |       wifi.SetStandard (WIFI_STANDARD_80211n);
+      |       ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:143:89: error: ‘class ns3::NetDevice’ has no member named ‘GetPhy’
+  143 |       staPhy = DynamicCast<SpectrumWifiPhy> (wifiDevs.Get (0)->GetObject<NetDevice> ()->GetPhy ());
+      |                                                                                         ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:150:50: error: ‘Default’ is not a member of ‘ns3::YansWifiPhyHelper’
+  150 |       YansWifiPhyHelper phy = YansWifiPhyHelper::Default ();
+      |                                                  ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:170:61: error: invalid use of incomplete type ‘class ns3::WifiNetDevice’
+  170 |       staPhy = wifiDevs.Get (0)->GetObject<WifiNetDevice> ()->GetPhy ();
+      |                                                             ^~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/wifi-helper.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/yans-wifi-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/yans-wifi-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:6:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/wifi-mac-helper.h:30:7: note: forward declaration of ‘class ns3::WifiNetDevice’
+   30 | class WifiNetDevice;
+      |       ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:185:12: error: ‘class ns3::WaveformGeneratorHelper’ has no member named ‘Set’
+  185 |   waveform.Set ("Period", TimeValue (Seconds (0.0005)));
+      |            ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:186:12: error: ‘class ns3::WaveformGeneratorHelper’ has no member named ‘Set’
+  186 |   waveform.Set ("DutyCycle", DoubleValue (0.5));
+      |            ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:187:12: error: ‘class ns3::WaveformGeneratorHelper’ has no member named ‘Set’
+  187 |   waveform.Set ("Amplitude", DoubleValue (pow (10.0, waveformPowerDbm / 20.0) * 0.001)); // mV
+      |            ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:225:61: error: invalid user-defined conversion from ‘const char [8]’ to ‘const ns3::DataRate&’ [-fpermissive]
+  225 |       clientHelper.SetAttribute ("DataRate", DataRateValue ("100Mbps"));
+      |                                                             ^~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/data-rate.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:38,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/data-rate.h:100:5: note: candidate is: ‘ns3::DataRate::DataRate(uint64_t)’ (near match)
+  100 |     DataRate(uint64_t bps);
+      |     ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/data-rate.h:100:5: note:   conversion of argument 1 would be ill-formed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:225:61: error: invalid conversion from ‘const char*’ to ‘uint64_t’ {aka ‘long unsigned int’} [-fpermissive]
+  225 |       clientHelper.SetAttribute ("DataRate", DataRateValue ("100Mbps"));
+      |                                                             ^~~~~~~~~
+      |                                                             |
+      |                                                             const char*
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:225:61: error: invalid conversion from ‘const char*’ to ‘uint64_t’ {aka ‘long unsigned int’} [-fpermissive]
+  225 |       clientHelper.SetAttribute ("DataRate", DataRateValue ("100Mbps"));
+      |                                                             ^~~~~~~~~
+      |                                                             |
+      |                                                             const char*
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/data-rate.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:38,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/data-rate.h:100:23: note:   initializing argument 1 of ‘ns3::DataRate::DataRate(uint64_t)’
+  100 |     DataRate(uint64_t bps);
+      |              ~~~~~~~~~^~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/nstime.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/attribute-helper.h:208:33: note:   initializing argument 1 of ‘ns3::DataRateValue::DataRateValue(const ns3::DataRate&)’
+  208 |         name##Value(const type& value);                                                            \
+      |                     ~~~~~~~~~~~~^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/attribute-helper.h:237:38: note: in expansion of macro ‘ATTRIBUTE_VALUE_DEFINE_WITH_NAME’
+  237 | #define ATTRIBUTE_VALUE_DEFINE(name) ATTRIBUTE_VALUE_DEFINE_WITH_NAME(name, name)
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/attribute-helper.h:408:5: note: in expansion of macro ‘ATTRIBUTE_VALUE_DEFINE’
+  408 |     ATTRIBUTE_VALUE_DEFINE(type);                                                                  \
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/data-rate.h:296:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+  296 | ATTRIBUTE_HELPER_HEADER(DataRate);
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:243:70: error: ‘Default’ is not a member of ‘ns3::SpectrumWifiPhyHelper’
+  243 |           SpectrumWifiPhyHelper spectrumPhy = SpectrumWifiPhyHelper::Default ();
+      |                                                                      ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:249:58: error: ‘Default’ is not a member of ‘ns3::YansWifiPhyHelper’
+  249 |           YansWifiPhyHelper yansPhy = YansWifiPhyHelper::Default ();
+      |                                                          ^~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h: In instantiation of ‘ns3::Ptr<T> ns3::Object::GetObject() const [with T = ns3::WifiNetDevice]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:170:59:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:475:17: error: cannot ‘dynamic_cast’ ‘((ns3::Object::Aggregates*)((const ns3::Object*)this)->ns3::Object::m_aggregates)->ns3::Object::Aggregates::buffer[0]’ (of type ‘class ns3::Object*’) to type ‘class ns3::WifiNetDevice*’ (target is not pointer or reference to complete type)
+  475 |     T* result = dynamic_cast<T*>(m_aggregates->buffer[0]);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:481:49: error: incomplete type ‘ns3::WifiNetDevice’ used in nested name specifier
+  481 |     Ptr<Object> found = DoGetObject(T::GetTypeId());
+      |                                     ~~~~~~~~~~~~^~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:484:23: error: invalid ‘static_cast’ from type ‘ns3::Object*’ to type ‘ns3::WifiNetDevice*’
+  484 |         return Ptr<T>(static_cast<T*>(PeekPointer(found)));
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/wifi-helper.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/yans-wifi-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/yans-wifi-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:6:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/wifi-mac-helper.h:30:7: note: class type ‘ns3::WifiNetDevice’ is incomplete
+   30 | class WifiNetDevice;
+      |       ^~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h: In instantiation of ‘ns3::Ptr<T>::~Ptr() [with T = ns3::WifiNetDevice]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:170:59:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:688:16: error: invalid use of incomplete type ‘class ns3::WifiNetDevice’
+  688 |         m_ptr->Unref();
+      |         ~~~~~~~^~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/wifi-helper.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/yans-wifi-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/yans-wifi-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:6:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/wifi-mac-helper.h:30:7: note: forward declaration of ‘class ns3::WifiNetDevice’
+   30 | class WifiNetDevice;
+      |       ^~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h: In instantiation of ‘ns3::Ptr<T>::Ptr(const ns3::Ptr<U>&) [with U = ns3::YansWifiChannel; T = ns3::SpectrumChannel]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/auto_Expert_Openai_49.cc:181:63:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:678:24: error: cannot convert ‘ns3::YansWifiChannel*’ to ‘ns3::SpectrumChannel*’ in initialization
+  678 |     : m_ptr(PeekPointer(o))
+      |             ~~~~~~~~~~~^~~
+      |                        |
+      |                        ns3::YansWifiChannel*
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_Expert_Openai_49
+✗  build failed (Expert/Openai/49)

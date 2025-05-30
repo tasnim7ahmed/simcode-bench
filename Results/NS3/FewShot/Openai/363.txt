@@ -1,0 +1,459 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_auto_FewShot_Openai_363.dir/auto_FewShot_Openai_363.cc.o
+[2/2] Linking CXX executable ../build/scratch/ns3.41-auto_FewShot_Openai_363-default
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_auto_FewShot_Openai_363
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+At time +2.14604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 1024 bytes
+At time +2.15108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 536 bytes
+At time +2.16159s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 1024 bytes
+At time +2.24604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 2048 bytes
+At time +2.25108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 1560 bytes
+At time +2.26118s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 2048 bytes
+At time +2.34604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 3072 bytes
+At time +2.35108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 2584 bytes
+At time +2.36155s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 3072 bytes
+At time +2.44604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 4096 bytes
+At time +2.45108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 3608 bytes
+At time +2.46115s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 4096 bytes
+At time +2.54604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 5120 bytes
+At time +2.55108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 4632 bytes
+At time +2.56154s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 5120 bytes
+At time +2.64604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 6144 bytes
+At time +2.65108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 5656 bytes
+At time +2.66161s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 6144 bytes
+At time +2.74604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 7168 bytes
+At time +2.75108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 6680 bytes
+At time +2.76119s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 7168 bytes
+At time +2.84604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 8192 bytes
+At time +2.85108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 7704 bytes
+At time +2.86147s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 8192 bytes
+At time +2.94604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 9216 bytes
+At time +2.95108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 8728 bytes
+At time +2.96116s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 9216 bytes
+At time +3.04604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 10240 bytes
+At time +3.05108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 9752 bytes
+At time +3.06114s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 10240 bytes
+At time +3.14604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 11264 bytes
+At time +3.15108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 10776 bytes
+At time +3.16129s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 11264 bytes
+At time +3.24604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 12288 bytes
+At time +3.25108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 11800 bytes
+At time +3.26138s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 12288 bytes
+At time +3.34604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 13312 bytes
+At time +3.35108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 12824 bytes
+At time +3.36145s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 13312 bytes
+At time +3.44604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 14336 bytes
+At time +3.45108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 13848 bytes
+At time +3.46152s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 14336 bytes
+At time +3.54604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 15360 bytes
+At time +3.55108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 14872 bytes
+At time +3.56199s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 15360 bytes
+At time +3.64604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 16384 bytes
+At time +3.65108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 15896 bytes
+At time +3.66147s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 16384 bytes
+At time +3.74604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 17408 bytes
+At time +3.75108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 16920 bytes
+At time +3.7612s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 17408 bytes
+At time +3.84604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 18432 bytes
+At time +3.85108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 17944 bytes
+At time +3.86201s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 18432 bytes
+At time +3.94604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 19456 bytes
+At time +3.95108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 18968 bytes
+At time +3.96141s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 19456 bytes
+At time +4.04604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 20480 bytes
+At time +4.05108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 19992 bytes
+At time +4.0614s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 20480 bytes
+At time +4.14604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 21504 bytes
+At time +4.15108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 21016 bytes
+At time +4.16157s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 21504 bytes
+At time +4.24604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 22528 bytes
+At time +4.25108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 22040 bytes
+At time +4.26145s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 22528 bytes
+At time +4.34604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 23552 bytes
+At time +4.35108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 23064 bytes
+At time +4.36141s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 23552 bytes
+At time +4.44604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 24576 bytes
+At time +4.45108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 24088 bytes
+At time +4.4612s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 24576 bytes
+At time +4.54604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 25600 bytes
+At time +4.55108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 25112 bytes
+At time +4.5612s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 25600 bytes
+At time +4.64604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 26624 bytes
+At time +4.65108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 26136 bytes
+At time +4.6613s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 26624 bytes
+At time +4.74604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 27648 bytes
+At time +4.75108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 27160 bytes
+At time +4.7613s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 27648 bytes
+At time +4.84604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 28672 bytes
+At time +4.85108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 28184 bytes
+At time +4.86133s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 28672 bytes
+At time +4.94604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 29696 bytes
+At time +4.95108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 29208 bytes
+At time +4.96205s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 29696 bytes
+At time +5.04604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 30720 bytes
+At time +5.05108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 30232 bytes
+At time +5.06145s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 30720 bytes
+At time +5.14604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 31744 bytes
+At time +5.15108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 31256 bytes
+At time +5.16199s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 31744 bytes
+At time +5.24604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 32768 bytes
+At time +5.25108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 32280 bytes
+At time +5.26183s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 32768 bytes
+At time +5.34604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 33792 bytes
+At time +5.35108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 33304 bytes
+At time +5.36162s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 33792 bytes
+At time +5.44604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 34816 bytes
+At time +5.45108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 34328 bytes
+At time +5.46121s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 34816 bytes
+At time +5.54604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 35840 bytes
+At time +5.55108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 35352 bytes
+At time +5.56118s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 35840 bytes
+At time +5.64604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 36864 bytes
+At time +5.65108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 36376 bytes
+At time +5.66151s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 36864 bytes
+At time +5.74604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 37888 bytes
+At time +5.75108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 37400 bytes
+At time +5.7613s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 37888 bytes
+At time +5.84604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 38912 bytes
+At time +5.85108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 38424 bytes
+At time +5.86125s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 38912 bytes
+At time +5.94604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 39936 bytes
+At time +5.95108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 39448 bytes
+At time +5.96149s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 39936 bytes
+At time +6.04604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 40960 bytes
+At time +6.05108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 40472 bytes
+At time +6.0614s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 40960 bytes
+At time +6.14604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 41984 bytes
+At time +6.15108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 41496 bytes
+At time +6.16185s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 41984 bytes
+At time +6.24604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 43008 bytes
+At time +6.25108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 42520 bytes
+At time +6.26165s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 43008 bytes
+At time +6.34604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 44032 bytes
+At time +6.35108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 43544 bytes
+At time +6.36132s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 44032 bytes
+At time +6.44604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 45056 bytes
+At time +6.45108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 44568 bytes
+At time +6.46142s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 45056 bytes
+At time +6.54604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 46080 bytes
+At time +6.55108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 45592 bytes
+At time +6.56131s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 46080 bytes
+At time +6.64604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 47104 bytes
+At time +6.65108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 46616 bytes
+At time +6.66144s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 47104 bytes
+At time +6.74604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 48128 bytes
+At time +6.75108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 47640 bytes
+At time +6.76127s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 48128 bytes
+At time +6.84604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 49152 bytes
+At time +6.85108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 48664 bytes
+At time +6.86176s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 49152 bytes
+At time +6.94604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 50176 bytes
+At time +6.95108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 49688 bytes
+At time +6.96135s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 50176 bytes
+At time +7.04604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 51200 bytes
+At time +7.05108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 50712 bytes
+At time +7.06192s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 51200 bytes
+At time +7.14604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 52224 bytes
+At time +7.15108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 51736 bytes
+At time +7.16175s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 52224 bytes
+At time +7.24604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 53248 bytes
+At time +7.25108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 52760 bytes
+At time +7.26122s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 53248 bytes
+At time +7.34604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 54272 bytes
+At time +7.35108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 53784 bytes
+At time +7.36175s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 54272 bytes
+At time +7.44604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 55296 bytes
+At time +7.45108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 54808 bytes
+At time +7.4618s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 55296 bytes
+At time +7.54604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 56320 bytes
+At time +7.55108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 55832 bytes
+At time +7.56136s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 56320 bytes
+At time +7.64604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 57344 bytes
+At time +7.65108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 56856 bytes
+At time +7.6612s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 57344 bytes
+At time +7.74604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 58368 bytes
+At time +7.75108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 57880 bytes
+At time +7.7615s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 58368 bytes
+At time +7.84604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 59392 bytes
+At time +7.85108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 58904 bytes
+At time +7.86114s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 59392 bytes
+At time +7.94604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 60416 bytes
+At time +7.95108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 59928 bytes
+At time +7.96139s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 60416 bytes
+At time +8.04604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 61440 bytes
+At time +8.05108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 60952 bytes
+At time +8.06169s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 61440 bytes
+At time +8.14604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 62464 bytes
+At time +8.15108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 61976 bytes
+At time +8.16156s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 62464 bytes
+At time +8.24604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 63488 bytes
+At time +8.25108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 63000 bytes
+At time +8.26136s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 63488 bytes
+At time +8.34604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 64512 bytes
+At time +8.35108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 64024 bytes
+At time +8.3613s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 64512 bytes
+At time +8.44604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 65536 bytes
+At time +8.45108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 65048 bytes
+At time +8.46172s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 65536 bytes
+At time +8.54604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 66560 bytes
+At time +8.55108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 66072 bytes
+At time +8.56114s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 66560 bytes
+At time +8.64604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 67584 bytes
+At time +8.65108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 67096 bytes
+At time +8.66124s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 67584 bytes
+At time +8.74604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 68608 bytes
+At time +8.75108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 68120 bytes
+At time +8.76125s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 68608 bytes
+At time +8.84604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 69632 bytes
+At time +8.85108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 69144 bytes
+At time +8.86134s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 69632 bytes
+At time +8.94604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 70656 bytes
+At time +8.95108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 70168 bytes
+At time +8.96159s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 70656 bytes
+At time +9.04604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 71680 bytes
+At time +9.05108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 71192 bytes
+At time +9.06118s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 71680 bytes
+At time +9.14604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 72704 bytes
+At time +9.15108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 72216 bytes
+At time +9.16167s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 72704 bytes
+At time +9.24604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 73728 bytes
+At time +9.25108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 73240 bytes
+At time +9.2613s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 73728 bytes
+At time +9.34604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 74752 bytes
+At time +9.35108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 74264 bytes
+At time +9.36146s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 74752 bytes
+At time +9.44604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 75776 bytes
+At time +9.45108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 75288 bytes
+At time +9.46168s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 75776 bytes
+At time +9.54604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 76800 bytes
+At time +9.55108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 76312 bytes
+At time +9.56134s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 76800 bytes
+At time +9.64604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 77824 bytes
+At time +9.65108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 77336 bytes
+At time +9.6616s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 77824 bytes
+At time +9.74604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 78848 bytes
+At time +9.75108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 78360 bytes
+At time +9.76164s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 78848 bytes
+At time +9.84604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 79872 bytes
+At time +9.85108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 79384 bytes
+At time +9.86155s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 79872 bytes
+At time +9.94604s on-off application sent 1024 bytes to 192.168.1.2 port 50000 total Tx 80896 bytes
+At time +9.95108s packet sink received 536 bytes from 192.168.1.1 port 49153 total Rx 80408 bytes
+At time +9.96145s packet sink received 488 bytes from 192.168.1.1 port 49153 total Rx 80896 bytes
