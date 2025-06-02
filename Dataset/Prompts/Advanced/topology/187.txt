@@ -1,0 +1,1 @@
+Simulate a data center network in ns-3 using Fat-Tree topology. Create a scenario where servers send data to each other across the network using TCP connections. Simulate the transmission of traffic and observe the packet flow across different layers of the topology. Use NetAnim for visualization.

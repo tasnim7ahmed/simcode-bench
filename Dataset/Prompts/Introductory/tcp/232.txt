@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where multiple client nodes communicate with a single server using TCP over a shared Wi-Fi network. Each client should send a small amount of data to the server, which logs the reception. Keep the setup simple with basic Wi-Fi configuration and minimal mobility.

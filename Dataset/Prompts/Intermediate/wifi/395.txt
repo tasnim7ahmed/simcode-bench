@@ -1,0 +1,1 @@
+Create a simple WiFi communication simulation in NS-3 between two nodes where one acts as a UDP server and the other as a client. The nodes should communicate using 802.11b standard, with an SSID 'wifi-network'. Set the UDP client to send 1000 packets with a 10ms interval.

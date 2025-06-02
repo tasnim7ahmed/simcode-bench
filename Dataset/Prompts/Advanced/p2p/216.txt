@@ -1,0 +1,1 @@
+Simulate a Point-to-Point (P2P) Network with three nodes using TCP protocol in ns-3. Node 0 acts as a TCP client, sending data to Node 2 (TCP server), with Node 1 serving as an intermediate router. Monitor the network's performance by collecting data throughput and packet loss statistics. Enable packet capturing (PCAP) for deeper analysis.

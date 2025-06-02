@@ -1,0 +1,2 @@
+Write an NS-3 simulation in C++ where a sender transmits packets over a wireless (Wi-Fi) network to multiple receivers using multicast communication. The sender should send UDP packets, and the receivers should log the received packets.
+

@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where a vehicle (moving node) communicates with a Roadside Unit (RSU) using a Vehicular Ad-hoc Network (VANET) over a Wi-Fi 802.11p (WAVE) connection. The vehicle should periodically send UDP packets to the RSU.

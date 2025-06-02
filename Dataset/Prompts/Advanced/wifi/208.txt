@@ -1,0 +1,1 @@
+Simulate a wireless network using ns-3 with two Wi-Fi access points (APs) and a group of 6 mobile nodes. The nodes move randomly within a designated area and switch between the two APs based on signal strength. Use the RandomWalk2dMobilityModel to model the movement of nodes and visualize the network in NetAnim. Measure handover events and packet loss as nodes switch between APs.

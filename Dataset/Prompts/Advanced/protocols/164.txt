@@ -1,0 +1,1 @@
+Create an ns-3 simulation that demonstrates OSPF (Open Shortest Path First) routing protocol between multiple nodes using NetAnim. Set up a basic network topology where multiple nodes are interconnected using point-to-point links. OSPF will dynamically compute the shortest path between nodes, and packet flows should be visualized using NetAnim.

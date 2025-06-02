@@ -1,0 +1,1 @@
+Provide a C++ example code for NS-3 that demonstrates the configuration of a mixed network with b/g and HT/non-HT stations, compares their performance under various scenarios such as ERP protection mode, short PPDU format, short slot time, and different payload sizes, and supports both UDP and TCP traffic, while outputting throughput results for each configuration.

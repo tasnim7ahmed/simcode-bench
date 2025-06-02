@@ -1,0 +1,1 @@
+Create a simple TCP connection simulation between two nodes over a point-to-point link in NS-3. Set the data rate to 5Mbps, the delay to 10ms, and introduce a 0.1 packet loss. One node should act as a TCP server, and the other as a TCP client, sending packets for 10 seconds.

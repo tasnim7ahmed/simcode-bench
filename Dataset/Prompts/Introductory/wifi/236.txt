@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where a Wi-Fi client sends UDP packets to a Wi-Fi access point (AP). The AP acts as a server and logs the received packets. Keep the setup minimal, with one client and one AP using the default 802.11n standard.

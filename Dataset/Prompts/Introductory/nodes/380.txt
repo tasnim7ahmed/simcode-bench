@@ -1,0 +1,1 @@
+Create a WiFi network in NS-3 with two nodes using the 802.11n standard at 5GHz. Set up a UDP application where Node 1 sends packets to Node 2. Start the server on Node 2 at 1s and the client on Node 1 at 2s. The simulation should run for 10 seconds.

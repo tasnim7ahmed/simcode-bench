@@ -1,0 +1,1 @@
+Create a simple TCP connection between two nodes in NS-3. Node 0 (sender) sends data to Node 1 (receiver) using TCP over a connection. Both nodes should have IP addresses from the range 10.1.1.0/24. The server (Node 1) listens on port 9, and the client (Node 0) sends data packets of size 1024 bytes every millisecond for 10 seconds.

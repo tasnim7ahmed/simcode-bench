@@ -1,0 +1,1 @@
+Generate an NS-3 C++ program that creates multiple nodes and organizes them in a bus topology. The program should connect all nodes sequentially to a shared channel using CSMA (Carrier Sense Multiple Access). The program should then print confirmation of the established connections. Keep the example simple, focusing only on node creation and topology setup.

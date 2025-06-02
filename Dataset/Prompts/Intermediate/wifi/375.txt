@@ -1,0 +1,1 @@
+Create a simple Wi-Fi network in NS-3 with two nodes: Node 1 as the AP (Access Point) and Node 2 as the STA (Station). Node 2 sends UDP packets to Node 1 using Wi-Fi communication. Node 2 should move randomly within a specified area while Node 1 remains stationary. Run the simulation for 10s.

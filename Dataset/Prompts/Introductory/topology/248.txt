@@ -1,0 +1,1 @@
+Generate an NS-3 C++ program that creates multiple nodes and organizes them in a star topology. The program should assign a central node as the hub and connect peripheral nodes to it using Point-to-Point links. The program should then print confirmation of the established connections. Keep the example simple, focusing only on node creation and topology setup.

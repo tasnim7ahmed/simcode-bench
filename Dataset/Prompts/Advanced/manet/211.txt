@@ -1,0 +1,1 @@
+Simulate a wireless ad-hoc network using ns-3 with 5 nodes using WiFi. Nodes communicate via peer-to-peer ad-hoc mode, with random mobility applied to the nodes. One of the nodes will generate UDP traffic to be sent to another node, and the simulation will track packet loss and throughput. The output will be saved in a file for further analysis.

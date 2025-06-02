@@ -1,0 +1,1 @@
+Create a simple Wi-Fi network simulation in NS-3 with two nodes. Set up a wireless link using IEEE 802.11 standards and make one node send UDP packets to the other over a wireless connection. Use a mobility model with constant position for the nodes, and run the simulation for 10 seconds.

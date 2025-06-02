@@ -1,0 +1,1 @@
+Simulate a simple vehicle-to-vehicle (V2V) communication scenario using the ns-3 Wave module. There are two vehicles communicating via the Wave protocol (802.11p), and a UDP application is used to send messages from one vehicle to another. The simulation should track packet transmissions and receptions and provide statistics on the messages sent and received.

@@ -1,0 +1,1 @@
+Create an ns-3 simulation that generates a dataset for a simple star topology network with 5 nodes, where one central node (node 0) communicates with four peripheral nodes (nodes 1 to 4) using TCP. The dataset should capture the source node, destination node, packet size, transmission time, and reception time for each packet. Save the information to a CSV file.

@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where multiple client nodes send UDP packets to a single server over a shared Wi-Fi network. The server should log the reception of packets. Keep the setup simple, with basic Wi-Fi configuration and no advanced mobility models.

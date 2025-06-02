@@ -1,0 +1,1 @@
+Simulate a Wi-Fi network in ns-3 where two stations (STA) are connected to an access point (AP). One station sends UDP packets to the other via the AP, and the performance metrics such as throughput and packet loss are measured. Use NetAnim to visualize the communication.

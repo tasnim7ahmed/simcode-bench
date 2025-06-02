@@ -1,0 +1,1 @@
+Create a mesh network in NS-3 with three nodes. Set up mesh routing with Random Access for the MAC and YansWifiPhy for the physical layer. Node 1 sends UDP packets to Node 2, and Node 2 forwards the packets to Node 3. Run the simulation for 10 seconds, starting the server at 1s and the client at 2s.

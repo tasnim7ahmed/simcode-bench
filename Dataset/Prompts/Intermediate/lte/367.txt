@@ -1,0 +1,1 @@
+Set up a simple LTE network in NS-3 with two nodes: one as an eNodeB (base station) and the other as a UE (user equipment). The UE sends TCP packets to the eNodeB. Use the default LTE parameters and run the simulation for 10s.

@@ -1,0 +1,1 @@
+Create an ns-3 simulation that demonstrates packet loss in a simple wired network with two nodes connected via a point-to-point link. The simulation should send packets using a UDP application, where packet loss occurs due to a rate-limiting queue. The example should also include NetAnim for visualizing packet transmissions and losses in the network.

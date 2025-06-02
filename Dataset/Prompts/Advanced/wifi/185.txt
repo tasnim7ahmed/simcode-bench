@@ -1,0 +1,1 @@
+Simulate a Wi-Fi network with three Access Points (APs) and six stations (STA) using the ns-3 simulator. Distribute the stations across the APs and set up UDP traffic flows between the stations and a remote server. Visualize the network in NetAnim and include mobility for the stations to simulate movement between the access points.

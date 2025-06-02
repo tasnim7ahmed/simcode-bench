@@ -1,0 +1,1 @@
+Generate an NS-3 C++ program that creates multiple nodes and organizes them in a linear topology. The program should connect each node sequentially using Point-to-Point links, forming a chain-like structure. The program should then print confirmation of the established connections. Keep the example simple, focusing only on node creation and topology setup.

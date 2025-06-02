@@ -1,0 +1,1 @@
+Generate an NS-3 C++ LTE network simulation with one eNB and one UE. The UE should send UDP packets to the eNB, and the eNB should respond. Use the IP range 10.0.0.0/24, install the Internet stack, and attach the UE to the eNB. The server should run from 1s to 10s, and the client starts at 2s, sending packets at 0.1s intervals. Run the simulation for 10s.

@@ -1,0 +1,1 @@
+Simulate a Vehicular Ad-Hoc Network (VANET) in ns-3 with 5 moving vehicles. Use the 802.11p (WAVE) standard for wireless communication between vehicles. Set up a scenario where vehicles exchange periodic messages (Basic Safety Messages - BSM) to simulate vehicle-to-vehicle (V2V) communication. Visualize the simulation using NetAnim.

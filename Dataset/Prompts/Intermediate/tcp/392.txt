@@ -1,0 +1,1 @@
+Create a simple TCP communication between two nodes in NS-3. Use a point-to-point link with a data rate of 5 Mbps and a delay of 2 ms. The sender (Node 0) sends TCP packets to the receiver (Node 1) over the connection. The simulation runs for 10 seconds and uses TCP as the transport protocol.

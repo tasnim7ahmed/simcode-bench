@@ -1,0 +1,1 @@
+Write a minimal NS-3 simulation in C++ where two nodes communicate using UDP over a point-to-point link. The client should send a small UDP packet to the server, which will log the reception. Keep the simulation simple and short.

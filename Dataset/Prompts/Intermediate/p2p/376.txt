@@ -1,0 +1,1 @@
+Create a point-to-point network in NS-3 with two nodes. Node 1 (client) sends TCP packets to Node 2 (server) using a TCP connection. Set the data rate to 5Mbps and the delay to 2ms. Run the simulation for 10 seconds, with the server starting at 1s and the client starting at 2s.

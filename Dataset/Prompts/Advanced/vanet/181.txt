@@ -1,0 +1,1 @@
+Simulate a VANET (Vehicular Ad-hoc Network) scenario using ns-3 with two vehicles communicating using DSRC/WAVE (Dedicated Short-Range Communication). Configure the vehicles to move along a straight path with constant speeds, exchange packets over UDP, and visualize the simulation using NetAnim.

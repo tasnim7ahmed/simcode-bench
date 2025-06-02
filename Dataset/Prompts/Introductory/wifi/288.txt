@@ -1,0 +1,1 @@
+Generate an NS-3 C++ script simulating a Wi-Fi 802.11ac network with one Access Point (AP) and two Wi-Fi stations (STAs). The AP is stationary, while the STAs move randomly within a 50x50 area. One STA acts as a TCP server on port 5000, while the other acts as a TCP client, sending 1024-byte packets at 100Mbps. The simulation should run for 10 seconds, with PCAP tracing enabled.

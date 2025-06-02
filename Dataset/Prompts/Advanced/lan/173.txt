@@ -1,0 +1,3 @@
+Simulate a hybrid network topology in ns-3 with 4 wired nodes and 3 wireless nodes. The wired nodes will be connected in a chain using point-to-point links. The wireless nodes will be connected via Wi-Fi, and one of the wired nodes will act as a gateway for the wireless network. Generate TCP traffic from the wireless nodes to the wired nodes, and enable pcap tracing to capture packet transmissions. At the end of the simulation, output the average throughput of the TCP flow.
+
+

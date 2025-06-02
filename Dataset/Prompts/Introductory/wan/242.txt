@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where multiple IoT devices communicate with a central server using a Low-Power Wireless Personal Area Network (6LoWPAN) over IEEE 802.15.4. The IoT devices should send UDP packets to the server periodically.

@@ -1,0 +1,1 @@
+Set up a simple TCP connection in NS-3 with two nodes using the TCP NewReno protocol. One node (server) listens on port 9, and the other node (client) sends TCP packets to the server. Set the link data rate to 5Mbps, and run the simulation for 10s.

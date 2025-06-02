@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where multiple drones (UAVs) communicate using UDP over a wireless network. The UAVs should follow a 3D mobility model and exchange data with a ground control station (GCS). Use the AODV (Ad hoc On-Demand Distance Vector) routing protocol to dynamically find routes between UAVs and the GCS. The simulation should run for 60 seconds.
