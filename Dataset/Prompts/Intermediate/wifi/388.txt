@@ -1,0 +1,1 @@
+Set up a simple Wi-Fi network with two nodes in NS-3. Node 0 (sender) sends UDP packets to Node 1 (receiver). Both nodes are statically placed with positions (0, 0) and (5, 5). Use the AARF Wi-Fi manager and configure the communication to last for 10 seconds. The server (Node 1) listens on port 9 and the client (Node 0) sends packets every 1 millisecond.

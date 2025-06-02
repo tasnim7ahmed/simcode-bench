@@ -1,0 +1,1 @@
+Create a simple TCP connection in NS-3 between two nodes using a point-to-point link with a data rate of 10Mbps and a delay of 5ms. Set up a TCP server on Node 2 and a TCP client on Node 1. The client should start sending data at 1s and stop at 10s. The simulation should run for 10 seconds.

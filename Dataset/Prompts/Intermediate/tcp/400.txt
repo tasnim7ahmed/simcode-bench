@@ -1,0 +1,1 @@
+Simulate a TCP connection between two Wi-Fi nodes: one as a TCP server and the other as a TCP client. The client sends packets of size 1024 bytes at a rate of 100ms interval to the server. The server listens on port 9.

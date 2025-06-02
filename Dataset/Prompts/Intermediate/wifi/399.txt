@@ -1,0 +1,1 @@
+Simulate a Wi-Fi network with two nodes: one as a UDP server and the other as a UDP client. The client sends UDP packets (size 1024 bytes) at an interval of 100ms to the server. Use a constant bit rate (CBR) application on the client and set the server to listen on port 9.

@@ -1,0 +1,1 @@
+Create a simple Ethernet network using CSMA in NS-3 with two nodes. Node 0 (sender) sends UDP packets to Node 1 (receiver) over a shared CSMA channel with a data rate of 100 Mbps and a delay of 2 milliseconds. Both nodes are assigned IP addresses in the 10.1.1.0/24 network, and the communication lasts for 10 seconds.

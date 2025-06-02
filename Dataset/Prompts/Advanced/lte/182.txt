@@ -1,0 +1,1 @@
+Simulate a basic LTE network using ns-3 where two User Equipment (UE) nodes communicate through a single eNodeB (Base Station) using the LTE EPC (Evolved Packet Core). Configure the UEs to exchange data over TCP and visualize the results using NetAnim.

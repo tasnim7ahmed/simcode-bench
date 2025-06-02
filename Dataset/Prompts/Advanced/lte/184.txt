@@ -1,0 +1,1 @@
+Simulate a simple LTE network with one eNodeB and two UEs (User Equipment) using ns-3. Configure the UEs to send UDP traffic to a remote host via the LTE core network (PGW). Visualize the packet flow and network configuration using NetAnim.

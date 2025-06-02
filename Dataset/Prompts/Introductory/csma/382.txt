@@ -1,0 +1,1 @@
+Create a CSMA network in NS-3 with three nodes using Ethernet with a data rate of 100Mbps and a delay of 2ms. Set up a UDP server on Node 3 and a UDP client on Node 1. The client should start sending data at 2s and stop at 10s. The simulation should run for 10 seconds.

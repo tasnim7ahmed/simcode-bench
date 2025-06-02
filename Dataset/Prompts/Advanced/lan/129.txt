@@ -1,0 +1,3 @@
+Simulate a network in NS-3 where VLANs are configured on a Layer 3 switch, and a router is used to route between them (inter-VLAN routing). Also, configure a DHCP server that dynamically assigns IP addresses to each VLAN. The network should consist of three VLANs, where each VLAN has its own subnet. Generate traffic between hosts in different VLANs and verify that inter-VLAN communication is working. Capture pcap traces of DHCP request/offer packets.
+
+

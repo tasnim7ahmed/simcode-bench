@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where a mobile node communicates with a static node using an Ad-hoc Wi-Fi (802.11s) network. The mobile node moves in a straight line while sending UDP packets to the static node, which logs the received data.

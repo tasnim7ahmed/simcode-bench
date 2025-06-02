@@ -1,0 +1,3 @@
+Simulate a Wireless Ad-Hoc Network (MANET) with 5 nodes using the AODV (Ad-hoc On-Demand Distance Vector) routing protocol in ns-3. Nodes are mobile and will move around in a specified area, maintaining communication between nodes even as they move. Collect mobility trace information and analyze the packet delivery using AODV.
+
+

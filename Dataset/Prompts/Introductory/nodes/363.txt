@@ -1,0 +1,1 @@
+Create an Ethernet network in NS-3 with two nodes. The first node (client) sends TCP packets to the second node (server). Set the link data rate to 100Mbps and delay to 5ms. Use 192.168.1.0/24 IP addresses. The client sends packets at 0.1s intervals starting at 2s, and the server runs from 1s to 10s. Run the simulation for 10s.

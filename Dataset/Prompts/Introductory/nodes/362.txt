@@ -1,0 +1,1 @@
+Create a Wi-Fi network in NS-3 with two nodes. The first node (AP) and the second node (STA) communicate via UDP packets. Set the Wi-Fi data rate to default and use 10.1.1.0/24 IP addresses. The client sends packets at 0.1s intervals starting at 2s, and the server runs from 1s to 10s. Use default Wi-Fi PHY and MAC models and run the simulation for 10s.

@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where a TCP client and TCP server communicate over a Point-to-Point (P2P) network with an intermediate router node. The client sends TCP packets to the server, and the server acknowledges the packets.

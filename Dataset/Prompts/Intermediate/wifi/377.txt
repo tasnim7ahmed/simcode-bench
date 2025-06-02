@@ -1,0 +1,1 @@
+Create a Wi-Fi network in NS-3 with three nodes: one Wi-Fi access point and two stations. Node 1 (station) sends UDP packets to Node 2 (AP), and Node 2 forwards them to Node 3. Set up Wi-Fi parameters with a default channel and AARF station management. The simulation should run for 10 seconds, starting the server at 1s and the client at 2s.

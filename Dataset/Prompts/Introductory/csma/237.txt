@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where a network of three nodes is connected using a CSMA (Ethernet) network. One node acts as a UDP client, another as a UDP server, and the third acts as a passive relay node (forwarding traffic). The client sends data to the server via the relay node. The server logs the received packets

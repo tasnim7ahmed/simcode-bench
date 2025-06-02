@@ -1,0 +1,1 @@
+Create a point-to-point network with two nodes in NS-3. Node 0 sends UDP packets to Node 1 starting at 2s and stopping at 10s. Use a data rate of 10Mbps, a delay of 5ms, and assign IP addresses starting with 192.168.1.0/24. The server on Node 1 starts at 1s and the simulation runs for 10 seconds.

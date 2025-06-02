@@ -1,0 +1,1 @@
+Create a Wi-Fi network in NS-3 with two nodes: one as an access point (AP) and the other as a station (STA). The station sends UDP packets to the access point. Use the SSID ns3-wifi for both devices. Set the link data rate to 54Mbps, and run the simulation for 10s.

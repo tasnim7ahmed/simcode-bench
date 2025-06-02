@@ -1,0 +1,1 @@
+Set up a point-to-point network in NS-3 with two nodes. Configure a point-to-point link with a data rate of 5Mbps and a delay of 2ms. Node 1 sends UDP packets to Node 2, with a server running on Node 2. The simulation should run for 10 seconds, starting the server at 1s and the client at 2s.

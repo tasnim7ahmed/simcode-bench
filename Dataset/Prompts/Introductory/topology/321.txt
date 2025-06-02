@@ -1,0 +1,1 @@
+Generate an NS-3 C++ script that sets up a Wi-Fi Mesh Network with four mesh nodes. The last node acts as a UDP server on port 9, and the first three nodes act as UDP clients. The UDP clients send 1,000 UDP packets of 1024 bytes each with an interval of 0.01 seconds. The simulation runs for 10 seconds, with the server starting at 1 second and the clients starting at 2 seconds.

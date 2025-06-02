@@ -1,0 +1,1 @@
+Simulate a Wi-Fi network with 2 access points (APs) and 4 stations (STA) using ns-3. Configure the stations to connect to the nearest access point and exchange UDP traffic. Visualize the network and traffic flow using NetAnim.

@@ -1,0 +1,3 @@
+Generate a C++ program using NS-3 that simulates the Routing Information Protocol (RIP) over a network with multiple nodes. The simulation should create a simple network topology where RIP is used to exchange routing information between routers. Implement a star topology with one central node (the main router) and four edge nodes (subnet routers). Assign IP addresses to each node and use RIP for dynamic routing. Capture and trace the routing tables as the simulation runs.
+
+

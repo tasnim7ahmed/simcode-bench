@@ -1,0 +1,1 @@
+Create an NS-3 C++ point-to-point network with two nodes. The first node (client) sends TCP packets to the second node (server). Use a 5Mbps data rate and a 2ms delay. The client sends packets at 0.1s intervals, and the server runs from 1s to 10s. Assign IPs in the 10.1.1.0/24 range. Run the simulation for 10s.

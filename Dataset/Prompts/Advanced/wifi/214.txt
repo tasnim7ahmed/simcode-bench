@@ -1,0 +1,1 @@
+Simulate a wireless network with four nodes using Wi-Fi in ns-3. One node acts as an Access Point (AP), and the other three act as Wi-Fi stations (STA) connected to the AP. The stations will communicate with each other through the AP. The simulation will capture and display packet traces and measure the performance in terms of throughput and packet loss.

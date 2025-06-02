@@ -1,0 +1,3 @@
+Simulate a wireless network using the IEEE 802.11 WiFi standard in ns-3. Create a network with one Access Point (AP) and two WiFi stations (STA). Configure the stations to communicate with the AP using UDP traffic. Track the number of packets transmitted, the total received bytes, and the throughput for each station. Enable pcap tracing to capture the wireless traffic.
+
+

@@ -1,0 +1,1 @@
+Write an NS-3 simulation in C++ where multiple mobile nodes communicate using UDP over a MANET (Mobile Ad-Hoc Network). The nodes should use the AODV routing protocol for dynamic path discovery. Each node should periodically send packets to a randomly chosen neighbor. The simulation should model node mobility using the RandomWaypoint model and run for 20 seconds.

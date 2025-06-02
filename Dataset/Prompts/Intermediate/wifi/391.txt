@@ -1,0 +1,1 @@
+Create a simple Wi-Fi network in NS-3 with two nodes. Node 0 (sender) sends UDP packets to Node 1 (receiver) over a Wi-Fi link. The nodes are positioned using a grid layout and assigned IP addresses from the 10.1.1.0/24 network. The Wi-Fi connection uses an SSID "wifi-ssid" and the simulation runs for 10 seconds.

@@ -1,0 +1,3 @@
+Simulate a Wi-Fi network in ns-3 with multiple stations (clients) connected to an access point (AP) in infrastructure mode. One client will act as a UDP server, while another will act as a UDP client sending traffic to the server. Configure a Wi-Fi channel with a data rate of 54 Mbps and a delay of 2ms. Enable pcap and ASCII tracing to analyze packet transmission and reception. Ensure the simulation runs for 10 seconds, and measure the throughput at the server.
+
+

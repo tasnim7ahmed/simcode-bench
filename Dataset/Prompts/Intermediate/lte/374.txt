@@ -1,0 +1,1 @@
+Create an LTE mobile network in NS-3 with two nodes: Node 1 is the eNB, and Node 2 is the UE. Node 2 sends UDP packets to Node 1 using LTE communication. Simulate mobility with random walk for Node 2 and constant position for Node 1. Run the simulation for 10s.

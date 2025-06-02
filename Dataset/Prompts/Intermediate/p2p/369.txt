@@ -1,0 +1,1 @@
+Create a simple point-to-point network in NS-3 with two nodes. The first node sends UDP packets to the second node. Use a link speed of 5Mbps and a delay of 2ms. Run the simulation for 10s.

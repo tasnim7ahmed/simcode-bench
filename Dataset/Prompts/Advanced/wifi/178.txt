@@ -1,0 +1,1 @@
+Create an ns-3 simulation demonstrating Wi-Fi communication between two nodes using the 802.11n standard in Ad-hoc mode. The simulation should include a UDP client-server application for testing data transmission, and it should generate a NetAnim visualization to display packet exchanges between the nodes.

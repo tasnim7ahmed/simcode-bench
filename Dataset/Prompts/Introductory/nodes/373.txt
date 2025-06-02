@@ -1,0 +1,1 @@
+Create a WiFi network in NS-3 with three nodes, where Node 1 is the access point and Node 2 sends UDP packets to Node 3 through the access point. Use a simple grid mobility model, and the simulation should last for 10s.

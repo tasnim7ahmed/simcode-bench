@@ -1,0 +1,1 @@
+Create an ns-3 simulation of a wireless ad-hoc network with 3 nodes using the AODV routing protocol. Set up UDP communication between two nodes while the third node relays packets. Visualize the packet transmission and network topology using NetAnim.

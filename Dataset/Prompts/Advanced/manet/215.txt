@@ -1,0 +1,1 @@
+Simulate a Mobile Ad Hoc Network (MANET) in ns-3 with four nodes using AODV (Ad hoc On-Demand Distance Vector) routing. The nodes move randomly within a defined boundary, and one node sends UDP packets to another node. Capture packet traces and monitor the performance in terms of throughput and packet loss.
