@@ -1,0 +1,437 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_sample_0114.dir/sample_0114.cc.o
+FAILED: scratch/CMakeFiles/scratch_sample_0114.dir/sample_0114.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_sample_0114.dir/sample_0114.cc.o -MF scratch/CMakeFiles/scratch_sample_0114.dir/sample_0114.cc.o.d -o scratch/CMakeFiles/scratch_sample_0114.dir/sample_0114.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:5:3: error: ‘Config’ has not been declared
+    5 |   Config::SetDefault ("ns3::OnOffApplication::PacketSize", StringValue ("210"));
+      |   ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:5:60: error: ‘StringValue’ was not declared in this scope
+    5 |   Config::SetDefault ("ns3::OnOffApplication::PacketSize", StringValue ("210"));
+      |                                                            ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:6:3: error: ‘Config’ has not been declared
+    6 |   Config::SetDefault ("ns3::OnOffApplication::DataRate", StringValue ("448kb/s"));
+      |   ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:10:3: error: ‘CommandLine’ was not declared in this scope
+   10 |   CommandLine cmd;
+      |   ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:11:3: error: ‘cmd’ was not declared in this scope
+   11 |   cmd.Parse (argc, argv);
+      |   ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:15:3: error: ‘NodeContainer’ was not declared in this scope
+   15 |   NodeContainer n;
+      |   ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:16:3: error: ‘n’ was not declared in this scope; did you mean ‘yn’?
+   16 |   n.Create (4);
+      |   ^
+      |   yn
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:18:3: error: ‘InternetStackHelper’ was not declared in this scope
+   18 |   InternetStackHelper internet;
+      |   ^~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:19:3: error: ‘internet’ was not declared in this scope
+   19 |   internet.Install (n);
+      |   ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:23:3: error: ‘PointToPointHelper’ was not declared in this scope
+   23 |   PointToPointHelper p2p;
+      |   ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:24:3: error: ‘p2p’ was not declared in this scope
+   24 |   p2p.SetQueue ("ns3::DropTailQueue", "MaxSize", StringValue ("30p"));
+      |   ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:27:3: error: ‘NetDeviceContainer’ was not declared in this scope
+   27 |   NetDeviceContainer d0d2 = p2p.Install (n.Get (0), n.Get (2));
+      |   ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:29:21: error: expected ‘;’ before ‘d1d2’
+   29 |   NetDeviceContainer d1d2 = p2p.Install (n.Get (1), n.Get (2));
+      |                     ^~~~~
+      |                     ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:33:21: error: expected ‘;’ before ‘d3d2’
+   33 |   NetDeviceContainer d3d2 = p2p.Install (n.Get (3), n.Get (2));
+      |                     ^~~~~
+      |                     ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:37:3: error: ‘Ipv4AddressHelper’ was not declared in this scope
+   37 |   Ipv4AddressHelper ipv4;
+      |   ^~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:38:3: error: ‘ipv4’ was not declared in this scope
+   38 |   ipv4.SetBase ("10.1.1.0", "255.255.255.0");
+      |   ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:39:3: error: ‘Ipv4InterfaceContainer’ was not declared in this scope
+   39 |   Ipv4InterfaceContainer i0i2 = ipv4.Assign (d0d2);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:42:25: error: expected ‘;’ before ‘i1i2’
+   42 |   Ipv4InterfaceContainer i1i2 = ipv4.Assign (d1d2);
+      |                         ^~~~~
+      |                         ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:45:25: error: expected ‘;’ before ‘i3i2’
+   45 |   Ipv4InterfaceContainer i3i2 = ipv4.Assign (d3d2);
+      |                         ^~~~~
+      |                         ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:47:3: error: ‘Ipv4GlobalRoutingHelper’ has not been declared
+   47 |   Ipv4GlobalRoutingHelper::PopulateRoutingTables ();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:53:3: error: ‘OnOffHelper’ was not declared in this scope
+   53 |   OnOffHelper onoff ("ns3::UdpSocketFactory",
+      |   ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:55:3: error: ‘onoff’ was not declared in this scope
+   55 |   onoff.SetConstantRate (DataRate ("448kb/s"));
+      |   ^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:55:26: error: ‘DataRate’ was not declared in this scope
+   55 |   onoff.SetConstantRate (DataRate ("448kb/s"));
+      |                          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:56:3: error: ‘ApplicationContainer’ was not declared in this scope
+   56 |   ApplicationContainer apps = onoff.Install (n.Get (0));
+      |   ^~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:57:3: error: ‘apps’ was not declared in this scope
+   57 |   apps.Start (Seconds (1.0));
+      |   ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:57:15: error: ‘Seconds’ was not declared in this scope; did you mean ‘useconds_t’?
+   57 |   apps.Start (Seconds (1.0));
+      |               ^~~~~~~
+      |               useconds_t
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:61:3: error: ‘PacketSinkHelper’ was not declared in this scope
+   61 |   PacketSinkHelper sink ("ns3::UdpSocketFactory",
+      |   ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:63:10: error: ‘sink’ was not declared in this scope; did you mean ‘sinl’?
+   63 |   apps = sink.Install (n.Get (3));
+      |          ^~~~
+      |          sinl
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:69:56: error: ‘i1i2’ was not declared in this scope
+   69 |                       AddressValue (InetSocketAddress (i1i2.GetAddress (0), port)));
+      |                                                        ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:69:37: error: ‘InetSocketAddress’ was not declared in this scope
+   69 |                       AddressValue (InetSocketAddress (i1i2.GetAddress (0), port)));
+      |                                     ^~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:69:23: error: ‘AddressValue’ was not declared in this scope
+   69 |                       AddressValue (InetSocketAddress (i1i2.GetAddress (0), port)));
+      |                       ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:81:56: error: ‘i3i2’ was not declared in this scope
+   81 |                       AddressValue (InetSocketAddress (i3i2.GetAddress (0), port2)));
+      |                                                        ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:95:3: error: ‘AsciiTraceHelper’ was not declared in this scope
+   95 |   AsciiTraceHelper ascii;
+      |   ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:96:23: error: ‘ascii’ was not declared in this scope; did you mean ‘toascii’?
+   96 |   p2p.EnableAsciiAll (ascii.CreateFileStream ("simple-error-model.tr"));
+      |                       ^~~~~
+      |                       toascii
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:104:7: error: ‘Node’ was not declared in this scope
+  104 |   Ptr<Node> n5 = CreateObject<Node> ();
+      |       ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:104:3: error: ‘Ptr’ was not declared in this scope
+  104 |   Ptr<Node> n5 = CreateObject<Node> ();
+      |   ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:104:13: error: ‘n5’ was not declared in this scope
+  104 |   Ptr<Node> n5 = CreateObject<Node> ();
+      |             ^~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:104:18: error: ‘CreateObject’ was not declared in this scope
+  104 |   Ptr<Node> n5 = CreateObject<Node> ();
+      |                  ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:105:13: error: ‘n6’ was not declared in this scope
+  105 |   Ptr<Node> n6 = CreateObject<Node> ();
+      |             ^~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:105:38: error: expected primary-expression before ‘)’ token
+  105 |   Ptr<Node> n6 = CreateObject<Node> ();
+      |                                      ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:106:7: error: ‘PointToPointChannel’ was not declared in this scope
+  106 |   Ptr<PointToPointChannel> channel1 = CreateObject<PointToPointChannel> ();
+      |       ^~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:106:28: error: ‘channel1’ was not declared in this scope
+  106 |   Ptr<PointToPointChannel> channel1 = CreateObject<PointToPointChannel> ();
+      |                            ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:106:74: error: expected primary-expression before ‘)’ token
+  106 |   Ptr<PointToPointChannel> channel1 = CreateObject<PointToPointChannel> ();
+      |                                                                          ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:107:7: error: ‘RateErrorModel’ was not declared in this scope
+  107 |   Ptr<RateErrorModel> em = CreateObject<RateErrorModel> ();
+      |       ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:107:23: error: ‘em’ was not declared in this scope; did you mean ‘tm’?
+  107 |   Ptr<RateErrorModel> em = CreateObject<RateErrorModel> ();
+      |                       ^~
+      |                       tm
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:107:58: error: expected primary-expression before ‘)’ token
+  107 |   Ptr<RateErrorModel> em = CreateObject<RateErrorModel> ();
+      |                                                          ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:109:7: error: ‘NetDevice’ was not declared in this scope
+  109 |   Ptr<NetDevice> n5if = p2p.Install (n5, channel1);
+      |       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:109:18: error: ‘n5if’ was not declared in this scope
+  109 |   Ptr<NetDevice> n5if = p2p.Install (n5, channel1);
+      |                  ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:110:18: error: ‘n6if’ was not declared in this scope
+  110 |   Ptr<NetDevice> n6if = p2p.Install (n6, channel1);
+      |                  ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:113:16: error: ‘RateErrorModel’ is not a class, namespace, or enumeration
+  113 |   em->SetUnit (RateErrorModel::ERROR_UNIT_PACKET);
+      |                ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:116:44: error: ‘PointerValue’ was not declared in this scope
+  116 |   n6if->SetAttribute ("ReceiveErrorModel", PointerValue (em));
+      |                                            ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:118:28: error: ‘Ipv4’ was not declared in this scope
+  118 |   NS_ASSERT (n5->GetObject<Ipv4> () != nullptr);
+      |                            ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:118:35: error: expected primary-expression before ‘)’ token
+  118 |   NS_ASSERT (n5->GetObject<Ipv4> () != nullptr);
+      |                                   ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:118:3: error: ‘NS_ASSERT’ was not declared in this scope
+  118 |   NS_ASSERT (n5->GetObject<Ipv4> () != nullptr);
+      |   ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:119:35: error: expected primary-expression before ‘)’ token
+  119 |   NS_ASSERT (n6->GetObject<Ipv4> () != nullptr);
+      |                                   ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:123:38: error: ‘RxDrop’ was not declared in this scope
+  123 |                       MakeCallback (&RxDrop));
+      |                                      ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:123:23: error: ‘MakeCallback’ was not declared in this scope
+  123 |                       MakeCallback (&RxDrop));
+      |                       ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:125:36: error: ‘DevTxTrace’ was not declared in this scope
+  125 |                     MakeCallback (&DevTxTrace));
+      |                                    ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:129:38: error: ‘MacRx’ was not declared in this scope
+  129 |                       MakeCallback (&MacRx));
+      |                                      ^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:131:7: error: ‘BurstErrorModel’ was not declared in this scope
+  131 |   Ptr<BurstErrorModel> em2 = CreateObject<BurstErrorModel> ();
+      |       ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:131:24: error: ‘em2’ was not declared in this scope
+  131 |   Ptr<BurstErrorModel> em2 = CreateObject<BurstErrorModel> ();
+      |                        ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:131:61: error: expected primary-expression before ‘)’ token
+  131 |   Ptr<BurstErrorModel> em2 = CreateObject<BurstErrorModel> ();
+      |                                                             ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:132:17: error: ‘BurstErrorModel’ is not a class, namespace, or enumeration
+  132 |   em2->SetUnit (BurstErrorModel::ERROR_UNIT_PACKET);
+      |                 ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:137:7: error: ‘ListErrorModel’ was not declared in this scope
+  137 |   Ptr<ListErrorModel> em3 = CreateObject<ListErrorModel> ();
+      |       ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:137:23: error: ‘em3’ was not declared in this scope
+  137 |   Ptr<ListErrorModel> em3 = CreateObject<ListErrorModel> ();
+      |                       ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:137:59: error: expected primary-expression before ‘)’ token
+  137 |   Ptr<ListErrorModel> em3 = CreateObject<ListErrorModel> ();
+      |                                                           ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:145:3: error: ‘Simulator’ has not been declared
+  145 |   Simulator::Run ();
+      |   ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0114.cc:146:3: error: ‘Simulator’ has not been declared
+  146 |   Simulator::Destroy ();
+      |   ^~~~~~~~~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_sample_0114
+✗ build failed (sample_0114)

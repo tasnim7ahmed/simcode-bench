@@ -29,15 +29,15 @@ Path(RESULTS_PATH).mkdir(parents=True, exist_ok=True)
 SRC_DIRS = [Path(f'{SOURCE_PATH}/Codes/Large'), Path(f'{SOURCE_PATH}/Codes/Small')]
 
 GEN_DIRS = {
-    'instruction_prompt': Path(f'{OUTPUT_PATH}/Basic/Openai'),
-    'cot_prompt': Path(f'{OUTPUT_PATH}/CoT/Openai'),
-    'few_shot_prompt': Path(f'{OUTPUT_PATH}/FewShot/Openai'),
-    'react_prompt': Path(f'{OUTPUT_PATH}/ReAct/Openai'),
-    'expert_prompt': Path(f'{OUTPUT_PATH}/Expert/Openai'),
-    'self_consistency_prompt': Path(f'{OUTPUT_PATH}/SelfConsistency/Openai')
+    'instruction_prompt': Path(f'{OUTPUT_PATH}/Basic/Qwen'),
+    'cot_prompt': Path(f'{OUTPUT_PATH}/CoT/Qwen'),
+    'few_shot_prompt': Path(f'{OUTPUT_PATH}/FewShot/Qwen'),
+    'react_prompt': Path(f'{OUTPUT_PATH}/ReAct/Qwen'),
+    'expert_prompt': Path(f'{OUTPUT_PATH}/Expert/Qwen'),
+    'self_consistency_prompt': Path(f'{OUTPUT_PATH}/SelfConsistency/Qwen')
 }
 
-MODEL_NAME = 'gpt-4.1'
+MODEL_NAME = 'qwen-plus-latest'
 
 COMMON_PATTERNS = {
     'for(': None, 'while(': None, 'if(': None, 'std::': None,

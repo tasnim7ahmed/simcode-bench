@@ -1,0 +1,332 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_sample_0049.dir/sample_0049.cc.o
+FAILED: scratch/CMakeFiles/scratch_sample_0049.dir/sample_0049.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_sample_0049.dir/sample_0049.cc.o -MF scratch/CMakeFiles/scratch_sample_0049.dir/sample_0049.cc.o.d -o scratch/CMakeFiles/scratch_sample_0049.dir/sample_0049.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc: In function ‘void GenerateTraffic(ns3::Ptr<ns3::Socket>, ns3::Ptr<ns3::UniformRandomVariable>, ns3::Ptr<ns3::Node>, ns3::Time, ns3::Ipv4InterfaceContainer)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:69:43: error: base operand of ‘->’ has non-pointer type ‘std::pair<ns3::Ptr<ns3::Ipv4>, unsigned int>’
+   69 |         Ptr<Ipv4> ipSender = i.Get(sender)->GetObject<Ipv4>();
+      |                                           ^~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:69:59: error: expected primary-expression before ‘>’ token
+   69 |         Ptr<Ipv4> ipSender = i.Get(sender)->GetObject<Ipv4>();
+      |                                                           ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:69:61: error: expected primary-expression before ‘)’ token
+   69 |         Ptr<Ipv4> ipSender = i.Get(sender)->GetObject<Ipv4>();
+      |                                                             ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:75:48: error: conversion from ‘ns3::Ipv4InterfaceAddress’ to non-scalar type ‘ns3::Ipv4Address’ requested
+   75 |         Ipv4Address addr = ipSender->GetAddress(1, 0);
+      |                            ~~~~~~~~~~~~~~~~~~~~^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:86:34: error: base operand of ‘->’ has non-pointer type ‘std::pair<ns3::Ptr<ns3::Ipv4>, unsigned int>’
+   86 |     Ipv4Address addr = i.Get(idx)->GetObject<Ipv4>()->GetAddress(1, 0);
+      |                                  ^~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:86:50: error: expected primary-expression before ‘>’ token
+   86 |     Ipv4Address addr = i.Get(idx)->GetObject<Ipv4>()->GetAddress(1, 0);
+      |                                                  ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:86:52: error: expected primary-expression before ‘)’ token
+   86 |     Ipv4Address addr = i.Get(idx)->GetObject<Ipv4>()->GetAddress(1, 0);
+      |                                                    ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:95:1: error: variable or field ‘CheckThroughput’ declared void
+   95 | CheckThroughput(QueueDiscContainer queueDiscs)
+      | ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:95:17: error: ‘QueueDiscContainer’ was not declared in this scope
+   95 | CheckThroughput(QueueDiscContainer queueDiscs)
+      |                 ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:196:14: error: ‘class ns3::WifiHelper’ has no member named ‘EnablePcap’
+  196 |         wifi.EnablePcap("wifi-aggregation", 0, 0);
+      |              ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:214:13: error: ‘ConstantSpeedPropagationDelayModel’ was not declared in this scope
+  214 |         Ptr<ConstantSpeedPropagationDelayModel> delay = CreateObject<ConstantSpeedPropagationDelayModel>();
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:214:47: error: template argument 1 is invalid
+  214 |         Ptr<ConstantSpeedPropagationDelayModel> delay = CreateObject<ConstantSpeedPropagationDelayModel>();
+      |                                               ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:214:105: error: no matching function for call to ‘CreateObject<ConstantSpeedPropagationDelayModel>()’
+  214 |         Ptr<ConstantSpeedPropagationDelayModel> delay = CreateObject<ConstantSpeedPropagationDelayModel>();
+      |                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/object.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/net-device.h:29,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/node.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/application.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/application-container.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/bulk-send-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/bulk-send-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:20:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:579:1: note: candidate: ‘template<class T, class ... Args> ns3::Ptr<T> ns3::CreateObject(Args&& ...)’
+  579 | CreateObject(Args&&... args)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:579:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:215:21: error: ‘class ns3::YansWifiChannelHelper’ has no member named ‘SetPropagationDelayModel’; did you mean ‘SetPropagationDelay’?
+  215 |         wifiChannel.SetPropagationDelayModel(delay);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                     SetPropagationDelay
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:220:17: error: ‘class ns3::YansWifiPhyHelper’ has no member named ‘SetTxPowerStart’
+  220 |         wifiPhy.SetTxPowerStart(txPower);
+      |                 ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:221:17: error: ‘class ns3::YansWifiPhyHelper’ has no member named ‘SetTxPowerEnd’
+  221 |         wifiPhy.SetTxPowerEnd(txPower);
+      |                 ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:222:17: error: ‘class ns3::YansWifiPhyHelper’ has no member named ‘SetTxPowerGain’
+  222 |         wifiPhy.SetTxPowerGain(antennaGain);
+      |                 ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:229:45: error: expected primary-expression before ‘,’ token
+  229 |         wifiMac.SetType ("Sta", "Ssid", Ssid, "AccessPoint", i.Get(0));
+      |                                             ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:229:62: error: ‘i’ was not declared in this scope
+  229 |         wifiMac.SetType ("Sta", "Ssid", Ssid, "AccessPoint", i.Get(0));
+      |                                                              ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:230:40: error: ‘gridNetwork’ was not declared in this scope
+  230 |         wifi.Install(wifiPhy, wifiMac, gridNetwork);
+      |                                        ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:209:16: warning: unused variable ‘sensitivity’ [-Wunused-variable]
+  209 |         double sensitivity = -97.0; // dBm; receiver min RSS
+      |                ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:210:16: warning: unused variable ‘fofst’ [-Wunused-variable]
+  210 |         double fofst = 0.125;       // MHz
+      |                ^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:212:16: warning: unused variable ‘beta’ [-Wunused-variable]
+  212 |         double beta = 0.125;
+      |                ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:129:14: warning: unused variable ‘mtuBytes’ [-Wunused-variable]
+  129 |     uint32_t mtuBytes = 4000;
+      |              ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:140:14: warning: unused variable ‘port’ [-Wunused-variable]
+  140 |     uint32_t port = 9000;
+      |              ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:144:14: warning: unused variable ‘maxAmpduSize’ [-Wunused-variable]
+  144 |     uint32_t maxAmpduSize = 38384; // bytes
+      |              ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:146:10: warning: unused variable ‘isAmsduEnable’ [-Wunused-variable]
+  146 |     bool isAmsduEnable = false;
+      |          ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:147:14: warning: unused variable ‘minAmpdu’ [-Wunused-variable]
+  147 |     uint32_t minAmpdu;
+      |              ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:150:14: warning: unused variable ‘nFlashes’ [-Wunused-variable]
+  150 |     uint32_t nFlashes = 0;
+      |              ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0049.cc:153:14: warning: unused variable ‘threadNum’ [-Wunused-variable]
+  153 |     uint32_t threadNum = 0;
+      |              ^~~~~~~~~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_sample_0049
+✗ build failed (sample_0049)

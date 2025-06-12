@@ -1,0 +1,533 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_sample_0116.dir/sample_0116.cc.o
+FAILED: scratch/CMakeFiles/scratch_sample_0116.dir/sample_0116.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_sample_0116.dir/sample_0116.cc.o -MF scratch/CMakeFiles/scratch_sample_0116.dir/sample_0116.cc.o.d -o scratch/CMakeFiles/scratch_sample_0116.dir/sample_0116.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:192:18: warning: missing terminating " character
+  192 |                  "If Sgi is true,
+      |                  ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:192:18: error: missing terminating " character
+  192 |                  "If Sgi is true,
+      |                  ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc: In function ‘ns3::Time max_oMsduDuration(ns3::Time)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+   18 |     DurationCoarse<double, ns3::MilliSecondsPerSecond> tc(time);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:33: error: ‘MilliSecondsPerSecond’ is not a member of ‘ns3’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:5: error: ‘DurationCoarse’ was not declared in this scope
+   18 |     DurationCoarse<double, ns3::MilliSecondsPerSecond> tc(time);
+      |     ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:18:20: error: expected primary-expression before ‘double’
+   18 |     DurationCoarse<double, ns3::MilliSecondsPerSecond> tc(time);
+      |                    ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:19:25: error: ‘tc’ was not declared in this scope; did you mean ‘tm’?
+   19 |     max_oMsduDuration = tc.GetDouble();
+      |                         ^~
+      |                         tm
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:20:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   20 | }
+      | ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:33:1: error: variable or field ‘CheckRate’ declared void
+   33 | CheckRate(WifiPhyStandard standard,
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:33:11: error: ‘WifiPhyStandard’ was not declared in this scope; did you mean ‘WifiPhyState’?
+   33 | CheckRate(WifiPhyStandard standard,
+      |           ^~~~~~~~~~~~~~~
+      |           WifiPhyState
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:34:11: error: ‘WifiRateControlAlgorithm’ was not declared in this scope
+   34 |           WifiRateControlAlgorithm type,
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:35:20: error: expected primary-expression before ‘dataRate’
+   35 |           DataRate dataRate,
+      |                    ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:36:24: error: expected primary-expression before ‘txVector’
+   36 |           PointerValue txVector,
+      |                        ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:37:24: error: expected primary-expression before ‘rtsVector’
+   37 |           PointerValue rtsVector,
+      |                        ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:38:24: error: expected primary-expression before ‘bRate’
+   38 |           PointerValue bRate,
+      |                        ^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:39:24: error: expected primary-expression before ‘gRate’
+   39 |           PointerValue gRate,
+      |                        ^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:40:24: error: expected primary-expression before ‘n_2_4gHzRate’
+   40 |           PointerValue n_2_4gHzRate,
+      |                        ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:41:24: error: expected primary-expression before ‘aRate’
+   41 |           PointerValue aRate,
+      |                        ^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:42:24: error: expected primary-expression before ‘n_5gHzRate’
+   42 |           PointerValue n_5gHzRate)
+      |                        ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:117:9: error: ‘WifiRateControlAlgorithmSetCommandLine’ was not declared in this scope
+  117 |     Ptr<WifiRateControlAlgorithmSetCommandLine> minRateControl =
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:117:47: error: template argument 1 is invalid
+  117 |     Ptr<WifiRateControlAlgorithmSetCommandLine> minRateControl =
+      |                                               ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:118:61: error: no matching function for call to ‘CreateObject<WifiRateControlAlgorithmSetCommandLine>()’
+  118 |         CreateObject<WifiRateControlAlgorithmSetCommandLine>();
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/object.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/net-device.h:29,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/node.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/application.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/application-container.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/bulk-send-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/bulk-send-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:579:1: note: candidate: ‘template<class T, class ... Args> ns3::Ptr<T> ns3::CreateObject(Args&& ...)’
+  579 | CreateObject(Args&&... args)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:579:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:120:61: error: no matching function for call to ‘CreateObject<WifiRateControlAlgorithmSetCommandLine>()’
+  120 |         CreateObject<WifiRateControlAlgorithmSetCommandLine>();
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/object.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/net-device.h:29,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/node.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/application.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/application-container.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/bulk-send-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/bulk-send-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:579:1: note: candidate: ‘template<class T, class ... Args> ns3::Ptr<T> ns3::CreateObject(Args&& ...)’
+  579 | CreateObject(Args&&... args)
+      | ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:579:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:123:78: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  123 |     cmd.AddValue("powerControl", "Enable Tx-power control. Default: false.", "bool", false);
+      |                                                                              ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:126:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  126 |                  "bool",
+      |                  ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:130:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  130 |                  "double",
+      |                  ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:132:69: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  132 |     cmd.AddValue("maxDistance", "Maximum distance from AP to STA.", "double", 100);
+      |                                                                     ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:133:76: error: unable to find numeric literal operator ‘operator""_s’
+  133 |     cmd.AddValue("simulationTime", "Duration of test.", "ns3::Time::Time", 10_s);
+      |                                                                            ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:133:76: note: use ‘-fext-numeric-literals’ to enable more built-in suffixes
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:137:9: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  137 |         "ns3::PowerDbm",
+      |         ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:141:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  141 |                  "ns3::PowerDbm",
+      |                  ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:145:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  145 |                  "int32_t",
+      |                  ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:147:17: error: no matching function for call to ‘ns3::CommandLine::AddValue(const char [4], const char [54], const char [7], const char [1], bool)’
+  147 |     cmd.AddValue("mcs",
+      |     ~~~~~~~~~~~~^~~~~~~
+  148 |                  "Transmit using this Mode during packet transmissions.",
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  149 |                  "string",
+      |                  ~~~~~~~~~
+  150 |                  "",
+      |                  ~~~
+  151 |                  true);
+      |                  ~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/command-line.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:280:10: note: candidate: ‘template<class T> void ns3::CommandLine::AddValue(const string&, const string&, T&)’
+  280 |     void AddValue(const std::string& name, const std::string& help, T& value);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:280:10: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:147:17: note:   candidate expects 3 arguments, 5 provided
+  147 |     cmd.AddValue("mcs",
+      |     ~~~~~~~~~~~~^~~~~~~
+  148 |                  "Transmit using this Mode during packet transmissions.",
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  149 |                  "string",
+      |                  ~~~~~~~~~
+  150 |                  "",
+      |                  ~~~
+  151 |                  true);
+      |                  ~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/command-line.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:302:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&, char*, std::size_t)’
+  302 |     void AddValue(const std::string& name, const std::string& help, char* value, std::size_t num);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:302:10: note:   candidate expects 4 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:323:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&, ns3::Callback<bool, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>, const string&)’
+  323 |     void AddValue(const std::string& name,
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:323:10: note:   candidate expects 4 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:334:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&)’
+  334 |     void AddValue(const std::string& name, const std::string& attributePath);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:334:10: note:   candidate expects 2 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:154:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  154 |                  "int32_t",
+      |                  ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:156:74: error: unable to find numeric literal operator ‘operator""_s’
+  156 |     cmd.AddValue("stepSize", "Step size in seconds.", "ns3::Time::Time", 1_s);
+      |                                                                          ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:156:74: note: use ‘-fext-numeric-literals’ to enable more built-in suffixes
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:157:57: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  157 |     cmd.AddValue("max_mcs_range", "The max mcs range.", "int32_t", 15);
+      |                                                         ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:158:55: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  158 |     cmd.AddValue("mcs_range", "The mcs range value.", "int32_t", 15);
+      |                                                       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:159:73: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  159 |     cmd.AddValue("step_mcs_range", "Step size in dB of the mcs range.", "uint32_t", 5);
+      |                                                                         ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:163:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  163 |                  "ns3::DataRate",
+      |                  ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:168:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  168 |                  "bool",
+      |                  ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:173:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  173 |                  "ns3::DataRate",
+      |                  ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:177:18: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  177 |                  "ns3::DataRate",
+      |                  ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:180:17: error: no matching function for call to ‘ns3::CommandLine::AddValue(const char [6], const char [54], const char [7], const char [1], bool)’
+  180 |     cmd.AddValue("htMcs",
+      |     ~~~~~~~~~~~~^~~~~~~~~
+  181 |                  "Transmit using this Mode during packet transmissions.",
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  182 |                  "string",
+      |                  ~~~~~~~~~
+  183 |                  "",
+      |                  ~~~
+  184 |                  true);
+      |                  ~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/command-line.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:280:10: note: candidate: ‘template<class T> void ns3::CommandLine::AddValue(const string&, const string&, T&)’
+  280 |     void AddValue(const std::string& name, const std::string& help, T& value);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:280:10: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:180:17: note:   candidate expects 3 arguments, 5 provided
+  180 |     cmd.AddValue("htMcs",
+      |     ~~~~~~~~~~~~^~~~~~~~~
+  181 |                  "Transmit using this Mode during packet transmissions.",
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  182 |                  "string",
+      |                  ~~~~~~~~~
+  183 |                  "",
+      |                  ~~~
+  184 |                  true);
+      |                  ~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/command-line.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:302:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&, char*, std::size_t)’
+  302 |     void AddValue(const std::string& name, const std::string& help, char* value, std::size_t num);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:302:10: note:   candidate expects 4 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:323:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&, ns3::Callback<bool, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>, const string&)’
+  323 |     void AddValue(const std::string& name,
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:323:10: note:   candidate expects 4 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:334:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&)’
+  334 |     void AddValue(const std::string& name, const std::string& attributePath);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:334:10: note:   candidate expects 2 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:185:17: error: no matching function for call to ‘ns3::CommandLine::AddValue(const char [7], const char [54], const char [7], const char [1], bool)’
+  185 |     cmd.AddValue("htMcsp",
+      |     ~~~~~~~~~~~~^~~~~~~~~~
+  186 |                  "Transmit using this Mode during packet transmissions.",
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  187 |                  "string",
+      |                  ~~~~~~~~~
+  188 |                  "",
+      |                  ~~~
+  189 |                  true);
+      |                  ~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/command-line.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:280:10: note: candidate: ‘template<class T> void ns3::CommandLine::AddValue(const string&, const string&, T&)’
+  280 |     void AddValue(const std::string& name, const std::string& help, T& value);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:280:10: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:185:17: note:   candidate expects 3 arguments, 5 provided
+  185 |     cmd.AddValue("htMcsp",
+      |     ~~~~~~~~~~~~^~~~~~~~~~
+  186 |                  "Transmit using this Mode during packet transmissions.",
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  187 |                  "string",
+      |                  ~~~~~~~~~
+  188 |                  "",
+      |                  ~~~
+  189 |                  true);
+      |                  ~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/command-line.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:302:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&, char*, std::size_t)’
+  302 |     void AddValue(const std::string& name, const std::string& help, char* value, std::size_t num);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:302:10: note:   candidate expects 4 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:323:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&, ns3::Callback<bool, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>, const string&)’
+  323 |     void AddValue(const std::string& name,
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:323:10: note:   candidate expects 4 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:334:10: note: candidate: ‘void ns3::CommandLine::AddValue(const string&, const string&)’
+  334 |     void AddValue(const std::string& name, const std::string& attributePath);
+      |          ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/command-line.h:334:10: note:   candidate expects 2 arguments, 5 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:191:71: error: expected ‘)’ before ‘to’
+  191 |                  "Short guard interval for MCS. Default is Sgi= true."
+      |                                                                       ^
+      |                                                                       )
+  192 |                  "If Sgi is true,
+  193 |                                  to MCS 0. */
+      |                                  ~~                                    
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:190:17: note: to match this ‘(’
+  190 |     cmd.AddValue("shortGuardInterval",
+      |                 ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:117:49: warning: unused variable ‘minRateControl’ [-Wunused-variable]
+  117 |     Ptr<WifiRateControlAlgorithmSetCommandLine> minRateControl =
+      |                                                 ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0116.cc:119:49: warning: unused variable ‘normRateControl’ [-Wunused-variable]
+  119 |     Ptr<WifiRateControlAlgorithmSetCommandLine> normRateControl =
+      |                                                 ^~~~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_sample_0116
+✗ build failed (sample_0116)

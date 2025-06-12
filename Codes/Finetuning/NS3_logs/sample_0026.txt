@@ -1,0 +1,682 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_sample_0026.dir/sample_0026.cc.o
+FAILED: scratch/CMakeFiles/scratch_sample_0026.dir/sample_0026.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_sample_0026.dir/sample_0026.cc.o -MF scratch/CMakeFiles/scratch_sample_0026.dir/sample_0026.cc.o.d -o scratch/CMakeFiles/scratch_sample_0026.dir/sample_0026.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:40:1: error: ‘Time’ does not name a type
+   40 | Time putTime = MilliSeconds(0.0);
+      | ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:43:33: error: ‘Time’ has not been declared
+   43 | GoodputSampling(uint32_t bytes, Time t)
+      |                                 ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc: In function ‘void GoodputSampling(uint32_t, int)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:46:5: error: ‘putTime’ was not declared in this scope; did you mean ‘time’?
+   46 |     putTime = t;
+      |     ^~~~~~~
+      |     time
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:51:18: error: ‘OutputStreamWrapper’ was not declared in this scope
+   51 |              Ptr<OutputStreamWrapper> statsStream,
+      |                  ^~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:51:18: error: ‘OutputStreamWrapper’ was not declared in this scope
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:51:18: error: ‘OutputStreamWrapper’ was not declared in this scope
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:51:18: error: ‘OutputStreamWrapper’ was not declared in this scope
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:51:14: error: ‘Ptr’ has not been declared
+   51 |              Ptr<OutputStreamWrapper> statsStream,
+      |              ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:51:17: error: expected ‘,’ or ‘...’ before ‘<’ token
+   51 |              Ptr<OutputStreamWrapper> statsStream,
+      |                 ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc: In function ‘void CheckGoodput(std::string, int)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:57:16: error: ‘b’ was not declared in this scope
+   57 |     curValue = b / t.GetSeconds();
+      |                ^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:57:20: error: ‘t’ was not declared in this scope; did you mean ‘tm’?
+   57 |     curValue = b / t.GetSeconds();
+      |                    ^
+      |                    tm
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:61:10: error: ‘statsStream’ was not declared in this scope
+   61 |         *statsStream->GetStream() << "Node: " << node_num << " Goodput for " << fct_name
+      |          ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:61:50: error: ‘node_num’ was not declared in this scope
+   61 |         *statsStream->GetStream() << "Node: " << node_num << " Goodput for " << fct_name
+      |                                                  ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:65:31: error: ‘putTime’ was not declared in this scope; did you mean ‘time’?
+   65 |     if ((putValue != 0.0) && (putTime != MilliSeconds(0.0)))
+      |                               ^~~~~~~
+      |                               time
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:65:42: error: ‘MilliSeconds’ was not declared in this scope
+   65 |     if ((putValue != 0.0) && (putTime != MilliSeconds(0.0)))
+      |                                          ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:67:10: error: ‘statsStream’ was not declared in this scope
+   67 |         *statsStream->GetStream() << "Node: " << node_num
+      |          ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:67:50: error: ‘node_num’ was not declared in this scope
+   67 |         *statsStream->GetStream() << "Node: " << node_num
+      |                                                  ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:71:5: error: ‘Simulator’ has not been declared
+   71 |     Simulator::Schedule(MilliSeconds(100), &CheckGoodput, "", statsStream, 0, MilliSeconds(0), 0);
+      |     ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:71:25: error: ‘MilliSeconds’ was not declared in this scope
+   71 |     Simulator::Schedule(MilliSeconds(100), &CheckGoodput, "", statsStream, 0, MilliSeconds(0), 0);
+      |                         ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:71:63: error: ‘statsStream’ was not declared in this scope
+   71 |     Simulator::Schedule(MilliSeconds(100), &CheckGoodput, "", statsStream, 0, MilliSeconds(0), 0);
+      |                                                               ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:90:5: error: ‘CommandLine’ was not declared in this scope
+   90 |     CommandLine cmd(__FILE__);
+      |     ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:91:5: error: ‘cmd’ was not declared in this scope
+   91 |     cmd.AddValue("queueDisc", "Set Queue disc type", queueDisc);
+      |     ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:105:5: error: ‘Config’ has not been declared
+  105 |     Config::SetDefault("ns3::FqCoDelQueueDisc::Perturbation", UintegerValue(0));
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:105:63: error: ‘UintegerValue’ was not declared in this scope
+  105 |     Config::SetDefault("ns3::FqCoDelQueueDisc::Perturbation", UintegerValue(0));
+      |                                                               ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:106:5: error: ‘Config’ has not been declared
+  106 |     Config::SetDefault("ns3::TcpSocketBase::SndBufSize", StringValue("16777216"));
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:106:58: error: ‘StringValue’ was not declared in this scope
+  106 |     Config::SetDefault("ns3::TcpSocketBase::SndBufSize", StringValue("16777216"));
+      |                                                          ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:107:5: error: ‘Config’ has not been declared
+  107 |     Config::SetDefault("ns3::TcpSocketBase::RcvBufSize", StringValue("16777216"));
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:109:5: error: ‘Config’ has not been declared
+  109 |     Config::SetDefault("ns3::TcpSocket::Rmem", StringValue(tcp_rmem));
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:110:5: error: ‘Config’ has not been declared
+  110 |     Config::SetDefault("ns3::TcpSocket::Wmem", StringValue(tcp_wmem));
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:111:5: error: ‘Config’ has not been declared
+  111 |     Config::SetDefault("ns3::PfifoFastQueueDisc::Limit", StringValue("10000p"));
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:114:9: error: ‘Config’ has not been declared
+  114 |         Config::SetDefault("ns3::AREDQueueDisc::QueueLimit", StringValue(bottleCapacity));
+      |         ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:116:9: error: ‘Config’ has not been declared
+  116 |         Config::SetDefault("ns3::CoDelQueueDisc::MaxBytes", StringValue(bottleCapacity));
+      |         ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:118:9: error: ‘Config’ has not been declared
+  118 |         Config::SetDefault("ns3::FqCoDelQueueDisc::MaxBytes", StringValue(bottleCapacity));
+      |         ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:120:9: error: ‘Config’ has not been declared
+  120 |         Config::SetDefault("ns3::PieQueueDisc::MaxSize", StringValue(bottleCapacity));
+      |         ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:122:5: error: ‘Packet’ has not been declared
+  122 |     Packet::EnableChecking();
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:123:5: error: ‘Packet’ has not been declared
+  123 |     Packet::EnablePrinting();
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:125:5: error: ‘NodeContainer’ was not declared in this scope
+  125 |     NodeContainer wifiStaNode;
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:126:5: error: ‘wifiStaNode’ was not declared in this scope
+  126 |     wifiStaNode.Create(1);
+      |     ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:128:18: error: expected ‘;’ before ‘p2pNode’
+  128 |     NodeContainer p2pNode;
+      |                  ^~~~~~~~
+      |                  ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:129:5: error: ‘p2pNode’ was not declared in this scope
+  129 |     p2pNode.Add(wifiStaNode.Get(0));
+      |     ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:132:18: error: expected ‘;’ before ‘csmaNode’
+  132 |     NodeContainer csmaNode;
+      |                  ^~~~~~~~~
+      |                  ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:133:5: error: ‘csmaNode’ was not declared in this scope
+  133 |     csmaNode.Add(p2pNode.Get(1));
+      |     ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:136:18: error: expected ‘;’ before ‘csmaNodeServer’
+  136 |     NodeContainer csmaNodeServer;
+      |                  ^~~~~~~~~~~~~~~
+      |                  ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:137:5: error: ‘csmaNodeServer’ was not declared in this scope
+  137 |     csmaNodeServer.Add(csmaNode.Get(1));
+      |     ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:140:5: error: ‘NetDeviceContainer’ was not declared in this scope
+  140 |     NetDeviceContainer wifi_sta_devices;
+      |     ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:141:23: error: expected ‘;’ before ‘p2pDevices’
+  141 |     NetDeviceContainer p2pDevices;
+      |                       ^~~~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:142:23: error: expected ‘;’ before ‘csmaDevices’
+  142 |     NetDeviceContainer csmaDevices;
+      |                       ^~~~~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:143:23: error: expected ‘;’ before ‘csmaServerDevices’
+  143 |     NetDeviceContainer csmaServerDevices;
+      |                       ^~~~~~~~~~~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:145:23: error: expected ‘;’ before ‘devices’
+  145 |     NetDeviceContainer devices;
+      |                       ^~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:146:5: error: ‘devices’ was not declared in this scope
+  146 |     devices.Add(wifi_sta_devices);
+      |     ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:146:17: error: ‘wifi_sta_devices’ was not declared in this scope
+  146 |     devices.Add(wifi_sta_devices);
+      |                 ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:147:17: error: ‘p2pDevices’ was not declared in this scope
+  147 |     devices.Add(p2pDevices);
+      |                 ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:148:17: error: ‘csmaDevices’ was not declared in this scope
+  148 |     devices.Add(csmaDevices);
+      |                 ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:149:17: error: ‘csmaServerDevices’ was not declared in this scope
+  149 |     devices.Add(csmaServerDevices);
+      |                 ^~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:151:5: error: ‘CsmaHelper’ was not declared in this scope
+  151 |     CsmaHelper csma;
+      |     ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:152:5: error: ‘csma’ was not declared in this scope
+  152 |     csma.SetChannelAttribute("DataRate", StringValue(access_bw));
+      |     ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:155:5: error: ‘QueueDiscContainer’ was not declared in this scope
+  155 |     QueueDiscContainer qdiscsAccess;
+      |     ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:163:5: error: ‘PointToPointHelper’ was not declared in this scope
+  163 |     PointToPointHelper pointToPoint;
+      |     ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:164:5: error: ‘pointToPoint’ was not declared in this scope
+  164 |     pointToPoint.SetQueue("ns3::DropTailQueue", "Mode", StringValue("QUEUE_MODE_PACKETS"), "MaxSize",
+      |     ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:168:5: error: ‘BQLHelper’ was not declared in this scope
+  168 |     BQLHelper bql;
+      |     ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:169:5: error: ‘InternetStackHelper’ was not declared in this scope
+  169 |     InternetStackHelper stack;
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:171:5: error: ‘stack’ was not declared in this scope; did you mean ‘obstack’?
+  171 |     stack.Install(p2pNode);
+      |     ^~~~~
+      |     obstack
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:175:5: error: ‘TrafficControlHelper’ was not declared in this scope
+  175 |     TrafficControlHelper tch;
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:177:5: error: ‘tch’ was not declared in this scope
+  177 |     tch.SetRootQueueDisc("ns3::PfifoFastQueueDisc");
+      |     ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:196:9: error: ‘qdiscsAccess’ was not declared in this scope
+  196 |         qdiscsAccess = bql.Install(tch, csmaDevices);
+      |         ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:196:24: error: ‘bql’ was not declared in this scope
+  196 |         qdiscsAccess = bql.Install(tch, csmaDevices);
+      |                        ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:198:9: error: ‘qdiscsAccess’ was not declared in this scope
+  198 |         qdiscsAccess = tch.Install(csmaDevices);
+      |         ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:226:23: error: expected ‘;’ before ‘nDevs’
+  226 |     NetDeviceContainer nDevs;
+      |                       ^~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:228:5: error: ‘nDevs’ was not declared in this scope
+  228 |     nDevs.Add(csmaDevices.Get(1));
+      |     ^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:230:23: error: expected ‘;’ before ‘qdiscsHome’
+  230 |     QueueDiscContainer qdiscsHome;
+      |                       ^~~~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:233:9: error: ‘qdiscsHome’ was not declared in this scope
+  233 |         qdiscsHome = bql.Install(tch, nDevs);
+      |         ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:233:22: error: ‘bql’ was not declared in this scope
+  233 |         qdiscsHome = bql.Install(tch, nDevs);
+      |                      ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:235:9: error: ‘qdiscsHome’ was not declared in this scope
+  235 |         qdiscsHome = tch.Install(nDevs);
+      |         ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:237:23: error: expected ‘;’ before ‘nDevsServer’
+  237 |     NetDeviceContainer nDevsServer;
+      |                       ^~~~~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:238:5: error: ‘nDevsServer’ was not declared in this scope
+  238 |     nDevsServer.Add(csmaServerDevices.Get(1));
+      |     ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:240:23: error: expected ‘;’ before ‘qdiscsServer’
+  240 |     QueueDiscContainer qdiscsServer;
+      |                       ^~~~~~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:242:9: error: ‘qdiscsServer’ was not declared in this scope
+  242 |         qdiscsServer = bql.Install(tch, nDevsServer);
+      |         ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:242:24: error: ‘bql’ was not declared in this scope
+  242 |         qdiscsServer = bql.Install(tch, nDevsServer);
+      |                        ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:244:9: error: ‘qdiscsServer’ was not declared in this scope
+  244 |         qdiscsServer = tch.Install(nDevsServer);
+      |         ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:246:23: error: expected ‘;’ before ‘pointToPointHome’
+  246 |     PointToPointHelper pointToPointHome;
+      |                       ^~~~~~~~~~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:247:5: error: ‘pointToPointHome’ was not declared in this scope
+  247 |     pointToPointHome.SetQueue("ns3::DropTailQueue", "Mode", StringValue("QUEUE_MODE_PACKETS"), "MaxSize",
+      |     ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:254:23: error: expected ‘;’ before ‘nDevsP2p’
+  254 |     NetDeviceContainer nDevsP2p;
+      |                       ^~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:255:5: error: ‘nDevsP2p’ was not declared in this scope
+  255 |     nDevsP2p.Add(p2pDevices.Get(1));
+      |     ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:257:23: error: expected ‘;’ before ‘qdiscsP2p’
+  257 |     QueueDiscContainer qdiscsP2p;
+      |                       ^~~~~~~~~~
+      |                       ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:259:9: error: ‘qdiscsP2p’ was not declared in this scope
+  259 |         qdiscsP2p = bql.Install(tch, nDevsP2p);
+      |         ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:259:21: error: ‘bql’ was not declared in this scope
+  259 |         qdiscsP2p = bql.Install(tch, nDevsP2p);
+      |                     ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:261:9: error: ‘qdiscsP2p’ was not declared in this scope
+  261 |         qdiscsP2p = tch.Install(nDevsP2p);
+      |         ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:263:5: error: ‘Ipv4AddressHelper’ was not declared in this scope
+  263 |     Ipv4AddressHelper ipv4;
+      |     ^~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:264:5: error: ‘ipv4’ was not declared in this scope
+  264 |     ipv4.SetBase("10.1.1.0", "255.255.255.0");
+      |     ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:265:5: error: ‘Ipv4InterfaceContainer’ was not declared in this scope
+  265 |     Ipv4InterfaceContainer p2pIpIface = ipv4.Assign(p2pDevices);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:268:27: error: expected ‘;’ before ‘csmaIpIface’
+  268 |     Ipv4InterfaceContainer csmaIpIface = ipv4.Assign(csmaDevices);
+      |                           ^~~~~~~~~~~~
+      |                           ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:271:27: error: expected ‘;’ before ‘csmaIpIfaceServer’
+  271 |     Ipv4InterfaceContainer csmaIpIfaceServer = ipv4.Assign(csmaServerDevices);
+      |                           ^~~~~~~~~~~~~~~~~~
+      |                           ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:273:5: error: ‘Ipv4GlobalRoutingHelper’ has not been declared
+  273 |     Ipv4GlobalRoutingHelper::PopulateRoutingTables();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:280:5: error: ‘Config’ has not been declared
+  280 |     Config::SetDefault("ns3::TcpL4Protocol::SocketType",
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:281:36: error: ‘TypeId’ has not been declared
+  281 |                        TypeIdValue(TypeId::LookupByName(socketType)));
+      |                                    ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:281:24: error: ‘TypeIdValue’ was not declared in this scope
+  281 |                        TypeIdValue(TypeId::LookupByName(socketType)));
+      |                        ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:282:5: error: ‘BulkSendHelper’ was not declared in this scope
+  282 |     BulkSendHelper source("ns3::TcpSocketFactory", InetSocketAddress(csmaIpIface.GetAddress(node_num2), port));
+      |     ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:284:5: error: ‘source’ was not declared in this scope
+  284 |     source.SetAttribute("MaxBytes", UintegerValue(2000000000));
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:285:5: error: ‘ApplicationContainer’ was not declared in this scope
+  285 |     ApplicationContainer sourceApp = source.Install(p2pNode.Get(node_num1));
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:287:5: error: ‘sourceApp’ was not declared in this scope
+  287 |     sourceApp.Start(Seconds(0.1));
+      |     ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:287:21: error: ‘Seconds’ was not declared in this scope; did you mean ‘useconds_t’?
+  287 |     sourceApp.Start(Seconds(0.1));
+      |                     ^~~~~~~
+      |                     useconds_t
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:290:5: error: ‘PacketSinkHelper’ was not declared in this scope
+  290 |     PacketSinkHelper sink("ns3::TcpSocketFactory", InetSocketAddress(Ipv4Address::GetAny(), port));
+      |     ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:291:25: error: expected ‘;’ before ‘sinkApp’
+  291 |     ApplicationContainer sinkApp = sink.Install(csmaNode.Get(node_num2));
+      |                         ^~~~~~~~
+      |                         ;
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:293:5: error: ‘sinkApp’ was not declared in this scope
+  293 |     sinkApp.Start(Seconds(0.1));
+      |     ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:296:5: error: ‘pointer_ostream’ was not declared in this scope
+  296 |     pointer_ostream outputStream1;
+      |     ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:298:5: error: ‘outputStream1’ was not declared in this scope
+  298 |     outputStream1->SetPrefix("GoodPutSampling");
+      |     ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:301:5: error: ‘Config’ has not been declared
+  301 |     Config::ConnectWithoutContext("/NodeList/3/ApplicationList/0/$ns3::PacketSink/Rx",
+      |     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:302:35: error: ‘MakeCallback’ was not declared in this scope
+  302 |                                   MakeCallback(&GoodputSampling));
+      |                                   ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:303:5: error: ‘Simulator’ has not been declared
+  303 |     Simulator::Schedule(MilliSeconds(100), &CheckGoodput, "Sink", outputStream1, 0, MilliSeconds(0), 3);
+      |     ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:303:25: error: ‘MilliSeconds’ was not declared in this scope
+  303 |     Simulator::Schedule(MilliSeconds(100), &CheckGoodput, "Sink", outputStream1, 0, MilliSeconds(0), 3);
+      |                         ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:305:5: error: ‘AnimationInterface’ was not declared in this scope
+  305 |     AnimationInterface anim("example_1.xml");
+      |     ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:307:5: error: ‘anim’ was not declared in this scope
+  307 |     anim.SetConstantPosition(csmaNodeServer.Get(0), 0, 0);
+      |     ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:314:5: error: ‘AsciiTraceHelper’ was not declared in this scope
+  314 |     AsciiTraceHelper ascii;
+      |     ^~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:315:5: error: ‘QueueDiscContainer’ is not a class, namespace, or enumeration
+  315 |     QueueDiscContainer::Iterator it = qdiscsAccess.Begin();
+      |     ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:316:5: error: ‘QueueDiscContainer’ is not a class, namespace, or enumeration
+  316 |     QueueDiscContainer::Iterator pit = qdiscsP2p.Begin();
+      |     ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:317:5: error: ‘QueueDiscContainer’ is not a class, namespace, or enumeration
+  317 |     QueueDiscContainer::Iterator sit = qdiscsServer.Begin();
+      |     ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:320:9: error: ‘OutputStreamWrapper’ was not declared in this scope
+  320 |     Ptr<OutputStreamWrapper> queueStream = ascii.CreateFileStream(fct_name_end.c_str());
+      |         ^~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:320:5: error: ‘Ptr’ was not declared in this scope
+  320 |     Ptr<OutputStreamWrapper> queueStream = ascii.CreateFileStream(fct_name_end.c_str());
+      |     ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:320:30: error: ‘queueStream’ was not declared in this scope
+  320 |     Ptr<OutputStreamWrapper> queueStream = ascii.CreateFileStream(fct_name_end.c_str());
+      |                              ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:320:44: error: ‘ascii’ was not declared in this scope; did you mean ‘toascii’?
+  320 |     Ptr<OutputStreamWrapper> queueStream = ascii.CreateFileStream(fct_name_end.c_str());
+      |                                            ^~~~~
+      |                                            toascii
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:322:30: error: ‘queueStream1’ was not declared in this scope
+  322 |     Ptr<OutputStreamWrapper> queueStream1 = ascii.CreateFileStream(fct_name_end.c_str());
+      |                              ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:325:5: error: ‘qdiscsAccess’ was not declared in this scope
+  325 |     qdiscsAccess.Get(0)->TraceConnectWithoutContext("Drop", MakeBoundCallback(&TrafficStatsP,
+      |     ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:325:80: error: ‘TrafficStatsP’ was not declared in this scope
+  325 |     qdiscsAccess.Get(0)->TraceConnectWithoutContext("Drop", MakeBoundCallback(&TrafficStatsP,
+      |                                                                                ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:325:61: error: ‘MakeBoundCallback’ was not declared in this scope
+  325 |     qdiscsAccess.Get(0)->TraceConnectWithoutContext("Drop", MakeBoundCallback(&TrafficStatsP,
+      |                                                             ^~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:327:5: error: ‘qdiscsServer’ was not declared in this scope
+  327 |     qdiscsServer.Get(0)->TraceConnectWithoutContext("Drop", MakeBoundCallback(&TrafficStatsS,
+      |     ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:327:80: error: ‘TrafficStatsS’ was not declared in this scope
+  327 |     qdiscsServer.Get(0)->TraceConnectWithoutContext("Drop", MakeBoundCallback(&TrafficStatsS,
+      |                                                                                ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:330:87: error: ‘QLStats’ was not declared in this scope
+  330 |     qdiscsServer.Get(0)->TraceConnectWithoutContext("QueueLimits", MakeBoundCallback(&QLStats,
+      |                                                                                       ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:332:88: error: ‘BytesStats’ was not declared in this scope
+  332 |     qdiscsServer.Get(0)->TraceConnectWithoutContext("BytesInQueue", MakeBoundCallback(&BytesStats,
+      |                                                                                        ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:334:5: error: ‘FlowMonitorHelper’ was not declared in this scope
+  334 |     FlowMonitorHelper flowmonHelper;
+      |     ^~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:336:9: error: ‘FlowMonitor’ was not declared in this scope
+  336 |     Ptr<FlowMonitor> flowMonitor = flowmonHelper.InstallAll();
+      |         ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:336:22: error: ‘flowMonitor’ was not declared in this scope
+  336 |     Ptr<FlowMonitor> flowMonitor = flowmonHelper.InstallAll();
+      |                      ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:336:36: error: ‘flowmonHelper’ was not declared in this scope
+  336 |     Ptr<FlowMonitor> flowMonitor = flowmonHelper.InstallAll();
+      |                                    ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:338:5: error: ‘Simulator’ has not been declared
+  338 |     Simulator::Stop(Seconds(simulationTime));
+      |     ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:339:5: error: ‘Simulator’ has not been declared
+  339 |     Simulator::Run();
+      |     ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:342:5: error: ‘PcapHelper’ was not declared in this scope
+  342 |     PcapHelper pcapHelper;
+      |     ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:343:9: error: ‘PcapFileWrapper’ was not declared in this scope
+  343 |     Ptr<PcapFileWrapper> file = pcapHelper.CreateFile(queueDisc + ".v.20s.pcap", "w",
+      |         ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:343:26: error: ‘file’ was not declared in this scope
+  343 |     Ptr<PcapFileWrapper> file = pcapHelper.CreateFile(queueDisc + ".v.20s.pcap", "w",
+      |                          ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:343:33: error: ‘pcapHelper’ was not declared in this scope
+  343 |     Ptr<PcapFileWrapper> file = pcapHelper.CreateFile(queueDisc + ".v.20s.pcap", "w",
+      |                                 ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:344:55: error: ‘PcapHelper’ is not a class, namespace, or enumeration
+  344 |                                                       PcapHelper::DLT_RAW);
+      |                                                       ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:350:5: error: ‘Simulator’ has not been declared
+  350 |     Simulator::Destroy();
+      |     ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:357:5: error: ‘FlowMonitorFlowClassifier’ was not declared in this scope
+  357 |     FlowMonitorFlowClassifier classifier = flowmonHelper.GetClassifier();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:358:73: error: ‘classifier’ was not declared in this scope
+  358 |     flowMonitor->SerializeToStream(ascii.CreateFileStream(fct.c_str()), classifier, 1, 2, 10, 10, 0);
+      |                                                                         ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:275:14: warning: unused variable ‘port’ [-Wunused-variable]
+  275 |     uint16_t port = 9;
+      |              ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:277:14: warning: unused variable ‘node_num1’ [-Wunused-variable]
+  277 |     uint16_t node_num1 = 1;
+      |              ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:278:14: warning: unused variable ‘node_num2’ [-Wunused-variable]
+  278 |     uint16_t node_num2 = 0;
+      |              ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0026.cc:299:14: warning: unused variable ‘node_num’ [-Wunused-variable]
+  299 |     uint16_t node_num = 3;
+      |              ^~~~~~~~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_sample_0026
+✗ build failed (sample_0026)

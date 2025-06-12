@@ -1,0 +1,1498 @@
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Warn about uninitialized values.
+-- Using default output directory /home/tasnim/ns-allinone-3.41/ns-3.41/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dot dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/tasnim/ns-allinone-3.41/ns-3.41/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : OFF (not requested)
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                topology-read             traffic-control           
+uan                       virtual-net-device        wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache
+Finished executing the following commands:
+/usr/bin/cmake -S /home/tasnim/ns-allinone-3.41/ns-3.41 -B /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache --warn-uninitialized
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_sample_0085.dir/sample_0085.cc.o
+FAILED: scratch/CMakeFiles/scratch_sample_0085.dir/sample_0085.cc.o 
+/usr/bin/c++ -DEIGEN_MPL2_ONLY -DHAVE_BOOST -DHAVE_BOOST_UNITS -DHAVE_EIGEN3 -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_PACKET_H -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\"/home/tasnim/ns-allinone-3.41/ns-3.41\" -DRAW_SOCK_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-raw-sock-creator-default\" -DTAP_DEV_CREATOR=\"/home/tasnim/ns-allinone-3.41/ns-3.41/build/src/fd-net-device/ns3.41-tap-device-creator-default\" -D__LINUX__ -I/home/tasnim/ns-allinone-3.41/ns-3.41/build/include -I/usr -I/usr/include/eigen3 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=c++20 -Winvalid-pch -include /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_sample_0085.dir/sample_0085.cc.o -MF scratch/CMakeFiles/scratch_sample_0085.dir/sample_0085.cc.o.d -o scratch/CMakeFiles/scratch_sample_0085.dir/sample_0085.cc.o -c /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In constructor ‘NodeStatistics::NodeStatistics()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:36:29: error: ‘Nanoseconds’ was not declared in this scope
+   36 |                 m_endTime = Nanoseconds(0.0);
+      |                             ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In member function ‘void NodeStatistics::SetThroughput()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:142:63: error: no match for ‘operator==’ (operand types are ‘double’ and ‘ns3::Time’)
+  142 |                 if (m_time < m_endTime.GetSeconds() || m_time == TimeStep(0.0))
+      |                                                        ~~~~~~ ^~ ~~~~~~~~~~~~~
+      |                                                        |                 |
+      |                                                        double            ns3::Time
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:472:1: note: candidate: ‘template<class T1, class T2> bool ns3::operator==(const ns3::Ptr<T>&, const T2*)’ (reversed)
+  472 | operator==(const Ptr<T1>& lhs, T2 const* rhs)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:472:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:142:78: note:   ‘ns3::Time’ is not derived from ‘const ns3::Ptr<T>’
+  142 |                 if (m_time < m_endTime.GetSeconds() || m_time == TimeStep(0.0))
+      |                                                                              ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:479:1: note: candidate: ‘template<class T1, class T2> bool ns3::operator==(const T1*, ns3::Ptr<T2>&)’ (reversed)
+  479 | operator==(T1 const* lhs, Ptr<T2>& rhs)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:479:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:142:78: note:   mismatched types ‘const T1*’ and ‘ns3::Time’
+  142 |                 if (m_time < m_endTime.GetSeconds() || m_time == TimeStep(0.0))
+      |                                                                              ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:500:1: note: candidate: ‘template<class T1, class T2> bool ns3::operator==(const ns3::Ptr<T>&, const ns3::Ptr<T2>&)’ (reversed)
+  500 | operator==(const Ptr<T1>& lhs, const Ptr<T2>& rhs)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:500:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:142:78: note:   ‘ns3::Time’ is not derived from ‘const ns3::Ptr<T>’
+  142 |                 if (m_time < m_endTime.GetSeconds() || m_time == TimeStep(0.0))
+      |                                                                              ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:514:1: note: candidate: ‘template<class T1, class T2> std::enable_if_t<is_same_v<T2, std::nullptr_t>, bool> ns3::operator==(const ns3::Ptr<T>&, T2)’ (reversed)
+  514 | operator==(const Ptr<T1>& lhs, T2 rhs)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:514:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:142:78: note:   ‘ns3::Time’ is not derived from ‘const ns3::Ptr<T>’
+  142 |                 if (m_time < m_endTime.GetSeconds() || m_time == TimeStep(0.0))
+      |                                                                              ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/traced-value.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:90,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/traced-value.h:343:1: note: candidate: ‘template<class T, class U> bool ns3::operator==(const ns3::TracedValue<T>&, const ns3::TracedValue<U>&)’ (reversed)
+  343 | operator==(const TracedValue<T>& lhs, const TracedValue<U>& rhs)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/traced-value.h:343:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:142:78: note:   ‘ns3::Time’ is not derived from ‘const ns3::TracedValue<T>’
+  142 |                 if (m_time < m_endTime.GetSeconds() || m_time == TimeStep(0.0))
+      |                                                                              ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/traced-value.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:90,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/traced-value.h:352:1: note: candidate: ‘template<class T, class U> bool ns3::operator==(const ns3::TracedValue<T>&, const U&)’ (reversed)
+  352 | operator==(const TracedValue<T>& lhs, const U& rhs)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/traced-value.h:352:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:142:78: note:   ‘ns3::Time’ is not derived from ‘const ns3::TracedValue<T>’
+  142 |                 if (m_time < m_endTime.GetSeconds() || m_time == TimeStep(0.0))
+      |                                                                              ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/traced-value.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:90,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/traced-value.h:361:1: note: candidate: ‘template<class T, class U> bool ns3::operator==(const U&, const ns3::TracedValue<T>&)’ (reversed)
+  361 | operator==(const U& lhs, const TracedValue<T>& rhs)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/traced-value.h:361:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:142:78: note:   mismatched types ‘const ns3::TracedValue<T>’ and ‘double’
+  142 |                 if (m_time < m_endTime.GetSeconds() || m_time == TimeStep(0.0))
+      |                                                                              ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:157:1: note: candidate: ‘bool ns3::operator==(const ns3::EventId&, const ns3::EventId&)’
+  157 | operator==(const EventId& a, const EventId& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:157:27: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::EventId&’
+  157 | operator==(const EventId& a, const EventId& b)
+      |            ~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/nstime.h:857:1: note: candidate: ‘bool ns3::operator==(const ns3::Time&, const ns3::Time&)’
+  857 | operator==(const Time& lhs, const Time& rhs)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/nstime.h:857:24: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Time&’
+  857 | operator==(const Time& lhs, const Time& rhs)
+      |            ~~~~~~~~~~~~^~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/type-id.h:627:1: note: candidate: ‘bool ns3::operator==(ns3::TypeId, ns3::TypeId)’
+  627 | operator==(TypeId a, TypeId b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/type-id.h:627:19: note:   no known conversion for argument 1 from ‘double’ to ‘ns3::TypeId’
+  627 | operator==(TypeId a, TypeId b)
+      |            ~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/calendar-scheduler.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/calendar-scheduler.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/scheduler.h:240:1: note: candidate: ‘bool ns3::operator==(const ns3::Scheduler::EventKey&, const ns3::Scheduler::EventKey&)’
+  240 | operator==(const Scheduler::EventKey& a, const Scheduler::EventKey& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/scheduler.h:240:39: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Scheduler::EventKey&’
+  240 | operator==(const Scheduler::EventKey& a, const Scheduler::EventKey& b)
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/scheduler.h:321:1: note: candidate: ‘bool ns3::operator==(const ns3::Scheduler::Event&, const ns3::Scheduler::Event&)’
+  321 | operator==(const Scheduler::Event& a, const Scheduler::Event& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/scheduler.h:321:36: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Scheduler::Event&’
+  321 | operator==(const Scheduler::Event& a, const Scheduler::Event& b)
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/length.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:48,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/length.h:759:6: note: candidate: ‘bool ns3::operator==(const ns3::Length&, const ns3::Length&)’
+  759 | bool operator==(const Length& left, const Length& right);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/length.h:759:31: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Length&’
+  759 | bool operator==(const Length& left, const Length& right);
+      |                 ~~~~~~~~~~~~~~^~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/address.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/bulk-send-helper.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/bulk-send-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/address.h:288:6: note: candidate: ‘bool ns3::operator==(const ns3::Address&, const ns3::Address&)’
+  288 | bool operator==(const Address& a, const Address& b);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/address.h:243:43: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Address&’
+  243 |     friend bool operator==(const Address& a, const Address& b);
+      |                            ~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac48-address.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/mac48-address.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/packet.h:33,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/net-device.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/node.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/application.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/application-container.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/bulk-send-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/bulk-send-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv4-address.h:378:1: note: candidate: ‘bool ns3::operator==(const ns3::Ipv4Address&, const ns3::Ipv4Address&)’
+  378 | operator==(const Ipv4Address& a, const Ipv4Address& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv4-address.h:378:31: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Ipv4Address&’
+  378 | operator==(const Ipv4Address& a, const Ipv4Address& b)
+      |            ~~~~~~~~~~~~~~~~~~~^
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv4-address.h:415:1: note: candidate: ‘bool ns3::operator==(const ns3::Ipv4Mask&, const ns3::Ipv4Mask&)’
+  415 | operator==(const Ipv4Mask& a, const Ipv4Mask& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv4-address.h:415:47: note:   no known conversion for argument 2 from ‘ns3::Time’ to ‘const ns3::Ipv4Mask&’
+  415 | operator==(const Ipv4Mask& a, const Ipv4Mask& b)
+      |                               ~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv6-address.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac48-address.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/mac48-address.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/packet.h:33,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/net-device.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/node.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/application.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/application-container.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/bulk-send-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/bulk-send-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac8-address.h:167:6: note: candidate: ‘bool ns3::operator==(const ns3::Mac8Address&, const ns3::Mac8Address&)’
+  167 | bool operator==(const Mac8Address& a, const Mac8Address& b);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac8-address.h:144:69: note:   no known conversion for argument 2 from ‘ns3::Time’ to ‘const ns3::Mac8Address&’
+  144 |     friend bool operator==(const Mac8Address& a, const Mac8Address& b);
+      |                                                  ~~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac48-address.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/mac48-address.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/packet.h:33,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/net-device.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/node.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/application.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/application-container.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/bulk-send-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/bulk-send-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv6-address.h:655:1: note: candidate: ‘bool ns3::operator==(const ns3::Ipv6Address&, const ns3::Ipv6Address&)’
+  655 | operator==(const Ipv6Address& a, const Ipv6Address& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv6-address.h:655:31: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Ipv6Address&’
+  655 | operator==(const Ipv6Address& a, const Ipv6Address& b)
+      |            ~~~~~~~~~~~~~~~~~~~^
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv6-address.h:673:1: note: candidate: ‘bool ns3::operator==(const ns3::Ipv6Prefix&, const ns3::Ipv6Prefix&)’
+  673 | operator==(const Ipv6Prefix& a, const Ipv6Prefix& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/ipv6-address.h:673:51: note:   no known conversion for argument 2 from ‘ns3::Time’ to ‘const ns3::Ipv6Prefix&’
+  673 | operator==(const Ipv6Prefix& a, const Ipv6Prefix& b)
+      |                                 ~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/mac48-address.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/packet.h:33,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/net-device.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/node.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/model/application.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/application-container.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/application-container.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/applications/helper/bulk-send-helper.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/bulk-send-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/applications-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:2:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac48-address.h:222:1: note: candidate: ‘bool ns3::operator==(const ns3::Mac48Address&, const ns3::Mac48Address&)’
+  222 | operator==(const Mac48Address& a, const Mac48Address& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac48-address.h:222:32: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Mac48Address&’
+  222 | operator==(const Mac48Address& a, const Mac48Address& b)
+      |            ~~~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/address-utils.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/address-utils.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:34,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac16-address.h:238:1: note: candidate: ‘bool ns3::operator==(const ns3::Mac16Address&, const ns3::Mac16Address&)’
+  238 | operator==(const Mac16Address& a, const Mac16Address& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac16-address.h:238:55: note:   no known conversion for argument 2 from ‘ns3::Time’ to ‘const ns3::Mac16Address&’
+  238 | operator==(const Mac16Address& a, const Mac16Address& b)
+      |                                   ~~~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/address-utils.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/address-utils.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:34,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac64-address.h:194:1: note: candidate: ‘bool ns3::operator==(const ns3::Mac64Address&, const ns3::Mac64Address&)’
+  194 | operator==(const Mac64Address& a, const Mac64Address& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/utils/mac64-address.h:194:55: note:   no known conversion for argument 2 from ‘ns3::Time’ to ‘const ns3::Mac64Address&’
+  194 | operator==(const Mac64Address& a, const Mac64Address& b)
+      |                                   ~~~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/ipv4-flow-classifier.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/flow-monitor-module.h:10,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/flow-monitor/model/ipv4-flow-classifier.h:120:6: note: candidate: ‘bool ns3::operator==(const ns3::Ipv4FlowClassifier::FiveTuple&, const ns3::Ipv4FlowClassifier::FiveTuple&)’
+  120 | bool operator==(const Ipv4FlowClassifier::FiveTuple& t1, const Ipv4FlowClassifier::FiveTuple& t2);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/flow-monitor/model/ipv4-flow-classifier.h:120:54: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Ipv4FlowClassifier::FiveTuple&’
+  120 | bool operator==(const Ipv4FlowClassifier::FiveTuple& t1, const Ipv4FlowClassifier::FiveTuple& t2);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4-routing-protocol.h:21,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4-l3-protocol.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/ipv4-l3-protocol.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/flow-monitor/model/ipv4-flow-probe.h:26,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/ipv4-flow-probe.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/flow-monitor-module.h:11,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4-interface-address.h:206:1: note: candidate: ‘bool ns3::operator==(const ns3::Ipv4InterfaceAddress&, const ns3::Ipv4InterfaceAddress&)’
+  206 | operator==(const Ipv4InterfaceAddress& a, const Ipv4InterfaceAddress& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4-interface-address.h:206:40: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Ipv4InterfaceAddress&’
+  206 | operator==(const Ipv4InterfaceAddress& a, const Ipv4InterfaceAddress& b)
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/ipv6-flow-classifier.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/flow-monitor-module.h:12,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/flow-monitor/model/ipv6-flow-classifier.h:121:6: note: candidate: ‘bool ns3::operator==(const ns3::Ipv6FlowClassifier::FiveTuple&, const ns3::Ipv6FlowClassifier::FiveTuple&)’
+  121 | bool operator==(const Ipv6FlowClassifier::FiveTuple& t1, const Ipv6FlowClassifier::FiveTuple& t2);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/flow-monitor/model/ipv6-flow-classifier.h:121:54: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Ipv6FlowClassifier::FiveTuple&’
+  121 | bool operator==(const Ipv6FlowClassifier::FiveTuple& t1, const Ipv6FlowClassifier::FiveTuple& t2);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv6-routing-protocol.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv6-l3-protocol.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/ipv6-l3-protocol.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/flow-monitor/model/ipv6-flow-probe.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/ipv6-flow-probe.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/flow-monitor-module.h:13,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:5:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv6-interface-address.h:250:1: note: candidate: ‘bool ns3::operator==(const ns3::Ipv6InterfaceAddress&, const ns3::Ipv6InterfaceAddress&)’
+  250 | operator==(const Ipv6InterfaceAddress& a, const Ipv6InterfaceAddress& b)
+      | ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv6-interface-address.h:250:40: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::Ipv6InterfaceAddress&’
+  250 | operator==(const Ipv6InterfaceAddress& a, const Ipv6InterfaceAddress& b)
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/global-router-interface.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/global-route-manager-impl.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/global-route-manager-impl.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-module.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:6:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4-routing-table-entry.h:191:6: note: candidate: ‘bool ns3::operator==(ns3::Ipv4RoutingTableEntry, ns3::Ipv4RoutingTableEntry)’
+  191 | bool operator==(const Ipv4RoutingTableEntry a, const Ipv4RoutingTableEntry b);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4-routing-table-entry.h:191:45: note:   no known conversion for argument 1 from ‘double’ to ‘ns3::Ipv4RoutingTableEntry’
+  191 | bool operator==(const Ipv4RoutingTableEntry a, const Ipv4RoutingTableEntry b);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4-routing-table-entry.h:289:6: note: candidate: ‘bool ns3::operator==(ns3::Ipv4MulticastRoutingTableEntry, ns3::Ipv4MulticastRoutingTableEntry)’
+  289 | bool operator==(const Ipv4MulticastRoutingTableEntry a, const Ipv4MulticastRoutingTableEntry b);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/ipv4-routing-table-entry.h:289:54: note:   no known conversion for argument 1 from ‘double’ to ‘ns3::Ipv4MulticastRoutingTableEntry’
+  289 | bool operator==(const Ipv4MulticastRoutingTableEntry a, const Ipv4MulticastRoutingTableEntry b);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/tcp-congestion-ops.h:21,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/tcp-bbr.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/tcp-bbr.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/internet-module.h:86,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:6:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/tcp-rate-ops.h:279:6: note: candidate: ‘bool ns3::operator==(const ns3::TcpRateOps::TcpRateSample&, const ns3::TcpRateOps::TcpRateSample&)’
+  279 | bool operator==(const TcpRateLinux::TcpRateSample& lhs, const TcpRateLinux::TcpRateSample& rhs);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/tcp-rate-ops.h:279:52: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::TcpRateOps::TcpRateSample&’
+  279 | bool operator==(const TcpRateLinux::TcpRateSample& lhs, const TcpRateLinux::TcpRateSample& rhs);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/tcp-rate-ops.h:287:6: note: candidate: ‘bool ns3::operator==(const ns3::TcpRateOps::TcpRateConnection&, const ns3::TcpRateOps::TcpRateConnection&)’
+  287 | bool operator==(const TcpRateLinux::TcpRateConnection& lhs,
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/internet/model/tcp-rate-ops.h:287:56: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::TcpRateOps::TcpRateConnection&’
+  287 | bool operator==(const TcpRateLinux::TcpRateConnection& lhs,
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-spectrum-value-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/wifi-phy-common.h:29,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-phy-common.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/athstats-helper.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/athstats-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-module.h:6,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:10:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/spectrum/model/wifi-spectrum-value-helper.h:357:6: note: candidate: ‘bool ns3::operator==(const ns3::FrequencyRange&, const ns3::FrequencyRange&)’
+  357 | bool operator==(const FrequencyRange& lhs, const FrequencyRange& rhs);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/spectrum/model/wifi-spectrum-value-helper.h:357:39: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::FrequencyRange&’
+  357 | bool operator==(const FrequencyRange& lhs, const FrequencyRange& rhs);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~^~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/wifi-tx-vector.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/wifi-ppdu.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/phy-entity.h:28,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/wifi-phy.h:24,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-phy.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/wifi-helper.h:29,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/helper/spectrum-wifi-helper.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/spectrum-wifi-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-module.h:7,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:10:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/wifi-mode.h:211:6: note: candidate: ‘bool ns3::operator==(const ns3::WifiMode&, const ns3::WifiMode&)’
+  211 | bool operator==(const WifiMode& a, const WifiMode& b);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/wifi-mode.h:211:52: note:   no known conversion for argument 2 from ‘ns3::Time’ to ‘const ns3::WifiMode&’
+  211 | bool operator==(const WifiMode& a, const WifiMode& b);
+      |                                    ~~~~~~~~~~~~~~~~^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/fcfs-wifi-queue-scheduler.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-module.h:38,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:10:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/fcfs-wifi-queue-scheduler.h:48:6: note: candidate: ‘bool ns3::operator==(const ns3::FcfsPrio&, const ns3::FcfsPrio&)’
+   48 | bool operator==(const FcfsPrio& lhs, const FcfsPrio& rhs);
+      |      ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/fcfs-wifi-queue-scheduler.h:48:33: note:   no known conversion for argument 1 from ‘double’ to ‘const ns3::FcfsPrio&’
+   48 | bool operator==(const FcfsPrio& lhs, const FcfsPrio& rhs);
+      |                 ~~~~~~~~~~~~~~~~^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In member function ‘void NodeStatistics::Reset()’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:264:29: error: ‘Nanoseconds’ was not declared in this scope
+  264 |                 m_endTime = Nanoseconds(0.0);
+      |                             ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In function ‘void ReceivePacket(ns3::Ptr<ns3::Socket>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:393:68: error: ‘class ns3::Socket’ has no member named ‘GetLocalAddress’
+  393 | InetSocketAddress address = InetSocketAddress::ConvertFrom(socket->GetLocalAddress());
+      |                                                                    ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In function ‘void ReceivePacketPort2(ns3::Ptr<ns3::Socket>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:428:68: error: ‘class ns3::Socket’ has no member named ‘GetLocalAddress’
+  428 | InetSocketAddress address = InetSocketAddress::ConvertFrom(socket->GetLocalAddress());
+      |                                                                    ^~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In function ‘void CalculateThroughputAndWritePdf(const string&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, double&, ns3::Gnuplot, uint8_t, uint8_t, bool)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:501:25: error: ‘ApHelper’ was not declared in this scope
+  501 |                         ApHelper(i);
+      |                         ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:526:25: error: ‘StaHelper’ was not declared in this scope
+  526 |                         StaHelper(i);
+      |                         ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:628:31: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘GetEmpty’
+  628 |                 while (!tmp2->GetEmpty())
+      |                               ^~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:630:30: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘Remove’
+  630 |                         tmp->Remove(0);
+      |                              ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:631:31: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘Remove’
+  631 |                         tmp2->Remove(0);
+      |                               ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:632:29: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘Remove’
+  632 |                         tx->Remove(0);
+      |                             ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:633:29: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘Remove’
+  633 |                         rx->Remove(0);
+      |                             ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:634:30: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘Remove’
+  634 |                         tx2->Remove(0);
+      |                              ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:635:30: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘Remove’
+  635 |                         rx2->Remove(0);
+      |                              ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:636:38: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘Remove’
+  636 |                         sta_consume->Remove(0);
+      |                                      ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:637:37: error: ‘class ns3::Gnuplot2dDataset’ has no member named ‘Remove’
+  637 |                         ap_consume->Remove(0);
+      |                                     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:639:39: error: no matching function for call to ‘ns3::Gnuplot::GenerateOutput(std::string&)’
+  639 |                 gnuplot.GenerateOutput(filename);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/gnuplot.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:8:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/stats/model/gnuplot.h:435:10: note: candidate: ‘void ns3::Gnuplot::GenerateOutput(std::ostream&)’
+  435 |     void GenerateOutput(std::ostream& os);
+      |          ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/stats/model/gnuplot.h:435:39: note:   no known conversion for argument 1 from ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘std::ostream&’ {aka ‘std::basic_ostream<char>&’}
+  435 |     void GenerateOutput(std::ostream& os);
+      |                         ~~~~~~~~~~~~~~^~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/stats/model/gnuplot.h:449:10: note: candidate: ‘void ns3::Gnuplot::GenerateOutput(std::ostream&, std::ostream&, std::string)’
+  449 |     void GenerateOutput(std::ostream& osControl, std::ostream& osData, std::string dataFileName);
+      |          ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/stats/model/gnuplot.h:449:10: note:   candidate expects 3 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:491:23: warning: unused variable ‘last_pkts’ [-Wunused-variable]
+  491 |         static double last_pkts = 0.0;
+      |                       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In function ‘void CheckThroughput(std::string, const uint8_t&, const uint8_t&, ns3::Gnuplot)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:739:21: error: cannot bind non-const lvalue reference of type ‘ns3::Gnuplot2dDataset*&’ to an rvalue of type ‘ns3::Gnuplot2dDataset*’
+  739 |                 "", &sta_s, &ap_s, &sta_tp, &ap_tp, &sta_rx_seq, &ap_rx_seq, &sta_tx_seq, &ap_tx_seq, &sta_power_seq, &ap_power_seq, dt, gnu, ap_num, sta_num, false);
+      |                     ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:472:79: note:   initializing argument 2 of ‘void CalculateThroughputAndWritePdf(const string&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, double&, ns3::Gnuplot, uint8_t, uint8_t, bool)’
+  472 |                                                            Gnuplot2dDataset*& sta_s,
+      |                                                            ~~~~~~~~~~~~~~~~~~~^~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In function ‘void PhyRxTrace(std::string, ns3::Ptr<ns3::Packet>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:801:18: warning: unused variable ‘port’ [-Wunused-variable]
+  801 |         uint32_t port = 9;
+      |                  ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In function ‘void PhyTxTrace(std::string, ns3::Ptr<ns3::Packet>)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:837:35: error: ‘Nanoseconds’ was not declared in this scope
+  837 |         global_ap_stats.SetTxTime(Nanoseconds(txtimestamp));
+      |                                   ^~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In function ‘void StateStatistics(ns3::Time, ns3::Time, WifiPhyState, uint32_t, uint8_t)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:888:58: error: reference to ‘TxTime’ is ambiguous
+  888 |                         Simulator::Schedule(Seconds(1), &TxTime, duration, nodeId, apNum);
+      |                                                          ^~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/minstrel-ht-wifi-manager.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/wifi-module.h:92,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:10:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/wifi/model/rate-control/minstrel-ht-wifi-manager.h:39:34: note: candidates are: ‘typedef class std::map<ns3::WifiMode, ns3::Time> ns3::TxTime’
+   39 | typedef std::map<WifiMode, Time> TxTime;
+      |                                  ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:346:1: note:                 ‘void TxTime(ns3::Time, uint32_t, uint8_t)’
+  346 | TxTime(Time duration, uint32_t nodeId, uint8_t apNum)
+      | ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: In function ‘int main(int, char**)’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1021:56: error: ‘Default’ is not a member of ‘ns3::YansWifiPhyHelper’
+ 1021 |         YansWifiPhyHelper wifiPhy = YansWifiPhyHelper::Default();
+      |                                                        ^~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1032:9: error: ‘PointerHelper’ has not been declared
+ 1032 |         PointerHelper::Set("ns3::ConstantRandomVariable::Constant", DoubleValue(currentChannel));
+      |         ^~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1126:9: error: ‘ListPositionAllocatorHelper’ was not declared in this scope
+ 1126 |         ListPositionAllocatorHelper lph;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1127:9: error: ‘lph’ was not declared in this scope
+ 1127 |         lph.Add(1, 0, 0, 0);
+      |         ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1154:32: error: ‘EnableAsciiAll’ is not a member of ‘ns3::WifiMacHelper’
+ 1154 |                 WifiMacHelper::EnableAsciiAll(ascii.CreateFileStream(fileName.c_str()));
+      |                                ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1157:35: error: no matching function for call to ‘ns3::YansWifiPhyHelper::EnablePcap(const char*)’
+ 1157 |                 wifiPhy.EnablePcap(fileName.c_str());
+      |                 ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/trace-helper.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/network-module.h:12,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:3:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:661:10: note: candidate: ‘void ns3::PcapHelperForDevice::EnablePcap(std::string, ns3::Ptr<ns3::NetDevice>, bool, bool)’
+  661 |     void EnablePcap(std::string prefix,
+      |          ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:661:10: note:   candidate expects 4 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:675:10: note: candidate: ‘void ns3::PcapHelperForDevice::EnablePcap(std::string, std::string, bool, bool)’
+  675 |     void EnablePcap(std::string prefix,
+      |          ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:675:10: note:   candidate expects 4 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:688:10: note: candidate: ‘void ns3::PcapHelperForDevice::EnablePcap(std::string, ns3::NetDeviceContainer, bool)’
+  688 |     void EnablePcap(std::string prefix, NetDeviceContainer d, bool promiscuous = false);
+      |          ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:688:10: note:   candidate expects 3 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:698:10: note: candidate: ‘void ns3::PcapHelperForDevice::EnablePcap(std::string, ns3::NodeContainer, bool)’
+  698 |     void EnablePcap(std::string prefix, NodeContainer n, bool promiscuous = false);
+      |          ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:698:10: note:   candidate expects 3 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:709:10: note: candidate: ‘void ns3::PcapHelperForDevice::EnablePcap(std::string, uint32_t, uint32_t, bool)’
+  709 |     void EnablePcap(std::string prefix,
+      |          ^~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/network/helper/trace-helper.h:709:10: note:   candidate expects 4 arguments, 1 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1191:71: error: no matching function for call to ‘CreateObjectWithAttributes(const char [27], const char [4], ns3::DoubleValue, const char [4], ns3::DoubleValue, const char [4], ns3::TimeValue)’
+ 1191 |         Ptr<UniformRandomVariable> rxPort = CreateObjectWithAttributes("ns3::UniformRandomVariable",
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1192 |                                                                                                                                    "Min", DoubleValue(9),
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~
+ 1193 |                                                                                                                                    "Max", DoubleValue(10),
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~
+ 1194 |                                                                                                                                    "tau", TimeValue(MilliSeconds(1000)));
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:228:1: note: candidate: ‘template<class T, class ... Args> ns3::Ptr<T> ns3::CreateObjectWithAttributes(Args ...)’
+  228 | CreateObjectWithAttributes(Args... args)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:228:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1191:71: note:   couldn’t deduce template parameter ‘T’
+ 1191 |         Ptr<UniformRandomVariable> rxPort = CreateObjectWithAttributes("ns3::UniformRandomVariable",
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1192 |                                                                                                                                    "Min", DoubleValue(9),
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~
+ 1193 |                                                                                                                                    "Max", DoubleValue(10),
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~
+ 1194 |                                                                                                                                    "tau", TimeValue(MilliSeconds(1000)));
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1196:71: error: no matching function for call to ‘CreateObjectWithAttributes(const char [27], const char [4], ns3::DoubleValue, const char [4], ns3::DoubleValue, const char [4], ns3::TimeValue)’
+ 1196 |         Ptr<UniformRandomVariable> txPort = CreateObjectWithAttributes("ns3::UniformRandomVariable",
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1197 |                                                                                                                                    "Min", DoubleValue(0),
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~
+ 1198 |                                                                                                                                    "Max", DoubleValue(9),
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~
+ 1199 |                                                                                                                                    "tau", TimeValue(MilliSeconds(500)));
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:228:1: note: candidate: ‘template<class T, class ... Args> ns3::Ptr<T> ns3::CreateObjectWithAttributes(Args ...)’
+  228 | CreateObjectWithAttributes(Args... args)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:228:1: note:   template argument deduction/substitution failed:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1196:71: note:   couldn’t deduce template parameter ‘T’
+ 1196 |         Ptr<UniformRandomVariable> txPort = CreateObjectWithAttributes("ns3::UniformRandomVariable",
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1197 |                                                                                                                                    "Min", DoubleValue(0),
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~
+ 1198 |                                                                                                                                    "Max", DoubleValue(9),
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~
+ 1199 |                                                                                                                                    "tau", TimeValue(MilliSeconds(500)));
+      |                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1229:54: error: ‘devices’ was not declared in this scope; did you mean ‘device’?
+ 1229 |         Ptr<Socket> apSocket4 = Socket::CreateSocket(devices.Get(1), UdpSocketFactory::GetTypeId());
+      |                                                      ^~~~~~~
+      |                                                      device
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1234:33: error: ‘RegisterTraceSource’ was not declared in this scope
+ 1234 |         Simulator::ScheduleNow(&RegisterTraceSource, apSocket1);
+      |                                 ^~~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1253:51: error: no match for ‘operator=’ (operand types are ‘ns3::Ptr<ns3::UdpEchoClient>’ and ‘ns3::ApplicationContainer’)
+ 1253 |         client = echoClient2.Install(device.Get(1));
+      |                                                   ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:694:1: note: candidate: ‘ns3::Ptr<T>& ns3::Ptr<T>::operator=(const ns3::Ptr<T>&) [with T = ns3::UdpEchoClient]’
+  694 | Ptr<T>::operator=(const Ptr& o)
+      | ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:694:30: note:   no known conversion for argument 1 from ‘ns3::ApplicationContainer’ to ‘const ns3::Ptr<ns3::UdpEchoClient>&’
+  694 | Ptr<T>::operator=(const Ptr& o)
+      |                   ~~~~~~~~~~~^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1257:51: error: no match for ‘operator=’ (operand types are ‘ns3::Ptr<ns3::UdpEchoClient>’ and ‘ns3::ApplicationContainer’)
+ 1257 |         client = echoClient3.Install(device.Get(2));
+      |                                                   ^
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:694:1: note: candidate: ‘ns3::Ptr<T>& ns3::Ptr<T>::operator=(const ns3::Ptr<T>&) [with T = ns3::UdpEchoClient]’
+  694 | Ptr<T>::operator=(const Ptr& o)
+      | ^~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:694:30: note:   no known conversion for argument 1 from ‘ns3::ApplicationContainer’ to ‘const ns3::Ptr<ns3::UdpEchoClient>&’
+  694 | Ptr<T>::operator=(const Ptr& o)
+      |                   ~~~~~~~~~~~^
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1297:28: error: redeclaration of ‘std::ostringstream os_’
+ 1297 |         std::ostringstream os_;
+      |                            ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1036:28: note: ‘std::ostringstream os_’ previously declared here
+ 1036 |         std::ostringstream os_, rss;
+      |                            ^~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:925:16: warning: unused variable ‘simulationTime’ [-Wunused-variable]
+  925 |         double simulationTime = 100;
+      |                ^~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1041:16: warning: unused variable ‘step’ [-Wunused-variable]
+ 1041 |         double step = 10;
+      |                ^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1273:16: warning: unused variable ‘sta1_stop’ [-Wunused-variable]
+ 1273 |         double sta1_stop = t + 0.049;
+      |                ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1274:16: warning: unused variable ‘sta2_stop’ [-Wunused-variable]
+ 1274 |         double sta2_stop = t + 0.049;
+      |                ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1275:18: warning: unused variable ‘seqnum’ [-Wunused-variable]
+ 1275 |         uint16_t seqnum = 1;
+      |                  ^~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h: In instantiation of ‘static ns3::EventId ns3::Simulator::Schedule(const ns3::Time&, void (*)(Us ...), Ts&& ...) [with Us = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, double&, ns3::Gnuplot, unsigned char, unsigned char, bool}; Ts = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, double&, ns3::Gnuplot&, unsigned char&, unsigned char&, bool}]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:505:23:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: error: no matching function for call to ‘MakeEvent(void (*&)(const std::__cxx11::basic_string<char>&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, double&, ns3::Gnuplot, unsigned char, unsigned char, bool), std::__cxx11::basic_string<char>&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, double&, ns3::Gnuplot&, unsigned char&, unsigned char&, bool)’
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:397:1: note: candidate: ‘template<class MEM, class OBJ> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ)’
+  397 | MakeEvent(MEM mem_ptr, OBJ obj)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:397:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 2 arguments, 17 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:428:1: note: candidate: ‘template<class MEM, class OBJ, class T1> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1)’
+  428 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:428:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 3 arguments, 17 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:462:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2)’
+  462 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:462:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 4 arguments, 17 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:498:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2, class T3> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2, T3)’
+  498 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2, T3 a3)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:498:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 5 arguments, 17 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:536:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2, class T3, class T4> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2, T3, T4)’
+  536 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2, T3 a3, T4 a4)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:536:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 6 arguments, 17 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:583:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2, class T3, class T4, class T5> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2, T3, T4, T5)’
+  583 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2, T3 a3, T4 a4, T5 a5)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:583:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 7 arguments, 17 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:633:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2, class T3, class T4, class T5, class T6> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2, T3, T4, T5, T6)’
+  633 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2, T3 a3, T4 a4, T5 a5, T6 a6)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:633:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 8 arguments, 17 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:678:1: note: candidate: ‘template<class U1, class T1> ns3::EventImpl* ns3::MakeEvent(void (*)(U1), T1)’
+  678 | MakeEvent(void (*f)(U1), T1 a1)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:678:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 1 argument, 16 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:712:1: note: candidate: ‘template<class U1, class U2, class T1, class T2> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2), T1, T2)’
+  712 | MakeEvent(void (*f)(U1, U2), T1 a1, T2 a2)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:712:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 2 arguments, 16 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:748:1: note: candidate: ‘template<class U1, class U2, class U3, class T1, class T2, class T3> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2, U3), T1, T2, T3)’
+  748 | MakeEvent(void (*f)(U1, U2, U3), T1 a1, T2 a2, T3 a3)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:748:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 3 arguments, 16 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:793:1: note: candidate: ‘template<class U1, class U2, class U3, class U4, class T1, class T2, class T3, class T4> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2, U3, U4), T1, T2, T3, T4)’
+  793 | MakeEvent(void (*f)(U1, U2, U3, U4), T1 a1, T2 a2, T3 a3, T4 a4)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:793:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 4 arguments, 16 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:842:1: note: candidate: ‘template<class U1, class U2, class U3, class U4, class U5, class T1, class T2, class T3, class T4, class T5> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2, U3, U4, U5), T1, T2, T3, T4, T5)’
+  842 | MakeEvent(void (*f)(U1, U2, U3, U4, U5), T1 a1, T2 a2, T3 a3, T4 a4, T5 a5)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:842:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 5 arguments, 16 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:895:1: note: candidate: ‘template<class U1, class U2, class U3, class U4, class U5, class U6, class T1, class T2, class T3, class T4, class T5, class T6> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2, U3, U4, U5, U6), T1, T2, T3, T4, T5, T6)’
+  895 | MakeEvent(void (*f)(U1, U2, U3, U4, U5, U6), T1 a1, T2 a2, T3 a3, T4 a4, T5 a5, T6 a6)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:895:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 6 arguments, 16 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:939:1: note: candidate: ‘template<class T> ns3::EventImpl* ns3::MakeEvent(T)’
+  939 | MakeEvent(T function)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:939:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:580:39: note:   candidate expects 1 argument, 17 provided
+  580 |     return DoSchedule(delay, MakeEvent(f, std::forward<Ts>(args)...));
+      |                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:196:12: note: candidate: ‘ns3::EventImpl* ns3::MakeEvent(void (*)())’
+  196 | EventImpl* MakeEvent(void (*f)());
+      |            ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:196:12: note:   candidate expects 1 argument, 17 provided
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h: In instantiation of ‘ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)> mutable [with auto:21 = {ns3::Time, WifiPhyState, unsigned int, unsigned char}]’:
+/usr/include/c++/11/type_traits:2530:26:   required by substitution of ‘template<class _Fn, class ... _Args> static std::__result_of_success<decltype (declval<_Fn>()((declval<_Args>)()...)), std::__invoke_other> std::__result_of_other_impl::_S_test(int) [with _Fn = ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>&; _Args = {ns3::Time, WifiPhyState, unsigned int, unsigned char}]’
+/usr/include/c++/11/type_traits:2541:55:   required from ‘struct std::__result_of_impl<false, false, ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>&, ns3::Time, WifiPhyState, unsigned int, unsigned char>’
+/usr/include/c++/11/bits/std_function.h:348:9:   recursively required by substitution of ‘template<class _Result, class _Ret> struct std::__is_invocable_impl<_Result, _Ret, true, std::__void_t<typename _CTp::type> > [with _Result = std::__invoke_result<ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>&, ns3::Time, WifiPhyState, unsigned int, unsigned char>; _Ret = void]’
+/usr/include/c++/11/bits/std_function.h:348:9:   required from ‘struct std::function<void(ns3::Time, WifiPhyState, unsigned int, unsigned char)>::_Callable<ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>, ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>, std::__invoke_result<ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>&, ns3::Time, WifiPhyState, unsigned int, unsigned char> >’
+/usr/include/c++/11/bits/std_function.h:353:8:   required by substitution of ‘template<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(ns3::Time, WifiPhyState, unsigned int, unsigned char)>::_Callable<ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>, ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>, std::__invoke_result<ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>&, ns3::Time, WifiPhyState, unsigned int, unsigned char> >; _Tp = void; _Res = void; _ArgTypes = {ns3::Time, WifiPhyState, unsigned int, unsigned char}]’
+/usr/include/c++/11/bits/std_function.h:434:9:   required by substitution of ‘template<class _Functor, class _Constraints> std::function<void(ns3::Time, WifiPhyState, unsigned int, unsigned char)>::function(_Functor&&) [with _Functor = ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>; _Constraints = <missing>]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:444:19:   required from ‘ns3::Ptr<T> ns3::Create(Ts&& ...) [with T = ns3::CallbackImpl<void, ns3::Time, WifiPhyState, unsigned int, unsigned char>; Ts = {ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>, std::vector<std::shared_ptr<ns3::CallbackComponentBase>, std::allocator<std::shared_ptr<ns3::CallbackComponentBase> > >&}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:539:77:   required from ‘auto ns3::Callback<R, UArgs>::BindImpl(std::index_sequence<INDEX ...>, BoundArgs&& ...) [with long unsigned int ...INDEX = {0, 1, 2, 3}; BoundArgs = {const unsigned char&}; R = void; UArgs = {ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char}; std::index_sequence<INDEX ...> = std::integer_sequence<long unsigned int, 0, 1, 2, 3>]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:560:24:   required from ‘auto ns3::Callback<R, UArgs>::Bind(BoundArgs&& ...) [with BoundArgs = {const unsigned char&}; R = void; UArgs = {ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:767:44:   required from ‘auto ns3::MakeBoundCallback(R (*)(Args ...), BArgs&& ...) [with R = void; Args = {ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char}; BArgs = {const unsigned char&}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1183:23:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:541:25: error: no match for call to ‘(const std::function<void(ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char)>) (const unsigned char&, ns3::Time, WifiPhyState, unsigned int, unsigned char)’
+  541 |                 return f(bargs..., std::forward<decltype(uargs)>(uargs)...);
+      |                        ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/functional:59,
+                 from /usr/include/c++/11/pstl/glue_algorithm_defs.h:13,
+                 from /usr/include/c++/11/algorithm:74,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx:5,
+                 from <command-line>:
+/usr/include/c++/11/bits/std_function.h:586:7: note: candidate: ‘_Res std::function<_Res(_ArgTypes ...)>::operator()(_ArgTypes ...) const [with _Res = void; _ArgTypes = {ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char}]’
+  586 |       operator()(_ArgTypes... __args) const
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:586:27: note:   no known conversion for argument 1 from ‘const unsigned char’ to ‘ns3::Time’
+  586 |       operator()(_ArgTypes... __args) const
+      |                  ~~~~~~~~~^~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h: In instantiation of ‘ns3::Ptr<T> ns3::Create(Ts&& ...) [with T = ns3::CallbackImpl<void, ns3::Time, WifiPhyState, unsigned int, unsigned char>; Ts = {ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>, std::vector<std::shared_ptr<ns3::CallbackComponentBase>, std::allocator<std::shared_ptr<ns3::CallbackComponentBase> > >&}]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:539:77:   required from ‘auto ns3::Callback<R, UArgs>::BindImpl(std::index_sequence<INDEX ...>, BoundArgs&& ...) [with long unsigned int ...INDEX = {0, 1, 2, 3}; BoundArgs = {const unsigned char&}; R = void; UArgs = {ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char}; std::index_sequence<INDEX ...> = std::integer_sequence<long unsigned int, 0, 1, 2, 3>]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:560:24:   required from ‘auto ns3::Callback<R, UArgs>::Bind(BoundArgs&& ...) [with BoundArgs = {const unsigned char&}; R = void; UArgs = {ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:767:44:   required from ‘auto ns3::MakeBoundCallback(R (*)(Args ...), BArgs&& ...) [with R = void; Args = {ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char}; BArgs = {const unsigned char&}]’
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1183:23:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:444:19: error: no matching function for call to ‘ns3::CallbackImpl<void, ns3::Time, WifiPhyState, unsigned int, unsigned char>::CallbackImpl(ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>, std::vector<std::shared_ptr<ns3::CallbackComponentBase> >&)’
+  444 |     return Ptr<T>(new T(std::forward<Ts>(args)...), false);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-base.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/object-factory.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:27,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:250:5: note: candidate: ‘ns3::CallbackImpl<R, UArgs>::CallbackImpl(std::function<_Res(_ArgTypes ...)>, const CallbackComponentVector&) [with R = void; UArgs = {ns3::Time, WifiPhyState, unsigned int, unsigned char}; ns3::CallbackComponentVector = std::vector<std::shared_ptr<ns3::CallbackComponentBase> >]’
+  250 |     CallbackImpl(std::function<R(UArgs...)> func, const CallbackComponentVector& components)
+      |     ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:250:45: note:   no known conversion for argument 1 from ‘ns3::Callback<void, ns3::Time, ns3::Time, WifiPhyState, unsigned int, unsigned char>::BindImpl<0, 1, 2, 3, const unsigned char&>(std::index_sequence<0, 1, 2, 3>, const unsigned char&)::<lambda(auto:21&& ...)>’ to ‘std::function<void(ns3::Time, WifiPhyState, unsigned int, unsigned char)>’
+  250 |     CallbackImpl(std::function<R(UArgs...)> func, const CallbackComponentVector& components)
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:241:7: note: candidate: ‘ns3::CallbackImpl<void, ns3::Time, WifiPhyState, unsigned int, unsigned char>::CallbackImpl(const ns3::CallbackImpl<void, ns3::Time, WifiPhyState, unsigned int, unsigned char>&)’
+  241 | class CallbackImpl : public CallbackImplBase
+      |       ^~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:241:7: note:   candidate expects 1 argument, 2 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:241:7: note: candidate: ‘ns3::CallbackImpl<void, ns3::Time, WifiPhyState, unsigned int, unsigned char>::CallbackImpl(ns3::CallbackImpl<void, ns3::Time, WifiPhyState, unsigned int, unsigned char>&&)’
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/callback.h:241:7: note:   candidate expects 1 argument, 2 provided
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/event-id.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-id.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:22,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h: In instantiation of ‘ns3::Ptr<T>::Ptr(const ns3::Ptr<U>&) [with U = ns3::NetDevice; T = ns3::Node]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1253:30:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/ptr.h:678:24: error: cannot convert ‘ns3::NetDevice*’ to ‘ns3::Node*’ in initialization
+  678 |     : m_ptr(PeekPointer(o))
+      |             ~~~~~~~~~~~^~~
+      |                        |
+      |                        ns3::NetDevice*
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h: In instantiation of ‘static ns3::EventId ns3::Simulator::ScheduleNow(void (*)(Us ...), Ts&& ...) [with Us = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, double&, ns3::Gnuplot, unsigned char, unsigned char, bool}; Ts = {const char (&)[1], std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, int, ns3::Gnuplot&, int, int, bool}]’:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1277:24:   required from here
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: error: no matching function for call to ‘MakeEvent(void (*&)(const std::__cxx11::basic_string<char>&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, ns3::Gnuplot2dDataset*&, double&, ns3::Gnuplot, unsigned char, unsigned char, bool), const char [1], std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, std::nullptr_t, int, ns3::Gnuplot&, int, int, bool)’
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:397:1: note: candidate: ‘template<class MEM, class OBJ> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ)’
+  397 | MakeEvent(MEM mem_ptr, OBJ obj)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:397:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 2 arguments, 19 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:428:1: note: candidate: ‘template<class MEM, class OBJ, class T1> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1)’
+  428 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:428:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 3 arguments, 19 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:462:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2)’
+  462 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:462:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 4 arguments, 19 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:498:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2, class T3> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2, T3)’
+  498 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2, T3 a3)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:498:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 5 arguments, 19 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:536:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2, class T3, class T4> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2, T3, T4)’
+  536 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2, T3 a3, T4 a4)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:536:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 6 arguments, 19 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:583:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2, class T3, class T4, class T5> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2, T3, T4, T5)’
+  583 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2, T3 a3, T4 a4, T5 a5)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:583:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 7 arguments, 19 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:633:1: note: candidate: ‘template<class MEM, class OBJ, class T1, class T2, class T3, class T4, class T5, class T6> ns3::EventImpl* ns3::MakeEvent(MEM, OBJ, T1, T2, T3, T4, T5, T6)’
+  633 | MakeEvent(MEM mem_ptr, OBJ obj, T1 a1, T2 a2, T3 a3, T4 a4, T5 a5, T6 a6)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:633:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 8 arguments, 19 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:678:1: note: candidate: ‘template<class U1, class T1> ns3::EventImpl* ns3::MakeEvent(void (*)(U1), T1)’
+  678 | MakeEvent(void (*f)(U1), T1 a1)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:678:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 1 argument, 16 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:712:1: note: candidate: ‘template<class U1, class U2, class T1, class T2> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2), T1, T2)’
+  712 | MakeEvent(void (*f)(U1, U2), T1 a1, T2 a2)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:712:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 2 arguments, 16 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:748:1: note: candidate: ‘template<class U1, class U2, class U3, class T1, class T2, class T3> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2, U3), T1, T2, T3)’
+  748 | MakeEvent(void (*f)(U1, U2, U3), T1 a1, T2 a2, T3 a3)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:748:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 3 arguments, 16 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:793:1: note: candidate: ‘template<class U1, class U2, class U3, class U4, class T1, class T2, class T3, class T4> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2, U3, U4), T1, T2, T3, T4)’
+  793 | MakeEvent(void (*f)(U1, U2, U3, U4), T1 a1, T2 a2, T3 a3, T4 a4)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:793:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 4 arguments, 16 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:842:1: note: candidate: ‘template<class U1, class U2, class U3, class U4, class U5, class T1, class T2, class T3, class T4, class T5> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2, U3, U4, U5), T1, T2, T3, T4, T5)’
+  842 | MakeEvent(void (*f)(U1, U2, U3, U4, U5), T1 a1, T2 a2, T3 a3, T4 a4, T5 a5)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:842:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 5 arguments, 16 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:895:1: note: candidate: ‘template<class U1, class U2, class U3, class U4, class U5, class U6, class T1, class T2, class T3, class T4, class T5, class T6> ns3::EventImpl* ns3::MakeEvent(void (*)(U1, U2, U3, U4, U5, U6), T1, T2, T3, T4, T5, T6)’
+  895 | MakeEvent(void (*f)(U1, U2, U3, U4, U5, U6), T1 a1, T2 a2, T3 a3, T4 a4, T5 a5, T6 a6)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:895:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 6 arguments, 16 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:939:1: note: candidate: ‘template<class T> ns3::EventImpl* ns3::MakeEvent(T)’
+  939 | MakeEvent(T function)
+      | ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:939:1: note:   template argument deduction/substitution failed:
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:614:35: note:   candidate expects 1 argument, 19 provided
+  614 |     return DoScheduleNow(MakeEvent(f, std::forward<Ts>(args)...));
+      |                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/simulator.h:25,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/simulator.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/src/core/helper/event-garbage-collector.h:23,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/event-garbage-collector.h:1,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/build/include/ns3/core-module.h:8,
+                 from /home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:1:
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:196:12: note: candidate: ‘ns3::EventImpl* ns3::MakeEvent(void (*)())’
+  196 | EventImpl* MakeEvent(void (*f)());
+      |            ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/src/core/model/make-event.h:196:12: note:   candidate expects 1 argument, 19 provided
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc: At global scope:
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:491:23: warning: ‘last_pkts’ defined but not used [-Wunused-variable]
+  491 |         static double last_pkts = 0.0;
+      |                       ^~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:420:1: warning: ‘void ReceivePacketPort2(ns3::Ptr<ns3::Socket>)’ defined but not used [-Wunused-function]
+  420 | ReceivePacketPort2(Ptr<Socket> socket)
+      | ^~~~~~~~~~~~~~~~~~
+/home/tasnim/ns-allinone-3.41/ns-3.41/scratch/sample_0085.cc:385:1: warning: ‘void ReceivePacket(ns3::Ptr<ns3::Socket>)’ defined but not used [-Wunused-function]
+  385 | ReceivePacket(Ptr<Socket> socket)
+      | ^~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/tasnim/ns-allinone-3.41/ns-3.41/cmake-cache -j 31 --target scratch_sample_0085
+✗ build failed (sample_0085)

@@ -89,3 +89,10 @@ dmypy.json
 
 # pytype static analyzer
 .pytype/
+
+# Results & Output
+Output/
+Results/
+Finetuning/NS3_logs/
+Finetuning/Output/
+Finetuning/Results/

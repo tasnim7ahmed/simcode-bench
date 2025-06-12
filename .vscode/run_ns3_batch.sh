@@ -16,8 +16,8 @@ NS3ROOT="$HOME/ns-allinone-3.41/ns-3.41"   # change if different
 GEN_ROOT="$1"
 OUT_DIR="$2"
 
-summary_file="$OUT_DIR/summary.txt"          # summary table lives here
-success_list="$OUT_DIR/success_paths.txt"    # NEW: list of source files that ran OK
+summary_file="$OUT_DIR/summary_qwen.txt"          # summary table lives here
+success_list="$OUT_DIR/success_paths_qwen.txt"    # NEW: list of source files that ran OK
 
 : > "$summary_file"      # start both files empty for every batch run
 : > "$success_list"
@@ -47,10 +47,6 @@ for prompt in "${prompt_types[@]}"; do
     for src in "$model_dir"/*.cc; do
       [[ -e $src ]] || continue
       (( TOTAL[$key]++ ))
-    #   # ------------- LIMIT TO N FILES PER BUCKET ----------------
-    #   if [[ $MAX_PER_BUCKET -gt 0 && ${TOTAL[$key]} -gt $MAX_PER_BUCKET ]]; then
-    #     continue       
-    #   fi
 
       base=$(basename "$src" .cc)
       tmp="scratch/auto_${prompt}_${model}_${base}.cc"
@@ -64,32 +60,35 @@ for prompt in "${prompt_types[@]}"; do
       cp "$src" "$tmp"
 
       # -------- configure ----------
-      if ! ./ns3 configure &>>"$log"; then
-        echo "✗  configure failed ($key/$base)" | tee -a "$log"
+      if ! timeout 30s ./ns3 configure &>>"$log"; then
+        echo "✗  configure failed or timed out ($key/$base)" | tee -a "$log"
         rm -f "$tmp"
         continue
       fi
 
       # -------- build --------------
-      if ! ./ns3 build "scratch/$(basename "$tmp" .cc)" &>>"$log"; then
-        echo "✗  build failed ($key/$base)" | tee -a "$log"
+      if ! timeout 30s ./ns3 build "scratch/$(basename "$tmp" .cc)" &>>"$log"; then
+        echo "✗  build failed or timed out ($key/$base)" | tee -a "$log"
         rm -f "$tmp"
         continue
       fi
 
       # -------- run ----------------
-      ./ns3 run "scratch/$(basename "$tmp" .cc)" |& tee -a "$log"
-      if [[ ${PIPESTATUS[0]} -eq 0 ]]; then
+      timeout 30s ./ns3 run "scratch/$(basename "$tmp" .cc)" |& tee -a "$log"
+      exit_code=${PIPESTATUS[0]}
+      if [[ $exit_code -eq 124 ]]; then
+        echo "⚠️  runtime timed out ($key/$base)" | tee -a "$log"
+      elif [[ $exit_code -eq 0 ]]; then
         (( SUCCESS[$key]++ ))
         echo "$src" >> "$success_list"
       else
-        echo "✗  runtime failed ($key/$base)" | tee -a "$log"
+        echo "✗  runtime failed ($key/$base) [exit:$exit_code]" | tee -a "$log"
       fi
 
       rm -f "$tmp"
     done
   done
-done
+  done
 
 {
   echo
