@@ -8,6 +8,12 @@ SIMCODE is a comprehensive benchmark for evaluating large language models (LLMs)
 
 ---
 
+**Paper:** [SIMCODE: A Benchmark for Natural Language to ns-3 Network Simulation Code Generation](https://arxiv.org/abs/2507.11014)
+
+**This paper has been accepted for presentation at the $50^{th}$ IEEE Conference on Local Computer Networks (LCN), Special Track on Large Language Models and Networking.**
+
+---
+
 ## Dataset Structure
 
 The dataset is organized into three difficulty categories, each containing multiple subcategories (e.g., wifi, tcp, udp, etc.). Each problem consists of a natural language prompt and a reference ns-3 C++ solution. The dataset also includes a suite of test cases for each problem to enable execution-based evaluation.
@@ -19,6 +25,7 @@ The dataset is organized into three difficulty categories, each containing multi
 | Introductory             | 111            | ~60                  | 3–5              |
 | Intermediate             | 101            | ~110                 | 5–8              |
 | Advanced                 | 189            | 150+                 | 8–10             |
+
 ---
 
 ## Prompt Types
@@ -109,6 +116,10 @@ Scripts for code generation with different LLMs are in `Codes/` (e.g., `openai_g
 ## Citation
 
 If you use SIMCODE, please cite:
+
+**Paper:** [https://arxiv.org/abs/2507.11014](https://arxiv.org/abs/2507.11014)
+
+**This paper has been accepted for presentation at the $50^{th}$ IEEE Conference on Local Computer Networks (LCN), Special Track on Large Language Models and Networking.**
 
 ```bibtex
 @misc{ahmed2025simcodebenchmarknaturallanguage,
