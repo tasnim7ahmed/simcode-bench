@@ -116,11 +116,6 @@ Scripts for code generation with different LLMs are in `Codes/` (e.g., `openai_g
 ## Citation
 
 If you use SIMCODE, please cite:
-
-**Paper:** [https://arxiv.org/abs/2507.11014](https://arxiv.org/abs/2507.11014)
-
-**This paper has been accepted for presentation at the $50^{th}$ IEEE Conference on Local Computer Networks (LCN), Special Track on Large Language Models and Networking.**
-
 ```bibtex
 @misc{ahmed2025simcodebenchmarknaturallanguage,
       title={SIMCODE: A Benchmark for Natural Language to ns-3 Network Simulation Code Generation}, 
